@@ -11,9 +11,11 @@ import numpy as np
 import pandas as pd
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
 MASTER_ZIP = (
     REPO_ROOT
+    / "figures"
     / "frozen_results"
     / "phase5a_master_results.zip"
 )

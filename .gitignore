@@ -28,5 +28,5 @@ outputs/
 .idea/
 
 # Frozen manuscript results required to reproduce figures
-!frozen_results/
-!frozen_results/phase5a_master_results.zip
+!figures/frozen_results/
+!figures/frozen_results/phase5a_master_results.zip
