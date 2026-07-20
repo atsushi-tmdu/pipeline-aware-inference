@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "Pipeline-aware inference after clinical machine-learning model search"
+type: software
+authors:
+  - family-names: "Senda"
+    given-names: "Atsushi"
+    orcid: "https://orcid.org/0000-0002-0128-6800"
+repository-code: "https://github.com/atsushi-tmdu/pipeline-aware-inference"
+license: "MIT"
+version: "0.1.0"
+date-released: "2026-07-20"
