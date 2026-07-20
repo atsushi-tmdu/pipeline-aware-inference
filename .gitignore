@@ -30,3 +30,8 @@ outputs/
 # Frozen manuscript results required to reproduce figures
 !figures/frozen_results/
 !figures/frozen_results/phase5a_master_results.zip
+supplement_source_dump*.txt
+supplement_source_dump*.zip
+supplement_source_small.txt
+supplementary_tables_output/
+figures/scripts/output/

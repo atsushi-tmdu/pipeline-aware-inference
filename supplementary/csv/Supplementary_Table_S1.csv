@@ -1,0 +1,49 @@
+﻿Variable code,Role,Data class,Rationale
+age,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+sex,Primary predictor,categorical,Available by the prespecified day-3 prediction time.
+dzgroup,Primary predictor,categorical,Available by the prespecified day-3 prediction time.
+num.co,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+scoma,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+hday,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+diabetes,Primary predictor,binary,Available by the prespecified day-3 prediction time.
+dementia,Primary predictor,binary,Available by the prespecified day-3 prediction time.
+ca,Primary predictor,categorical,Available by the prespecified day-3 prediction time.
+meanbp,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+wblc,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+hrt,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+resp,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+temp,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+pafi,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+alb,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+bili,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+crea,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+sod,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+ph,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+glucose,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+bun,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+urine,Primary predictor,numeric,Available by the prespecified day-3 prediction time.
+race,Sensitivity: socioeconomic variables,categorical,Sensitive/socioeconomic attribute; excluded from primary analysis and added only in sensitivity analysis.
+edu,Sensitivity: socioeconomic variables,numeric,Sensitive/socioeconomic attribute; excluded from primary analysis and added only in sensitivity analysis.
+income,Sensitivity: socioeconomic variables,categorical,Sensitive/socioeconomic attribute; excluded from primary analysis and added only in sensitivity analysis.
+adlsc,Sensitivity: ADL summary,numeric,Precomputed/imputed ADL summary; excluded from primary analysis and added only in sensitivity analysis.
+id,Excluded,,Identifier; retained only for split tracking.
+death,Excluded,,Death at any time; not the prespecified in-hospital outcome.
+slos,Excluded,,Post-prediction length from study entry to discharge.
+d.time,Excluded,,Post-prediction follow-up time.
+charges,Excluded,,Post-prediction resource use.
+totcst,Excluded,,Post-prediction resource use.
+totmcst,Excluded,,Post-prediction resource use.
+avtisst,Excluded,,Treatment-intensity score averaged over days 3-25; future information.
+sps,Excluded,,Existing SUPPORT prognostic physiology score.
+aps,Excluded,,Existing APACHE III physiology score.
+surv2m,Excluded,,Existing model-derived survival probability.
+surv6m,Excluded,,Existing model-derived survival probability.
+prg2m,Excluded,,Physician prognostic estimate; prognosis-feedback variable.
+prg6m,Excluded,,Physician prognostic estimate; prognosis-feedback variable.
+dnr,Excluded,,Treatment-decision variable with prognosis feedback.
+dnrday,Excluded,,DNR timing; may contain post-prediction information.
+sfdm2,Excluded,,Two-month functional outcome.
+dzclass,Excluded,,Coarser deterministic grouping of dzgroup; excluded to avoid duplication.
+adlp,Excluded,,Highly missing patient ADL; excluded from primary analysis.
+adls,Excluded,,Highly missing surrogate ADL; excluded from primary analysis.
+hospdead,Outcome,binary,Primary outcome: in-hospital death.

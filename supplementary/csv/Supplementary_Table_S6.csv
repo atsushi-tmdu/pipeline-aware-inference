@@ -1,0 +1,70 @@
+﻿Panel,Item,Value,Expected/specification,Status/notes
+A. Software environment,Phase 3 primary simulation — Python,"3.13.7 (main, Sep 18 2025, 13:21:08) [Clang 17.0.0 (clang-1700.3.19.1)]",,
+A. Software environment,Phase 3 primary simulation — Platform,macOS-15.6.1-x86_64-i386-64bit-Mach-O,,
+A. Software environment,Phase 3 primary simulation — NumPy,2.3.3,,
+A. Software environment,Phase 3 primary simulation — pandas,2.3.2,,
+A. Software environment,Phase 3 primary simulation — SciPy,1.16.2,,
+A. Software environment,Phase 3 primary simulation — scikit-learn,1.7.2,,
+A. Software environment,Phase 3 primary simulation — joblib,1.5.2,,
+A. Software environment,Phase 3B confirmatory simulations — Python,"3.13.7 (main, Sep 18 2025, 13:21:08) [Clang 17.0.0 (clang-1700.3.19.1)]",,
+A. Software environment,Phase 3B confirmatory simulations — Platform,macOS-15.6.1-x86_64-i386-64bit-Mach-O,,
+A. Software environment,Phase 3B confirmatory simulations — NumPy,2.3.3,,
+A. Software environment,Phase 3B confirmatory simulations — pandas,2.3.2,,
+A. Software environment,Phase 3B confirmatory simulations — SciPy,1.16.2,,
+A. Software environment,Phase 3B confirmatory simulations — scikit-learn,1.7.2,,
+A. Software environment,Phase 3B confirmatory simulations — joblib,1.5.2,,
+A. Software environment,SUPPORT2 split freeze (Phase 4B) — Python,"3.13.7 (main, Sep 18 2025, 13:21:08) [Clang 17.0.0 (clang-1700.3.19.1)]",,
+A. Software environment,SUPPORT2 split freeze (Phase 4B) — Platform,macOS-15.6.1-x86_64-i386-64bit-Mach-O,,
+A. Software environment,SUPPORT2 split freeze (Phase 4B) — NumPy,2.5.1,,
+A. Software environment,SUPPORT2 split freeze (Phase 4B) — pandas,3.0.3,,
+A. Software environment,SUPPORT2 split freeze (Phase 4B) — scikit-learn,1.7.2,,
+A. Software environment,SUPPORT2 null search (Phase 4C) — Python,"3.13.7 (main, Sep 18 2025, 13:21:08) [Clang 17.0.0 (clang-1700.3.19.1)]",,
+A. Software environment,SUPPORT2 null search (Phase 4C) — Platform,macOS-15.6.1-x86_64-i386-64bit-Mach-O,,
+A. Software environment,SUPPORT2 null search (Phase 4C) — NumPy,2.5.1,,
+A. Software environment,SUPPORT2 null search (Phase 4C) — pandas,3.0.3,,
+A. Software environment,SUPPORT2 null search (Phase 4C) — SciPy,1.16.2,,
+A. Software environment,SUPPORT2 null search (Phase 4C) — scikit-learn,1.7.2,,
+A. Software environment,SUPPORT2 null search (Phase 4C) — joblib,1.5.2,,
+A. Software environment,SUPPORT2 test evaluation (Phase 4D) — Python,"3.13.7 (main, Sep 18 2025, 13:21:08) [Clang 17.0.0 (clang-1700.3.19.1)]",,
+A. Software environment,SUPPORT2 test evaluation (Phase 4D) — Platform,macOS-15.6.1-x86_64-i386-64bit-Mach-O,,
+A. Software environment,SUPPORT2 test evaluation (Phase 4D) — NumPy,2.5.1,,
+A. Software environment,SUPPORT2 test evaluation (Phase 4D) — pandas,3.0.3,,
+A. Software environment,SUPPORT2 test evaluation (Phase 4D) — scikit-learn,1.7.2,,
+A. Software environment,SUPPORT2 test evaluation (Phase 4D) — joblib,1.5.2,,
+B. Seeds and repetition counts,Phase 3 primary simulation,seed=20260718; null=10000; evaluation/bootstrap=2000,training=500; selection=200/20 and 1000/100; test=20000,"Feature selection: LASSO or none; K=1, 3, or 7; AUROC, average precision, and partial AUROC."
+B. Seeds and repetition counts,Phase 3B confirmatory simulations,seed=20260718; null=5000; evaluation/bootstrap=1000,training=500; selection=1000/100; test=20000,"K=7; no feature selection; similar-linear, heterogeneous-core, and expanded-nonlinear libraries; single-linear and XOR signals."
+B. Seeds and repetition counts,SUPPORT2 split freeze,seed=20260719; null=; evaluation/bootstrap=,training=5463; selection=1821/471; test=1821,60%/20%/20%; stratified jointly by in-hospital death and diagnostic group; test set sealed.
+B. Seeds and repetition counts,SUPPORT2 null search,seed=20260720; null=5000; evaluation/bootstrap=,training=5463; selection=1821/471; test=Sealed,Seven frozen candidates; AUROC primary; test_set_evaluated=False.
+B. Seeds and repetition counts,SUPPORT2 untouched-test evaluation,seed=20260721; null=; evaluation/bootstrap=5000,training=7284; selection=Locked before test opening; test=1821,Test opened once; locked random forest evaluated; no alternative candidate model evaluated on test.
+C. Frozen source hashes,phase2b_event_prevalence,a6309d097a1c2460cb55308f0e1c0a3740a108fb92dd65ddc044e0f73bdb259b,pipeline_phase2b_quick_20260718_190047.zip,Frozen source archive
+C. Frozen source hashes,phase2c_metric_comparison,5e9ec8650b450c35ee9e52abc6e35247557191f056c5388fc95e1eeb81f4cae7,pipeline_phase2c_quick_20260718_191911.zip,Frozen source archive
+C. Frozen source hashes,phase2d_target_ap,6668e0fb2019d2df8195bfaf23352cf751a566c20713a6180484e2d99cc4d9d1,pipeline_phase2d_quick_20260718_193337.zip,Frozen source archive
+C. Frozen source hashes,phase3_independent_null,dd397c4f6d934aaa34580fe60ebcb574918ae6b60a53a224ad5766973146e021,pipeline_phase3_full_20260718_202007.zip,Frozen source archive
+C. Frozen source hashes,phase3b_extended_single,437d05de7e3f9b72c65d7d16501accc1d7040be767c93c56b58b3775630fe88c,pipeline_phase3b_extended_sklearn_7_single_linear_quick_20260719_151639.zip,Frozen source archive
+C. Frozen source hashes,phase3b_extended_xor,b8cea096c821b2341d15bb35456c42f5191e23c106307dba982d8f30d3c06556,pipeline_phase3b_extended_sklearn_7_xor_interaction_quick_20260719_174918.zip,Frozen source archive
+C. Frozen source hashes,phase3b_heterogeneous_single,8598faa2f49eecbc7c1d9358b4214e688f7fab66c354424d50da50a2ab4d94b6,pipeline_phase3b_heterogeneous_core_7_single_linear_quick_20260719_131221.zip,Frozen source archive
+C. Frozen source hashes,phase3b_heterogeneous_xor,cdd0f1fe446119e44dddf3e2685e67449d66e592c936a4faf353706d753cd282,pipeline_phase3b_heterogeneous_core_7_xor_interaction_quick_20260719_141414.zip,Frozen source archive
+C. Frozen source hashes,phase3b_similar_linear_single,9a8be9fbd87fa90775dc1a452159dd0c2f7920494aeac9fb3c5f2f46886429a9,pipeline_phase3b_similar_linear_7_single_linear_quick_20260719_123012.zip,Frozen source archive
+C. Frozen source hashes,phase3b_similar_linear_xor,974f18c48ab9caf7104e038fb31675060508de6b2206fef537300019c6f8368b,pipeline_phase3b_similar_linear_7_xor_interaction_quick_20260719_125111.zip,Frozen source archive
+C. Frozen source hashes,support2_phase4b_frozen,18d054a5a6c7165cce780c9bd4785fee24850d00b7eeee2cc3a3d97a6c3de541,support2_phase4b_frozen_20260720_074815.zip,Frozen source archive
+C. Frozen source hashes,support2_phase4c_full,20e8b06252ef36dd61d27b1ca00ebeccb882843f1a3fb300ed014e602bb68bf8,support2_phase4c_full_20260720_080619.zip,Frozen source archive
+C. Frozen source hashes,support2_phase4d,a5b970fa2382694cfc068bb7e92489ad0e6f3f0c9bf59d3f1c67bbcfd1ca8c2c,support2_phase4d_20260720_100950.zip,Frozen source archive
+D. Freeze validation,source_hash::phase2b_event_prevalence,a6309d097a1c2460cb55308f0e1c0a3740a108fb92dd65ddc044e0f73bdb259b,a6309d097a1c2460cb55308f0e1c0a3740a108fb92dd65ddc044e0f73bdb259b,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase2c_metric_comparison,5e9ec8650b450c35ee9e52abc6e35247557191f056c5388fc95e1eeb81f4cae7,5e9ec8650b450c35ee9e52abc6e35247557191f056c5388fc95e1eeb81f4cae7,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase2d_target_ap,6668e0fb2019d2df8195bfaf23352cf751a566c20713a6180484e2d99cc4d9d1,6668e0fb2019d2df8195bfaf23352cf751a566c20713a6180484e2d99cc4d9d1,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase3_independent_null,dd397c4f6d934aaa34580fe60ebcb574918ae6b60a53a224ad5766973146e021,dd397c4f6d934aaa34580fe60ebcb574918ae6b60a53a224ad5766973146e021,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase3b_extended_single,437d05de7e3f9b72c65d7d16501accc1d7040be767c93c56b58b3775630fe88c,437d05de7e3f9b72c65d7d16501accc1d7040be767c93c56b58b3775630fe88c,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase3b_extended_xor,b8cea096c821b2341d15bb35456c42f5191e23c106307dba982d8f30d3c06556,b8cea096c821b2341d15bb35456c42f5191e23c106307dba982d8f30d3c06556,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase3b_heterogeneous_single,8598faa2f49eecbc7c1d9358b4214e688f7fab66c354424d50da50a2ab4d94b6,8598faa2f49eecbc7c1d9358b4214e688f7fab66c354424d50da50a2ab4d94b6,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase3b_heterogeneous_xor,cdd0f1fe446119e44dddf3e2685e67449d66e592c936a4faf353706d753cd282,cdd0f1fe446119e44dddf3e2685e67449d66e592c936a4faf353706d753cd282,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase3b_similar_linear_single,9a8be9fbd87fa90775dc1a452159dd0c2f7920494aeac9fb3c5f2f46886429a9,9a8be9fbd87fa90775dc1a452159dd0c2f7920494aeac9fb3c5f2f46886429a9,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::phase3b_similar_linear_xor,974f18c48ab9caf7104e038fb31675060508de6b2206fef537300019c6f8368b,974f18c48ab9caf7104e038fb31675060508de6b2206fef537300019c6f8368b,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::support2_phase4b_frozen,18d054a5a6c7165cce780c9bd4785fee24850d00b7eeee2cc3a3d97a6c3de541,18d054a5a6c7165cce780c9bd4785fee24850d00b7eeee2cc3a3d97a6c3de541,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::support2_phase4c_full,20e8b06252ef36dd61d27b1ca00ebeccb882843f1a3fb300ed014e602bb68bf8,20e8b06252ef36dd61d27b1ca00ebeccb882843f1a3fb300ed014e602bb68bf8,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,source_hash::support2_phase4d,a5b970fa2382694cfc068bb7e92489ad0e6f3f0c9bf59d3f1c67bbcfd1ca8c2c,a5b970fa2382694cfc068bb7e92489ad0e6f3f0c9bf59d3f1c67bbcfd1ca8c2c,PASS: Observed SHA-256 matched the frozen manifest.
+D. Freeze validation,phase3_empirical_methods,"['bonferroni_empirical', 'naive_empirical', 'pipeline_empirical']","['bonferroni_empirical', 'naive_empirical', 'pipeline_empirical']",PASS: Primary inference methods.
+D. Freeze validation,phase3_pipeline_mean_type1,0.04847222222222222,approximately 0.05,PASS: Average across frozen Phase 3 null conditions.
+D. Freeze validation,phase3_k1_method_equivalence,0.0,0.0,"PASS: With one candidate, naive, Bonferroni, and pipeline inference should coincide."
+D. Freeze validation,support2_winner_agreement,['random_forest'],['random_forest'],PASS: All three metric-specific winners should agree.
+D. Freeze validation,support2_selection_test_difference_ci,3,3,PASS: Number of metric-specific selection-to-test difference CIs containing zero.
+D. Freeze validation,support2_phase4c_reproduction,True,True,PASS: Phase 4C results reproduced before the test set was opened.
