@@ -1,0 +1,13 @@
+﻿Panel,Target oracle AUROC,"Selection prevalence, %",Metric A,Metric B,Mean within-replication Spearman correlation,"Same-winner rate, %"
+C. Target-prevalence average precision sensitivity,0.5,5,Raw average precision,Target-standardized average precision,1,100
+C. Target-prevalence average precision sensitivity,0.5,5,Target-standardized average precision,Partial AUROC (FPR ≤ 0.10),0.64,61.8
+C. Target-prevalence average precision sensitivity,0.5,5,AUROC,Target-standardized average precision,0.607,53.1
+C. Target-prevalence average precision sensitivity,0.5,50,Raw average precision,Target-standardized average precision,0.773,67
+C. Target-prevalence average precision sensitivity,0.5,50,Target-standardized average precision,Partial AUROC (FPR ≤ 0.10),0.668,65.3
+C. Target-prevalence average precision sensitivity,0.5,50,AUROC,Target-standardized average precision,0.453,46.8
+C. Target-prevalence average precision sensitivity,0.7,5,Raw average precision,Target-standardized average precision,1,100
+C. Target-prevalence average precision sensitivity,0.7,5,Target-standardized average precision,Partial AUROC (FPR ≤ 0.10),0.72,60.4
+C. Target-prevalence average precision sensitivity,0.7,5,AUROC,Target-standardized average precision,0.717,52.5
+C. Target-prevalence average precision sensitivity,0.7,50,Raw average precision,Target-standardized average precision,0.778,63.6
+C. Target-prevalence average precision sensitivity,0.7,50,Target-standardized average precision,Partial AUROC (FPR ≤ 0.10),0.732,65.5
+C. Target-prevalence average precision sensitivity,0.7,50,AUROC,Target-standardized average precision,0.541,40.6

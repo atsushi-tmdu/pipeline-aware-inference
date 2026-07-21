@@ -28,11 +28,12 @@ def main():
     data["order"] = data["library"].map({k: i for i, k in enumerate(order)})
     data = data.sort_values("order").copy()
 
-    fig, axes = plt.subplots(1, 2, figsize=(19, 7))
+    fig, axes = plt.subplots(1, 2, figsize=(23.48, 7.50))
 
     # Panel A
     ax = axes[0]
     panel_label(ax, "A")
+    ax.set_title("Candidate dependence and effective search size", fontweight="bold", pad=14)
 
     ax.scatter(
         data["mean_pairwise_correlation"],
@@ -78,6 +79,7 @@ def main():
     # Panel B
     ax = axes[1]
     panel_label(ax, "B")
+    ax.set_title("AUROC type I error across candidate libraries", fontweight="bold", pad=14)
 
     x = np.arange(len(data))
     style_map = {

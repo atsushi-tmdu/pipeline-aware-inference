@@ -17,11 +17,7 @@ Signal structures:
 A separate pipeline-specific null reference bank is constructed for every
 library and signal structure.
 
-Required files in the same directory:
-  pipeline_null_pilot_v2.py
-  pipeline_event_prevalence_phase2b.py
-  pipeline_metric_phase2c.py
-  pipeline_independent_null_phase3.py
+Shared dependencies are resolved from the repository simulation directories.
 """
 
 from __future__ import annotations
@@ -40,6 +36,12 @@ import sys
 import zipfile
 from collections import OrderedDict
 from pathlib import Path
+
+# Repository-local import paths for shared simulation code.
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+for _shared_dir in (_REPO_ROOT / 'simulations' / 'phase1', _REPO_ROOT / 'simulations' / 'phase2', _REPO_ROOT / 'simulations' / 'phase3'):
+    if str(_shared_dir) not in sys.path:
+        sys.path.insert(0, str(_shared_dir))
 
 import joblib
 import numpy as np

@@ -16,5 +16,6 @@ phase3_empirical_methods,PASS,"['bonferroni_empirical', 'naive_empirical', 'pipe
 phase3_pipeline_mean_type1,PASS,0.04847222222222222,approximately 0.05,Average across frozen Phase 3 null conditions.
 phase3_k1_method_equivalence,PASS,0.0,0.0,"With one candidate, naive, Bonferroni, and pipeline inference should coincide."
 support2_winner_agreement,PASS,['random_forest'],['random_forest'],All three metric-specific winners should agree.
-support2_selection_test_difference_ci,PASS,3,3,Number of metric-specific selection-to-test difference CIs containing zero.
+support2_selection_test_descriptive_rows,PASS,3,3,Three metric-specific descriptive selection-to-test differences were generated; no inferential CI claim was made.
 support2_phase4c_reproduction,PASS,True,True,Phase 4C results reproduced before the test set was opened.
+support2_restricted_sensitivity_rows,PASS,3,3,Three metric-specific restricted-permutation summaries were generated.

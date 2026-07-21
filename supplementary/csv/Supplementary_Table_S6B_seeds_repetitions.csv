@@ -4,3 +4,4 @@ Phase 3B confirmatory simulations,20260718,5000,1000,500,1000/100,20000,"K=7; no
 SUPPORT2 split freeze,20260719,,,5463,1821/471,1821,60%/20%/20%; stratified jointly by in-hospital death and diagnostic group; test set sealed.
 SUPPORT2 null search,20260720,5000,,5463,1821/471,Sealed,Seven frozen candidates; AUROC primary; test_set_evaluated=False.
 SUPPORT2 untouched-test evaluation,20260721,,5000,7284,Locked before test opening,1821,Test opened once; locked random forest evaluated; no alternative candidate model evaluated on test.
+SUPPORT2 restricted-permutation sensitivity,20260721,1000,,5463,1821/471,Not used,Post hoc; labels permuted within diagnostic group separately in frozen training and selection splits; tests no predictive information beyond preserved group-level prevalence.

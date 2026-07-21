@@ -1,0 +1,13 @@
+﻿Panel,Target oracle AUROC,"Selection prevalence, %",Metric A,Metric B,Mean within-replication Spearman correlation,"Same-winner rate, %"
+B. Metric dependence and winner agreement,0.5,5,Average precision,Partial AUROC (FPR ≤ 0.10),0.64,61.8
+B. Metric dependence and winner agreement,0.5,5,AUROC,Average precision,0.607,53.1
+B. Metric dependence and winner agreement,0.5,5,AUROC,Partial AUROC (FPR ≤ 0.10),0.282,42.4
+B. Metric dependence and winner agreement,0.5,50,Average precision,Partial AUROC (FPR ≤ 0.10),0.649,64.6
+B. Metric dependence and winner agreement,0.5,50,AUROC,Average precision,0.731,68.7
+B. Metric dependence and winner agreement,0.5,50,AUROC,Partial AUROC (FPR ≤ 0.10),0.3,46.4
+B. Metric dependence and winner agreement,0.7,5,Average precision,Partial AUROC (FPR ≤ 0.10),0.72,60.4
+B. Metric dependence and winner agreement,0.7,5,AUROC,Average precision,0.717,52.5
+B. Metric dependence and winner agreement,0.7,5,AUROC,Partial AUROC (FPR ≤ 0.10),0.481,41.7
+B. Metric dependence and winner agreement,0.7,50,Average precision,Partial AUROC (FPR ≤ 0.10),0.676,57.8
+B. Metric dependence and winner agreement,0.7,50,AUROC,Average precision,0.81,63.4
+B. Metric dependence and winner agreement,0.7,50,AUROC,Partial AUROC (FPR ≤ 0.10),0.43,37.2

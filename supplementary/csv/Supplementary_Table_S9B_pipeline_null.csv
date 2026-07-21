@@ -1,0 +1,4 @@
+﻿Panel,Metric,Null replications,Mean null maximum,95th percentile,99th percentile,Maximum,Observed selected value,Pipeline-aware p-value,Bonferroni empirical p-value
+B. Pipeline-null maximum distribution and inference,AUROC,5000,0.5164,0.5352,0.5441,0.5645,0.8266,0.0001999600079984,0.0013997200559888
+B. Pipeline-null maximum distribution and inference,Average precision,5000,0.2722,0.2873,0.2958,0.3187,0.6467,0.0001999600079984,0.0013997200559888
+B. Pipeline-null maximum distribution and inference,Partial AUROC (FPR ≤ 0.10),5000,0.5058,0.5127,0.5164,0.5235,0.6526,0.0001999600079984,0.0013997200559888

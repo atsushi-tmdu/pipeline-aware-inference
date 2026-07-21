@@ -1,0 +1,20 @@
+{
+  "frozen_results": {
+    "null_repetitions": 1000,
+    "master_seed": 20260721,
+    "generating_script_sha256": "2e59cb3a0417ccac1f90f8b75aad4614e9403b4fb7ad0a3be6e5885f4771a5ef",
+    "generating_script_size_bytes": 5397,
+    "note": "The frozen run used an internal one-off script with environment-specific paths."
+  },
+  "repository_script": {
+    "file": "run_restricted_sensitivity.py",
+    "sha256": "c960ca60aeac67c0e41b713e469185b855f96197266fc2dfb0b7660317c25bed",
+    "size_bytes": 8864,
+    "relationship_to_generating_script": "Path-independent portability refactor preserving the restricted permutation, seed sequence, candidate fitting, maximum statistic, and summary calculations; it adds archive arguments and portable extraction."
+  },
+  "validation": {
+    "clean_clone_functional_run": "completed",
+    "participant_level_data_in_repository": false,
+    "frozen_outputs_are_authoritative": true
+  }
+}

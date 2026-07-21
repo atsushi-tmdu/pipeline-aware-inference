@@ -1,0 +1,4 @@
+﻿Panel,Metric,Selection estimate,Locked test estimate,Selection minus test (descriptive)
+D. Descriptive selection-to-test difference for locked training-only model,AUROC,0.8266,0.8139,0.0126
+D. Descriptive selection-to-test difference for locked training-only model,Average precision,0.6467,0.6199,0.0268
+D. Descriptive selection-to-test difference for locked training-only model,Partial AUROC (FPR ≤ 0.10),0.6526,0.6409,0.0117

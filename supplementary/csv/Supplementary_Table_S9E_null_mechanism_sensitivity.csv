@@ -1,0 +1,4 @@
+﻿Panel,Metric,Null mechanism,Null repetitions,Observed selected maximum,Mean null maximum,95th percentile,99th percentile,Maximum null maximum,Exceedances,Pipeline-aware p-value
+E. Conditional null-mechanism sensitivity,AUROC,"Restricted within diagnostic group, separately in frozen training and selection splits; preserves group-level outcome prevalence",1000,0.8266,0.7397,0.7467,0.7489,0.7557,0,0.000999000999000999
+E. Conditional null-mechanism sensitivity,Average precision,"Restricted within diagnostic group, separately in frozen training and selection splits; preserves group-level outcome prevalence",1000,0.6467,0.4745,0.4888,0.4951,0.4994,0,0.000999000999000999
+E. Conditional null-mechanism sensitivity,Standardized partial AUROC (FPR ≤ 0.10),"Restricted within diagnostic group, separately in frozen training and selection splits; preserves group-level outcome prevalence",1000,0.6526,0.5742,0.5799,0.5832,0.5855,0,0.000999000999000999

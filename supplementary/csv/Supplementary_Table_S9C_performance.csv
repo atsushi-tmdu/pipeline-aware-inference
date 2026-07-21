@@ -1,0 +1,10 @@
+﻿Panel,Model,Model version,Metric,Estimate,95% CI low,95% CI high,Bootstrap replications,Evaluation split
+C. Selected-model and untouched-test performance,Random forest,Model-selection winner,AUROC,0.8266,,,,model selection
+C. Selected-model and untouched-test performance,Random forest,Model-selection winner,Average precision,0.6467,,,,model selection
+C. Selected-model and untouched-test performance,Random forest,Model-selection winner,Partial AUROC (FPR ≤ 0.10),0.6526,,,,model selection
+C. Selected-model and untouched-test performance,Random forest,Locked training-only model,AUROC,0.8139,0.7923,0.8355,5000,untouched test
+C. Selected-model and untouched-test performance,Random forest,Locked training-only model,Average precision,0.6199,0.5807,0.6622,5000,untouched test
+C. Selected-model and untouched-test performance,Random forest,Locked training-only model,Partial AUROC (FPR ≤ 0.10),0.6409,0.6178,0.6659,5000,untouched test
+C. Selected-model and untouched-test performance,Random forest,Final train-plus-selection refit,AUROC,0.82,0.7981,0.841,5000,untouched test
+C. Selected-model and untouched-test performance,Random forest,Final train-plus-selection refit,Average precision,0.6204,0.58,0.6632,5000,untouched test
+C. Selected-model and untouched-test performance,Random forest,Final train-plus-selection refit,Partial AUROC (FPR ≤ 0.10),0.6375,0.6136,0.6631,5000,untouched test

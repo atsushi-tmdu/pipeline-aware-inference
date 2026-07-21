@@ -43,9 +43,7 @@ Repetitions:                500 per base scenario
 
 Required companion files
 ------------------------
-Place this script in the same directory as:
-
-    pipeline_null_pilot_v2.py
+Shared dependencies are resolved from the repository simulation directories.
     pipeline_event_prevalence_phase2b.py
 
 Example
@@ -73,6 +71,12 @@ import warnings
 import zipfile
 from datetime import datetime
 from pathlib import Path
+
+# Repository-local import path for shared simulation code.
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+_PHASE1_DIR = _REPO_ROOT / 'simulations' / 'phase1'
+if str(_PHASE1_DIR) not in sys.path:
+    sys.path.insert(0, str(_PHASE1_DIR))
 from typing import Any
 
 import joblib

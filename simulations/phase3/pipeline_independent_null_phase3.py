@@ -43,11 +43,7 @@ Default quick design
 * Evaluation replications:      500 per target AUROC/design
 * Evaluation target AUROCs:     0.50, 0.60, 0.70 for X1 alone
 
-Required files in the same directory
-------------------------------------
-    pipeline_null_pilot_v2.py
-    pipeline_event_prevalence_phase2b.py
-    pipeline_metric_phase2c.py
+Shared dependencies are resolved from the repository simulation directories.
 
 Example
 -------
@@ -76,6 +72,12 @@ import zipfile
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
+
+# Repository-local import paths for shared simulation code.
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+for _shared_dir in (_REPO_ROOT / 'simulations' / 'phase1', _REPO_ROOT / 'simulations' / 'phase2'):
+    if str(_shared_dir) not in sys.path:
+        sys.path.insert(0, str(_shared_dir))
 from typing import Any, Iterable
 
 import joblib

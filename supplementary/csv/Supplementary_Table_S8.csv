@@ -1,0 +1,55 @@
+﻿Panel,Library,Signal structure,Target oracle AUROC,Metric,Replications,Top winner,Top winner count,"Top winner proportion, %",Runner-up,"Runner-up proportion, %",Models selected at least once,Effective number of winners
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.5,Average precision,1000,Multilayer perceptron,225,22.5,Tuned random forest,14.5,7,6.59
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.5,Partial AUROC (FPR ≤ 0.10),1000,Multilayer perceptron,192,19.2,Tuned random forest,15.3,7,6.83
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.5,AUROC,1000,Multilayer perceptron,232,23.2,Tuned random forest,15.9,7,6.48
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.6,Average precision,1000,Elastic-net logistic regression,280,28,Tuned random forest,15.6,7,5.91
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.6,Partial AUROC (FPR ≤ 0.10),1000,Elastic-net logistic regression,230,23,Tuned random forest,16.5,7,6.49
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.6,AUROC,1000,Elastic-net logistic regression,306,30.6,Tuned random forest,14.4,7,5.63
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.7,Average precision,1000,Elastic-net logistic regression,492,49.2,Tuned random forest,20,7,3.18
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.7,Partial AUROC (FPR ≤ 0.10),1000,Elastic-net logistic regression,392,39.2,Tuned random forest,25.3,7,3.91
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,Single linear signal,0.7,AUROC,1000,Elastic-net logistic regression,606,60.6,Gradient boosting,16.8,7,2.42
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.5,Average precision,1000,Multilayer perceptron,217,21.7,Tuned random forest,14.1,7,6.68
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.5,Partial AUROC (FPR ≤ 0.10),1000,Multilayer perceptron,192,19.2,rbf_svm_c3,14.2,7,6.86
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.5,AUROC,1000,Multilayer perceptron,232,23.2,Tuned random forest,16.7,7,6.49
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.6,Average precision,1000,Multilayer perceptron,215,21.5,rbf_svm_c3,16.4,7,6.53
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.6,Partial AUROC (FPR ≤ 0.10),1000,Multilayer perceptron,199,19.9,Tuned random forest,15.2,7,6.77
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.6,AUROC,1000,Multilayer perceptron,230,23,rbf_svm_c3,16.8,7,6.38
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.7,Average precision,1000,Tuned histogram gradient boosting,335,33.5,rbf_svm_c3,19.4,7,5.07
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.7,Partial AUROC (FPR ≤ 0.10),1000,Tuned histogram gradient boosting,288,28.8,rbf_svm_c3,17.7,7,5.8
+"Winner concentration by library, signal structure, and metric",Expanded nonlinear,XOR interaction signal,0.7,AUROC,1000,Tuned histogram gradient boosting,355,35.5,rbf_svm_c3,18.4,7,4.82
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.5,Average precision,1000,RBF SVM,199,19.9,Histogram gradient boosting,18.7,7,6.21
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.5,Partial AUROC (FPR ≤ 0.10),1000,Histogram gradient boosting,192,19.2,RBF SVM,18.3,7,6.29
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.5,AUROC,1000,Decision tree,213,21.3,Histogram gradient boosting,17.7,7,6.13
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.6,Average precision,1000,Random forest,213,21.3,Logistic regression,16.7,7,6.29
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.6,Partial AUROC (FPR ≤ 0.10),1000,Random forest,173,17.3,Decision tree,16.2,7,6.84
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.6,AUROC,1000,Linear SVM,183,18.3,Histogram gradient boosting,16.6,7,6.62
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.7,Average precision,1000,Logistic regression,284,28.4,Linear SVM,26.5,7,4.38
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.7,Partial AUROC (FPR ≤ 0.10),1000,Random forest,303,30.3,Logistic regression,18.9,7,5.25
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,Single linear signal,0.7,AUROC,1000,Linear SVM,360,36,Logistic regression,32.7,7,3.74
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.5,Average precision,1000,Random forest,199,19.9,RBF SVM,18.8,7,6.47
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.5,Partial AUROC (FPR ≤ 0.10),1000,Decision tree,203,20.3,RBF SVM,17.6,7,6.42
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.5,AUROC,1000,Decision tree,196,19.6,Random forest,19,7,6.31
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.6,Average precision,1000,RBF SVM,231,23.1,Histogram gradient boosting,21.4,7,5.88
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.6,Partial AUROC (FPR ≤ 0.10),1000,Random forest,188,18.8,RBF SVM,18.6,7,6.31
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.6,AUROC,1000,RBF SVM,224,22.4,Decision tree,18.4,7,5.98
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.7,Average precision,1000,Histogram gradient boosting,426,42.6,RBF SVM,24.1,7,3.76
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.7,Partial AUROC (FPR ≤ 0.10),1000,Histogram gradient boosting,304,30.4,RBF SVM,19.9,7,5.28
+"Winner concentration by library, signal structure, and metric",Heterogeneous core,XOR interaction signal,0.7,AUROC,1000,Histogram gradient boosting,459,45.9,RBF SVM,23.2,7,3.48
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.5,Average precision,1000,logreg_l1_c01,461,46.1,logreg_l2_c003,15.8,7,3.61
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.5,Partial AUROC (FPR ≤ 0.10),1000,logreg_l1_c01,448,44.8,logreg_l2_c003,17.2,7,3.72
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.5,AUROC,1000,logreg_l1_c01,469,46.9,logreg_l2_c003,17.1,7,3.44
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.6,Average precision,1000,logreg_l1_c01,654,65.4,logreg_l2_c003,12.6,7,2.2
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.6,Partial AUROC (FPR ≤ 0.10),1000,logreg_l1_c01,601,60.1,logreg_l2_c003,13.3,7,2.51
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.6,AUROC,1000,logreg_l1_c01,692,69.2,logreg_l2_c003,13,7,1.98
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.7,Average precision,1000,logreg_l1_c01,967,96.7,logreg_l2_c003,1.1,7,1.07
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.7,Partial AUROC (FPR ≤ 0.10),1000,logreg_l1_c01,914,91.4,logreg_l2_c003,2.6,7,1.19
+"Winner concentration by library, signal structure, and metric",Similar linear,Single linear signal,0.7,AUROC,1000,logreg_l1_c01,987,98.7,Elastic-net logistic regression,0.5,6,1.03
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.5,Average precision,1000,logreg_l1_c01,452,45.2,logreg_l2_c003,16.3,7,3.67
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.5,Partial AUROC (FPR ≤ 0.10),1000,logreg_l1_c01,460,46,logreg_l2_c003,16.9,7,3.61
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.5,AUROC,1000,logreg_l1_c01,457,45.7,logreg_l2_c003,17.1,7,3.55
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.6,Average precision,1000,logreg_l1_c01,436,43.6,logreg_l2_c003,16,7,3.9
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.6,Partial AUROC (FPR ≤ 0.10),1000,logreg_l1_c01,458,45.8,logreg_l2_c003,17.5,7,3.64
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.6,AUROC,1000,logreg_l1_c01,440,44,logreg_l2_c003,19.7,7,3.66
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.7,Average precision,1000,logreg_l1_c01,416,41.6,linear_svm_c1,16.4,7,4.05
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.7,Partial AUROC (FPR ≤ 0.10),1000,logreg_l1_c01,397,39.7,logreg_l2_c003,16.5,7,4.27
+"Winner concentration by library, signal structure, and metric",Similar linear,XOR interaction signal,0.7,AUROC,1000,logreg_l1_c01,458,45.8,logreg_l2_c003,16.4,7,3.54

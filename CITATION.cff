@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the accompanying manuscript."
-title: "Pipeline-aware inference after clinical machine-learning model search"
+title: "Pipeline-aware max-statistic inference after clinical machine-learning model search"
 type: software
 authors:
   - family-names: "Senda"

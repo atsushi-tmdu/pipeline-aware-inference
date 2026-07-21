@@ -1,0 +1,41 @@
+﻿Panel,Target oracle AUROC,Feature selection,Selection events,"Selection prevalence, %",Selection N,Mean selected AUROC,Mean fresh-test AUROC,Mean optimism,"Pipeline rejection rate, %",Metric A,Metric B,Mean within-replication Spearman correlation,"Same-winner rate, %"
+A. Event prevalence and selection-set size (seven candidates),0.5,LASSO,20,5,400,0.5402,0.4993,0.0409,4.8,,,,
+A. Event prevalence and selection-set size (seven candidates),0.5,LASSO,20,50,40,0.5556,0.4995,0.0561,4.8,,,,
+A. Event prevalence and selection-set size (seven candidates),0.5,LASSO,100,5,2000,0.5148,0.4994,0.0153,4.8,,,,
+A. Event prevalence and selection-set size (seven candidates),0.5,LASSO,100,50,200,0.5223,0.4996,0.0227,4.8,,,,
+A. Event prevalence and selection-set size (seven candidates),0.5,None,20,5,400,0.5648,0.5001,0.0647,4.8,,,,
+A. Event prevalence and selection-set size (seven candidates),0.5,None,20,50,40,0.5899,0.4996,0.0903,4.8,,,,
+A. Event prevalence and selection-set size (seven candidates),0.5,None,100,5,2000,0.5264,0.4994,0.027,4.8,,,,
+A. Event prevalence and selection-set size (seven candidates),0.5,None,100,50,200,0.54,0.4995,0.0405,4.8,,,,
+A. Event prevalence and selection-set size (seven candidates),0.7,LASSO,20,5,400,0.6815,0.6503,0.0312,77.2,,,,
+A. Event prevalence and selection-set size (seven candidates),0.7,LASSO,20,50,40,0.6976,0.6399,0.0577,56.6,,,,
+A. Event prevalence and selection-set size (seven candidates),0.7,LASSO,100,5,2000,0.6687,0.6643,0.0044,99.6,,,,
+A. Event prevalence and selection-set size (seven candidates),0.7,LASSO,100,50,200,0.6682,0.6603,0.0079,95,,,,
+A. Event prevalence and selection-set size (seven candidates),0.7,None,20,5,400,0.6611,0.6135,0.0477,53.2,,,,
+A. Event prevalence and selection-set size (seven candidates),0.7,None,20,50,40,0.6795,0.6104,0.0691,40.6,,,,
+A. Event prevalence and selection-set size (seven candidates),0.7,None,100,5,2000,0.6384,0.6274,0.011,99.4,,,,
+A. Event prevalence and selection-set size (seven candidates),0.7,None,100,50,200,0.6411,0.6217,0.0194,87.4,,,,
+B. Metric dependence and winner agreement,0.5,,,5,,,,,,Average precision,Partial AUROC (FPR ≤ 0.10),0.64,61.8
+B. Metric dependence and winner agreement,0.5,,,5,,,,,,AUROC,Average precision,0.607,53.1
+B. Metric dependence and winner agreement,0.5,,,5,,,,,,AUROC,Partial AUROC (FPR ≤ 0.10),0.282,42.4
+B. Metric dependence and winner agreement,0.5,,,50,,,,,,Average precision,Partial AUROC (FPR ≤ 0.10),0.649,64.6
+B. Metric dependence and winner agreement,0.5,,,50,,,,,,AUROC,Average precision,0.731,68.7
+B. Metric dependence and winner agreement,0.5,,,50,,,,,,AUROC,Partial AUROC (FPR ≤ 0.10),0.3,46.4
+B. Metric dependence and winner agreement,0.7,,,5,,,,,,Average precision,Partial AUROC (FPR ≤ 0.10),0.72,60.4
+B. Metric dependence and winner agreement,0.7,,,5,,,,,,AUROC,Average precision,0.717,52.5
+B. Metric dependence and winner agreement,0.7,,,5,,,,,,AUROC,Partial AUROC (FPR ≤ 0.10),0.481,41.7
+B. Metric dependence and winner agreement,0.7,,,50,,,,,,Average precision,Partial AUROC (FPR ≤ 0.10),0.676,57.8
+B. Metric dependence and winner agreement,0.7,,,50,,,,,,AUROC,Average precision,0.81,63.4
+B. Metric dependence and winner agreement,0.7,,,50,,,,,,AUROC,Partial AUROC (FPR ≤ 0.10),0.43,37.2
+C. Target-prevalence average precision sensitivity,0.5,,,5,,,,,,Raw average precision,Target-standardized average precision,1,100
+C. Target-prevalence average precision sensitivity,0.5,,,5,,,,,,Target-standardized average precision,Partial AUROC (FPR ≤ 0.10),0.64,61.8
+C. Target-prevalence average precision sensitivity,0.5,,,5,,,,,,AUROC,Target-standardized average precision,0.607,53.1
+C. Target-prevalence average precision sensitivity,0.5,,,50,,,,,,Raw average precision,Target-standardized average precision,0.773,67
+C. Target-prevalence average precision sensitivity,0.5,,,50,,,,,,Target-standardized average precision,Partial AUROC (FPR ≤ 0.10),0.668,65.3
+C. Target-prevalence average precision sensitivity,0.5,,,50,,,,,,AUROC,Target-standardized average precision,0.453,46.8
+C. Target-prevalence average precision sensitivity,0.7,,,5,,,,,,Raw average precision,Target-standardized average precision,1,100
+C. Target-prevalence average precision sensitivity,0.7,,,5,,,,,,Target-standardized average precision,Partial AUROC (FPR ≤ 0.10),0.72,60.4
+C. Target-prevalence average precision sensitivity,0.7,,,5,,,,,,AUROC,Target-standardized average precision,0.717,52.5
+C. Target-prevalence average precision sensitivity,0.7,,,50,,,,,,Raw average precision,Target-standardized average precision,0.778,63.6
+C. Target-prevalence average precision sensitivity,0.7,,,50,,,,,,Target-standardized average precision,Partial AUROC (FPR ≤ 0.10),0.732,65.5
+C. Target-prevalence average precision sensitivity,0.7,,,50,,,,,,AUROC,Target-standardized average precision,0.541,40.6

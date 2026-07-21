@@ -133,6 +133,15 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--master-seed", type=int, default=20260720)
     parser.add_argument("--n-jobs", type=int, default=4)
     parser.add_argument(
+        "--parallel-backend",
+        choices=("loky", "threading"),
+        default="loky",
+        help=(
+            "Joblib backend for null replications. Use 'threading' for "
+            "low-memory smoke tests; the frozen full analysis used 'loky'."
+        ),
+    )
+    parser.add_argument(
         "--output-root",
         default="results_support2_phase4c",
     )
@@ -846,7 +855,8 @@ def main() -> None:
     null_results = Parallel(
         n_jobs=args.n_jobs,
         verbose=5,
-        max_nbytes="10M",
+        max_nbytes=None if args.parallel_backend == "threading" else "10M",
+        backend=args.parallel_backend,
     )(
         delayed(run_null_replication)(
             replication,
