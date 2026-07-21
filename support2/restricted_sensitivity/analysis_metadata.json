@@ -1,0 +1,15 @@
+{
+  "analysis": "Post-hoc SUPPORT2 conditional-null sensitivity",
+  "master_seed": 20260721,
+  "null_repetitions": 1000,
+  "n_jobs": 8,
+  "restriction": "Outcome labels permuted within diagnostic group, separately within frozen training and model-selection splits.",
+  "conditioning": "Frozen data-role assignment and predictor matrices.",
+  "elapsed_seconds": 788.9810671806335,
+  "train_rows": 5463,
+  "selection_rows": 1821,
+  "train_events": 1416,
+  "selection_events": 471,
+  "diagnostic_groups_train": 8,
+  "diagnostic_groups_selection": 8
+}
