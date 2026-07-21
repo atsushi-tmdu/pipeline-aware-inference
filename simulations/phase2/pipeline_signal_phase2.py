@@ -51,6 +51,11 @@ import zipfile
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
+
+# Ensure repository-local package imports work when this file is run directly.
+_REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
+if str(_REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPOSITORY_ROOT))
 from typing import Any
 
 import joblib
@@ -67,13 +72,7 @@ from scipy.stats import norm
 from sklearn.dummy import DummyClassifier
 from sklearn.exceptions import ConvergenceWarning
 
-try:
-    import pipeline_null_pilot_v2 as base
-except ModuleNotFoundError as exc:
-    raise SystemExit(
-        "pipeline_null_pilot_v2.py was not found. Place this Phase 2 script in "
-        "the same directory as pipeline_null_pilot_v2.py and run it there."
-    ) from exc
+from simulations.phase1 import pipeline_null_pilot_v2 as base
 
 
 TARGET_AUROCS = (0.50, 0.60, 0.70, 0.80, 0.95)

@@ -41,6 +41,11 @@ import zipfile
 from collections import OrderedDict
 from pathlib import Path
 
+# Ensure repository-local package imports work when this file is run directly.
+_REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
+if str(_REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPOSITORY_ROOT))
+
 import joblib
 import numpy as np
 
@@ -57,9 +62,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import LinearSVC, SVC
 
-import pipeline_null_pilot_v2 as base
-import pipeline_event_prevalence_phase2b as phase2b
-import pipeline_independent_null_phase3 as phase3
+from simulations.phase1 import pipeline_null_pilot_v2 as base
+from simulations.phase2 import pipeline_event_prevalence_phase2b as phase2b
+from simulations.phase3 import pipeline_independent_null_phase3 as phase3
 
 
 LIBRARIES = (

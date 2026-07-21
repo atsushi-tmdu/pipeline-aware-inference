@@ -76,6 +76,11 @@ import zipfile
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
+
+# Ensure repository-local package imports work when this file is run directly.
+_REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
+if str(_REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPOSITORY_ROOT))
 from typing import Any, Iterable
 
 import joblib
@@ -91,29 +96,11 @@ from joblib import Parallel, delayed
 from scipy.stats import mannwhitneyu
 from sklearn.exceptions import ConvergenceWarning
 
-try:
-    import pipeline_null_pilot_v2 as base
-except ModuleNotFoundError as exc:
-    raise SystemExit(
-        "pipeline_null_pilot_v2.py was not found. Place it in the same "
-        "directory as this script."
-    ) from exc
+from simulations.phase1 import pipeline_null_pilot_v2 as base
 
-try:
-    import pipeline_event_prevalence_phase2b as phase2b
-except ModuleNotFoundError as exc:
-    raise SystemExit(
-        "pipeline_event_prevalence_phase2b.py was not found. Place it in the "
-        "same directory as this script."
-    ) from exc
+from simulations.phase2 import pipeline_event_prevalence_phase2b as phase2b
 
-try:
-    import pipeline_metric_phase2c as phase2c
-except ModuleNotFoundError as exc:
-    raise SystemExit(
-        "pipeline_metric_phase2c.py was not found. Place it in the same "
-        "directory as this script."
-    ) from exc
+from simulations.phase2 import pipeline_metric_phase2c as phase2c
 
 
 METRICS = (
