@@ -67,6 +67,11 @@ import warnings
 import zipfile
 from datetime import datetime
 from pathlib import Path
+
+# Ensure repository-local package imports work when this file is run directly.
+_REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
+if str(_REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPOSITORY_ROOT))
 from typing import Any
 
 import joblib
@@ -82,13 +87,7 @@ from joblib import Parallel, delayed
 from scipy.stats import norm
 from sklearn.exceptions import ConvergenceWarning
 
-try:
-    import pipeline_null_pilot_v2 as base
-except ModuleNotFoundError as exc:
-    raise SystemExit(
-        "pipeline_null_pilot_v2.py was not found. Place this Phase 2B script "
-        "in the same directory as pipeline_null_pilot_v2.py and run it there."
-    ) from exc
+from simulations.phase1 import pipeline_null_pilot_v2 as base
 
 
 DEFAULT_EVENT_COUNTS = (20, 100)
