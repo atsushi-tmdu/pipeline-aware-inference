@@ -1,5 +1,7 @@
 # Reproducibility and data-safety guide
 
+Archived software release: version 1.0.0, DOI: `10.5281/zenodo.21482699`.
+
 ## Scope
 
 This repository supports three distinct forms of reproducibility:

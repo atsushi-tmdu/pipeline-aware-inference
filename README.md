@@ -1,5 +1,7 @@
 # Pipeline-aware max-statistic inference after clinical machine-learning model search
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21482699.svg)](https://doi.org/10.5281/zenodo.21482699)
+
 This repository contains the code and frozen aggregate outputs for a study of
 pipeline-aware max-statistic calibration after adaptive clinical machine-learning
 model search. The method repeats the complete declared analytical pipeline under
@@ -162,8 +164,7 @@ Additional details are provided in [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).
 
 ## Citation
 
-The target software release is version 1.0.0. A permanent Zenodo DOI will be
-added after archival. Citation metadata are provided in `CITATION.cff`.
+The archived software release is version 1.0.0 (DOI: `10.5281/zenodo.21482699`). Citation metadata are provided in `CITATION.cff`.
 
 When using the clinical example, also cite the SUPPORT2 dataset and its original
 study.

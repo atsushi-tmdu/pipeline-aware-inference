@@ -1,8 +1,10 @@
 # Changelog
 
-## 1.0.0 — pending
+## 1.0.0 — 2026-07-22
 
 Initial public software release for the accompanying manuscript.
+
+Archived release DOI: `10.5281/zenodo.21482699`.
 
 ### Included
 
