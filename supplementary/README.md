@@ -1,20 +1,13 @@
-Supplementary Tables S1-S6
+Supplementary Tables S1-S9
 ================================
 
-Generated from:
-  /Users/atsushi/Documents/pipeline-aware/pipeline-aware-inference/supplement_source_small.txt
+Generated from the frozen aggregate analysis outputs included with the study working package.
 
 Files:
-  Supplementary_Tables_S1-S6.docx
-  Supplementary_Tables_S1-S6.xlsx
+  tables/Online_Supplement_S1-S9.docx
+  tables/Online_Supplement_S1-S9.xlsx
   csv/
 
-Table contents:
-  S1: SUPPORT2 predictor manifest and exclusions
-  S2: Preprocessing and frozen model specifications
-  S3: Model-library dependence and linear/XOR analyses
-  S4: Complete type I error results
-  S5: AUROC power by event count and feature selection
-  S6: Software, seeds, hashes, and freeze validation
+The supplementary material contains the predictor manifest, preprocessing and model specifications, candidate-library dependence analyses, complete type I error and power results, software and freeze validation, prevalence and metric sensitivities, winner concentration, and SUPPORT2 model-search and test-set results.
 
-No models were refitted and no permutation or bootstrap analysis was rerun.
+Participant-level SUPPORT2 data are not included.
