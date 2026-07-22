@@ -1,0 +1,40 @@
+﻿Library,Nominal K,Mean pairwise correlation,Effective K,Mean null maximum,95th percentile,99th percentile,"Naive type I error, %","Pipeline type I error, %","Bonferroni type I error, %",Panel,Signal structure,Target oracle AUROC,Method,N,"Rejection rate, %",Mean selection AUROC,Mean test AUROC,Mean optimism
+Similar linear,7,0.879,1.2,0.5123,0.5594,0.578,8.1,3.8,1.05,A. Candidate dependence and null performance,,,,,,,,
+Heterogeneous core,7,0.403,3.1,0.5291,0.5687,0.5866,20.0,4.8,3.6,A. Candidate dependence and null performance,,,,,,,,
+Expanded nonlinear,7,0.329,3.6,0.5335,0.5717,0.5887,21.75,4.7,3.7,A. Candidate dependence and null performance,,,,,,,,
+Similar linear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Pipeline max-statistic,1000,54.3,0.565,0.5589,0.0061
+Similar linear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Bonferroni empirical,1000,43.9,0.565,0.5589,0.0061
+Similar linear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Naive empirical,1000,62.5,0.565,0.5589,0.0061
+Similar linear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Pipeline max-statistic,1000,99.8,0.688,0.6885,-0.0005
+Similar linear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Bonferroni empirical,1000,99.8,0.688,0.6885,-0.0005
+Similar linear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Naive empirical,1000,99.9,0.688,0.6885,-0.0005
+Similar linear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Pipeline max-statistic,1000,4.6,0.5104,0.4997,0.0107
+Similar linear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Bonferroni empirical,1000,1.1,0.5104,0.4997,0.0107
+Similar linear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Naive empirical,1000,8.4,0.5104,0.4997,0.0107
+Similar linear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Pipeline max-statistic,1000,4.9,0.5125,0.5001,0.0124
+Similar linear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Bonferroni empirical,1000,1.3,0.5125,0.5001,0.0124
+Similar linear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Naive empirical,1000,9.4,0.5125,0.5001,0.0124
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Pipeline max-statistic,1000,33.3,0.5558,0.5304,0.0253
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Bonferroni empirical,1000,25.9,0.5558,0.5304,0.0253
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Naive empirical,1000,57.2,0.5558,0.5304,0.0253
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Pipeline max-statistic,1000,98.0,0.6373,0.626,0.0113
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Bonferroni empirical,1000,97.0,0.6373,0.626,0.0113
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Naive empirical,1000,99.8,0.6373,0.626,0.0113
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Pipeline max-statistic,1000,5.8,0.5306,0.5032,0.0274
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Bonferroni empirical,1000,3.5,0.5306,0.5032,0.0274
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Naive empirical,1000,22.8,0.5306,0.5032,0.0274
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Pipeline max-statistic,1000,22.8,0.549,0.5277,0.0213
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Bonferroni empirical,1000,18.8,0.549,0.5277,0.0213
+Heterogeneous core,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Naive empirical,1000,45.9,0.549,0.5277,0.0213
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Pipeline max-statistic,1000,31.4,0.5588,0.5302,0.0286
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Bonferroni empirical,1000,28.5,0.5588,0.5302,0.0286
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.6,Naive empirical,1000,62.7,0.5588,0.5302,0.0286
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Pipeline max-statistic,1000,98.0,0.6416,0.6291,0.0125
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Bonferroni empirical,1000,97.6,0.6416,0.6291,0.0125
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,Single linear signal,0.7,Naive empirical,1000,99.9,0.6416,0.6291,0.0125
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Pipeline max-statistic,1000,6.4,0.5355,0.5029,0.0326
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Bonferroni empirical,1000,5.0,0.5355,0.5029,0.0326
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.6,Naive empirical,1000,26.0,0.5355,0.5029,0.0326
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Pipeline max-statistic,1000,22.3,0.5525,0.5264,0.0262
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Bonferroni empirical,1000,19.2,0.5525,0.5264,0.0262
+Expanded nonlinear,,,,,,,,,,B. AUROC power and generalization,XOR interaction signal,0.7,Naive empirical,1000,48.4,0.5525,0.5264,0.0262

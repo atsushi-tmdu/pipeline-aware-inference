@@ -1,0 +1,31 @@
+﻿Panel,Item,Specification,Scope
+A. Preprocessing and inferential rules,Numeric and binary preprocessing,"Training-median imputation with missingness indicators, followed by standardization.",SUPPORT2 primary analysis
+A. Preprocessing and inferential rules,Categorical preprocessing,Training-mode imputation and one-hot encoding; unknown categories ignored; dense output.,SUPPORT2 primary analysis
+A. Preprocessing and inferential rules,Outcome-independent transformations,Estimated once from training predictors and reused across outcome permutations because the transformed matrices are unchanged by label permutation.,SUPPORT2 null-reference analysis
+A. Preprocessing and inferential rules,Simulation feature selection,LASSO feature selection or no feature selection. Selection used training data only; the same rule was repeated in every null and evaluation replication.,Primary Phase 3 simulation
+A. Preprocessing and inferential rules,Primary metric,AUROC.,Simulation and SUPPORT2
+A. Preprocessing and inferential rules,Secondary metrics,Average precision and standardized partial AUROC restricted to false-positive rates ≤0.10.,Simulation and SUPPORT2
+A. Preprocessing and inferential rules,Tie handling,Metrics tied within rtol=1×10⁻¹² and atol=1×10⁻¹² were resolved using the fixed declared candidate order.,Observed and null pipelines
+A. Preprocessing and inferential rules,Monte Carlo p-value,(1 + number of null maxima ≥ observed maximum)/(B + 1).,All empirical tests
+B. Primary seven-model library,Logistic regression,L2 penalty; C=1.0; liblinear solver; max_iter=2000.,Primary Phase 3 and SUPPORT2
+B. Primary seven-model library,Linear support vector machine,C=1.0; dual=False; max_iter=5000.,Primary Phase 3 and SUPPORT2
+B. Primary seven-model library,Radial-basis-function support vector machine,C=1.0; gamma='scale'; probability=False; cache_size=1000 MB.,Primary Phase 3 and SUPPORT2
+B. Primary seven-model library,Gaussian naive Bayes,var_smoothing=1×10⁻⁹.,Primary Phase 3 and SUPPORT2
+B. Primary seven-model library,Decision tree,min_samples_leaf=5.,Primary Phase 3 and SUPPORT2
+B. Primary seven-model library,Random forest,100 trees; max_features='sqrt'; min_samples_leaf=2; n_jobs=1.,Primary Phase 3 and SUPPORT2
+B. Primary seven-model library,Histogram gradient boosting,max_iter=100; max_leaf_nodes=15; learning_rate=0.10; l2_regularization=1.0.,Primary Phase 3 and SUPPORT2
+C. Phase 3B libraries,"L2 logistic regression, C=0.03",Variance threshold + standardization; liblinear; max_iter=3000.,Similar linear
+C. Phase 3B libraries,"L2 logistic regression, C=0.10",Variance threshold + standardization; liblinear; max_iter=3000.,Similar linear
+C. Phase 3B libraries,"L2 logistic regression, C=1.0",Variance threshold + standardization; liblinear; max_iter=3000.,Similar linear
+C. Phase 3B libraries,"L2 logistic regression, C=10.0",Variance threshold + standardization; liblinear; max_iter=3000.,Similar linear
+C. Phase 3B libraries,"L1 logistic regression, C=0.10",Variance threshold + standardization; liblinear; max_iter=3000.,Similar linear
+C. Phase 3B libraries,Elastic-net logistic regression,Variance threshold + standardization; C=1.0; l1_ratio=0.5; saga; max_iter=3000.,Similar linear
+C. Phase 3B libraries,"Linear SVM, C=1.0",Variance threshold + standardization; dual=False; max_iter=8000.,Similar linear
+C. Phase 3B libraries,Seven-model primary library,"Logistic regression, linear SVM, RBF SVM, Gaussian NB, decision tree, random forest, and histogram gradient boosting.",Heterogeneous core
+C. Phase 3B libraries,Elastic-net logistic regression,Variance threshold + standardization; C=1.0; l1_ratio=0.5; saga; max_iter=3000.,Expanded nonlinear
+C. Phase 3B libraries,RBF SVM,Variance threshold + standardization; C=3.0; gamma='scale'; cache_size=500 MB.,Expanded nonlinear
+C. Phase 3B libraries,Extra Trees,150 trees; max_features='sqrt'; min_samples_leaf=2; n_jobs=1.,Expanded nonlinear
+C. Phase 3B libraries,Tuned random forest,150 trees; max_features=0.70; min_samples_leaf=2; n_jobs=1.,Expanded nonlinear
+C. Phase 3B libraries,Tuned histogram gradient boosting,max_iter=180; max_leaf_nodes=31; learning_rate=0.06; l2_regularization=0.5.,Expanded nonlinear
+C. Phase 3B libraries,Gradient boosting,150 estimators; learning_rate=0.05; max_depth=2; min_samples_leaf=5.,Expanded nonlinear
+C. Phase 3B libraries,Multilayer perceptron,Hidden layers 32 and 16; ReLU; alpha=0.001; learning_rate_init=0.001; max_iter=250; early stopping; validation_fraction=0.15; n_iter_no_change=12.,Expanded nonlinear
