@@ -1,13 +1,18 @@
-Supplementary Tables S1-S9
-================================
+# Supplementary Tables S1–S6
 
-Generated from the frozen aggregate analysis outputs included with the study working package.
+These files were generated from the frozen aggregate analysis outputs included
+with the study reproducibility package.
 
-Files:
-  tables/Online_Supplement_S1-S9.docx
-  tables/Online_Supplement_S1-S9.xlsx
-  csv/
+## Files
 
-The supplementary material contains the predictor manifest, preprocessing and model specifications, candidate-library dependence analyses, complete type I error and power results, software and freeze validation, prevalence and metric sensitivities, winner concentration, and SUPPORT2 model-search and test-set results.
+- `tables/Supplementary_Tables_S1-S6.docx`
+- `tables/Supplementary_Tables_S1-S6.xlsx`
+- `csv/`: individual machine-readable tables and table sections
 
-Participant-level SUPPORT2 data are not included.
+The material covers predictor and candidate specifications, primary and
+sensitivity simulation results, candidate-library dependence, software and seed
+information, frozen source hashes, validation checks, and aggregate SUPPORT2
+results.
+
+Participant-level SUPPORT2 data, split assignments, test predictions, and fitted
+participant-level model objects are not included.

@@ -1,12 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the accompanying manuscript."
-title: "Pipeline-aware inference after clinical machine-learning model search"
+message: "If you use this software, please cite the archived software release. Please also cite the accompanying manuscript when available."
+title: "Pipeline-aware max-statistic inference after clinical machine-learning model search"
 type: software
 authors:
   - family-names: "Senda"
     given-names: "Atsushi"
     orcid: "https://orcid.org/0000-0002-0128-6800"
+    email: "sendaccm@tmd.ac.jp"
+abstract: "Code and frozen aggregate outputs for pipeline-aware max-statistic calibration after adaptive clinical machine-learning model search, including simulation studies and a public SUPPORT2 clinical-data application."
+keywords:
+  - "machine learning"
+  - "model selection"
+  - "post-selection inference"
+  - "permutation testing"
+  - "clinical prediction"
+  - "reproducible research"
 repository-code: "https://github.com/atsushi-tmdu/pipeline-aware-inference"
+url: "https://github.com/atsushi-tmdu/pipeline-aware-inference"
 license: "MIT"
-version: "0.1.0"
-date-released: "2026-07-20"
+version: "1.0.0"

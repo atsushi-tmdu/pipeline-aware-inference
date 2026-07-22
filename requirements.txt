@@ -1,7 +1,7 @@
-numpy
-pandas
-scipy
-scikit-learn
-joblib
-matplotlib
-ucimlrepo
+numpy==2.3.3
+pandas==2.3.2
+scipy==1.16.2
+scikit-learn==1.7.2
+joblib==1.5.2
+matplotlib==3.10.8
+ucimlrepo==0.0.7
