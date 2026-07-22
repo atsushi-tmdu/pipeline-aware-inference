@@ -19,7 +19,8 @@ the full runs.
 The principal frozen environment is specified in `requirements.txt`:
 
 ```bash
-python3 -m venv .venv
+python3.13 --version
+python3.13 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt

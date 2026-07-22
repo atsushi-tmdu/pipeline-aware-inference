@@ -26,7 +26,8 @@ The principal frozen analyses used Python 3.13 and the exact package versions in
 `requirements.txt`.
 
 ```bash
-python3 -m venv .venv
+python3.13 --version
+python3.13 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
