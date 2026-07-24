@@ -1,0 +1,12 @@
+{
+  "phase": "3C",
+  "stage": "full",
+  "decision": "FULL SUCCESS",
+  "scientific_audit": "PASS",
+  "type1_gate_passed": true,
+  "maximum_pipeline_type1_error": 0.055,
+  "primary_delta_power": 0.245,
+  "primary_paired_ci95_low": 0.226,
+  "primary_paired_ci95_high": 0.264,
+  "go_threshold": 0.05
+}

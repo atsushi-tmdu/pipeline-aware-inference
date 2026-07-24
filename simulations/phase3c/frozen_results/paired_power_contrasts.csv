@@ -1,0 +1,9 @@
+library,target_auc,pool_size,n,power_pipeline,power_bonferroni,power_naive,delta_pipeline_minus_bonferroni,paired_ci95_low,paired_ci95_high,pipeline_only_rejections,bonferroni_only_rejections
+high_dependency_linear_20,0.6,7,2000,0.5605,0.4245,0.651,0.136,0.121,0.15101250000000072,272,0
+high_dependency_linear_20,0.6,20,2000,0.555,0.31,0.66,0.245,0.226,0.264,490,0
+high_dependency_linear_20,0.65,7,2000,0.9525,0.9265,0.9665,0.026,0.019,0.033,52,0
+high_dependency_linear_20,0.65,20,2000,0.9525,0.8835,0.968,0.069,0.058,0.0805,138,0
+mixed_realistic_20,0.6,7,2000,0.3,0.253,0.569,0.047,0.0365,0.0575,106,12
+mixed_realistic_20,0.6,20,2000,0.478,0.382,0.786,0.096,0.083,0.109,194,2
+mixed_realistic_20,0.65,7,2000,0.77,0.7155,0.9165,0.0545,0.044,0.0655,117,8
+mixed_realistic_20,0.65,20,2000,0.9395,0.909,0.985,0.0305,0.023,0.0385,61,0

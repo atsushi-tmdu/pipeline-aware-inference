@@ -1,0 +1,13 @@
+library,target_auc,method,n_k7,n_k20,rejection_rate_k7,rejection_rate_k20,delta_k20_minus_k7
+high_dependency_linear_20,0.6,bonferroni_empirical,2000,2000,0.4245,0.31,-0.11449999999999999
+high_dependency_linear_20,0.6,naive_empirical,2000,2000,0.651,0.66,0.009000000000000008
+high_dependency_linear_20,0.6,pipeline_empirical,2000,2000,0.5605,0.555,-0.005499999999999949
+high_dependency_linear_20,0.65,bonferroni_empirical,2000,2000,0.9265,0.8835,-0.04300000000000004
+high_dependency_linear_20,0.65,naive_empirical,2000,2000,0.9665,0.968,0.0014999999999999458
+high_dependency_linear_20,0.65,pipeline_empirical,2000,2000,0.9525,0.9525,0.0
+mixed_realistic_20,0.6,bonferroni_empirical,2000,2000,0.253,0.382,0.129
+mixed_realistic_20,0.6,naive_empirical,2000,2000,0.569,0.786,0.21700000000000008
+mixed_realistic_20,0.6,pipeline_empirical,2000,2000,0.3,0.478,0.178
+mixed_realistic_20,0.65,bonferroni_empirical,2000,2000,0.7155,0.909,0.1935
+mixed_realistic_20,0.65,naive_empirical,2000,2000,0.9165,0.985,0.0685
+mixed_realistic_20,0.65,pipeline_empirical,2000,2000,0.77,0.9395,0.16949999999999998
