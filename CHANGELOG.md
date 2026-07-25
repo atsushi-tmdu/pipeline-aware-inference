@@ -6,8 +6,7 @@ Scalability and release-engineering update for the accompanying manuscript.
 
 Zenodo concept DOI: `10.5281/zenodo.21482698`.
 
-The version-specific DOI for v1.1.0 will be assigned after Zenodo
-archives the GitHub release.
+Version-specific Zenodo DOI: `10.5281/zenodo.21546103`.
 
 ### Added
 

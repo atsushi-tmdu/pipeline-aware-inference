@@ -164,7 +164,7 @@ Additional details are provided in [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).
 
 ## Citation
 
-The current software release is version 1.1.0. The Zenodo concept DOI for all software versions is `10.5281/zenodo.21482698`. The version-specific DOI for v1.1.0 will be added after Zenodo archives the GitHub release. Citation metadata are provided in `CITATION.cff`.
+The current software release is version 1.1.0. The version-specific Zenodo DOI is `10.5281/zenodo.21546103`; the concept DOI for all software versions is `10.5281/zenodo.21482698`. Citation metadata are provided in `CITATION.cff`.
 
 Version 1.1.0 adds the prospectively gated Phase 3C scalability extension, including nested K=7 and K=20 high-dependence and mixed-realistic candidate libraries, frozen aggregate results, candidate-dependence summaries, paired power contrasts, and an audited sanitized public-release package.
 
