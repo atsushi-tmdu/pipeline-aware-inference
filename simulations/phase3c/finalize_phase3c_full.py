@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import shutil
 import zipfile
 from pathlib import Path
@@ -20,9 +21,15 @@ import pandas as pd
 LIBRARIES = ("high_dependency_linear_20", "mixed_realistic_20")
 METHODS = ("pipeline_empirical", "bonferroni_empirical", "naive_empirical")
 TEXT_SUFFIXES = {".json", ".txt", ".log", ".md"}
-LOCAL_PREFIXES = (
-    "/Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference",
-    "/Users/atsushi/Documents/pipeline-aware/pipeline-aware-inference",
+LOCAL_REPOSITORY_PATTERNS = (
+    re.compile(
+        r"/Users/[^/\s]+/Documents/"
+        r"pipeline-aware/pipeline-aware-inference"
+    ),
+    re.compile(
+        r"/home/[^/\s]+/(?:Documents/)?"
+        r"pipeline-aware/pipeline-aware-inference"
+    ),
 )
 
 
@@ -63,8 +70,9 @@ def sha256(path: Path) -> str:
 
 
 def sanitize_text(text: str) -> str:
-    for prefix in LOCAL_PREFIXES:
-        text = text.replace(prefix, "<REPOSITORY_ROOT>")
+    """Remove machine-specific repository paths from public text artifacts."""
+    for pattern in LOCAL_REPOSITORY_PATTERNS:
+        text = pattern.sub("<REPOSITORY_ROOT>", text)
     return text
 
 
