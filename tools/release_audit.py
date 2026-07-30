@@ -43,14 +43,14 @@ def repository_root() -> Path:
 def make_patterns() -> dict[str, re.Pattern[bytes]]:
     # Build machine-specific path fragments without embedding those literal
     # fragments in this audit script itself.
-    mac_user = b"/" + b"Users" + b"/"
-    linux_home = b"/" + b"home" + b"/"
+    mac_user = rb"/Users/[A-Za-z0-9._-]+/"
+    linux_home = rb"/home/[A-Za-z0-9._-]+/"
     container_data = b"/" + b"mnt" + b"/" + b"data" + b"/"
     windows_user = rb"[A-Za-z]:\\" + b"Users" + rb"\\"
 
     return {
-        "macOS user path": re.compile(re.escape(mac_user)),
-        "Linux home path": re.compile(re.escape(linux_home)),
+        "macOS user path": re.compile(mac_user),
+        "Linux home path": re.compile(linux_home),
         "container data path": re.compile(re.escape(container_data)),
         "Windows user-profile path": re.compile(windows_user, re.IGNORECASE),
         "private-key header": re.compile(
@@ -255,13 +255,23 @@ def audit_current_tree(repo: Path) -> tuple[list[str], list[tuple[int, str]]]:
         citation_text = citation.read_text(encoding="utf-8")
         required_fragments = (
             "cff-version: 1.2.0",
-            'version: "1.0.0"',
             "repository-code:",
             "orcid:",
         )
         for fragment in required_fragments:
             if fragment not in citation_text:
                 errors.append(f"CITATION.cff is missing: {fragment}")
+
+        version_match = re.search(
+            r'^version:\s*"([0-9]+\.[0-9]+\.[0-9]+)"\s*$',
+            citation_text,
+            flags=re.MULTILINE,
+        )
+        if version_match is None:
+            errors.append(
+                'CITATION.cff is missing a semantic version such as '
+                'version: "1.1.0".'
+            )
 
     return errors, sorted(largest, reverse=True)
 

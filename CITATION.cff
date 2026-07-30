@@ -7,7 +7,7 @@ authors:
     given-names: "Atsushi"
     orcid: "https://orcid.org/0000-0002-0128-6800"
     email: "sendaccm@tmd.ac.jp"
-abstract: "Code and frozen aggregate outputs for pipeline-aware max-statistic calibration after adaptive clinical machine-learning model search, including simulation studies and a public SUPPORT2 clinical-data application."
+abstract: "Code and frozen aggregate outputs for pipeline-aware max-statistic calibration after adaptive clinical machine-learning model search, including Phase 3C K=7 versus K=20 scalability simulations, candidate-dependence analyses, and a public SUPPORT2 clinical-data application."
 keywords:
   - "machine learning"
   - "model selection"
@@ -18,6 +18,6 @@ keywords:
 repository-code: "https://github.com/atsushi-tmdu/pipeline-aware-inference"
 url: "https://github.com/atsushi-tmdu/pipeline-aware-inference"
 license: "MIT"
-version: "1.0.0"
-doi: "10.5281/zenodo.21482699"
-date-released: "2026-07-22"
+version: "1.1.0"
+doi: "10.5281/zenodo.21546103"
+date-released: "2026-07-25"

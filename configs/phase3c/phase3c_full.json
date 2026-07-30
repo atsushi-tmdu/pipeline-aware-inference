@@ -1,0 +1,52 @@
+{
+  "phase": "3C",
+  "stage": "full",
+  "signal_structure": "single_linear",
+  "libraries": [
+    "high_dependency_linear_20",
+    "mixed_realistic_20"
+  ],
+  "pool_sizes": [
+    7,
+    20
+  ],
+  "target_aurocs": [
+    0.5,
+    0.6,
+    0.65
+  ],
+  "selection_metric": "roc_auc",
+  "reported_methods": [
+    "pipeline_empirical",
+    "bonferroni_empirical",
+    "naive_empirical"
+  ],
+  "feature_selection_methods": [
+    "none"
+  ],
+  "selection_event_counts": [
+    100
+  ],
+  "n_train": 500,
+  "n_selection": 1000,
+  "n_test": 2000,
+  "train_prevalence": 0.1,
+  "selection_prevalence": 0.1,
+  "test_prevalence": 0.1,
+  "n_features": 30,
+  "binary_fraction": 0.4,
+  "correlation_rho": 0.3,
+  "cv_folds": 5,
+  "null_repetitions": 10000,
+  "evaluation_repetitions": 2000,
+  "alpha": 0.05,
+  "master_seed": 20260726,
+  "primary_contrast": {
+    "library": "high_dependency_linear_20",
+    "pool_size": 20,
+    "target_auc": 0.6,
+    "estimand": "power_pipeline_minus_bonferroni"
+  },
+  "go_threshold": 0.05,
+  "paired_bootstrap_repetitions": 50000
+}

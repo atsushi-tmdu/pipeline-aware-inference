@@ -35,3 +35,6 @@ supplement_source_dump*.zip
 supplement_source_small.txt
 supplementary_tables_output/
 figures/scripts/output/
+# Phase 3C generated outputs
+results_phase3c/
+**/__pycache__/
