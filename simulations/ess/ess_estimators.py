@@ -143,3 +143,40 @@ def estimate_tail_ess(
         rejections=rejections,
         repetitions=repetitions,
     )
+
+def estimate_tail_ess_curve(
+    p_values: list[float] | tuple[float, ...],
+    local_alphas: list[float] | tuple[float, ...],
+    confidence: float = 0.95,
+) -> tuple[ESSEstimate, ...]:
+    """Estimate an ESS curve from one null-bank vector of naive p-values.
+
+    The decision rule is deliberately strict (p < alpha), matching the Phase 3
+    inference engine. The same p-value bank can therefore be reused over a
+    prespecified alpha grid without rerunning the simulation.
+    """
+    values = tuple(float(value) for value in p_values)
+    if not values:
+        raise ValueError("p_values must not be empty.")
+    if any(not 0.0 <= value <= 1.0 for value in values):
+        raise ValueError("Every p-value must lie in [0, 1].")
+
+    alphas = tuple(float(alpha) for alpha in local_alphas)
+    if not alphas:
+        raise ValueError("local_alphas must not be empty.")
+    if len(set(alphas)) != len(alphas):
+        raise ValueError("local_alphas must not contain duplicates.")
+
+    estimates: list[ESSEstimate] = []
+    for alpha in alphas:
+        _validate_probability(alpha, "local_alpha")
+        rejections = sum(value < alpha for value in values)
+        estimates.append(
+            estimate_tail_ess(
+                rejections=rejections,
+                repetitions=len(values),
+                local_alpha=alpha,
+                confidence=confidence,
+            )
+        )
+    return tuple(estimates)

@@ -7,6 +7,7 @@ import unittest
 from simulations.ess.ess_estimators import (
     ess_adjusted_p_value,
     estimate_tail_ess,
+    estimate_tail_ess_curve,
     local_alpha_for_global_alpha,
     sidak_equivalent_ess,
 )
@@ -31,6 +32,15 @@ class TestEffectiveSearchSize(unittest.TestCase):
         ess = 3.7
         local = local_alpha_for_global_alpha(global_alpha, ess)
         self.assertAlmostEqual(ess_adjusted_p_value(local, ess), global_alpha)
+
+    def test_curve_uses_strict_threshold(self) -> None:
+        estimates = estimate_tail_ess_curve(
+            p_values=(0.001, 0.01, 0.05, 0.20, 0.80),
+            local_alphas=(0.05, 0.10),
+        )
+        self.assertEqual(estimates[0].rejections, 2)
+        self.assertEqual(estimates[1].rejections, 3)
+        self.assertEqual(estimates[0].repetitions, 5)
 
     def test_phase3c_mixed_k20(self) -> None:
         estimate = estimate_tail_ess(

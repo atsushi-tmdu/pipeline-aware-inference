@@ -77,6 +77,11 @@ library.
 
 ## Phase 1: raw-null ESS curve
 
+The frozen Phase 3C full runs already retain one-row-per-replication naive
+p-values in `independent_inference_results.csv`. Therefore, the initial ESS
+curve can be estimated without rerunning model fitting. The primary p-value is
+`naive_empirical`; `naive_mannwhitney` is a prespecified sensitivity analysis.
+
 Required output from each null replication:
 
 - selected candidate identity;
