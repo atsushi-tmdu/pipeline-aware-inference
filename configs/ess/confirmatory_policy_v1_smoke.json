@@ -1,0 +1,54 @@
+{
+  "alpha": 0.05,
+  "binary_fraction": 0.4,
+  "bootstrap_repetitions": 200,
+  "bootstrap_seed": 2026082301,
+  "correlation_rho": 0.3,
+  "cv_folds": 5,
+  "evaluation_repetitions": 30,
+  "feature_selection_methods": [
+    "none"
+  ],
+  "libraries": [
+    "high_dependency_linear_20",
+    "mixed_realistic_20"
+  ],
+  "master_seed": 2026081701,
+  "n_features": 30,
+  "n_test": 2000,
+  "n_train": 500,
+  "notes": [
+    "Software smoke test only.",
+    "Must never be reported as scientific evidence.",
+    "Uses a different seed and separate output paths from the locked confirmatory run."
+  ],
+  "null_repetitions": 30,
+  "pauc_max_fpr": 0.1,
+  "policy_random_seed": 2026081901,
+  "pool_sizes": [
+    7,
+    20
+  ],
+  "primary_alpha": 0.05,
+  "primary_estimand": "TESS_promising_minus_budget_matched_random",
+  "primary_library": "mixed_realistic_20",
+  "primary_success_rule": "two-sided paired-bootstrap 95% CI lower bound > 0",
+  "secondary_alphas": [
+    0.1,
+    0.025,
+    0.01
+  ],
+  "selection_event_counts": [
+    100
+  ],
+  "selection_metric": "roc_auc",
+  "selection_prevalence": 0.1,
+  "status": "software_smoke_test_not_evidence",
+  "study_id": "TESS_CONFIRMATORY_POLICY_V1_SMOKE_ONLY",
+  "target_aurocs": [
+    0.5
+  ],
+  "target_expansion_probability": 0.5,
+  "test_prevalence": 0.1,
+  "train_prevalence": 0.1
+}

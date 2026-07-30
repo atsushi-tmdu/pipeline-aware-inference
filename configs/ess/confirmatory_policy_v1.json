@@ -1,0 +1,55 @@
+{
+  "alpha": 0.05,
+  "binary_fraction": 0.4,
+  "bootstrap_repetitions": 20000,
+  "bootstrap_seed": 20260823,
+  "correlation_rho": 0.3,
+  "cv_folds": 5,
+  "evaluation_repetitions": 5000,
+  "feature_selection_methods": [
+    "none"
+  ],
+  "libraries": [
+    "high_dependency_linear_20",
+    "mixed_realistic_20"
+  ],
+  "master_seed": 20260817,
+  "n_features": 30,
+  "n_test": 2000,
+  "n_train": 500,
+  "notes": [
+    "Fresh master seed; no reuse of exploratory Phase 3C seeds.",
+    "Trigger calibrated only in the independent null-reference bank.",
+    "Primary evaluation uses a separate global-null evaluation bank.",
+    "Phase 3C exploratory results are not used to tune this locked configuration."
+  ],
+  "null_repetitions": 5000,
+  "pauc_max_fpr": 0.1,
+  "policy_random_seed": 20260819,
+  "pool_sizes": [
+    7,
+    20
+  ],
+  "primary_alpha": 0.05,
+  "primary_estimand": "TESS_promising_minus_budget_matched_random",
+  "primary_library": "mixed_realistic_20",
+  "primary_success_rule": "two-sided paired-bootstrap 95% CI lower bound > 0",
+  "secondary_alphas": [
+    0.1,
+    0.025,
+    0.01
+  ],
+  "selection_event_counts": [
+    100
+  ],
+  "selection_metric": "roc_auc",
+  "selection_prevalence": 0.1,
+  "status": "locked_confirmatory",
+  "study_id": "TESS_CONFIRMATORY_POLICY_V1",
+  "target_aurocs": [
+    0.5
+  ],
+  "target_expansion_probability": 0.5,
+  "test_prevalence": 0.1,
+  "train_prevalence": 0.1
+}
