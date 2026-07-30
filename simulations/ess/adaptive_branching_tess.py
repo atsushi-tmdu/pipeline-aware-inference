@@ -140,7 +140,11 @@ def build_exact_grid(
                     "local_alpha": float(alpha),
                     "base_candidate_count": base_k,
                     "extra_candidate_count": extra_k,
-                    "maximum_candidate_count": base_k + extra_k,
+                    "maximum_candidate_count": (
+                        base_k
+                        if scenario == "fixed_base"
+                        else base_k + extra_k
+                    ),
                     "trigger_threshold": tau,
                     "expansion_probability": expansion_probability,
                     "expected_evaluated_candidates": exp_k,
