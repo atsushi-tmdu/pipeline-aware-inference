@@ -38,3 +38,6 @@ figures/scripts/output/
 # Phase 3C generated outputs
 results_phase3c/
 **/__pycache__/
+
+.Rhistory
+.RData
