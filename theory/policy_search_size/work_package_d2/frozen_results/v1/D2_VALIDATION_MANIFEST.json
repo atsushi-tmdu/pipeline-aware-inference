@@ -1,0 +1,45 @@
+{
+  "analysis_label": "scientific numerical validation of D2 estimated-trigger two-bank theory",
+  "config_path": "/Users/atsushi/Developer/pipeline-aware-inference-clean-20260730/theory/policy_search_size/work_package_d2/D2_NUMERICAL_CONFIG.json",
+  "config_sha256": "733cad9bc55cd7410a5fe6fd90c5069526e04458c7c6eeafded7c8fb974633d1",
+  "files": [
+    {
+      "file": "D2_VALIDATION_ADJUDICATION.md",
+      "sha256": "27b616cb83a2b70781b425868bf3b9a810fc1f94a302f38ab462cdce17ea6d2b",
+      "size_bytes": 4461
+    },
+    {
+      "file": "D2_VALIDATION_BENCHMARKS.json",
+      "sha256": "58fccbc2f1db6a65986f1140fb26b1342d9daa9a0043cfbed803ca4ab3dae722",
+      "size_bytes": 50291
+    },
+    {
+      "file": "D2_VALIDATION_CELL_SUMMARY.csv",
+      "sha256": "e80de247271aba0ea04de78c83b99fac591f8915726dfadbc26c6caf4e505dd1",
+      "size_bytes": 32571
+    },
+    {
+      "file": "D2_VALIDATION_CHECKS.json",
+      "sha256": "7279335d55b06da904a563c2966f991def109fe8fd196b8746de81af0699eb12",
+      "size_bytes": 52961
+    },
+    {
+      "file": "D2_VALIDATION_REPLICATIONS.csv.gz",
+      "sha256": "f5fb4ae1b558b6ee54cc981212eba6398dfda5f32186e19e0f42ab4750b8664e",
+      "size_bytes": 24144200
+    },
+    {
+      "file": "D2_VALIDATION_SUMMARY.json",
+      "sha256": "b425907a758f4fa8835e2c7ffbeca18196dc232c99640c3a7a49168cb069f029",
+      "size_bytes": 417
+    }
+  ],
+  "numpy": "2.5.1",
+  "pandas": "3.0.3",
+  "platform": "macOS-15.6.1-x86_64-i386-64bit-Mach-O",
+  "python": "3.13.7 (main, Sep 18 2025, 13:21:08) [Clang 17.0.0 (clang-1700.3.19.1)]",
+  "scipy": "1.16.2",
+  "source_git_commit": "1ed5cace9d2e8de4b72da1237cb6762b9c0df76a",
+  "source_git_tag": "tess-theory-work-package-d2-v1-lock-20260802",
+  "study_id": "TESS_THEORY_D2_NUMERICAL_VALIDATION_V1"
+}

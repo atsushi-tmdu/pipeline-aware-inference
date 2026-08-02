@@ -1,0 +1,12 @@
+{
+  "analysis_label": "scientific numerical validation of D2 estimated-trigger two-bank theory",
+  "bootstrap_repetitions_per_outer": 999,
+  "cell_count": 36,
+  "elapsed_seconds": 1917.194239053002,
+  "failed_diagnostic_check_count": 0,
+  "failed_scientific_check_count": 0,
+  "master_seed": 20261017,
+  "outer_repetitions_per_cell": 3000,
+  "status": "PASS",
+  "study_id": "TESS_THEORY_D2_NUMERICAL_VALIDATION_V1"
+}
