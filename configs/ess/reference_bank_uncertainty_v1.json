@@ -1,0 +1,52 @@
+{
+  "study_id": "TESS_REFERENCE_BANK_UNCERTAINTY_V1",
+  "status": "post_hoc_sensitivity_locked_before_run",
+  "analysis_label": "post hoc sensitivity",
+  "primary_adjudication_unchanged": true,
+  "source_confirmatory_tag": "tess-confirmatory-policy-v1-final-20260802",
+  "source_confirmatory_commit": "8f79b5b",
+  "library": "mixed_realistic_20",
+  "alpha": 0.05,
+  "estimand": "TESS_promising_minus_budget_matched_random",
+  "reference_repetitions": 5000,
+  "evaluation_repetitions": 5000,
+  "bootstrap_repetitions": 20000,
+  "bootstrap_seed": 20260829,
+  "checkpoint_every": 250,
+  "target_expansion_probability": 0.5,
+  "policy_random_seed": 20260819,
+  "target_auc": 0.5,
+  "selection_event_count": 100,
+  "feature_selection": "none",
+  "expected_locked_point_estimate": 0.7949499185,
+  "point_estimate_tolerance": 1e-08,
+  "confidence_interval": "two-sided percentile 95%",
+  "resampling_units": {
+    "reference_bank": "complete replication ID; all 20 candidate scores receive one shared integer bootstrap weight",
+    "evaluation_bank": "complete replication ID; all policy quantities receive one shared integer bootstrap weight"
+  },
+  "recalibrated_within_each_bootstrap": [
+    "candidate-specific plus-one empirical p-value mappings",
+    "promising trigger threshold",
+    "trigger tie probability",
+    "promising activation",
+    "budget-matched random rejection probability",
+    "TESS contrast"
+  ],
+  "sensitivity_interpretation": {
+    "ROBUST": "two-bank percentile 95% CI lower bound > 0",
+    "INCONCLUSIVE_SENSITIVITY": "two-bank percentile 95% CI includes or crosses 0; locked primary remains CONFIRMED"
+  },
+  "prohibited_changes_after_lock": [
+    "library",
+    "alpha",
+    "estimand",
+    "bootstrap repetitions",
+    "bootstrap seed",
+    "resampling units",
+    "candidate order",
+    "base/optional split",
+    "trigger rule",
+    "failed-fit rule"
+  ]
+}
