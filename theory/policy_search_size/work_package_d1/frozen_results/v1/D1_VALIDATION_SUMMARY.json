@@ -1,0 +1,12 @@
+{
+  "analysis_label": "scientific numerical validation of D1 known-trigger two-bank theory",
+  "bootstrap_repetitions_per_outer": 999,
+  "cell_count": 12,
+  "elapsed_seconds": 560.7428494699998,
+  "failed_diagnostic_check_count": 0,
+  "failed_scientific_check_count": 14,
+  "master_seed": 20260921,
+  "outer_repetitions_per_cell": 3000,
+  "status": "REVIEW",
+  "study_id": "TESS_THEORY_D1_NUMERICAL_VALIDATION_V1"
+}

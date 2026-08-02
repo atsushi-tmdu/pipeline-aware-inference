@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-08-02T10:10:18.416333+00:00",
+  "external_archive": {
+    "path": "~/Documents/policy-search-size-theory-archives/d1_v1/d1_numerical_validation_v1_full_outputs.tar.gz",
+    "sha256": "0d17ec117dbaf489430cf9e87dfe62a63df9a8891122f09e21c8897e9cfb5599",
+    "sha256_file": "~/Documents/policy-search-size-theory-archives/d1_v1/d1_numerical_validation_v1_full_outputs.tar.gz.sha256",
+    "size_bytes": 5962537
+  },
+  "lock_commit": "01e8c0b",
+  "lock_tag": "tess-theory-work-package-d1-v1-lock-20260802",
+  "locked_run_summary": {
+    "analysis_label": "scientific numerical validation of D1 known-trigger two-bank theory",
+    "bootstrap_repetitions_per_outer": 999,
+    "cell_count": 12,
+    "elapsed_seconds": 560.7428494699998,
+    "failed_diagnostic_check_count": 0,
+    "failed_scientific_check_count": 14,
+    "master_seed": 20260921,
+    "outer_repetitions_per_cell": 3000,
+    "status": "REVIEW",
+    "study_id": "TESS_THEORY_D1_NUMERICAL_VALIDATION_V1"
+  },
+  "locked_status": "REVIEW",
+  "recommended_results_tag": "tess-theory-work-package-d1-v1-results-review-20260802",
+  "scientific_interpretation": "D1 first-order two-bank theory supported; basic bootstrap interval not uniformly validated",
+  "source_directory": "outputs/full_v1",
+  "study_id": "TESS_THEORY_D1_NUMERICAL_VALIDATION_V1",
+  "tracked_files": [
+    {
+      "file": "frozen_results/v1/D1_FULL_RUN_LOG.txt",
+      "sha256": "15afcf7f41f2a4eb9ba71be948a6c850e3121b5179bcbce0ebae3ff2b11d7cd0",
+      "size_bytes": 1926
+    },
+    {
+      "file": "frozen_results/v1/D1_POST_RUN_ADJUDICATION.md",
+      "sha256": "600f7a2b3c7f41988ce1a95829d130b068a00e1ba1ac1d250b11cdd600b911fd",
+      "size_bytes": 6765
+    },
+    {
+      "file": "frozen_results/v1/D1_VALIDATION_ADJUDICATION.md",
+      "sha256": "86e0ae14dd5c83b91644cd7f32aa48faabddfa6060dbad229ef5fd38e30a2daa",
+      "size_bytes": 4342
+    },
+    {
+      "file": "frozen_results/v1/D1_VALIDATION_CELL_SUMMARY.csv",
+      "sha256": "86ee35518f33aef4db9cf17157bbe1932f4d9261dea235c49b64aa3f3e47d24a",
+      "size_bytes": 7569
+    },
+    {
+      "file": "frozen_results/v1/D1_VALIDATION_CHECKS.json",
+      "sha256": "97f7bd7d7d05942ad01f0f34b049a6bcde5e9e944a65771e12349f11c7b3e1d9",
+      "size_bytes": 27989
+    },
+    {
+      "file": "frozen_results/v1/D1_VALIDATION_MANIFEST.json",
+      "sha256": "92ab651724ae18df30c44bca971b2f24a837d47a3673e553fa247aa2250e9d74",
+      "size_bytes": 1570
+    },
+    {
+      "file": "frozen_results/v1/D1_VALIDATION_SUMMARY.json",
+      "sha256": "20cf12f6550a7d0afd66c64dbc4944898ce67cb0d452edac245b03d5793a0d68",
+      "size_bytes": 416
+    }
+  ]
+}

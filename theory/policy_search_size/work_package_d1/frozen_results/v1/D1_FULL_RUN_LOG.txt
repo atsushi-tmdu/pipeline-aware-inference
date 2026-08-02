@@ -1,0 +1,41 @@
+D1 lock manifest verification PASS: 18 files
+test_boundary_derivatives_match_finite_difference (test_d1_core.D1CoreTests.test_boundary_derivatives_match_finite_difference) ... ok
+test_empirical_generalized_inverse (test_d1_core.D1CoreTests.test_empirical_generalized_inverse) ... ok
+test_primary_debug_benchmark (test_d1_core.D1CoreTests.test_primary_debug_benchmark) ... ok
+test_variance_components_positive (test_d1_core.D1CoreTests.test_variance_components_positive) ... ok
+test_exact_primary_benchmark (test_d1_numerical.D1NumericalTests.test_exact_primary_benchmark) ... ok
+test_locked_config_is_valid (test_d1_numerical.D1NumericalTests.test_locked_config_is_valid) ... ok
+test_one_outer_returns_finite_values (test_d1_numerical.D1NumericalTests.test_one_outer_returns_finite_values) ... ok
+test_smoke_config_is_valid (test_d1_numerical.D1NumericalTests.test_smoke_config_is_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.008s
+
+OK
+Validation tasks: 1440; worker processes: 24
+Completed task 72/1440
+Completed task 144/1440
+Completed task 216/1440
+Completed task 288/1440
+Completed task 360/1440
+Completed task 432/1440
+Completed task 504/1440
+Completed task 576/1440
+Completed task 648/1440
+Completed task 720/1440
+Completed task 792/1440
+Completed task 864/1440
+Completed task 936/1440
+Completed task 1008/1440
+Completed task 1080/1440
+Completed task 1152/1440
+Completed task 1224/1440
+Completed task 1296/1440
+Completed task 1368/1440
+Completed task 1440/1440
+D1 scientific numerical validation complete
+Status: REVIEW
+Cells: 12
+Elapsed seconds: 560.743
+Output directory: /Users/atsushi/Developer/pipeline-aware-inference-clean-20260730/theory/policy_search_size/work_package_d1/outputs/full_v1
+Adjudication: /Users/atsushi/Developer/pipeline-aware-inference-clean-20260730/theory/policy_search_size/work_package_d1/outputs/full_v1/D1_VALIDATION_ADJUDICATION.md

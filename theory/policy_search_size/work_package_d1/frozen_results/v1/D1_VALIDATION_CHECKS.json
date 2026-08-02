@@ -1,0 +1,1580 @@
+[
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": false,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.38925993265712616
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": false,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.3943603605011471
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": false,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.205449164766825
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": false,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.219557487138849
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0920398261116666
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0956900366212905
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": false,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.907
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": false,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.907
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": false,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.885
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.01,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": false,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.885
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.18422609929558148
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.19355403587356534
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0522186146607226
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0648969944080704
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0377548142629691
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0413733346263891
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.943
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.943
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9203333333333333
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.05,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9123333333333333
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.1265601612661071
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.13969333255598756
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0361170889469713
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0488891516647545
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.023305040667877
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0269313559276225
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9496666666666667
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.943
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.924
+  },
+  {
+    "cell": {
+      "B": 500,
+      "alpha": 0.1,
+      "n": 500
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9246666666666666
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": false,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.2993253445014115
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": false,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.3024067022369408
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.074726767967453
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.080888919783549
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.080284493216399
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0821085806933306
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9376666666666666
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9376666666666666
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.915
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.01,
+      "n": 1000
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9233333333333333
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": false,
+    "tier": "primary",
+    "upper": 0.12,
+    "value": 0.12243053411562918
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": false,
+    "tier": "primary",
+    "upper": 0.12,
+    "value": 0.12893414722537205
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.88,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0615360806679917
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.88,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0674429817272337
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.88,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.010647563320469
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.88,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0125713008876747
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.93,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.9423333333333334
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.93,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.9423333333333334
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.93,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": false,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.916
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.05,
+      "n": 1000
+    },
+    "lower": 0.93,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": false,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.9166666666666666
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.06620991945724845
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.07488739677284209
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 0.9848595306513032
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 0.9894867754631284
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0323943777934843
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0345384467518433
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9536666666666667
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.949
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9353333333333333
+  },
+  {
+    "cell": {
+      "B": 1000,
+      "alpha": 0.1,
+      "n": 1000
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9346666666666666
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.14319745603734332
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.14479507087914528
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.028410537701855
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0301841699471932
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0472873176953037
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0479534452273194
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9473333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9473333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9196666666666666
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 3000
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9213333333333333
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.12,
+    "value": 0.07175602958665867
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.12,
+    "value": 0.07529248888748802
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.88,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0115804854048835
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.88,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.013880659822251
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.88,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0154034960519298
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.88,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0158132931202695
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.93,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.9526666666666667
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.93,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.9503333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.93,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.9386666666666666
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 3000
+    },
+    "lower": 0.93,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.939
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.05965056132326517
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.06480770637851938
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0164869789646
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0191601607941876
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.005996304193194
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0062933541277401
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9463333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9473333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9376666666666666
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 3000
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9373333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.18225892065069835
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.1837118627300784
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0457940486456199
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0476986716868562
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.029696162306088
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0301738599032473
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9363333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9363333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9166666666666666
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.01,
+      "n": 5000
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9176666666666666
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.12,
+    "value": 0.061796511216194686
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.12,
+    "value": 0.06493004322748522
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.88,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0166699261503853
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.88,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0184810755742453
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.88,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.012587251354636
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.88,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "primary",
+    "upper": 1.12,
+    "value": 1.0129660897731636
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.93,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.948
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.93,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.95
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.93,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.9343333333333333
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.05,
+      "n": 5000
+    },
+    "lower": 0.93,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "primary",
+    "upper": 0.97,
+    "value": 0.932
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.0,
+    "metric": "pi_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.09657353571303182
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.0,
+    "metric": "tess_standardized_bias",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.2,
+    "value": 0.10104298774561248
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.8,
+    "metric": "pi_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 0.9929364779870773
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.8,
+    "metric": "tess_variance_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 0.9952280169860117
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.8,
+    "metric": "pi_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.0203225181100404
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.8,
+    "metric": "tess_bootstrap_sd_ratio",
+    "passed": true,
+    "tier": "all",
+    "upper": 1.2,
+    "value": 1.020951923544837
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.91,
+    "metric": "pi_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9523333333333334
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.91,
+    "metric": "tess_oracle_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.95
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.91,
+    "metric": "pi_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9386666666666666
+  },
+  {
+    "cell": {
+      "B": 3000,
+      "alpha": 0.1,
+      "n": 5000
+    },
+    "lower": 0.91,
+    "metric": "tess_basic_bootstrap_coverage",
+    "passed": true,
+    "tier": "all",
+    "upper": 0.99,
+    "value": 0.9403333333333334
+  },
+  {
+    "cell": "global",
+    "lower": 1,
+    "metric": "evaluation_only_cells_below_threshold",
+    "passed": true,
+    "tier": "diagnostic",
+    "upper": null,
+    "value": 12
+  },
+  {
+    "cell": "global",
+    "lower": 4,
+    "metric": "two_bank_improvement_cell_count",
+    "passed": true,
+    "tier": "diagnostic",
+    "upper": null,
+    "value": 12
+  }
+]
