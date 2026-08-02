@@ -1,0 +1,36 @@
+{
+  "study_id": "TESS_THEORY_D1_NUMERICAL_VALIDATION_V1_SMOKE",
+  "analysis_label": "computational smoke test only — not scientific evidence",
+  "status": "smoke_not_scientific",
+  "required_lock_tag": null,
+  "data_generating_law": "U, X0, X1 independent standard normal",
+  "activation_rate": 0.5,
+  "alphas": [0.05],
+  "designs": [{"B": 500, "n": 500}],
+  "outer_repetitions": 30,
+  "bootstrap_repetitions": 40,
+  "master_seed": 20260912,
+  "n_jobs": 2,
+  "chunk_size": 10,
+  "success_criteria": {
+    "primary_cells": [],
+    "primary": {
+      "maximum_standardized_bias": 10.0,
+      "empirical_variance_ratio": [0.01, 100.0],
+      "bootstrap_sd_ratio": [0.01, 100.0],
+      "coverage": [0.0, 1.0]
+    },
+    "all": {
+      "maximum_standardized_bias": 10.0,
+      "empirical_variance_ratio": [0.01, 100.0],
+      "bootstrap_sd_ratio": [0.01, 100.0],
+      "coverage": [0.0, 1.0]
+    },
+    "evaluation_only_diagnostic": {
+      "coverage_below": 1.01,
+      "minimum_cells_below": 0,
+      "minimum_improvement": -1.0,
+      "minimum_improved_cells": 0
+    }
+  }
+}
