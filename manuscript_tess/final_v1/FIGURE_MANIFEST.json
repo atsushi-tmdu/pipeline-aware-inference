@@ -1,0 +1,229 @@
+{
+  "asset_set": "TESS_MANUSCRIPT_FIGURES_FINAL_V1",
+  "source_version": "v1_4_8",
+  "final_version": "final_v1",
+  "git_head_at_freeze": "46382ed36951b802bfd11ff495d81eabe45b08ea",
+  "scientific_result_tags": {
+    "tess-confirmatory-policy-v1-final-20260802": "8f79b5bf43d61c9420ba747613b4d9c6f331cf63",
+    "tess-support2-validation-v1-final-20260802": "46382ed36951b802bfd11ff495d81eabe45b08ea"
+  },
+  "main_figure_stems": [
+    "Figure1_policy_framework",
+    "Figure2_fixed_search_TESS_curves",
+    "Figure3_policy_effects_with_SUPPORT2",
+    "Figure4A_activation_and_gain_capture",
+    "Figure4B_activation_increment_covariance"
+  ],
+  "supplementary_figure_stems": [
+    "FigureS1_SUPPORT2_TESS_curves",
+    "FigureS2A_high_dependency_score_deciles",
+    "FigureS2B_mixed_realistic_score_deciles",
+    "FigureS2C_SUPPORT2_score_deciles",
+    "FigureS3A_high_dependency_adaptive_policy_TESS_curves",
+    "FigureS3B_mixed_realistic_adaptive_policy_TESS_curves"
+  ],
+  "file_count": 33,
+  "expected_file_count": 33,
+  "files": [
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure1_policy_framework.pdf",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure1_policy_framework.pdf",
+      "size_bytes": 32415,
+      "sha256": "64485a467b0ac5a9452324ac6a378078ee7331b0740608305a25aac8bab266c5"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure1_policy_framework.png",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure1_policy_framework.png",
+      "size_bytes": 503932,
+      "sha256": "0ca1b47cb09d9adebe27016166ee211ed5652afce43dae72fb38dfd2abc4bd0b"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure1_policy_framework.svg",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure1_policy_framework.svg",
+      "size_bytes": 63748,
+      "sha256": "2965f9fb624f96079b7d23e6d00d35e9a77762e048e65af4666fcf6faf6ec60b"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure2_fixed_search_TESS_curves.pdf",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure2A_fixed_search_TESS_curves.pdf",
+      "size_bytes": 25450,
+      "sha256": "412c893a80fbb16a6fac36b22f7fdd4ccd731939bfaa31937733d57128b01e41"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure2_fixed_search_TESS_curves.png",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure2A_fixed_search_TESS_curves.png",
+      "size_bytes": 542817,
+      "sha256": "c5dec2518d81e4a1621d2ebbe957dfa2375be504566382d202fbb0324540f16c"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure2_fixed_search_TESS_curves.svg",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure2A_fixed_search_TESS_curves.svg",
+      "size_bytes": 65837,
+      "sha256": "0734f52df498df166ab749d2ded85b2406c4ac1bf879f14a4bbac1e5d9878412"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure3_policy_effects_with_SUPPORT2.pdf",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure3_policy_effects_with_SUPPORT2.pdf",
+      "size_bytes": 17740,
+      "sha256": "cf03606b4dbecd65329b4b0ce674c6353c8bdd9fb223130f9e05755f71f92a99"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure3_policy_effects_with_SUPPORT2.png",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure3_policy_effects_with_SUPPORT2.png",
+      "size_bytes": 417877,
+      "sha256": "1a33e0382b89cc0a8b47fc667e0a984d2402820c0fc71075e5ea3506194a8521"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure3_policy_effects_with_SUPPORT2.svg",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure3_policy_effects_with_SUPPORT2.svg",
+      "size_bytes": 64225,
+      "sha256": "ba7fc0405448834154e939ad00cedc361154e7161b9b7a3904ad8587bcc02078"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure4A_activation_and_gain_capture.pdf",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure4A_activation_and_gain_capture.pdf",
+      "size_bytes": 24981,
+      "sha256": "1a3207350224e9fbf7b0e6c684eafb7f39bd98fd35b07b89f14788ea88031009"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure4A_activation_and_gain_capture.png",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure4A_activation_and_gain_capture.png",
+      "size_bytes": 321148,
+      "sha256": "71e202ff008efcfa2cff9e7d1f0491ffd8ed4bdc9cfbbb55458be5297ee4c05e"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure4A_activation_and_gain_capture.svg",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure4A_activation_and_gain_capture.svg",
+      "size_bytes": 50766,
+      "sha256": "2bfa4a60d4b698d7270c04ba83a9475f0d0dd07cf403f1d39296db4117095f04"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure4B_activation_increment_covariance.pdf",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure4B_activation_increment_covariance.pdf",
+      "size_bytes": 18883,
+      "sha256": "1f41b93a1699f2229ae5b2c88249651164ee42c6417f0cfa473db627dbb99c84"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure4B_activation_increment_covariance.png",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure4B_activation_increment_covariance.png",
+      "size_bytes": 456430,
+      "sha256": "abd838053f99d9d8f6a22344d67bc7e7512b14719024bb0b42a745b280e0c15b"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/figures/Figure4B_activation_increment_covariance.svg",
+      "source_relative_path": "manuscript_tess/figures/v1_4_8/Figure4B_activation_increment_covariance.svg",
+      "size_bytes": 57198,
+      "sha256": "21bddfcbb2fb1a7113e6c44c842530279dd7ecbfa4288f1ec94a128888b0eb84"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS1_SUPPORT2_TESS_curves.pdf",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS1_SUPPORT2_TESS_curves.pdf",
+      "size_bytes": 20582,
+      "sha256": "41a8bbb3f6a3e53a6b454085734eb393cbd2eb3a4942de9f8d50d2ff297bc396"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS1_SUPPORT2_TESS_curves.png",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS1_SUPPORT2_TESS_curves.png",
+      "size_bytes": 406078,
+      "sha256": "e23d112349e85c6beb18eaa7ba3778178c09e5d7482cb0f8f52f38f4d79c6ecc"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS1_SUPPORT2_TESS_curves.svg",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS1_SUPPORT2_TESS_curves.svg",
+      "size_bytes": 60140,
+      "sha256": "b78c8f844611041ec3ee177e0e47c0cc19f4c35c6c1662613d2c7fe6b3f09181"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2A_high_dependency_score_deciles.pdf",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2A_high_dependency_score_deciles.pdf",
+      "size_bytes": 18225,
+      "sha256": "90d47fe8ee60b799fae36bfa1d00e632bb7519d7c7850c6aebcf0ad9c96cad98"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2A_high_dependency_score_deciles.png",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2A_high_dependency_score_deciles.png",
+      "size_bytes": 359466,
+      "sha256": "836e496cb790adbf5e103cd469f5aa2ca95187e60d51b65a0a9bdeae13a3d133"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2A_high_dependency_score_deciles.svg",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2A_high_dependency_score_deciles.svg",
+      "size_bytes": 51890,
+      "sha256": "6c5cfa86b4fc9874a4b9cba8ea0fb80484cfa38126df7fdfb7e090d830b2f871"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2B_mixed_realistic_score_deciles.pdf",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2B_mixed_realistic_score_deciles.pdf",
+      "size_bytes": 17506,
+      "sha256": "4c15f65fd50c1215d0af5c028ca474790ee24e2c825f9b6c1146f9a80953bb34"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2B_mixed_realistic_score_deciles.png",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2B_mixed_realistic_score_deciles.png",
+      "size_bytes": 435135,
+      "sha256": "a5e41af07bc0bde9845339633c396ab0dd44a25340e53741d6091fc23c15c041"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2B_mixed_realistic_score_deciles.svg",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2B_mixed_realistic_score_deciles.svg",
+      "size_bytes": 49471,
+      "sha256": "b37f5567fa77e70c6d8f64bf018328672673a1e474d172a8d102a88d6693060a"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2C_SUPPORT2_score_deciles.pdf",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2C_SUPPORT2_score_deciles.pdf",
+      "size_bytes": 19083,
+      "sha256": "1928023686d6c5713d087f89556fc3116e7ce6b2ed332a98f76391ea623f567c"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2C_SUPPORT2_score_deciles.png",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2C_SUPPORT2_score_deciles.png",
+      "size_bytes": 411328,
+      "sha256": "06e7655fd345bd3c23244caa2716a16e18ecac9c936f68ef2a8d3f090ae13c88"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS2C_SUPPORT2_score_deciles.svg",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS2C_SUPPORT2_score_deciles.svg",
+      "size_bytes": 52847,
+      "sha256": "31a76636d893719c26d4236a899f4fbfbeed3a6778022efafe63ad5dbf0087ed"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS3A_high_dependency_adaptive_policy_TESS_curves.pdf",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS3A_high_dependency_adaptive_policy_TESS_curves.pdf",
+      "size_bytes": 27157,
+      "sha256": "f074b8afb83cbafa251f8f602b298fbbe38ea73133ebcbe4798ac1a275ced209"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS3A_high_dependency_adaptive_policy_TESS_curves.png",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS3A_high_dependency_adaptive_policy_TESS_curves.png",
+      "size_bytes": 469098,
+      "sha256": "e328d6cca8e1f0325fb98fdf1209490cd0a3f617dd7df05c555ad76ce9b175e8"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS3A_high_dependency_adaptive_policy_TESS_curves.svg",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS3A_high_dependency_adaptive_policy_TESS_curves.svg",
+      "size_bytes": 90464,
+      "sha256": "70d51f63f893f328e0a6e991b3611f718eb5725f82edf3a49b899eef6c4633cf"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS3B_mixed_realistic_adaptive_policy_TESS_curves.pdf",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS3B_mixed_realistic_adaptive_policy_TESS_curves.pdf",
+      "size_bytes": 27928,
+      "sha256": "a8bf148b37712fe9e3f7ad25ba374c3c0f892d1b1228008454992e04c9521709"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS3B_mixed_realistic_adaptive_policy_TESS_curves.png",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS3B_mixed_realistic_adaptive_policy_TESS_curves.png",
+      "size_bytes": 467461,
+      "sha256": "59550226c18b62b6d60c93be9e7458a779497aeda235f6a857a8331c58650a1b"
+    },
+    {
+      "final_relative_path": "manuscript_tess/final_v1/supplementary_figures/FigureS3B_mixed_realistic_adaptive_policy_TESS_curves.svg",
+      "source_relative_path": "manuscript_tess/supplementary_figures/v1_4_8/FigureS3B_mixed_realistic_adaptive_policy_TESS_curves.svg",
+      "size_bytes": 95452,
+      "sha256": "14d752e9c902c0606c56f67e2e5d5776f81b4b31f01162a7ce3ca20771c57736"
+    }
+  ],
+  "path_basis": "repository root",
+  "portable_paths": true
+}
