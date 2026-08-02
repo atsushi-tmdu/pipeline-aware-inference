@@ -1,0 +1,68 @@
+{
+  "study_id": "TESS_CONFIRMATORY_POLICY_V1",
+  "overall_primary_status": "CONFIRMED",
+  "checks": {
+    "primary_confirmed": true,
+    "mixed_covariance_positive": true,
+    "mixed_rescue_effect_negative": true,
+    "mixed_effect_exceeds_high": true,
+    "zero_reconstruction_decision_mismatches": true
+  },
+  "primary": {
+    "library_or_contrast": "mixed_realistic_20",
+    "local_alpha": 0.05,
+    "metric": "promising_tess_minus_matched_random",
+    "estimate": 0.7949499185415281,
+    "bootstrap_mean": 0.7947894971149199,
+    "bootstrap_se": 0.0622877540590826,
+    "ci_low_95": 0.6752856706826483,
+    "ci_high_95": 0.918013012636766,
+    "bootstrap_probability_gt_zero": 1.0,
+    "bootstrap_probability_lt_zero": 0.0,
+    "bootstrap_repetitions": 20000,
+    "pairing": "same replication IDs across libraries"
+  },
+  "mixed_covariance": {
+    "library_or_contrast": "mixed_realistic_20",
+    "local_alpha": 0.05,
+    "metric": "cov_activation_increment",
+    "estimate": 0.02959064,
+    "bootstrap_mean": 0.029581214086,
+    "bootstrap_se": 0.00228043890621,
+    "ci_low_95": 0.025166793,
+    "ci_high_95": 0.0341115559999999,
+    "bootstrap_probability_gt_zero": 1.0,
+    "bootstrap_probability_lt_zero": 0.0,
+    "bootstrap_repetitions": 20000,
+    "pairing": "same replication IDs across libraries"
+  },
+  "mixed_rescue": {
+    "library_or_contrast": "mixed_realistic_20",
+    "local_alpha": 0.05,
+    "metric": "rescue_tess_minus_matched_random",
+    "estimate": -0.7629741592875297,
+    "bootstrap_mean": -0.7626341779995904,
+    "bootstrap_se": 0.0573256820751931,
+    "ci_low_95": -0.8756191187303031,
+    "ci_high_95": -0.6516925524110581,
+    "bootstrap_probability_gt_zero": 0.0,
+    "bootstrap_probability_lt_zero": 1.0,
+    "bootstrap_repetitions": 20000,
+    "pairing": "same replication IDs across libraries"
+  },
+  "mixed_minus_high": {
+    "library_or_contrast": "mixed_minus_high",
+    "local_alpha": 0.05,
+    "metric": "promising_tess_minus_matched_random",
+    "estimate": 0.6642764857095349,
+    "bootstrap_mean": 0.6641323366961558,
+    "bootstrap_se": 0.0649598898359994,
+    "ci_low_95": 0.5393523341987614,
+    "ci_high_95": 0.7933721579402718,
+    "bootstrap_probability_gt_zero": 1.0,
+    "bootstrap_probability_lt_zero": 0.0,
+    "bootstrap_repetitions": 20000,
+    "pairing": "same replication IDs across libraries"
+  },
+  "reconstruction_decision_mismatches": 0
+}

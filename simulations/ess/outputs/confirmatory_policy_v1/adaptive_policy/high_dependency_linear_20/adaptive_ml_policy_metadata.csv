@@ -1,0 +1,2 @@
+library,trigger_threshold,trigger_tie_probability,target_expansion_probability,reference_base_repetitions,evaluation_repetitions,base_candidate_count,extra_candidate_count,maximum_candidate_count
+high_dependency_linear_20,0.5125333333333334,1.0,0.5,5000,5000,7,13,20

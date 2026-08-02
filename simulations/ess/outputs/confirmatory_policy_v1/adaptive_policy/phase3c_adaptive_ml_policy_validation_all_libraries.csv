@@ -1,0 +1,5 @@
+library,policy,pool_size,rows_compared,maximum_absolute_p_value_difference,mean_absolute_p_value_difference
+high_dependency_linear_20,fixed_base,7,5000,0.014997000599880073,6.838632273570194e-06
+high_dependency_linear_20,fixed_full,20,5000,0.0075984803039392534,2.0395920816066292e-06
+mixed_realistic_20,fixed_base,7,5000,0.0005998800239951363,8.398320336263461e-07
+mixed_realistic_20,fixed_full,20,5000,0.00019996000799848979,2.79944011233863e-07

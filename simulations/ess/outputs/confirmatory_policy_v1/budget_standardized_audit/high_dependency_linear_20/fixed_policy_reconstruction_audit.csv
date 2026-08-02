@@ -1,0 +1,3 @@
+library,policy,pool_size,rows_compared,model_mismatch_count,score_difference_count_gt_1e12,p_difference_count_gt_1e12,p_difference_count_gt_1e4,maximum_absolute_p_value_difference,mean_absolute_p_value_difference,decision_mismatch_count_across_all_alphas
+high_dependency_linear_20,fixed_base,7,5000,2,0,86,86,0.014997000599880017,6.838632273545417e-06,0
+high_dependency_linear_20,fixed_full,20,5000,14,0,8,8,0.007598480303939198,2.039592081583666e-06,0

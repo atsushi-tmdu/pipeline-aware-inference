@@ -1,0 +1,31 @@
+library,policy,policy_label,local_alpha,evaluation_repetitions,naive_rejections,naive_rejection_probability,tess,expansion_rate,mean_evaluated_candidate_count
+mixed_realistic_20,fixed_base,Fixed base (K=7),0.2,5000,2912,0.5824,3.9133160571783945,0.0,7.0
+mixed_realistic_20,fixed_base,Fixed base (K=7),0.1,5000,1795,0.359,4.22099131999106,0.0,7.0
+mixed_realistic_20,fixed_base,Fixed base (K=7),0.05,5000,994,0.1988,4.321123800624308,0.0,7.0
+mixed_realistic_20,fixed_base,Fixed base (K=7),0.025,5000,563,0.1126,4.718395846569913,0.0,7.0
+mixed_realistic_20,fixed_base,Fixed base (K=7),0.01,5000,252,0.0504,5.145543038610192,0.0,7.0
+mixed_realistic_20,fixed_base,Fixed base (K=7),0.005,5000,157,0.0314,6.364744701611254,0.0,7.0
+mixed_realistic_20,fixed_full,Fixed full (K=20),0.2,5000,3702,0.7404,6.043702747444453,1.0,20.0
+mixed_realistic_20,fixed_full,Fixed full (K=20),0.1,5000,2530,0.506,6.693397022510016,1.0,20.0
+mixed_realistic_20,fixed_full,Fixed full (K=20),0.05,5000,1596,0.3192,7.495847289861186,1.0,20.0
+mixed_realistic_20,fixed_full,Fixed full (K=20),0.025,5000,960,0.192,8.420682414264759,1.0,20.0
+mixed_realistic_20,fixed_full,Fixed full (K=20),0.01,5000,472,0.0944,9.866095320453695,1.0,20.0
+mixed_realistic_20,fixed_full,Fixed full (K=20),0.005,5000,268,0.0536,10.990425268712643,1.0,20.0
+mixed_realistic_20,random_expansion,Random expansion,0.2,5000,3295,0.659,4.821438017644872,0.5008,13.5104
+mixed_realistic_20,random_expansion,Random expansion,0.1,5000,2157,0.4314,5.358535654844245,0.5008,13.5104
+mixed_realistic_20,random_expansion,Random expansion,0.05,5000,1291,0.2582,5.822897856198891,0.5008,13.5104
+mixed_realistic_20,random_expansion,Random expansion,0.025,5000,759,0.1518,6.502886112565821,0.5008,13.5104
+mixed_realistic_20,random_expansion,Random expansion,0.01,5000,358,0.0716,7.392051933863706,0.5008,13.5104
+mixed_realistic_20,random_expansion,Random expansion,0.005,5000,209,0.0418,8.518383693589563,0.5008,13.5104
+mixed_realistic_20,promising_triggered,Expand when promising,0.2,5000,2912,0.5824,3.9133160571783945,0.5034,13.5442
+mixed_realistic_20,promising_triggered,Expand when promising,0.1,5000,2127,0.4254,5.258906801827047,0.5034,13.5442
+mixed_realistic_20,promising_triggered,Expand when promising,0.05,5000,1445,0.289,6.649657684332337,0.5034,13.5442
+mixed_realistic_20,promising_triggered,Expand when promising,0.025,5000,896,0.1792,7.799877646918288,0.5034,13.5442
+mixed_realistic_20,promising_triggered,Expand when promising,0.01,5000,450,0.09,9.383833619687882,0.5034,13.5442
+mixed_realistic_20,promising_triggered,Expand when promising,0.005,5000,260,0.052,10.65343265093327,0.5034,13.5442
+mixed_realistic_20,rescue_triggered,Expand for rescue,0.2,5000,3702,0.7404,6.043702747444453,0.4966,13.4558
+mixed_realistic_20,rescue_triggered,Expand for rescue,0.1,5000,2198,0.4396,5.496408791316204,0.4966,13.4558
+mixed_realistic_20,rescue_triggered,Expand for rescue,0.05,5000,1145,0.229,5.070193063714167,0.4966,13.4558
+mixed_realistic_20,rescue_triggered,Expand for rescue,0.025,5000,627,0.1254,5.292268591596043,0.4966,13.4558
+mixed_realistic_20,rescue_triggered,Expand for rescue,0.01,5000,274,0.0548,5.607646798166394,0.4966,13.4558
+mixed_realistic_20,rescue_triggered,Expand for rescue,0.005,5000,165,0.033,6.694564296944919,0.4966,13.4558

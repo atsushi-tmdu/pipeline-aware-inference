@@ -1,0 +1,179 @@
+{
+  "study_id": "TESS_CONFIRMATORY_POLICY_V1",
+  "raw_bank_directory_name": "policy_v1_seed20260817",
+  "raw_bank_file_count": 33,
+  "raw_bank_total_size_bytes": 175915688,
+  "archive_filename": "tess_confirmatory_policy_v1_seed20260817.tar.gz",
+  "archive_size_bytes": 61058284,
+  "archive_sha256": "37ade2a39a6fff424fbf741b8e308af53c7a9ec429c9a97f977501b00098e154",
+  "analysis_code_commit": "ec9dd1cd0b7811c34de44366ded63461a68fac85",
+  "config_sha256": "ae58b6080bc4ae27a6e89e2545ebf7a0c8b9e12d96f3bc99012f3df03ccac1e8",
+  "current_repository_commit": "ec9dd1cd0b7811c34de44366ded63461a68fac85",
+  "files": [
+    {
+      "relative_path": "confirmatory_run_manifest.json",
+      "size_bytes": 1979,
+      "sha256": "f550fdcc4449fd3cc2692d958067efe486680e0e5a42093560325177320c0139"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/01_type1_error_roc_auc.png",
+      "size_bytes": 106622,
+      "sha256": "f242509c01fccda1fb9304dde1e3c59bcfdc6ead22ddc6740e3c2a1e0da58cf8"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/03_null_pvalue_ecdf_roc_auc.png",
+      "size_bytes": 111253,
+      "sha256": "dae88dfb9b7f2fce77316b66490bd46e8703e28d0d926c492b3838b85a4f86bd"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/04_naive_vs_pipeline_roc_auc.png",
+      "size_bytes": 82642,
+      "sha256": "e7824601732ffaed82e989e0c84dcc0c98ee1d6030b5a3498694058d49e8e89d"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/candidate_library_manifest.csv",
+      "size_bytes": 21040,
+      "sha256": "57e2a1febbe5b704cf43c4d9042259a52822adbfec1ec186f92b829edd8f761e"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/config.json",
+      "size_bytes": 1577,
+      "sha256": "3d77ab48726f58c3d18b82bc565d8860e9992c57a046cb7d89e504f9d6479966"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/environment.json",
+      "size_bytes": 254,
+      "sha256": "de310187493d16ee11375b4a5cc7f5cd0159c87a297beaa6d3bbd9e815397f11"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/evaluation_model_metrics.csv",
+      "size_bytes": 25744672,
+      "sha256": "c9d8595db2b0d188356314819c757f07fd67b991e16eac70d42c35bf85c7e787"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/independent_inference_results.csv",
+      "size_bytes": 19712543,
+      "sha256": "5d064668bdadad7a18510f9bcf7e0f66ab759dcb236a5216f699dd79ea598a8d"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/method_performance_summary.csv",
+      "size_bytes": 2339,
+      "sha256": "92e0cb2e8b800c9cf6c51c9afcc5108e4ba30737c246af3b609a65e66f19c6ec"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/null_reference_model_metrics.csv",
+      "size_bytes": 25640988,
+      "sha256": "88ec92a072e08861e8fe2b5072f66e6312b2a57bb4a133c3d134128264be2ccb"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/phase3c_metadata.json",
+      "size_bytes": 810,
+      "sha256": "f5f0a7a609c4ff3bb0e9f1b2273cd8d781e3fe1a6c3ff259fbb53c2c20f7d52c"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/power_summary.csv",
+      "size_bytes": 248,
+      "sha256": "feca66ed9afa1a9ef118a46ee7c95cf912a917a04cc64968cbefb09e6fff8481"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/run_complete.json",
+      "size_bytes": 154,
+      "sha256": "6555d7612ed9716c5947da21cb60e30fb29eac1a5adc0170716b443f397285c9"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/summary.txt",
+      "size_bytes": 1824,
+      "sha256": "e5db324a6a127753e3e64e59720cbfdafee608481a58c209707b8249f7b283c7"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3_quick_20260730_192937/type1_error_summary.csv",
+      "size_bytes": 2339,
+      "sha256": "92e0cb2e8b800c9cf6c51c9afcc5108e4ba30737c246af3b609a65e66f19c6ec"
+    },
+    {
+      "relative_path": "high_dependency_linear_20/pipeline_phase3c_high_dependency_linear_20_quick_20260730_192937.zip",
+      "size_bytes": 14559726,
+      "sha256": "7d1a1a2298d16560a0b230d6aa39341057bd6c304c63378ab873f8e67c80fdc3"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/01_type1_error_roc_auc.png",
+      "size_bytes": 103620,
+      "sha256": "08bc43a11c10042601ac36a2a63c30efcd74d4877a4cc472c516b45f5b03675a"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/03_null_pvalue_ecdf_roc_auc.png",
+      "size_bytes": 125155,
+      "sha256": "c4e534c0492f69977ef7c5f941d4bbceea665d61e33895d98e396ea2f59a9156"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/04_naive_vs_pipeline_roc_auc.png",
+      "size_bytes": 142622,
+      "sha256": "8265aeb1f6d115fcb72cec8ea992485b168d5ded889325098aca1c682873c473"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/candidate_library_manifest.csv",
+      "size_bytes": 14893,
+      "sha256": "6c1f82c64aab37df5c9f0e320c32dec0e8078cd6c59bc479f3e07471d81ec9b0"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/config.json",
+      "size_bytes": 1585,
+      "sha256": "e8fe3d9b4e668bee321eeddce19ce1751cc53cec2af5f6c6487db957db22bc3e"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/environment.json",
+      "size_bytes": 254,
+      "sha256": "de310187493d16ee11375b4a5cc7f5cd0159c87a297beaa6d3bbd9e815397f11"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/evaluation_model_metrics.csv",
+      "size_bytes": 26539566,
+      "sha256": "3f50cff5bf5ec235c4af93e2c3014352dfb617362eb327075df151c34b95d320"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/independent_inference_results.csv",
+      "size_bytes": 20568675,
+      "sha256": "accfd7496eb4bfe88c84e1f2921e2caf62c524c23befdab4edf34a1c127a604c"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/method_performance_summary.csv",
+      "size_bytes": 2330,
+      "sha256": "3b6655f9eabc4f0863e117dd6cf851c5aaff0bf920262d47af3a76346225a3ea"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/null_reference_model_metrics.csv",
+      "size_bytes": 26439740,
+      "sha256": "d0989d69a16cc12e7317224dd517f28ea4e82c12c98d41e90cc8b29cdde8410b"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/phase3c_metadata.json",
+      "size_bytes": 818,
+      "sha256": "bba94f3c2479de8f1589eefa944cb5e4a3ff5737681ecfec081ab986977c7d74"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/power_summary.csv",
+      "size_bytes": 248,
+      "sha256": "feca66ed9afa1a9ef118a46ee7c95cf912a917a04cc64968cbefb09e6fff8481"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/run_complete.json",
+      "size_bytes": 154,
+      "sha256": "eb468d2895e9d34ce1bf407f87c538aee375b8fcebf476e8395b71bf0531d330"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/summary.txt",
+      "size_bytes": 1825,
+      "sha256": "c21eb9a25241815d5dd86a3a195ddccc99334dd439d3731b54ecbe06816cbacf"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3_quick_20260730_202312/type1_error_summary.csv",
+      "size_bytes": 2330,
+      "sha256": "3b6655f9eabc4f0863e117dd6cf851c5aaff0bf920262d47af3a76346225a3ea"
+    },
+    {
+      "relative_path": "mixed_realistic_20/pipeline_phase3c_mixed_realistic_20_quick_20260730_202312.zip",
+      "size_bytes": 15980863,
+      "sha256": "fb8e22928d97432baa7bbe0dd7241b566466d444c8a2dc324afa99f21925f74f"
+    }
+  ]
+}
