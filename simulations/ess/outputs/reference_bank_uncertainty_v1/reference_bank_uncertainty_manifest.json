@@ -1,0 +1,106 @@
+{
+  "study_id": "TESS_REFERENCE_BANK_UNCERTAINTY_V1",
+  "analysis_label": "post hoc sensitivity",
+  "primary_adjudication_unchanged": true,
+  "completed_at_utc": "2026-08-02T05:24:45.455146+00:00",
+  "repo_git_commit": "b62229fa561a6cadaea1dec7d92b4cda51733fca",
+  "repo_git_branch": "ess-study",
+  "config_path": "configs/ess/reference_bank_uncertainty_v1.json",
+  "config_sha256": "a8c8d1293675f89187703d52b12aa0a59b99822712814ede5e2f47b8b279c500",
+  "source_run_dir": "/Users/atsushi/Developer/pipeline-aware-inference-clean-20260730/results_ess_confirmatory/policy_v1_seed20260817/mixed_realistic_20/pipeline_phase3_quick_20260730_202312",
+  "input_files": [
+    {
+      "path": "/Users/atsushi/Developer/pipeline-aware-inference-clean-20260730/results_ess_confirmatory/policy_v1_seed20260817/mixed_realistic_20/pipeline_phase3_quick_20260730_202312/candidate_library_manifest.csv",
+      "size_bytes": 14893,
+      "sha256": "6c1f82c64aab37df5c9f0e320c32dec0e8078cd6c59bc479f3e07471d81ec9b0"
+    },
+    {
+      "path": "/Users/atsushi/Developer/pipeline-aware-inference-clean-20260730/results_ess_confirmatory/policy_v1_seed20260817/mixed_realistic_20/pipeline_phase3_quick_20260730_202312/null_reference_model_metrics.csv",
+      "size_bytes": 26439740,
+      "sha256": "d0989d69a16cc12e7317224dd517f28ea4e82c12c98d41e90cc8b29cdde8410b"
+    },
+    {
+      "path": "/Users/atsushi/Developer/pipeline-aware-inference-clean-20260730/results_ess_confirmatory/policy_v1_seed20260817/mixed_realistic_20/pipeline_phase3_quick_20260730_202312/evaluation_model_metrics.csv",
+      "size_bytes": 26539566,
+      "sha256": "3f50cff5bf5ec235c4af93e2c3014352dfb617362eb327075df151c34b95d320"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "simulations/ess/outputs/reference_bank_uncertainty_v1/reference_bank_uncertainty_bootstrap_replicates.csv",
+      "size_bytes": 3399682,
+      "sha256": "d2e20c084779bce91597cbe27476522d88bc92a0273e3bd8a4afa4e66f0a27ce"
+    },
+    {
+      "path": "simulations/ess/outputs/reference_bank_uncertainty_v1/reference_bank_uncertainty_summary.csv",
+      "size_bytes": 1126,
+      "sha256": "edb06767aa1599945a038e2a192ff33306815a4f6740c4be274eb774aa05d45c"
+    },
+    {
+      "path": "simulations/ess/outputs/reference_bank_uncertainty_v1/reference_bank_uncertainty_summary.json",
+      "size_bytes": 1313,
+      "sha256": "fa9fc8b1bea46d0168648e45ca6af260062683c6a679189fb5b8dd5f437289b5"
+    },
+    {
+      "path": "simulations/ess/outputs/reference_bank_uncertainty_v1/REFERENCE_BANK_UNCERTAINTY_SENSITIVITY.md",
+      "size_bytes": 1128,
+      "sha256": "95373c2f416d4daafc5075fec40bc94acab2fee557f01ed31440567f43f3e524"
+    }
+  ],
+  "python": "3.13.7 (main, Sep 18 2025, 13:21:08) [Clang 17.0.0 (clang-1700.3.19.1)]",
+  "platform": "macOS-15.6.1-x86_64-i386-64bit-Mach-O",
+  "numpy": "2.5.1",
+  "pandas": "3.0.3",
+  "config": {
+    "study_id": "TESS_REFERENCE_BANK_UNCERTAINTY_V1",
+    "status": "post_hoc_sensitivity_locked_before_run",
+    "analysis_label": "post hoc sensitivity",
+    "primary_adjudication_unchanged": true,
+    "source_confirmatory_tag": "tess-confirmatory-policy-v1-final-20260802",
+    "source_confirmatory_commit": "8f79b5b",
+    "library": "mixed_realistic_20",
+    "alpha": 0.05,
+    "estimand": "TESS_promising_minus_budget_matched_random",
+    "reference_repetitions": 5000,
+    "evaluation_repetitions": 5000,
+    "bootstrap_repetitions": 20000,
+    "bootstrap_seed": 20260829,
+    "checkpoint_every": 250,
+    "target_expansion_probability": 0.5,
+    "policy_random_seed": 20260819,
+    "target_auc": 0.5,
+    "selection_event_count": 100,
+    "feature_selection": "none",
+    "expected_locked_point_estimate": 0.7949499185,
+    "point_estimate_tolerance": 1e-08,
+    "confidence_interval": "two-sided percentile 95%",
+    "resampling_units": {
+      "reference_bank": "complete replication ID; all 20 candidate scores receive one shared integer bootstrap weight",
+      "evaluation_bank": "complete replication ID; all policy quantities receive one shared integer bootstrap weight"
+    },
+    "recalibrated_within_each_bootstrap": [
+      "candidate-specific plus-one empirical p-value mappings",
+      "promising trigger threshold",
+      "trigger tie probability",
+      "promising activation",
+      "budget-matched random rejection probability",
+      "TESS contrast"
+    ],
+    "sensitivity_interpretation": {
+      "ROBUST": "two-bank percentile 95% CI lower bound > 0",
+      "INCONCLUSIVE_SENSITIVITY": "two-bank percentile 95% CI includes or crosses 0; locked primary remains CONFIRMED"
+    },
+    "prohibited_changes_after_lock": [
+      "library",
+      "alpha",
+      "estimand",
+      "bootstrap repetitions",
+      "bootstrap seed",
+      "resampling units",
+      "candidate order",
+      "base/optional split",
+      "trigger rule",
+      "failed-fit rule"
+    ]
+  }
+}
