@@ -1,0 +1,60 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white", margin=0.15, nodesep=0.45, ranksep=0.65, fontname="Helvetica"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, margin="0.14,0.10", color="#52657a", penwidth=1.1];
+  edge [color="#6c7a89", penwidth=1.2, arrowsize=0.7];
+
+  P1 [label="Proposition 1\nSearch-size characterization", fillcolor="#eaf2f8"];
+  R1 [label="Fixed-family bridge\nCopula / extremal coefficient", fillcolor="#f5f5f5"];
+
+  A1 [label="Theorem 1\nPolicy representation\nand sharp envelope", fillcolor="#d9ead3"];
+  A2 [label="Corollary\nIdentifiability iff m_alpha is constant", fillcolor="#d9ead3"];
+  A3 [label="Corollary\nExpected budget does not bound\ndeep-tail search size", fillcolor="#d9ead3"];
+
+  B1 [label="Theorem 2\nRank coherence and\nsimultaneous optimality", fillcolor="#fff2cc"];
+  B2 [label="Theorem 3\nSame-law, same-budget\ncurve reversal", fillcolor="#fff2cc"];
+
+  D2 [label="Theorem 4\nEstimated-trigger\ntwo-bank inference", fillcolor="#cfe2f3"];
+  D4 [label="Theorem 5 (next)\nPaired budget-matched\nTESS contrast", fillcolor="#f4cccc", color="#a61c00", penwidth=1.6];
+
+  E [label="Locked empirical illustration\nPromising vs random vs rescue", fillcolor="#eadcf8"];
+  M [label="Unified top-tier manuscript", shape=ellipse, fillcolor="#d9d2e9", color="#674ea7", penwidth=1.8, fontsize=11];
+
+  P1 -> A1;
+  R1 -> A1 [style=dashed];
+  A1 -> A2;
+  A1 -> A3;
+  A1 -> B1;
+  A1 -> B2;
+  A1 -> D4;
+  D2 -> D4;
+  B1 -> E [style=dashed];
+  B2 -> E [style=dashed];
+  D4 -> E;
+  P1 -> M;
+  A2 -> M;
+  A3 -> M;
+  B1 -> M;
+  B2 -> M;
+  D2 -> M;
+  D4 -> M;
+  E -> M;
+
+  subgraph cluster_foundation {
+    label="Scale and fixed-family context";
+    color="#ccd6dd";
+    style="rounded,dashed";
+    P1; R1;
+  }
+  subgraph cluster_structure {
+    label="Adaptive-policy structure";
+    color="#b6d7a8";
+    style="rounded,dashed";
+    A1; A2; A3; B1; B2;
+  }
+  subgraph cluster_inference {
+    label="Two-bank inference";
+    color="#9fc5e8";
+    style="rounded,dashed";
+    D2; D4;
+  }
+}

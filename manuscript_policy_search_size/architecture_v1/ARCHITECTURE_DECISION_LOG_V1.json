@@ -1,0 +1,25 @@
+{
+  "architecture_version": "1.0",
+  "date": "2026-08-02",
+  "theory_branch": "tess-top-tier-theory",
+  "theory_head": "38daf14",
+  "recommended_title": "Inferential Search Size of Adaptive Statistical Policies",
+  "first_target": "Biometrika",
+  "second_target": "JRSS-B",
+  "next_work_package": "D4 paired two-bank inference for the budget-matched TESS contrast",
+  "d3_decision": "defer until a complete typeset manuscript shows it is necessary",
+  "publication_model": "one unified theory-first paper; empirical v2 retained as fallback and not submitted concurrently",
+  "central_claim": "Fixed candidate laws and expected candidate-count budgets do not identify adaptive-policy inferential burden; threshold-indexed activation/incremental-rejection coupling is required.",
+  "mandatory_pre_submission_items": [
+    "D4 paired policy-contrast theorem and validation",
+    "exact plus-one/order-statistic bridge",
+    "rank-coherence proof audit",
+    "curve-crossing scope repair",
+    "frozen-output signed gain/loss extraction",
+    "focused novelty audit",
+    "independent mathematical review"
+  ],
+  "d1_status": "REVIEW - first-order theory supported; basic interval not uniformly validated",
+  "d2_status": "PASS - estimated-trigger regular two-bank theory validated",
+  "stop_rule": "Do not add D3 before D4 and a complete Biometrika-length draft unless a clear inferential gap remains."
+}

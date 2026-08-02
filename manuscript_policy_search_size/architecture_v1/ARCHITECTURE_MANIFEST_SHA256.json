@@ -1,0 +1,71 @@
+{
+  "architecture_version": "1.0",
+  "asset_set": "TOP_TIER_MANUSCRIPT_ARCHITECTURE_V1",
+  "file_count": 12,
+  "files": [
+    {
+      "file": "ARCHITECTURE_DECISION_LOG_V1.json",
+      "sha256": "0337ab37e50b7ac69ced8c81becdc40d28c2c71598ea2d86764dd47ea762dffe",
+      "size_bytes": 1402
+    },
+    {
+      "file": "D4_MINIMUM_THEOREM_SPECIFICATION_V1.md",
+      "sha256": "f19292c9dfcd968e3aa41546a85c7e4f4642080d4764f0881eeb772aa672853a",
+      "size_bytes": 4111
+    },
+    {
+      "file": "README.md",
+      "sha256": "f18c24fc4e8eab074c5dbfef9b5edd9f4974129032d10f36d1ca5cd39cf5f67b",
+      "size_bytes": 1133
+    },
+    {
+      "file": "SOURCE_AND_SCOPE_NOTES_V1.md",
+      "sha256": "5910ea9a410dc86c9099e0c3915dfe975d04ed179e17690232a2c8bd09f524bf",
+      "size_bytes": 1534
+    },
+    {
+      "file": "THEOREM_DEPENDENCY_MAP_V1.dot",
+      "sha256": "4e93d7a1b614b4e0e490baf4e72825195874a90cadb7c24b28ec46ecc1de7618",
+      "size_bytes": 2041
+    },
+    {
+      "file": "THEOREM_DEPENDENCY_MAP_V1.pdf",
+      "sha256": "7e0f9c1df8d3520b9d2419c038135ac272c6144c05534247476679190073c0a2",
+      "size_bytes": 19076
+    },
+    {
+      "file": "THEOREM_DEPENDENCY_MAP_V1.png",
+      "sha256": "8d544cf1c322c428eeb47d3b91258f9a3c0a004da38eef8850c86aaa8ef3047f",
+      "size_bytes": 443743
+    },
+    {
+      "file": "THEOREM_DEPENDENCY_MAP_V1.svg",
+      "sha256": "c7e8fd5231b686776b645947e7939f44f5476a60f1283567d353dd3a4bb5f93a",
+      "size_bytes": 17495
+    },
+    {
+      "file": "TOP_TIER_MANUSCRIPT_ARCHITECTURE_V1.docx",
+      "sha256": "96d140c8b2ef27e3688f65a98001479394ed8d813d410b44f05ee51ec06bc4c5",
+      "size_bytes": 447215
+    },
+    {
+      "file": "TOP_TIER_MANUSCRIPT_ARCHITECTURE_V1.md",
+      "sha256": "7cc80c2e13ba37f5b3457641eaad9d3d68d25199e122296d2fadd55d4fbf0a7f",
+      "size_bytes": 32557
+    },
+    {
+      "file": "TOP_TIER_MANUSCRIPT_ARCHITECTURE_V1.pdf",
+      "sha256": "9e340f7bb4f94ef2d567dba97a52d7c4e409f15c80cf5293f825fd82ec243150",
+      "size_bytes": 526224
+    },
+    {
+      "file": "TOP_TIER_MANUSCRIPT_SKELETON_V1.tex",
+      "sha256": "785202441e16c5e007b128ec06ae9464f8f67dccd79f39318a69a3905eb745bc",
+      "size_bytes": 4787
+    }
+  ],
+  "source_bundle_sha256": "f57bbfb651ec509b5e42ccf598c0c2998eb771e4ab0334b4cad105100255fe09",
+  "source_d2_tag": "tess-theory-work-package-d2-v1-results-final-20260802",
+  "source_theory_branch": "tess-top-tier-theory",
+  "source_theory_head": "38daf14"
+}

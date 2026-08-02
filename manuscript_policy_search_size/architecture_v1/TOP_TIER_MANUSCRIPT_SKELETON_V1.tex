@@ -1,0 +1,134 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,graphicx,xcolor,hyperref}
+\usepackage{microtype}
+\usepackage[numbers,sort&compress]{natbib}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Pzero}{\mathbb P_0}
+\newcommand{\Ezero}{\mathbb E_0}
+\newcommand{\TESS}{\operatorname{TESS}}
+\newcommand{\ind}{\mathbbm{1}}
+
+\title{Inferential Search Size of Adaptive Statistical Policies}
+\author{Atsushi Senda}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+% 150--200 words. Lead with non-identifiability, then sharp policy calculus,
+% threshold coherence/reversal, two-bank inference, and the locked illustration.
+\end{abstract}
+
+\section{Introduction}
+% Adaptive candidate sets; missing policy layer; relation to fixed-family
+% effective numbers, data snooping, post-selection and valid adaptive testing.
+% State contributions in one paragraph.
+
+\section{Policy-level inferential search size}
+\subsection{Definition and characterization}
+For a declared policy $\mathcal A$ under global-null law $P_0$, define
+\[
+\pi_{\mathcal A}(\alpha)=\Pzero\{P_{\mathcal A}<\alpha\},\qquad
+S_{\mathcal A}(\alpha)=
+\frac{\log\{1-\pi_{\mathcal A}(\alpha)\}}{\log(1-\alpha)}.
+\]
+
+\begin{proposition}[Independent-composition characterization]
+% State null-law invariance, independent-union additivity, continuity,
+% exact-single normalization.
+\end{proposition}
+
+\subsection{Fixed-family bridge}
+\begin{remark}[Copula diagonal and extremal coefficient]
+% Keep short; explicitly state prior-art boundary.
+\end{remark}
+
+\section{Adaptive-policy representation and sharp envelopes}
+Let $R_0(\alpha)$ and $R_1(\alpha)$ denote counterfactual base and
+expanded rejection indicators, $D_\alpha=R_1(\alpha)-R_0(\alpha)$,
+and let $S$ contain activation-time information. For activation kernel
+$a(S)\in[0,1]$, define $m_\alpha(S)=\Ezero(D_\alpha\mid S)$.
+
+\begin{theorem}[Policy representation and sharp same-budget envelope]
+% pi_a = pi_0 + E[a m]; upper/lower integrated quantiles at fixed rate r.
+\end{theorem}
+
+\begin{corollary}[Identifiability]
+% Same candidate law and activation rate identify rejection burden iff m is a.s. constant.
+\end{corollary}
+
+\begin{corollary}[Expected-budget insufficiency]
+% Fixed expected candidate count does not upper-bound deep-tail search size.
+\end{corollary}
+
+\section{Threshold coherence and policy reversal}
+\begin{definition}[Rank coherence]
+% Formal definition with separability/common-version conditions.
+\end{definition}
+
+\begin{theorem}[Common-rank simultaneous optimality]
+% One rank ordering is optimal over alpha interval and all rates.
+\end{theorem}
+
+\begin{theorem}[Same-law, same-budget curve reversal]
+% State either for a general branch-output policy or provide a nested-expansion construction.
+\end{theorem}
+
+\section{Two-bank inference}
+\subsection{Population and finite-reference targets}
+% Distinguish population-calibrated, conditional finite-reference, and
+% unconditional two-bank sampling targets.
+
+\subsection{Estimated-trigger expansion}
+\begin{theorem}[Estimated-trigger two-bank asymptotic linearity]
+% Reference IF: a0 W0 + b1 W1 + dU WU; evaluation IF; asymptotic normality.
+\end{theorem}
+
+\begin{theorem}[Complete-replication two-bank bootstrap]
+% State bootstrap consistency and TESS delta-method result.
+\end{theorem}
+
+\subsection{Paired budget-matched policy contrast}
+Let $e_0=E(R_0)$, $r=E(A)$, $\mu=E(D)$ and $\nu=E(AD)$. Then
+\[
+\pi_A=e_0+\nu,\qquad
+\pi_C=e_0+r\mu,\qquad
+\nu-r\mu=\operatorname{Cov}(A,D).
+\]
+
+\begin{theorem}[Paired budget-matched TESS contrast]
+% D4 target: joint evaluation/reference IF and paired bootstrap validity.
+\end{theorem}
+
+\subsection{Finite-reference and plus-one bridge}
+\begin{lemma}[Strict plus-one rejection as an order-statistic event]
+% Exact integer rounding, no-tie form, and first-order equivalence regime.
+\end{lemma}
+
+\section{Locked machine-learning illustration}
+% One compact design paragraph; primary contrast; rescue reversal; signed
+% mechanism; two-bank sensitivity. SUPPORT2 is brief here and detailed in supplement.
+
+\section{Discussion}
+% Coupling property, expected-budget impossibility, threshold non-orderability,
+% diagnostic vs error control, regular model vs exact pipeline, reporting implications.
+
+\section*{Supplementary material}
+% Full proofs, D1/D2 validation, cost/FOSD/weighted extensions, empirical details,
+% SUPPORT2, manifests, software and archive provenance.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}
