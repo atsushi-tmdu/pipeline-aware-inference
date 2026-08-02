@@ -43,3 +43,6 @@ results_phase3c/
 .RData
 
 results_ess_confirmatory/
+data/support2/support2_analysis_v1.csv
+data/support2/support2_source_archive_v1.zip
+results_ess_support2/

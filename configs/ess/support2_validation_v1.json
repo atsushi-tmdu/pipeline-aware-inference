@@ -1,0 +1,334 @@
+{
+  "adaptive_policy": {
+    "base_candidate_count": 7,
+    "full_candidate_count": 20,
+    "policies": [
+      "fixed_base",
+      "fixed_full",
+      "random_expansion",
+      "promising_triggered",
+      "rescue_triggered"
+    ],
+    "policy_seed": 20260911,
+    "target_expansion_probability": 0.5,
+    "trigger_statistic": "maximum selection ROC AUC among the first 7 candidates"
+  },
+  "candidate_library": [
+    {
+      "base": true,
+      "family": "logistic",
+      "name": "logistic_l2_c0p01",
+      "order": 1,
+      "params": {
+        "C": 0.01,
+        "penalty": "l2"
+      }
+    },
+    {
+      "base": true,
+      "family": "logistic",
+      "name": "logistic_l2_c0p03",
+      "order": 2,
+      "params": {
+        "C": 0.03,
+        "penalty": "l2"
+      }
+    },
+    {
+      "base": true,
+      "family": "logistic",
+      "name": "logistic_l2_c0p1",
+      "order": 3,
+      "params": {
+        "C": 0.1,
+        "penalty": "l2"
+      }
+    },
+    {
+      "base": true,
+      "family": "logistic",
+      "name": "logistic_l2_c0p3",
+      "order": 4,
+      "params": {
+        "C": 0.3,
+        "penalty": "l2"
+      }
+    },
+    {
+      "base": true,
+      "family": "logistic",
+      "name": "logistic_l2_c1",
+      "order": 5,
+      "params": {
+        "C": 1.0,
+        "penalty": "l2"
+      }
+    },
+    {
+      "base": true,
+      "family": "logistic",
+      "name": "logistic_l1_c0p1",
+      "order": 6,
+      "params": {
+        "C": 0.1,
+        "penalty": "l1"
+      }
+    },
+    {
+      "base": true,
+      "family": "linear_svm",
+      "name": "linear_svm_c0p1",
+      "order": 7,
+      "params": {
+        "C": 0.1
+      }
+    },
+    {
+      "base": false,
+      "family": "logistic",
+      "name": "logistic_l1_c1",
+      "order": 8,
+      "params": {
+        "C": 1.0,
+        "penalty": "l1"
+      }
+    },
+    {
+      "base": false,
+      "family": "linear_svm",
+      "name": "linear_svm_c1",
+      "order": 9,
+      "params": {
+        "C": 1.0
+      }
+    },
+    {
+      "base": false,
+      "family": "linear_svm",
+      "name": "linear_svm_c10",
+      "order": 10,
+      "params": {
+        "C": 10.0
+      }
+    },
+    {
+      "base": false,
+      "family": "rbf_svm",
+      "name": "rbf_svm_c0p3",
+      "order": 11,
+      "params": {
+        "C": 0.3
+      }
+    },
+    {
+      "base": false,
+      "family": "rbf_svm",
+      "name": "rbf_svm_c1",
+      "order": 12,
+      "params": {
+        "C": 1.0
+      }
+    },
+    {
+      "base": false,
+      "family": "rbf_svm",
+      "name": "rbf_svm_c3",
+      "order": 13,
+      "params": {
+        "C": 3.0
+      }
+    },
+    {
+      "base": false,
+      "family": "decision_tree",
+      "name": "decision_tree_depth2",
+      "order": 14,
+      "params": {
+        "max_depth": 2
+      }
+    },
+    {
+      "base": false,
+      "family": "decision_tree",
+      "name": "decision_tree_depth4",
+      "order": 15,
+      "params": {
+        "max_depth": 4
+      }
+    },
+    {
+      "base": false,
+      "family": "random_forest",
+      "name": "random_forest_depth3",
+      "order": 16,
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5,
+        "n_estimators": 50
+      }
+    },
+    {
+      "base": false,
+      "family": "extra_trees",
+      "name": "extra_trees_depth3",
+      "order": 17,
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5,
+        "n_estimators": 50
+      }
+    },
+    {
+      "base": false,
+      "family": "gradient_boosting",
+      "name": "gradient_boosting_stumps",
+      "order": 18,
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 1,
+        "n_estimators": 50
+      }
+    },
+    {
+      "base": false,
+      "family": "gaussian_nb",
+      "name": "gaussian_nb",
+      "order": 19,
+      "params": {
+        "var_smoothing": 1e-09
+      }
+    },
+    {
+      "base": false,
+      "family": "knn",
+      "name": "knn_k25_distance",
+      "order": 20,
+      "params": {
+        "n_neighbors": 25,
+        "weights": "distance"
+      }
+    }
+  ],
+  "data": {
+    "categorical_predictors": [
+      "sex",
+      "dzgroup",
+      "ca",
+      "diabetes",
+      "dementia"
+    ],
+    "dataset": "SUPPORT2",
+    "excluded_variables": {
+      "not_selected_for_parsimony": [
+        "edu",
+        "income",
+        "race",
+        "hday",
+        "dzclass",
+        "adlp",
+        "adls",
+        "adlsc"
+      ],
+      "outcomes_or_postbaseline": [
+        "death",
+        "slos",
+        "d.time",
+        "charges",
+        "totcst",
+        "totmcst",
+        "avtisst",
+        "sfdm2"
+      ],
+      "physician_or_treatment_decisions": [
+        "prg2m",
+        "prg6m",
+        "dnr",
+        "dnrday"
+      ],
+      "prior_prognostic_scores": [
+        "aps",
+        "sps",
+        "surv2m",
+        "surv6m"
+      ]
+    },
+    "expected_rows": 9105,
+    "fallback_uci_id": 880,
+    "numeric_predictors": [
+      "age",
+      "num.co",
+      "scoma",
+      "meanbp",
+      "wblc",
+      "hrt",
+      "resp",
+      "temp",
+      "pafi",
+      "alb",
+      "bili",
+      "crea",
+      "sod",
+      "ph",
+      "glucose",
+      "bun",
+      "urine"
+    ],
+    "outcome": "hospdead",
+    "primary_source_url": "https://hbiostat.org/data/repo/support2csv.zip"
+  },
+  "design": {
+    "conditional_on_fixed_covariates": true,
+    "evaluation_repetitions": 5000,
+    "evaluation_seed": 20260907,
+    "fixed_split": true,
+    "n_selection": 2000,
+    "n_train": 500,
+    "permutation_scheme": "permute hospdead separately within fixed training and selection sets, preserving event counts",
+    "reference_repetitions": 3000,
+    "reference_seed": 20260903,
+    "split_seed": 20260901
+  },
+  "failed_fit_rule": "retain candidate with selection ROC AUC set to 0.5; report every failure; no candidate deletion or replacement after lock",
+  "inference": {
+    "bootstrap_repetitions": 20000,
+    "bootstrap_seed": 20260913,
+    "interpretation": "supplementary support only; does not alter the already confirmed primary simulation",
+    "primary_alpha": 0.05,
+    "primary_estimand": "TESS_promising_minus_budget_matched_random_at_alpha_0.05",
+    "reported_curve_alphas": [
+      0.2,
+      0.1,
+      0.05,
+      0.025,
+      0.01,
+      0.005
+    ],
+    "secondary_alphas": [
+      0.1,
+      0.025,
+      0.01
+    ],
+    "supportive_rule": "paired-bootstrap two-sided 95% CI lower bound > 0"
+  },
+  "preprocessing": {
+    "categorical": "training-set most-frequent imputation and one-hot encoding",
+    "feature_selection": "none",
+    "fit_once_because_outcome_independent": true,
+    "numeric": "training-set median imputation with missingness indicators, then standardization"
+  },
+  "prohibited_changes_after_lock": [
+    "data predictors or exclusions",
+    "fixed split",
+    "seeds",
+    "repetition counts",
+    "candidate order or hyperparameters",
+    "base/extra split",
+    "primary alpha",
+    "primary estimand",
+    "supportive rule",
+    "failed-fit rule"
+  ],
+  "role_in_manuscript": "real-data-anchored global-null supplementary validation",
+  "status": "locked_supplementary_validation",
+  "study_id": "TESS_SUPPORT2_VALIDATION_V1"
+}
