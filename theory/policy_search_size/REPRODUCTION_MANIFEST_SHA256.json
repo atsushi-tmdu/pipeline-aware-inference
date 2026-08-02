@@ -1,0 +1,145 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "sha256": "98afd06286908af8f00fb07c1b8bfb37611a5bf3ec959de5e7ed8cd5be017fe0",
+      "size_bytes": 1939
+    },
+    {
+      "file": "make_manifest.py",
+      "sha256": "c05a6f160eb9a467fb0ff25756edf53f4a41a75f27d43145549ceaa913cebd3f",
+      "size_bytes": 1201
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "de670d2176ad6e71244cb4525c98d2c5fce62bb136de29efee5e9916b3dc9feb",
+      "size_bytes": 24
+    },
+    {
+      "file": "run_all.sh",
+      "sha256": "7f89b858d8817d287172a0fd2d9ff9cc82049dc15eadd73a9324ecd5899ec6a3",
+      "size_bytes": 372
+    },
+    {
+      "file": "work_package_a/README.md",
+      "sha256": "90d5ec59f3b1fe412deacc09b7a20c14c354989cf4ce45297bdb48aafaf78adb",
+      "size_bytes": 233
+    },
+    {
+      "file": "work_package_a/THEORY_MEMO.md",
+      "sha256": "318ed31e4a8540ff0019e04cf0f21f03b6c203ac5f4f88c0f8a7298374ccfcfc",
+      "size_bytes": 23040
+    },
+    {
+      "file": "work_package_a/results/ENVIRONMENT.json",
+      "sha256": "f72e748c8cde46a26b9f60b0998980145f3b1878a47bb8577029e7a57b718273",
+      "size_bytes": 265
+    },
+    {
+      "file": "work_package_a/results/VALIDATION_SUMMARY.json",
+      "sha256": "ca0712576e865f26b446108d7aa3cd4cbad45c18595680fd9fb1a83b5ee537ce",
+      "size_bytes": 195
+    },
+    {
+      "file": "work_package_a/results/WORK_PACKAGE_A_FIXED_BUDGET_DIVERGENCE.csv",
+      "sha256": "83395f3d654387d40537dbb84c7414787f26037d1ed456b8da611d15033b8995",
+      "size_bytes": 290
+    },
+    {
+      "file": "work_package_a/results/WORK_PACKAGE_A_SHARP_ENVELOPES.pdf",
+      "sha256": "69fb2318359a9387de4f0bf3c3b78a0e86012c99167fa75e647c5752e8d7867e",
+      "size_bytes": 19964
+    },
+    {
+      "file": "work_package_a/results/WORK_PACKAGE_A_SHARP_ENVELOPES.png",
+      "sha256": "30fa96c3fe9e82b388f0389bec1c28c141d7c1358bfbe651dd4890a55480ba22",
+      "size_bytes": 248641
+    },
+    {
+      "file": "work_package_a/results/WORK_PACKAGE_A_TWO_CANDIDATE_ENVELOPE_CHECK.csv",
+      "sha256": "320e6e9ea7ed5edfab54cf90aee9fdc6d33254d708a02573fe6c92e7cf128862",
+      "size_bytes": 874
+    },
+    {
+      "file": "work_package_a/verify.py",
+      "sha256": "2436c16415327ab9198dd21ed7ffdae6fd2381329429e15ed1ecac1aa77596ea",
+      "size_bytes": 7229
+    },
+    {
+      "file": "work_package_b/README.md",
+      "sha256": "a35b56cb2aa9d7316b40ab78bf7bc572d1ecb0cf6752dabffe577befd8899a5a",
+      "size_bytes": 231
+    },
+    {
+      "file": "work_package_b/THEORY_MEMO.md",
+      "sha256": "f7d4ebbcb799f6a11956f854a6f9aff2e40d1ec1d9f63b6bc4cac1ea5dc732d2",
+      "size_bytes": 23366
+    },
+    {
+      "file": "work_package_b/results/ENVIRONMENT.json",
+      "sha256": "d079d7a9a77c87057dc0e623bf5382a19c7f1126b75aacc49015a9ae49835139",
+      "size_bytes": 264
+    },
+    {
+      "file": "work_package_b/results/VALIDATION_SUMMARY.json",
+      "sha256": "625882c6e086be687571d1a706982fd2b8d28e4260863f09ca5332f62119c974",
+      "size_bytes": 291
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_ARBITRARY_CROSSING_EXACT.csv",
+      "sha256": "28ffde5325615e37d483c80923058e33b92caf9442cad7b6868d2581a3aa935c",
+      "size_bytes": 31708
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_ARBITRARY_CROSSING_PREMIUM.pdf",
+      "sha256": "427fb8fe6d52a4ffc3c9e407effad762b94e37be17b7d84a227e424c25ea5dc3",
+      "size_bytes": 15845
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_ARBITRARY_CROSSING_PREMIUM.png",
+      "sha256": "3e5aaf1dddcc473e671b045212690e76dbcaa51721eb381632e1502d21b58f97",
+      "size_bytes": 162505
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_COHERENT_ORDERING.csv",
+      "sha256": "291ccee395e9a19a67c6df5ee5bf50d84356f1114ae1d9f82d45b8eab658d603",
+      "size_bytes": 14728
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_COHERENT_POLICY_TESS_CURVES.pdf",
+      "sha256": "46e0a817ef852fc84be9ea9fc5bb5503af123b39c031822cd80662fcae8aea45",
+      "size_bytes": 18923
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_COHERENT_POLICY_TESS_CURVES.png",
+      "sha256": "a602aeb4cc9b4496fd4aaf9428472002cbb6edee05ad4aa96a4c19772ed99980",
+      "size_bytes": 124821
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_SINGLE_CROSSING_EXACT.csv",
+      "sha256": "918b3772ad2f972675390c7fca14c6307c932161109a971f19ba44214f5f8013",
+      "size_bytes": 30282
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_SINGLE_CROSSING_MONTE_CARLO_CHECK.csv",
+      "sha256": "1ea7d44c6ab903b1dfacd2a78aa6e952135d60b63f3bf31c06c3bbb51dc874c2",
+      "size_bytes": 1765
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_SINGLE_CROSSING_TESS_CURVES.pdf",
+      "sha256": "b70f403c98d086e3115517eb33cb92314ce31954b73bea96da7599a836094939",
+      "size_bytes": 18062
+    },
+    {
+      "file": "work_package_b/results/WORK_PACKAGE_B_SINGLE_CROSSING_TESS_CURVES.png",
+      "sha256": "c35489131eda943d1870e790edd51b1f9b0fcf522c26ace3d76b1ef952a735fd",
+      "size_bytes": 181316
+    },
+    {
+      "file": "work_package_b/verify.py",
+      "sha256": "ec5bae2814ca360a26991dcd7ca9788543cd1d926e9e6683ce5f12d17eac9794",
+      "size_bytes": 12268
+    }
+  ],
+  "root": "theory/policy_search_size"
+}
