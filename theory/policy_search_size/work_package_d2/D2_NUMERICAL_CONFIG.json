@@ -1,0 +1,145 @@
+{
+  "activation_rate": 0.5,
+  "alphas": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "analysis_label": "scientific numerical validation of D2 estimated-trigger two-bank theory",
+  "bootstrap_repetitions": 999,
+  "chunk_size": 25,
+  "confidence_level": 0.95,
+  "data_generating_laws": [
+    {
+      "name": "independent_normal"
+    },
+    {
+      "name": "gaussian_factor",
+      "rho0": 0.6,
+      "rho1": 0.75
+    },
+    {
+      "name": "nonlinear_smooth",
+      "peak_amplitude": 2.0,
+      "rho0": 0.55,
+      "sigma1": 0.45
+    }
+  ],
+  "designs": [
+    {
+      "B": 500,
+      "n": 500
+    },
+    {
+      "B": 1000,
+      "n": 1000
+    },
+    {
+      "B": 3000,
+      "n": 3000
+    },
+    {
+      "B": 3000,
+      "n": 5000
+    }
+  ],
+  "interpretation": {
+    "FAIL": "a fatal code-integrity, benchmark, nonfinite-output, or manifest check fails",
+    "PASS": "all prespecified primary and main-regime scientific checks pass",
+    "REVIEW": "one or more scientific agreement checks fail and require transparent inspection"
+  },
+  "main_regime": {
+    "minimum_B": 3000
+  },
+  "master_seed": 20261017,
+  "n_jobs": 24,
+  "outer_repetitions": 3000,
+  "parent_protocol_tag": "tess-theory-work-package-d0-v1-lock-20260802",
+  "preceding_results_tag": "tess-theory-work-package-d1-v1-results-review-20260802",
+  "primary_cells": {
+    "alpha": 0.05,
+    "designs": [
+      {
+        "B": 3000,
+        "n": 3000
+      },
+      {
+        "B": 3000,
+        "n": 5000
+      }
+    ],
+    "dgp_names": [
+      "independent_normal",
+      "gaussian_factor",
+      "nonlinear_smooth"
+    ]
+  },
+  "primary_interval": "centered complete-replication two-bank bootstrap-normal interval",
+  "prohibited_changes_after_lock": [
+    "data-generating laws or parameters",
+    "activation rate",
+    "alpha grid",
+    "B/n design grid",
+    "outer repetitions",
+    "bootstrap repetitions",
+    "master seed",
+    "quantile convention",
+    "primary interval",
+    "success criteria"
+  ],
+  "quadrature": {
+    "epsabs": 1e-10,
+    "epsrel": 1e-10,
+    "limit": 300
+  },
+  "required_lock_tag": "tess-theory-work-package-d2-v1-lock-20260802",
+  "secondary_intervals": [
+    "oracle influence-function normal",
+    "bootstrap percentile",
+    "bootstrap basic diagnostic",
+    "evaluation-only oracle normal diagnostic"
+  ],
+  "status": "locked_before_run",
+  "stress_regime": {
+    "maximum_B": 1000
+  },
+  "study_id": "TESS_THEORY_D2_NUMERICAL_VALIDATION_V1",
+  "success_criteria": {
+    "global_diagnostics": {
+      "evaluation_only_coverage_below": 0.93,
+      "minimum_bootstrap_normal_improvement": 0.01,
+      "minimum_evaluation_only_cells_below": 1,
+      "minimum_improved_cells": 6
+    },
+    "main": {
+      "bootstrap_sd_ratio": [
+        0.8,
+        1.2
+      ],
+      "coverage": [
+        0.91,
+        0.99
+      ],
+      "empirical_variance_ratio": [
+        0.8,
+        1.2
+      ],
+      "maximum_standardized_bias": 0.2
+    },
+    "primary": {
+      "bootstrap_sd_ratio": [
+        0.88,
+        1.12
+      ],
+      "coverage": [
+        0.93,
+        0.97
+      ],
+      "empirical_variance_ratio": [
+        0.88,
+        1.12
+      ],
+      "maximum_standardized_bias": 0.12
+    }
+  }
+}

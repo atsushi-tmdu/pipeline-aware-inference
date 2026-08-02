@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+preflight_output/
+outputs/
+LOCAL_*.txt
+D2_FULL_RUN_LOG.txt

@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "file": "D2_THEORY_MEMO.md",
+      "sha256": "404390aa5d531f243d4f89e9a67f87ef66a759893f3b23a206fd61b4156a7f1d",
+      "size_bytes": 22669
+    },
+    {
+      "file": "d2_core.py",
+      "sha256": "77367aae21e1e0639e7dd9d8aa90bc23998cd81e85d2b2edaa225b076ccdd8b9",
+      "size_bytes": 6185
+    },
+    {
+      "file": "D2_RUNTIME_PREFLIGHT.py",
+      "sha256": "c5593f7f7cb41064192b3591298f279e75720a1571ee8299b744ef24e68cb6ca",
+      "size_bytes": 4560
+    },
+    {
+      "file": "D2_PREFLIGHT_CONFIG.json",
+      "sha256": "c7289d71a3719e549dc4cc9bf779a8a9c568360d83b41f14676e31949cbc4c1e",
+      "size_bytes": 518
+    },
+    {
+      "file": "D2_NUMERICAL_PROTOCOL.md",
+      "sha256": "b43da68fa25079a49259e21897328411e99cee6ac6aefba59d34e59f94da449a",
+      "size_bytes": 9121
+    },
+    {
+      "file": "D2_NUMERICAL_CONFIG.json",
+      "sha256": "733cad9bc55cd7410a5fe6fd90c5069526e04458c7c6eeafded7c8fb974633d1",
+      "size_bytes": 3189
+    },
+    {
+      "file": "D2_NUMERICAL_CONFIG_SMOKE.json",
+      "sha256": "8dadde8908137ab170a62b222247b9bed1a286f8fa9f1f7d553461358e9b8db6",
+      "size_bytes": 3004
+    },
+    {
+      "file": "d2_validation_core.py",
+      "sha256": "e10664d9f7c9cfc11f598e09b61334b2719e5df84b8aae3ae738075a9fd4a57f",
+      "size_bytes": 9865
+    },
+    {
+      "file": "d2_validate.py",
+      "sha256": "d67904a244eef122b28ff271236033c2773d9a0f57ab824216536af5cc4b7a00",
+      "size_bytes": 29595
+    },
+    {
+      "file": "run_preflight.sh",
+      "sha256": "bedc0a7acccabb7242ff83dd0181e4046ec632d1792c807a4c5c697c8476c75e",
+      "size_bytes": 224
+    },
+    {
+      "file": "run_d2_validation_smoke.sh",
+      "sha256": "253aec90d4b3008491129f7c788a8907e5e823f67c5b4973fa039b979fc185ef",
+      "size_bytes": 406
+    },
+    {
+      "file": "run_d2_validation_full.sh",
+      "sha256": "cb986c3817bc4ecc010bb16a4ecc77649626f146d8d3a92624f2dda7fdc30a47",
+      "size_bytes": 1147
+    },
+    {
+      "file": "make_d2_lock_manifest.py",
+      "sha256": "b155479d9c5d2f1c662075b6c69b9923e5a6c06199f51552dd2bbfb1ff5a1e96",
+      "size_bytes": 1555
+    },
+    {
+      "file": "verify_d2_lock_manifest.py",
+      "sha256": "8e2912debad222d06d2422e5aac52beacb9a597bd449b836b145166b9140b07d",
+      "size_bytes": 943
+    },
+    {
+      "file": "references.bib",
+      "sha256": "21483d37b5b9b7fddb0adaf563e88cd9429eeb586366ecb04a8cb692e233f12d",
+      "size_bytes": 1160
+    },
+    {
+      "file": "README.md",
+      "sha256": "cf3b1d751152b509f55ebe1b9a4855337906df13a2bcfaa9196326b760e533d6",
+      "size_bytes": 680
+    },
+    {
+      "file": "README_NUMERICAL.md",
+      "sha256": "ac36ce75bc97d61c99ff8973de3773ecf95356ed2e6ebb3a5835e921063f3ab2",
+      "size_bytes": 937
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "ffe4e123abede8e315751bb573144716ffa4e14f235d1a18424baa734ebc1e6a",
+      "size_bytes": 78
+    },
+    {
+      "file": "tests/test_d2_core.py",
+      "sha256": "269a68385ad0cf3614ef0cbc8e4da0bbf72a2c7056baa457880a81f63bfaea07",
+      "size_bytes": 2964
+    },
+    {
+      "file": "tests/test_d2_numerical.py",
+      "sha256": "4273d6b7da66ef6cc1389f571cf9e0c27e664ec772e91aae56ef6b4ed3cd49d6",
+      "size_bytes": 3214
+    }
+  ],
+  "required_lock_tag": "tess-theory-work-package-d2-v1-lock-20260802",
+  "status": "locked_before_run",
+  "study_id": "TESS_THEORY_D2_NUMERICAL_VALIDATION_V1"
+}

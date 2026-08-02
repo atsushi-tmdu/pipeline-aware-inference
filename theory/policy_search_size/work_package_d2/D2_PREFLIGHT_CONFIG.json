@@ -1,0 +1,15 @@
+{
+  "B": 1000,
+  "activation_rate": 0.5,
+  "alpha": 0.05,
+  "bootstrap_repetitions_per_outer": 100,
+  "label": "RUNTIME-ONLY PREFLIGHT - NOT SCIENTIFIC EVIDENCE",
+  "n": 1000,
+  "outer_repetitions": 30,
+  "parent_d0_lock_tag": "tess-theory-work-package-d0-v1-lock-20260802",
+  "parent_d1_results_tag": "tess-theory-work-package-d1-v1-results-review-20260802",
+  "scientific_validation_settings_locked": false,
+  "seed": 20261003,
+  "status": "draft_runtime_only",
+  "study_id": "TESS_THEORY_D2_RUNTIME_PREFLIGHT_V1"
+}
