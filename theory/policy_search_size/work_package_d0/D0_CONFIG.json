@@ -1,0 +1,89 @@
+{
+  "bootstrap": {
+    "banks_resampled_independently": true,
+    "evaluation_resampling_unit": "complete_replication_vector",
+    "paired_policies_share_bootstrap_indices": true,
+    "recalibrate_inside_each_reference_bootstrap": true,
+    "reference_resampling_unit": "complete_replication_vector"
+  },
+  "date": "2026-08-02",
+  "excluded_from_first_theorem": [
+    "exact_plus_one_discreteness",
+    "multiple_candidate_winner_selection",
+    "score_ties",
+    "failed_fit_fallback",
+    "deep_tail_intermediate_quantile_asymptotics"
+  ],
+  "minimum_success": "D2 asymptotic linearity and valid independent two-bank bootstrap",
+  "numerical_design_provisional": {
+    "activation_rate": 0.5,
+    "bank_size_pairs": [
+      [
+        500,
+        500
+      ],
+      [
+        1000,
+        1000
+      ],
+      [
+        3000,
+        3000
+      ],
+      [
+        3000,
+        5000
+      ]
+    ],
+    "bootstrap_repetitions": "to_be_locked_after_runtime_preflight",
+    "outer_monte_carlo_repetitions": "to_be_locked_after_runtime_preflight"
+  },
+  "planned_lock_tag": "tess-theory-work-package-d0-v1-lock-20260802",
+  "primary_asymptotic_regime": {
+    "B": "tends_to_infinity",
+    "n": "tends_to_infinity",
+    "n_over_B": "lambda in (0,infinity)",
+    "scaling": "sqrt(n)"
+  },
+  "primary_model": {
+    "activation_rate_r": 0.5,
+    "candidate_count_per_branch": 1,
+    "candidate_direction": "larger_score_more_extreme",
+    "evaluation_vector": [
+      "activation_score_U",
+      "base_score_X0",
+      "optional_score_X1"
+    ],
+    "failed_fits": false,
+    "reference_vector": [
+      "activation_score_U",
+      "base_score_X0",
+      "optional_score_X1"
+    ],
+    "ties": "excluded_by_continuity",
+    "winner_selection": false
+  },
+  "protocol": "Policy-level search size Work Package D0",
+  "repository_base_branch": "tess-top-tier-theory",
+  "repository_base_commit": "737a752",
+  "status": "locked",
+  "theorem_ladder": [
+    "D1_fixed_alpha_known_trigger",
+    "D2_fixed_alpha_estimated_trigger",
+    "D3_uniform_TESS_process",
+    "D4_paired_policy_contrast"
+  ],
+  "thresholds": {
+    "deep_tail_alpha_to_zero": "out_of_scope_for_D0",
+    "fixed_alpha_primary": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "process_interval_provisional": [
+      0.01,
+      0.2
+    ]
+  },
+  "version": "1.0-locked"
+}
