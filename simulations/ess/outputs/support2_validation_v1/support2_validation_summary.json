@@ -1,0 +1,21 @@
+{
+  "study_id": "TESS_SUPPORT2_VALIDATION_V1",
+  "library": "support2_real_structure_20",
+  "primary_alpha": 0.05,
+  "primary_estimate": 0.8168185047304246,
+  "primary_ci_low_95": 0.6901085461922222,
+  "primary_ci_high_95": 0.9436452315822029,
+  "supportive_rule_met": true,
+  "tess_promising": 4.754161256816021,
+  "tess_random_matched": 3.937342752085596,
+  "promising_activation_rate": 0.501,
+  "promising_gain_capture_fraction": 0.6961583236321304,
+  "incremental_gain_count": 859,
+  "cov_activation_increment": 0.033528199999999994,
+  "cov_ci_low_95": 0.028418996000000005,
+  "cov_ci_high_95": 0.038636184,
+  "rescue_tess_effect": -0.7836447685751708,
+  "identity_error_promising": 2.7755575615628914e-17,
+  "identity_error_rescue": -2.7755575615628914e-17,
+  "bootstrap_repetitions": 20000
+}

@@ -1,0 +1,44 @@
+{
+  "study_id": "TESS_SUPPORT2_VALIDATION_V1",
+  "raw_bank_directory_name": "validation_v1_seed20260903",
+  "raw_bank_file_count": 6,
+  "raw_bank_total_size_bytes": 15524848,
+  "archive_filename": "tess_support2_validation_v1_seed20260903.tar.gz",
+  "archive_size_bytes": 3646799,
+  "archive_sha256": "805588f2b5dee866febd75f3d29f1bf337c278cf8c51a9946f85878f51dd5839",
+  "config_sha256": "eb89a6b42b0ea080c689aae37c3476ac9338f9bd5f923d41bb9ca8e9e552f2da",
+  "support2_data_manifest_sha256": "b5cc47bddc1dcc83ce4e95bdc24b342d6108157eaa0ed026c0b7898453fb6310",
+  "git_commit_used_for_run": "a5d466e24f61e62fe84d8a37a949b21ac3f02aff",
+  "files": [
+    {
+      "relative_path": "support2_real_structure_20/candidate_library_manifest.csv",
+      "size_bytes": 1455,
+      "sha256": "8006fd4bf294e01b74a9623bc80b77cc9298a7b940471daaff6c5bc6d4fb402f"
+    },
+    {
+      "relative_path": "support2_real_structure_20/evaluation_model_metrics.csv",
+      "size_bytes": 9720665,
+      "sha256": "b0276d99fe9184cf1022ae7cef4332fcef4a292d93f0461248e38e7fa14077b7"
+    },
+    {
+      "relative_path": "support2_real_structure_20/fixed_split_manifest.json",
+      "size_bytes": 24975,
+      "sha256": "78782cc7ae72b0ab1bc4178cf72f250572945e3d10b6c4ceefcd1897a14b86d4"
+    },
+    {
+      "relative_path": "support2_real_structure_20/model_bank_audit.json",
+      "size_bytes": 1847,
+      "sha256": "0a569e12495719bfcdcfbeeefa444d497eba920e27642289d6e92b79277c0791"
+    },
+    {
+      "relative_path": "support2_real_structure_20/null_reference_model_metrics.csv",
+      "size_bytes": 5766000,
+      "sha256": "abfa1c5b9ac19e9fd9b0ea05e575d64914caafbf8eed5df2db69fc76b86f323a"
+    },
+    {
+      "relative_path": "support2_run_manifest.json",
+      "size_bytes": 9906,
+      "sha256": "4d24f1751356818b94cf353a4224f22b11ab4567374e8973440e72d273b59497"
+    }
+  ]
+}

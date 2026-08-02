@@ -1,0 +1,31 @@
+library,policy,policy_label,local_alpha,evaluation_repetitions,naive_rejections,naive_rejection_probability,tess,expansion_rate,mean_evaluated_candidate_count
+support2_real_structure_20,fixed_base,Fixed base (K=7),0.2,5000,1664,0.3328,1.8134757897071745,0.0,7.0
+support2_real_structure_20,fixed_base,Fixed base (K=7),0.1,5000,908,0.1816,1.902079380434715,0.0,7.0
+support2_real_structure_20,fixed_base,Fixed base (K=7),0.05,5000,484,0.0968,1.9848845226715548,0.0,7.0
+support2_real_structure_20,fixed_base,Fixed base (K=7),0.025,5000,234,0.0468,1.8931549598326876,0.0,7.0
+support2_real_structure_20,fixed_base,Fixed base (K=7),0.01,5000,84,0.0168,1.68578652268713,0.0,7.0
+support2_real_structure_20,fixed_base,Fixed base (K=7),0.005,5000,45,0.009,1.8036247816794289,0.0,7.0
+support2_real_structure_20,fixed_full,Fixed full (K=20),0.2,5000,3379,0.6758,5.047847733204165,1.0,20.0
+support2_real_structure_20,fixed_full,Fixed full (K=20),0.1,5000,2247,0.4494,5.663855027168359,1.0,20.0
+support2_real_structure_20,fixed_full,Fixed full (K=20),0.05,5000,1343,0.2686,6.09816111446285,1.0,20.0
+support2_real_structure_20,fixed_full,Fixed full (K=20),0.025,5000,792,0.1584,6.811428426414326,1.0,20.0
+support2_real_structure_20,fixed_full,Fixed full (K=20),0.01,5000,350,0.07,7.220723157182104,1.0,20.0
+support2_real_structure_20,fixed_full,Fixed full (K=20),0.005,5000,205,0.041,8.35189123052491,1.0,20.0
+support2_real_structure_20,random_expansion,Random expansion,0.2,5000,2475,0.495,3.0616921066419867,0.4962,13.4506
+support2_real_structure_20,random_expansion,Random expansion,0.1,5000,1540,0.308,3.4943766273900105,0.4962,13.4506
+support2_real_structure_20,random_expansion,Random expansion,0.05,5000,909,0.1818,3.911787610497845,0.4962,13.4506
+support2_real_structure_20,random_expansion,Random expansion,0.025,5000,529,0.1058,4.416883770176572,0.4962,13.4506
+support2_real_structure_20,random_expansion,Random expansion,0.01,5000,221,0.0442,4.498018125665887,0.4962,13.4506
+support2_real_structure_20,random_expansion,Random expansion,0.005,5000,127,0.0254,5.132754893312653,0.4962,13.4506
+support2_real_structure_20,promising_triggered,Expand when promising,0.2,5000,2255,0.451,2.6873142151808187,0.501,13.513
+support2_real_structure_20,promising_triggered,Expand when promising,0.1,5000,1694,0.3388,3.9265080514489474,0.501,13.513
+support2_real_structure_20,promising_triggered,Expand when promising,0.05,5000,1082,0.2164,4.754161256816021,0.501,13.513
+support2_real_structure_20,promising_triggered,Expand when promising,0.025,5000,664,0.1328,5.62788249224301,0.501,13.513
+support2_real_structure_20,promising_triggered,Expand when promising,0.01,5000,305,0.061,6.262457363745364,0.501,13.513
+support2_real_structure_20,promising_triggered,Expand when promising,0.005,5000,182,0.0364,7.397246655829961,0.501,13.513
+support2_real_structure_20,rescue_triggered,Expand for rescue,0.2,5000,2788,0.5576,3.654781076893609,0.499,13.487
+support2_real_structure_20,rescue_triggered,Expand for rescue,0.1,5000,1461,0.2922,3.2801064887831437,0.499,13.487
+support2_real_structure_20,rescue_triggered,Expand for rescue,0.05,5000,745,0.149,3.14550181140096,0.499,13.487
+support2_real_structure_20,rescue_triggered,Expand for rescue,0.025,5000,362,0.0724,2.968451046291022,0.499,13.487
+support2_real_structure_20,rescue_triggered,Expand for rescue,0.01,5000,129,0.0258,2.600774540344172,0.499,13.487
+support2_real_structure_20,rescue_triggered,Expand for rescue,0.005,5000,68,0.0136,2.7318130429723166,0.499,13.487
