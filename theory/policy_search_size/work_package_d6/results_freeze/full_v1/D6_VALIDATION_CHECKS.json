@@ -1,0 +1,39 @@
+{
+  "fatal_checks": {
+    "all_dgp_covariances_positive_definite": true,
+    "bootstrap_row_count": true,
+    "covariance_identity": true,
+    "finite_bootstrap": true,
+    "finite_full_grid": true,
+    "full_grid_row_count": true,
+    "nonempty_required_outputs": true,
+    "plus_one_index_gap": true,
+    "plus_one_support": true,
+    "zero_bootstrap_failures": true
+  },
+  "scientific_checks": {
+    "delta_pi_bias_per_cell": true,
+    "delta_pi_bootstrap_coverage_cells": true,
+    "delta_pi_bootstrap_coverage_mean": true,
+    "delta_pi_bootstrap_sd_cells": true,
+    "delta_pi_bootstrap_sd_median": true,
+    "delta_pi_coverage_per_cell": true,
+    "delta_pi_mean_coverage": true,
+    "delta_pi_median_bias": true,
+    "delta_pi_median_variance_ratio": true,
+    "delta_pi_variance_ratio_per_cell": true,
+    "delta_s_bias_per_cell": false,
+    "delta_s_bootstrap_coverage_cells": true,
+    "delta_s_bootstrap_coverage_mean": true,
+    "delta_s_bootstrap_sd_cells": true,
+    "delta_s_bootstrap_sd_median": true,
+    "delta_s_coverage_per_cell": true,
+    "delta_s_mean_coverage": true,
+    "delta_s_median_bias": true,
+    "delta_s_median_variance_ratio": true,
+    "delta_s_variance_ratio_per_cell": true,
+    "plus_one_sequences": true
+  },
+  "scientific_mode": true,
+  "status": "FAIL"
+}

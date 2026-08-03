@@ -1,0 +1,78 @@
+========================================================================
+D6 lock manifest verification
+========================================================================
+Checked: 27
+Missing: 0
+Mismatched: 0
+Status: PASS
+========================================================================
+D6 fixed-finite-candidate numerical validation
+========================================================================
+Mode: SCIENTIFIC
+DGPs: 3
+Full cells: 36
+Bootstrap cells: 12
+Benchmark: transparent_k3, alpha=0.01
+Benchmark: transparent_k3, alpha=0.05
+Benchmark: transparent_k3, alpha=0.10
+Benchmark: gain_coupled_k20, alpha=0.01
+Benchmark: gain_coupled_k20, alpha=0.05
+Benchmark: gain_coupled_k20, alpha=0.10
+Benchmark: loss_coupled_k20, alpha=0.01
+Benchmark: loss_coupled_k20, alpha=0.05
+Benchmark: loss_coupled_k20, alpha=0.10
+Full cell: transparent_k3, alpha=0.01, B=500, n=500, R=2000
+Full cell: transparent_k3, alpha=0.01, B=1000, n=1000, R=2000
+Full cell: transparent_k3, alpha=0.01, B=3000, n=3000, R=2000
+Full cell: transparent_k3, alpha=0.01, B=3000, n=5000, R=2000
+Full cell: transparent_k3, alpha=0.05, B=500, n=500, R=2000
+Full cell: transparent_k3, alpha=0.05, B=1000, n=1000, R=2000
+Full cell: transparent_k3, alpha=0.05, B=3000, n=3000, R=2000
+Full cell: transparent_k3, alpha=0.05, B=3000, n=5000, R=2000
+Full cell: transparent_k3, alpha=0.10, B=500, n=500, R=2000
+Full cell: transparent_k3, alpha=0.10, B=1000, n=1000, R=2000
+Full cell: transparent_k3, alpha=0.10, B=3000, n=3000, R=2000
+Full cell: transparent_k3, alpha=0.10, B=3000, n=5000, R=2000
+Full cell: gain_coupled_k20, alpha=0.01, B=500, n=500, R=2000
+Full cell: gain_coupled_k20, alpha=0.01, B=1000, n=1000, R=2000
+Full cell: gain_coupled_k20, alpha=0.01, B=3000, n=3000, R=2000
+Full cell: gain_coupled_k20, alpha=0.01, B=3000, n=5000, R=2000
+Full cell: gain_coupled_k20, alpha=0.05, B=500, n=500, R=2000
+Full cell: gain_coupled_k20, alpha=0.05, B=1000, n=1000, R=2000
+Full cell: gain_coupled_k20, alpha=0.05, B=3000, n=3000, R=2000
+Full cell: gain_coupled_k20, alpha=0.05, B=3000, n=5000, R=2000
+Full cell: gain_coupled_k20, alpha=0.10, B=500, n=500, R=2000
+Full cell: gain_coupled_k20, alpha=0.10, B=1000, n=1000, R=2000
+Full cell: gain_coupled_k20, alpha=0.10, B=3000, n=3000, R=2000
+Full cell: gain_coupled_k20, alpha=0.10, B=3000, n=5000, R=2000
+Full cell: loss_coupled_k20, alpha=0.01, B=500, n=500, R=2000
+Full cell: loss_coupled_k20, alpha=0.01, B=1000, n=1000, R=2000
+Full cell: loss_coupled_k20, alpha=0.01, B=3000, n=3000, R=2000
+Full cell: loss_coupled_k20, alpha=0.01, B=3000, n=5000, R=2000
+Full cell: loss_coupled_k20, alpha=0.05, B=500, n=500, R=2000
+Full cell: loss_coupled_k20, alpha=0.05, B=1000, n=1000, R=2000
+Full cell: loss_coupled_k20, alpha=0.05, B=3000, n=3000, R=2000
+Full cell: loss_coupled_k20, alpha=0.05, B=3000, n=5000, R=2000
+Full cell: loss_coupled_k20, alpha=0.10, B=500, n=500, R=2000
+Full cell: loss_coupled_k20, alpha=0.10, B=1000, n=1000, R=2000
+Full cell: loss_coupled_k20, alpha=0.10, B=3000, n=3000, R=2000
+Full cell: loss_coupled_k20, alpha=0.10, B=3000, n=5000, R=2000
+Bootstrap cell: transparent_k3, alpha=0.05, B=1000, n=1000, outer=500, M=249
+Bootstrap cell: transparent_k3, alpha=0.05, B=3000, n=5000, outer=500, M=249
+Bootstrap cell: transparent_k3, alpha=0.01, B=3000, n=5000, outer=500, M=249
+Bootstrap cell: transparent_k3, alpha=0.10, B=3000, n=5000, outer=500, M=249
+Bootstrap cell: gain_coupled_k20, alpha=0.05, B=1000, n=1000, outer=500, M=249
+Bootstrap cell: gain_coupled_k20, alpha=0.05, B=3000, n=5000, outer=500, M=249
+Bootstrap cell: gain_coupled_k20, alpha=0.01, B=3000, n=5000, outer=500, M=249
+Bootstrap cell: gain_coupled_k20, alpha=0.10, B=3000, n=5000, outer=500, M=249
+Bootstrap cell: loss_coupled_k20, alpha=0.05, B=1000, n=1000, outer=500, M=249
+Bootstrap cell: loss_coupled_k20, alpha=0.05, B=3000, n=5000, outer=500, M=249
+Bootstrap cell: loss_coupled_k20, alpha=0.01, B=3000, n=5000, outer=500, M=249
+Bootstrap cell: loss_coupled_k20, alpha=0.10, B=3000, n=5000, outer=500, M=249
+========================================================================
+Status: FAIL
+Full replication rows: 72000
+Bootstrap outer rows: 6000
+Elapsed seconds: 2042.590
+Output directory: /Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d6/outputs/full_v1
+Scientific evidence: YES

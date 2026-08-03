@@ -1,0 +1,11 @@
+{
+  "bootstrap_cell_count": 12,
+  "bootstrap_outer_rows": 6000,
+  "dgp_count": 3,
+  "elapsed_seconds": 2042.5903378331568,
+  "full_cell_count": 36,
+  "full_replication_rows": 72000,
+  "output_directory": "/Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d6/outputs/full_v1",
+  "scientific_mode": true,
+  "status": "FAIL"
+}

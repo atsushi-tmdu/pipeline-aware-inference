@@ -1,0 +1,19 @@
+{
+  "bootstrap_outer_rows": 6000,
+  "created_utc": "2026-08-03T08:30:11.285743+00:00",
+  "elapsed_seconds": 2042.5903378331568,
+  "failed_scientific_checks": [
+    "delta_s_bias_per_cell"
+  ],
+  "failing_main_regime_cells": 1,
+  "fatal_checks_all_passed": true,
+  "formal_status": "FAIL",
+  "full_replication_rows": 72000,
+  "lock_tag": "tess-theory-work-package-d6-v1-lock-20260803",
+  "lock_tag_commit": "d26f92f33bcd29e97d7d7a4993bf5bafb2fb76df",
+  "scientific_run_repeated": false,
+  "source_head": "d26f92f33bcd29e97d7d7a4993bf5bafb2fb76df",
+  "study_id": "TESS_D6_FULL_SCIENTIFIC_VALIDATION_RESULTS_V1",
+  "substantive_interpretation": "strong qualified support with one borderline deep-tail TESS-centering failure",
+  "success_criteria_modified": false
+}
