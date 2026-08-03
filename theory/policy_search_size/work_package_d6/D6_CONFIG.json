@@ -1,0 +1,87 @@
+{
+  "activation_score": "separate scalar U inherited from D4; maximum-score trigger excluded",
+  "boundary_intersections": {
+    "distinct_candidate_threshold_intersections": "probability zero under continuous joint law",
+    "same_candidate_base_full_threshold": "retained as one coincident first-order boundary",
+    "winner_ties": "excluded by continuous unique-winner assumption"
+  },
+  "boundary_modes": [
+    "regular empirical generalized-inverse quantile",
+    "exact candidate-wise plus-one boundary"
+  ],
+  "candidate_architecture": {
+    "empirical_base_count": 7,
+    "empirical_full_count": 20,
+    "initial_debug_base_count": 2,
+    "initial_debug_full_count": 3,
+    "theory": "fixed finite nested candidate pools"
+  },
+  "candidate_calibration": "candidate-specific thresholds estimated from one complete-vector reference bank",
+  "candidate_dimension_scope": "fixed finite K only",
+  "candidate_wise_independent_resampling": "invalid negative diagnostic",
+  "coincident_boundary_rule": "If one shared candidate wins both nested pools, moving its common threshold changes R0 and R1 simultaneously and the M jump is exactly zero.",
+  "evaluation_influence_target": "(A-rho)(M-mu)-Delta_pi",
+  "excluded": [
+    "positive-probability winner ties",
+    "deterministic tie randomization",
+    "failed-fit fallback",
+    "maximum-score activation trigger",
+    "growing candidate dimension",
+    "simultaneous alpha-process inference"
+  ],
+  "lock_parent_head": "9d32c63d93d570ad6d889fadb78c35f8ea13cdf9",
+  "lock_scope": "fixed-finite-K unique-winner theory, implementation, and prospective scientific numerical design",
+  "next_step": "freeze a prospective numerical validation protocol before any scientific D6 run",
+  "ordinary_bootstrap_basis": "fixed measurable winner regions plus smooth finite threshold vector",
+  "parent_branch": "tess-top-tier-theory",
+  "preceding_results_tags": [
+    "d4-validation-full-v1",
+    "d5-validation-full-v1"
+  ],
+  "preflight_status": "PASS_runtime_only_not_scientific_evidence",
+  "primary_contrast_identity": "Delta_pi = Cov(A, M), with M=(1-R0)R1",
+  "prohibited_changes_after_lock": [
+    "candidate-pool nesting",
+    "winner definition",
+    "candidate-specific calibration convention",
+    "complete-replication resampling unit",
+    "separate scalar activation score",
+    "tie and failed-fit exclusions",
+    "fixed-finite-K scope",
+    "primary theorem targets",
+    "exact covariance identity for the rejection contrast",
+    "winner-region candidate boundary coefficients",
+    "activation boundary coefficient",
+    "explicit evaluation influence target",
+    "candidate-wise independent-resampling negative diagnostic"
+  ],
+  "regularity_assumptions": [
+    "fixed finite nested candidate pools",
+    "independent complete-vector reference and evaluation banks",
+    "almost-sure unique winners",
+    "regular candidate and activation quantiles",
+    "smooth winner-region boundary probabilities",
+    "second-order distinct-boundary intersections",
+    "fixed declared policy",
+    "rejection probabilities bounded away from one for TESS"
+  ],
+  "resampling_unit": "complete replication containing U and all candidate scores",
+  "scientific_run_completed": false,
+  "status": "locked_before_scientific_run",
+  "study_id": "TESS_THEORY_D6_FINITE_CANDIDATE_UNIQUE_WINNER_V1",
+  "theorem_targets": [
+    "winner-region representation",
+    "winner-region threshold differentiability",
+    "finite-candidate two-bank asymptotic linearity",
+    "TESS delta-method expansion",
+    "complete-replication two-bank bootstrap validity",
+    "fixed-finite-K plus-one bridge"
+  ],
+  "theory_result": "fixed-finite-K unique-winner bridge with explicit two-bank influence functions and complete-replication bootstrap theorem",
+  "winner_region_coefficients": {
+    "activation": "mu-E[M|U=c]",
+    "candidate": "E[(A-rho) D_j | X_j=q_j], where D_j is the exact nested-pool threshold-crossing jump: positive for a displaced base winner, negative for an extra full winner, and zero for a shared winner of both pools"
+  },
+  "winner_rule": "highest candidate selection score within each active pool; unique almost surely",
+  "winner_target": "random per-replication winner, not population-best model"
+}

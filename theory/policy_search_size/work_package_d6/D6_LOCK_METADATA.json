@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-08-03T06:20:51.217813+00:00",
+  "locked_counts": {
+    "bootstrap_cells": 12,
+    "bootstrap_outer_datasets_per_cell": 500,
+    "bootstrap_resamples_per_dataset": 249,
+    "conditional_draws_per_boundary": 524288,
+    "full_cells": 36,
+    "full_outer_repetitions_per_cell": 2000,
+    "unconditional_benchmark_draws_per_dgp_alpha": 4194304
+  },
+  "manifest": "D6_LOCK_MANIFEST_SHA256.txt",
+  "parent_head": "9d32c63d93d570ad6d889fadb78c35f8ea13cdf9",
+  "parent_results_tags": [
+    "d4-validation-full-v1",
+    "d5-validation-full-v1"
+  ],
+  "scientific_run_completed": false,
+  "smoke": {
+    "all_fatal_checks_passed": true,
+    "bootstrap_outer_rows": 48,
+    "elapsed_seconds": 1.9898885828442872,
+    "full_replication_rows": 288,
+    "scientific_mode": false,
+    "status": "PASS"
+  },
+  "status": "locked_before_scientific_run",
+  "study_id": "TESS_D6_FINITE_CANDIDATE_UNIQUE_WINNER_LOCK_V1"
+}
