@@ -1,0 +1,94 @@
+{
+  "activation_boundary": "unchanged D4 empirical generalized inverse",
+  "activation_rate": 0.5,
+  "alphas": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "analysis_label": "exact plus-one/order-statistic bridge for the frozen D4 paired budget-matched policy contrast",
+  "bootstrap_repetitions": 0,
+  "candidate_boundary_modes": [
+    "quantile",
+    "plus_one"
+  ],
+  "d4_master_seed": 20261117,
+  "d4_outer_repetitions_per_cell": 3000,
+  "data_generating_laws": [
+    {
+      "name": "independent_normal"
+    },
+    {
+      "name": "gaussian_factor",
+      "rho0": 0.6,
+      "rho1": 0.75
+    },
+    {
+      "name": "nonlinear_smooth",
+      "peak_amplitude": 2.0,
+      "rho0": 0.55,
+      "sigma1": 0.45
+    }
+  ],
+  "designs": [
+    {
+      "B": 500,
+      "n": 500
+    },
+    {
+      "B": 1000,
+      "n": 1000
+    },
+    {
+      "B": 3000,
+      "n": 3000
+    },
+    {
+      "B": 3000,
+      "n": 5000
+    }
+  ],
+  "expected_cell_count": 36,
+  "expected_d4_results_commit": "9b0a2530bfb5e363f59bd7b290d1c064c82b5eaa",
+  "expected_d4_results_tag": "d4-validation-full-v1",
+  "expected_total_outer_datasets": 108000,
+  "full_quantile_reproduction_check": true,
+  "interpretation_ratio_thresholds": {
+    "material_at_or_above": 0.25,
+    "negligible_below": 0.1,
+    "small_below": 0.25
+  },
+  "paired_bank_reuse": true,
+  "parent_branch": "tess-top-tier-theory",
+  "preceding_results_tag": "d4-validation-full-v1",
+  "prohibited_changes_after_lock": [
+    "DGP families or parameters",
+    "activation rate",
+    "alpha grid",
+    "B/n design grid",
+    "outer repetitions",
+    "D4 master seed",
+    "boundary definitions",
+    "paired-bank regeneration identity",
+    "recorded primary discrepancies",
+    "interpretation ratio thresholds",
+    "fatal validation rules",
+    "nominal-alpha TESS denominator",
+    "parent D4 commit, tag, and manifest identities",
+    "full 108000-record quantile reproduction check",
+    "target bridge-rate statements",
+    "Monte Carlo error reporting"
+  ],
+  "report_monte_carlo_standard_errors": true,
+  "reproduction_tolerance": 1e-12,
+  "required_lock_tag": "tess-theory-work-package-d5-v1-lock-20260803",
+  "scientific_labels_are_pass_fail_criteria": false,
+  "scientific_run_requires_lock_tag": true,
+  "smoke_is_scientific_evidence": false,
+  "smoke_status": "PASS",
+  "status": "locked_protocol_design",
+  "study_id": "TESS_THEORY_D5_PLUS_ONE_BRIDGE_V1",
+  "target_bridge_rate_rejection_scale": "O_p(B^-1 + (B*n)^-1/2)",
+  "target_bridge_rate_tess_scale_fixed_alpha": "O_p(B^-1 + (B*n)^-1/2)",
+  "tess_denominator": "nominal alpha for both boundary modes"
+}

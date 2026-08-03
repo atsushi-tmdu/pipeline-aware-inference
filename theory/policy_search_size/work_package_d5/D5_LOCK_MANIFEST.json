@@ -1,0 +1,104 @@
+{
+  "expected_d4_results_commit": "9b0a2530bfb5e363f59bd7b290d1c064c82b5eaa",
+  "files": [
+    {
+      "file": ".gitignore",
+      "sha256": "d6a0a9b42da517ffeba58827d98ffc8dd2c8df2ec165f1198da11810774d48e9",
+      "size_bytes": 66
+    },
+    {
+      "file": "D5_PROTOCOL.md",
+      "sha256": "fd0051ab14314a749cc59f3b54a3cf6a49a220f816bebc63ece06a004562d75e",
+      "size_bytes": 13745
+    },
+    {
+      "file": "D5_PROTOCOL_CONFIG.json",
+      "sha256": "e100d6295e79195ee207d9b08548df1f6528d95ed0ed2f6f1145cd0a1e7a515d",
+      "size_bytes": 2603
+    },
+    {
+      "file": "D5_THEORY_MEMO.md",
+      "sha256": "dac0c5b5d451a351d9ba9f7d684916e92f1981db41e10d9e8af9be56c9a47541",
+      "size_bytes": 10129
+    },
+    {
+      "file": "D5_NUMERICAL_PROTOCOL.md",
+      "sha256": "1ba3f85d5267f5f3e4b219cb7905f0d66a46911fbb086ef9cd8ce1a69cf57e90",
+      "size_bytes": 4417
+    },
+    {
+      "file": "D5_NUMERICAL_CONFIG.json",
+      "sha256": "4f5540464b20c80efc3fbac61c6ab5e57ee82f3c323a0e98bbf8940b74b35070",
+      "size_bytes": 1990
+    },
+    {
+      "file": "D5_NUMERICAL_CONFIG_SMOKE.json",
+      "sha256": "7c7c75a1e0590b0a11d27c604450206bba18203426e73189b252af186d5bd05f",
+      "size_bytes": 909
+    },
+    {
+      "file": "README.md",
+      "sha256": "1e08bb47e93eac31f3b60cfbb052da11a7c9ba77b2426b0afd632a84f0ea0c91",
+      "size_bytes": 1389
+    },
+    {
+      "file": "d5_core.py",
+      "sha256": "323fe36c762340435996f762bc8e5cee5e410f5d6af6c6fc6bbe32e0d392e35a",
+      "size_bytes": 14846
+    },
+    {
+      "file": "d5_validate.py",
+      "sha256": "d97844ec483735cf62c7661f5d9b58542fac4f4a9854056a7a900fa0dacc5d55",
+      "size_bytes": 29870
+    },
+    {
+      "file": "make_d5_lock_manifest.py",
+      "sha256": "3a37c40ea25a479f566cb1906777ed0e8b891ce99740238b152811c015cb0aed",
+      "size_bytes": 2063
+    },
+    {
+      "file": "verify_d5_lock_manifest.py",
+      "sha256": "b5731f9d0dc0cbd0b3b12046c54536d66801a7500cc30b169a67f829bea253a8",
+      "size_bytes": 3312
+    },
+    {
+      "file": "run_d5_tests.sh",
+      "sha256": "d8e1a012300adf82bed68f2df336f57abf76221bc24d5e3054b0be76c9cbc819",
+      "size_bytes": 302
+    },
+    {
+      "file": "run_d5_validation_smoke.sh",
+      "sha256": "99f16f5db80f015e1e901f62d771881f47cf7aa86c77e0aead02d385c7015d44",
+      "size_bytes": 398
+    },
+    {
+      "file": "run_d5_validation_full.sh",
+      "sha256": "439c48e3bb944ebfd68deb5ab2e3e76f0a27e1b9404bd50139b491533a48e943",
+      "size_bytes": 510
+    },
+    {
+      "file": "tests/__init__.py",
+      "sha256": "94fcae0b5ce553d88506e1e6f617aa08f8213e34b2abc1c6a12861ed9825a793",
+      "size_bytes": 33
+    },
+    {
+      "file": "tests/test_d5_core.py",
+      "sha256": "a03ebf0ce8a93b3c8e4eff1899fbabdd7b1007b8d9efe03ea5499446d1840431",
+      "size_bytes": 6471
+    },
+    {
+      "file": "tests/test_d5_parent_reproduction.py",
+      "sha256": "b1802a00fc4a291d74ef4be35e970fd0c21f79fa0323468cd6965b123a04c757",
+      "size_bytes": 5602
+    },
+    {
+      "file": "tests/test_d5_validation.py",
+      "sha256": "689f2a91c8794e824d7fb89415fa6b4b14084a5fde9cadf32322e3687a99b3b2",
+      "size_bytes": 2668
+    }
+  ],
+  "preceding_results_tag": "d4-validation-full-v1",
+  "required_lock_tag": "tess-theory-work-package-d5-v1-lock-20260803",
+  "status": "locked_before_run",
+  "study_id": "TESS_THEORY_D5_PLUS_ONE_BRIDGE_V1"
+}

@@ -1,0 +1,87 @@
+{
+  "activation_rate": 0.5,
+  "alphas": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "analysis_label": "scientific exact plus-one/order-statistic bridge for the frozen D4 paired policy contrast",
+  "chunk_size": 25,
+  "d4_master_seed": 20261117,
+  "data_generating_laws": [
+    {
+      "name": "independent_normal"
+    },
+    {
+      "name": "gaussian_factor",
+      "rho0": 0.6,
+      "rho1": 0.75
+    },
+    {
+      "name": "nonlinear_smooth",
+      "peak_amplitude": 2.0,
+      "rho0": 0.55,
+      "sigma1": 0.45
+    }
+  ],
+  "designs": [
+    {
+      "B": 500,
+      "n": 500
+    },
+    {
+      "B": 1000,
+      "n": 1000
+    },
+    {
+      "B": 3000,
+      "n": 3000
+    },
+    {
+      "B": 3000,
+      "n": 5000
+    }
+  ],
+  "expected_cell_count": 36,
+  "expected_d4_results_commit": "9b0a2530bfb5e363f59bd7b290d1c064c82b5eaa",
+  "expected_d4_results_tag": "d4-validation-full-v1",
+  "expected_total_outer_datasets": 108000,
+  "interpretation_ratio_thresholds": {
+    "material_at_or_above": 0.25,
+    "negligible_below": 0.1,
+    "small_below": 0.25
+  },
+  "main_regime": {
+    "minimum_B": 3000
+  },
+  "n_jobs": 8,
+  "outer_repetitions": 3000,
+  "output_subdirectory": "outputs/full_v1",
+  "primary_bridge_quantities": [
+    "delta_pi_bridge",
+    "delta_tess_bridge"
+  ],
+  "prohibited_changes_after_lock": [
+    "DGP families and parameters",
+    "activation rate",
+    "alpha grid",
+    "B/n design grid",
+    "outer repetitions",
+    "D4 master seed",
+    "boundary definitions",
+    "nominal-alpha TESS convention",
+    "paired-bank regeneration identity",
+    "parent D4 commit and tag",
+    "full-record reproduction tolerance",
+    "primary bridge discrepancies",
+    "descriptive ratio labels"
+  ],
+  "reproduction_tolerance": 1e-12,
+  "required_lock_tag": "tess-theory-work-package-d5-v1-lock-20260803",
+  "scientific_run_requires_lock_tag": true,
+  "status": "locked_before_run",
+  "stress_regime": {
+    "maximum_B": 1000
+  },
+  "study_id": "TESS_THEORY_D5_PLUS_ONE_BRIDGE_V1"
+}
