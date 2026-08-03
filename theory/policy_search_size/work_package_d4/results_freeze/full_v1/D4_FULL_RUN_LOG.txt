@@ -1,0 +1,48 @@
+D4 lock manifest verification PASS: 20 files
+test_analytic_gradient_matches_finite_difference (test_d4_core.D4CoreTests.test_analytic_gradient_matches_finite_difference) ... ok
+test_dependent_gaussian_benchmark_is_finite (test_d4_core.D4CoreTests.test_dependent_gaussian_benchmark_is_finite) ... ok
+test_empirical_generalized_inverse (test_d4_core.D4CoreTests.test_empirical_generalized_inverse) ... ok
+test_independence_has_zero_population_contrast_and_reference_if (test_d4_core.D4CoreTests.test_independence_has_zero_population_contrast_and_reference_if) ... ok
+test_one_estimate_is_finite (test_d4_core.D4CoreTests.test_one_estimate_is_finite) ... ok
+test_paired_bootstrap_is_finite (test_d4_core.D4CoreTests.test_paired_bootstrap_is_finite) ... ok
+test_boundary_gradients (test_d4_numerical.D4NumericalTests.test_boundary_gradients) ... ok
+test_dependent_benchmark_signs (test_d4_numerical.D4NumericalTests.test_dependent_benchmark_signs) ... ok
+test_independent_benchmark_is_zero_contrast (test_d4_numerical.D4NumericalTests.test_independent_benchmark_is_zero_contrast) ... ok
+test_locked_config (test_d4_numerical.D4NumericalTests.test_locked_config) ... ok
+test_sampling_shapes (test_d4_numerical.D4NumericalTests.test_sampling_shapes) ... ok
+test_smoke_config (test_d4_numerical.D4NumericalTests.test_smoke_config) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.775s
+
+OK
+Validation tasks: 4320; worker processes: 8
+Completed task 216/4320
+Completed task 432/4320
+Completed task 648/4320
+Completed task 864/4320
+Completed task 1080/4320
+Completed task 1296/4320
+Completed task 1512/4320
+Completed task 1728/4320
+Completed task 1944/4320
+Completed task 2160/4320
+Completed task 2376/4320
+Completed task 2592/4320
+Completed task 2808/4320
+Completed task 3024/4320
+Completed task 3240/4320
+Completed task 3456/4320
+Completed task 3672/4320
+Completed task 3888/4320
+Completed task 4104/4320
+Completed task 4320/4320
+D4 scientific numerical validation complete
+Status: PASS
+Cells: 36
+Elapsed seconds: 3734.079
+Output directory: /Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d4/outputs/full_v1
+Adjudication: /Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d4/outputs/full_v1/D4_VALIDATION_ADJUDICATION.md
+
+D4 full numerical validation complete.
+Review: /Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d4/outputs/full_v1/D4_VALIDATION_ADJUDICATION.md
