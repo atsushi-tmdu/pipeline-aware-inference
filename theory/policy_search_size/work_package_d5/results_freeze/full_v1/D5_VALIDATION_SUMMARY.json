@@ -1,0 +1,11 @@
+{
+  "cell_count": 36,
+  "elapsed_seconds": 17.4611752089113,
+  "maximum_d4_reproduction_error": 4.440892098500626e-16,
+  "maximum_delta_pi_bridge_ratio": 0.4852237023636862,
+  "maximum_delta_tess_bridge_ratio": 0.4860492190204384,
+  "replication_count": 108000,
+  "scientific": true,
+  "status": "PASS",
+  "study_id": "TESS_THEORY_D5_PLUS_ONE_BRIDGE_V1"
+}

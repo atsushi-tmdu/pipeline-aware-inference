@@ -1,0 +1,51 @@
+D5 lock manifest verification PASS: 19 files
+D5 annotated lock tag verification PASS: tess-theory-work-package-d5-v1-lock-20260803
+test_adjacent_identity_over_dense_grid (test_d5_core.D5CoreTests.test_adjacent_identity_over_dense_grid) ... ok
+test_d4_grid_has_adjacent_plus_one_boundary (test_d5_core.D5CoreTests.test_d4_grid_has_adjacent_plus_one_boundary) ... ok
+test_exact_event_equivalence_with_ties (test_d5_core.D5CoreTests.test_exact_event_equivalence_with_ties) ... ok
+test_modes_share_activation_threshold_and_realization (test_d5_core.D5CoreTests.test_modes_share_activation_threshold_and_realization) ... ok
+test_plus_one_policy_matches_direct_pvalue_events (test_d5_core.D5CoreTests.test_plus_one_policy_matches_direct_pvalue_events) ... ok
+test_quantile_index_matches_d4_convention (test_d5_core.D5CoreTests.test_quantile_index_matches_d4_convention) ... ok
+test_quantile_mode_matches_d4_estimator (test_d5_core.D5CoreTests.test_quantile_mode_matches_d4_estimator) ... ok
+test_unattainable_strict_plus_one_region (test_d5_core.D5CoreTests.test_unattainable_strict_plus_one_region) ... ok
+test_d4_lock_manifest_hashes (test_d5_parent_reproduction.D5ParentReproductionTests.test_d4_lock_manifest_hashes) ... ok
+test_expected_d4_annotated_tag_commit (test_d5_parent_reproduction.D5ParentReproductionTests.test_expected_d4_annotated_tag_commit) ... ok
+test_frozen_replication_file_hash (test_d5_parent_reproduction.D5ParentReproductionTests.test_frozen_replication_file_hash) ... ok
+test_one_regenerated_dataset_per_cell_matches_frozen_d4 (test_d5_parent_reproduction.D5ParentReproductionTests.test_one_regenerated_dataset_per_cell_matches_frozen_d4) ... ok
+test_cell_and_task_shapes (test_d5_validation.D5ValidationTests.test_cell_and_task_shapes) ... ok
+test_markdown_renderer_has_no_optional_dependency (test_d5_validation.D5ValidationTests.test_markdown_renderer_has_no_optional_dependency) ... ok
+test_ratio_labels (test_d5_validation.D5ValidationTests.test_ratio_labels) ... ok
+test_smoke_config_is_not_scientific (test_d5_validation.D5ValidationTests.test_smoke_config_is_not_scientific) ... ok
+test_smoke_preserves_parent_d4_cell_indices (test_d5_validation.D5ValidationTests.test_smoke_preserves_parent_d4_cell_indices) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.423s
+
+OK
+D5 tasks: 4320; worker processes: 8
+Completed task 216/4320
+Completed task 432/4320
+Completed task 648/4320
+Completed task 864/4320
+Completed task 1080/4320
+Completed task 1296/4320
+Completed task 1512/4320
+Completed task 1728/4320
+Completed task 1944/4320
+Completed task 2160/4320
+Completed task 2376/4320
+Completed task 2592/4320
+Completed task 2808/4320
+Completed task 3024/4320
+Completed task 3240/4320
+Completed task 3456/4320
+Completed task 3672/4320
+Completed task 3888/4320
+Completed task 4104/4320
+Completed task 4320/4320
+D5 validation complete
+Status: PASS
+Cells: 36
+Replications: 108000
+Elapsed seconds: 17.461
+Output directory: /Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d5/outputs/full_v1

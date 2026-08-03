@@ -1,0 +1,37 @@
+{
+  "config_path": "/Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d5/D5_NUMERICAL_CONFIG.json",
+  "config_sha256": "4f5540464b20c80efc3fbac61c6ab5e57ee82f3c323a0e98bbf8940b74b35070",
+  "elapsed_seconds": 17.4611752089113,
+  "files": [
+    {
+      "file": "D5_BOUNDARY_TABLE.csv",
+      "sha256": "bce16fa0ef954a99826ea25ed5d47085e007f80d84028773dc191051299bd543",
+      "size_bytes": 939
+    },
+    {
+      "file": "D5_BRIDGE_CELL_SUMMARY.csv",
+      "sha256": "3d0ada5c59a55760ea28353bf9a66e9221ccedcab26327f52c2412078765080e",
+      "size_bytes": 93174
+    },
+    {
+      "file": "D5_BRIDGE_REPLICATIONS.csv.gz",
+      "sha256": "31750649bfa99e7425f8fc7d4c99ecd6c0e9639a1753a6cf8400ae614d9b8ca7",
+      "size_bytes": 21143263
+    },
+    {
+      "file": "D5_VALIDATION_ADJUDICATION.md",
+      "sha256": "39b097d8b465ae33d0484d423ad90a9999600f8ba92275e8c5c098713e60c845",
+      "size_bytes": 6173
+    },
+    {
+      "file": "D5_VALIDATION_CHECKS.json",
+      "sha256": "938970d019604a3d018c592157a6e4551c3f499f3f8addff454ff8ba6ce13304",
+      "size_bytes": 1975
+    },
+    {
+      "file": "D5_VALIDATION_SUMMARY.json",
+      "sha256": "820052c522d85a360a2504923a6639b216cf9fab03d1bfdf6534133813b7ad9f",
+      "size_bytes": 356
+    }
+  ]
+}
