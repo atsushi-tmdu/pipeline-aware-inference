@@ -1,0 +1,7 @@
+__pycache__/
+tests/__pycache__/
+preflight_output/
+outputs/
+LOCAL_PREFLIGHT_LOG.txt
+D4_FULL_RUN_LOG.txt
+D4_REVIEW_OUTPUT.txt
