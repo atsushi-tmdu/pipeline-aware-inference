@@ -1,0 +1,332 @@
+{
+  "branch": "tess-top-tier-theory",
+  "checkpoint_id": "TESS_D8A_THEORY_COMPLETE_CHECKPOINT_V1",
+  "completed_results": {
+    "coordinate_moving_face_lemma": true,
+    "final_policy_bias_theorem": true,
+    "full_joint_quantile_theorem": true,
+    "primitive_scalar_L2_Bahadur": true,
+    "regular_policy_map_C2_theorem": true,
+    "scalar_quantile_mean_expansion": true,
+    "scalar_quantile_moment_bound": true,
+    "second_order_expectation_delta_lemma": true,
+    "tess_second_order_corollary": true
+  },
+  "created_utc": "2026-08-04T07:10:46.837628+00:00",
+  "d7_formal_status": "FAIL",
+  "files": [
+    {
+      "relative_path": "D8A_BOUNDARY_GRADIENT_MEMO.md",
+      "sha256": "4a8e7261466854283a90ba2c3f97798468ceb3b00658460d23bcf532090b5a4e",
+      "size_bytes": 2813
+    },
+    {
+      "relative_path": "D8A_CONFIG_DRAFT.json",
+      "sha256": "bc4601ff9f8086ec852f84db3698f4920b05a8ab0c8d20b9442d4da58a75b4d2",
+      "size_bytes": 3726
+    },
+    {
+      "relative_path": "D8A_COORDINATE_MOVING_FACE_LEMMA.md",
+      "sha256": "247c8925aacac14bd722bbf2e90f1cfb9477b53768577489c53cfe3007161c0f",
+      "size_bytes": 1689
+    },
+    {
+      "relative_path": "D8A_D7_EVIDENCE_LINK.md",
+      "sha256": "5900e3963c30cae6ba5dcd3c647fb286a866e7b3986e9882f29c38543b0aad15",
+      "size_bytes": 546
+    },
+    {
+      "relative_path": "D8A_EXPECTATION_LEVEL_EXPANSION_MEMO.md",
+      "sha256": "3e3515c95a0379a50caaa755b7c99306c076edabf9c33a964347011f6838bcce",
+      "size_bytes": 2992
+    },
+    {
+      "relative_path": "D8A_FINAL_POLICY_BIAS_THEOREM.md",
+      "sha256": "7b84d9cad2c2e2ee4bff7ca499cb0ebe7f74b3e499e4dab7bafd89e7f208abbc",
+      "size_bytes": 1539
+    },
+    {
+      "relative_path": "D8A_FINAL_THEORY_ADJUDICATION.md",
+      "sha256": "b2e12f622d5c8719dc3d8627d03949edbf0345ca7135605662041f8ee4ae2441",
+      "size_bytes": 1322
+    },
+    {
+      "relative_path": "D8A_FIXED_DIMENSION_MOMENT_REDUCTION.md",
+      "sha256": "23067e7c3cbd9a520b4bb2d6ee8aebc510b22578f255c29b921f0bdc78598878",
+      "size_bytes": 687
+    },
+    {
+      "relative_path": "D8A_FULL_JOINT_QUANTILE_THEOREM.md",
+      "sha256": "a5367e35f6ab4524139fc305d48f0b969376211f58796462de871bd858b8f882",
+      "size_bytes": 1456
+    },
+    {
+      "relative_path": "D8A_GAUSSIAN_BOUNDARY_PREFLIGHT.md",
+      "sha256": "4dbfd832df220f3671e43d754bc8f0b31fd25853fadd73d7d323a2c46674d6ff",
+      "size_bytes": 1031
+    },
+    {
+      "relative_path": "D8A_GAUSSIAN_HESSIAN_PREFLIGHT.md",
+      "sha256": "0c22b0b0a58f496dcc068e686d38c50c0321ee018189f1ee0c19b41481a04275",
+      "size_bytes": 789
+    },
+    {
+      "relative_path": "D8A_JOINT_QUANTILE_LIFTING_ADJUDICATION.md",
+      "sha256": "4e14e76feb680c4873bcc08214ea8ffc87d26ca67029e9aaeef2336d2c380a74",
+      "size_bytes": 816
+    },
+    {
+      "relative_path": "D8A_JOINT_QUANTILE_LIFTING_LEMMA.md",
+      "sha256": "9e8d4da96695cce215ff260e7ed34903cd7e52ff5961856d1a0edc75dec36eb8",
+      "size_bytes": 2671
+    },
+    {
+      "relative_path": "D8A_POLICY_C2_ADJUDICATION.md",
+      "sha256": "022d5b798c05225a4eaf32ea4d054b89641df4a6f8cfbcfc3c163ce637df76c9",
+      "size_bytes": 1006
+    },
+    {
+      "relative_path": "D8A_POLICY_C2_THEOREM.md",
+      "sha256": "500757960b2d9cf97ef3f18a8fefac2d9f4595f9a53aef67ed74e3f5e23086b8",
+      "size_bytes": 2805
+    },
+    {
+      "relative_path": "D8A_POLICY_SMOOTHNESS_PROOF_PLAN.md",
+      "sha256": "0c1dc80a50917033c9504b84ed8c62a4b5c920bba6a9af85d6e84425f0da14c5",
+      "size_bytes": 2589
+    },
+    {
+      "relative_path": "D8A_PRIMITIVE_BAHADUR_L2_LEMMA.md",
+      "sha256": "05aa99362a66bd91452962f86113f603ae32f35f54aa54298a9926a0bcb78708",
+      "size_bytes": 2056
+    },
+    {
+      "relative_path": "D8A_PRIMITIVE_QUANTILE_THEOREM_ADJUDICATION.md",
+      "sha256": "46ea74b987297d38bddc58112e45df10df0b8e1d47adae099f21e2995d443f73",
+      "size_bytes": 644
+    },
+    {
+      "relative_path": "D8A_PROTOCOL.md",
+      "sha256": "828a5a0549adc3234a31d8a37aa864f4650eec07e99d3a046f4bfebe2f5bc4b1",
+      "size_bytes": 2229
+    },
+    {
+      "relative_path": "D8A_QUANTILE_CONVENTION_ADJUDICATION.md",
+      "sha256": "1e6eaa002dc2ec5560a5ea2282cd09932683781c9345fa25261cefa1e33bcbad",
+      "size_bytes": 771
+    },
+    {
+      "relative_path": "D8A_QUANTILE_EXPANSION_MEMO.md",
+      "sha256": "508d349edd0680f10aaf95419aa9d8ad506ba2b0f4021e887e62815824e9b21d",
+      "size_bytes": 2382
+    },
+    {
+      "relative_path": "D8A_SCALAR_QUANTILE_LEMMA.md",
+      "sha256": "83fe07b406b1bdb35dd278bfe8c9e7a689bc40f077a469d861b339efe4045392",
+      "size_bytes": 2838
+    },
+    {
+      "relative_path": "D8A_SCALAR_QUANTILE_MOMENT_LEMMA.md",
+      "sha256": "8b77166baa3f138e11f57c56cead9c475d6cbd095cdc46ba4b8e75fbcb29bbef",
+      "size_bytes": 2395
+    },
+    {
+      "relative_path": "D8A_SCALAR_QUANTILE_PROOF_ADJUDICATION.md",
+      "sha256": "cedb4f51c21d28dd7c415eaa49225a5aff545b38ca3bfef252f4a0bce7e06c49",
+      "size_bytes": 873
+    },
+    {
+      "relative_path": "D8A_SECOND_DERIVATIVE_SUFFICIENT_CONDITIONS.md",
+      "sha256": "a3843593d714b15516b3a3105213010e7397dfb93f15adc7c69df3c8680ca2ac",
+      "size_bytes": 1876
+    },
+    {
+      "relative_path": "D8A_SECOND_ORDER_EXPECTATION_DELTA_LEMMA.md",
+      "sha256": "1a26afcf968822346345c34ff258a8fda750086ed7126d2dec225a2da8fd62ae",
+      "size_bytes": 1440
+    },
+    {
+      "relative_path": "D8A_TESS_SECOND_ORDER_COROLLARY.md",
+      "sha256": "e60ce4d66d54c5e7f2a501a0c468d6ef2bd006058ae17e43e277d795aee72769",
+      "size_bytes": 2528
+    },
+    {
+      "relative_path": "D8A_THEORY_MEMO.md",
+      "sha256": "5d0ce5f66349e0d3ed5c3c11b5c7b4d0e9fe4a0f607296d52c096cd542623a87",
+      "size_bytes": 2574
+    },
+    {
+      "relative_path": "D8A_THEORY_PRELOCK_CHECKPOINT.md",
+      "sha256": "b7819b25a5afd100c1f7c5a58ebc432cdf3f5b545680cb27fbb527911e54f98d",
+      "size_bytes": 1154
+    },
+    {
+      "relative_path": "D8A_THEORY_PRELOCK_MANIFEST.json",
+      "sha256": "766c4a78112ab109fcbc118adf27b70890a58ced793a18971933323135e9c251",
+      "size_bytes": 6394
+    },
+    {
+      "relative_path": "D8A_THEORY_STATUS_ADJUDICATION.md",
+      "sha256": "48ac0331d2f3ff414c0fe1d45786bdee30572e38a74948194b569f3e87d07f18",
+      "size_bytes": 4173
+    },
+    {
+      "relative_path": "D8A_WINNER_CELL_INTEGRAL_REPRESENTATION.md",
+      "sha256": "d0e3d013b4b9a97e7d095ab23ff7eddd25e0bc14a088dde41c23c82f8dafe99a",
+      "size_bytes": 3090
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "b454bb700d46392d87f93d129a002c9612d452152f2bac90492155a2b6996b1c",
+      "size_bytes": 835
+    },
+    {
+      "relative_path": "check_d8a_boundary_gradient_preflight.py",
+      "sha256": "c88ad83a2395784979e77787670e18b5295962bb16958eb8c235d36ad47894c5",
+      "size_bytes": 2477
+    },
+    {
+      "relative_path": "check_d8a_final_theory.py",
+      "sha256": "2b9b0535885767f9053de70cbf1aa033045e090b20e25733743967845e338155",
+      "size_bytes": 2822
+    },
+    {
+      "relative_path": "check_d8a_gaussian_hessian_preflight.py",
+      "sha256": "e05005b1e79009537ef50db4f7e8692a3ff757ad1cba3bc37ac40765f486c796",
+      "size_bytes": 2718
+    },
+    {
+      "relative_path": "check_d8a_joint_moment_preflight.py",
+      "sha256": "a25a9b7969ec5e29387ac41fa4e28469985686f23711ea2966601a8fcf33ff3b",
+      "size_bytes": 1636
+    },
+    {
+      "relative_path": "check_d8a_joint_quantile_lifting.py",
+      "sha256": "2b73aa968326e05e906bc9d4f5915413e44c6b31182dfbbf9c857af30cf56ff2",
+      "size_bytes": 2184
+    },
+    {
+      "relative_path": "check_d8a_policy_c2_theorem.py",
+      "sha256": "3f567b90abb8340445e0a066c2539ebebfb2f6727024bc8c5aa30f97b5bde5b9",
+      "size_bytes": 2153
+    },
+    {
+      "relative_path": "check_d8a_preflight.py",
+      "sha256": "485ac3294d3744342a26fa157569afa93769c88f70822b4104a435fe41e97504",
+      "size_bytes": 1363
+    },
+    {
+      "relative_path": "check_d8a_primitive_bahadur.py",
+      "sha256": "ea8fd1dc85523328885cecbb6851e33a9334d72899a618d0a7f98a0c52659f75",
+      "size_bytes": 1683
+    },
+    {
+      "relative_path": "check_d8a_quantile_refinement.py",
+      "sha256": "f56e431000906a20220a9a2cabdd02444d9558a8a93e931074957c0e231465c9",
+      "size_bytes": 1145
+    },
+    {
+      "relative_path": "check_d8a_scalar_quantile_lemma.py",
+      "sha256": "4e25f1b8d6b33ab66a078bec52a8092ed62ac25ceef78036c838537759de774a",
+      "size_bytes": 1373
+    },
+    {
+      "relative_path": "d8a_core.py",
+      "sha256": "ce753ffaeb2c9a70216b8d92bdf8d870f97692e4fb344bf95be39c156a6d07c9",
+      "size_bytes": 39659
+    },
+    {
+      "relative_path": "run_d8a_tests.sh",
+      "sha256": "dd636fb90c4a9b045d41968dc8c9ff029b1a089b1259423e8eb0dd97b88a5cf0",
+      "size_bytes": 207
+    },
+    {
+      "relative_path": "tests/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1
+    },
+    {
+      "relative_path": "tests/test_d8a_boundary_gradients.py",
+      "sha256": "721cb7b7f674c71249046dd3e7841c63bf7f41cbd1b5c830d020fa51e66d2d09",
+      "size_bytes": 3450
+    },
+    {
+      "relative_path": "tests/test_d8a_core.py",
+      "sha256": "68c839d7e5c22eac5dfe4643fdb0fafa1cdfcf31ba0c623659e9eee9c4fac83e",
+      "size_bytes": 2910
+    },
+    {
+      "relative_path": "tests/test_d8a_final_theory.py",
+      "sha256": "3547e4802211c022b969ffb32a56da953857e8f9c680f381c08ed7f14a1d3a66",
+      "size_bytes": 4812
+    },
+    {
+      "relative_path": "tests/test_d8a_joint_moments.py",
+      "sha256": "18954c80c97d69c7912182eceee99d0857c4a37c88c38a7cb4d423fb6193ae88",
+      "size_bytes": 4432
+    },
+    {
+      "relative_path": "tests/test_d8a_joint_quantile_lifting.py",
+      "sha256": "15ab46f6e6eae1c411d42016cd0dad84dbab83814356a2ac258ecd601976a617",
+      "size_bytes": 3605
+    },
+    {
+      "relative_path": "tests/test_d8a_policy_c2_theorem.py",
+      "sha256": "f1d980c63452fe969d48ef30ccfcff672c2227b2f14562c10cc3ce405b842548",
+      "size_bytes": 4945
+    },
+    {
+      "relative_path": "tests/test_d8a_policy_smoothness.py",
+      "sha256": "2834e5ca99d7a77706c529d5ccb628a6597fc33ce20467df8e62fc4fb8e3a176",
+      "size_bytes": 2950
+    },
+    {
+      "relative_path": "tests/test_d8a_primitive_bahadur.py",
+      "sha256": "a6fc6a0a67659a7efb3fa3219c3a5d87b72fa1ecc000e4372e3f0977fcda5b4c",
+      "size_bytes": 3131
+    },
+    {
+      "relative_path": "tests/test_d8a_quantile_expansion.py",
+      "sha256": "91f27c3330b4fbe7f7955788e8174c5ebf8dcbcf94631a8ed2155a1a7a7b730c",
+      "size_bytes": 2606
+    },
+    {
+      "relative_path": "tests/test_d8a_scalar_quantile_lemma.py",
+      "sha256": "cf9cee927c98887b7592e7dd0e7675983507f5136ebd584c1eeb5d6edc32374b",
+      "size_bytes": 2947
+    },
+    {
+      "relative_path": "verify_d8a_theory_prelock.py",
+      "sha256": "432a066a6e153eef18609ad9f2b4deeccb6a625b2949be47a62a1b81b8def45d",
+      "size_bytes": 1685
+    }
+  ],
+  "parent_commit": "3d094ececac2613cffcfc35717e7386e97ec8464",
+  "parent_tag": "d8a-theory-prelock-v1",
+  "scope_exclusions": [
+    "plus-one bridge rates",
+    "discrete winner ties",
+    "threshold coincidence",
+    "failed-fit fallback",
+    "growing candidate dimension"
+  ],
+  "source_head": "3d094ececac2613cffcfc35717e7386e97ec8464",
+  "theory_complete_under_stated_assumptions": true,
+  "verification": {
+    "preflights": {
+      "check_d8a_boundary_gradient_preflight.py": "PASS",
+      "check_d8a_final_theory.py": "PASS",
+      "check_d8a_gaussian_hessian_preflight.py": "PASS",
+      "check_d8a_joint_moment_preflight.py": "PASS",
+      "check_d8a_joint_quantile_lifting.py": "PASS",
+      "check_d8a_policy_c2_theorem.py": "PASS",
+      "check_d8a_preflight.py": "PASS",
+      "check_d8a_primitive_bahadur.py": "PASS",
+      "check_d8a_quantile_refinement.py": "PASS",
+      "check_d8a_scalar_quantile_lemma.py": "PASS"
+    },
+    "scientific_numerical_design_locked": false,
+    "scientific_simulation_run": false,
+    "unit_tests": "82/82 PASS"
+  }
+}

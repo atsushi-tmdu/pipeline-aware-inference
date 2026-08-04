@@ -6,11 +6,35 @@
   },
   "deterministic_second_order_stochastic_remainder_assumed": false,
   "exact_identity": "E_E(delta_hat|theta_hat)=(1-1/n)Delta(theta_hat)",
+  "final_policy_bias_theorem": {
+    "formula": "E(delta_hat)-delta=C_delta,B/B-delta/n-C_delta,B/(Bn)+o(B^-1+n^-1)",
+    "status": "proved"
+  },
   "gaussian_hessian_preflight": "PASS",
+  "joint_quantile_lifting": {
+    "covariance": "Sigma_lm=[P(Y_l<=theta_l,Y_m<=theta_m)-p_l p_m]/[f_l(theta_l)f_m(theta_m)]",
+    "full_joint_quantile_lemma_proved": true,
+    "general_scalar_higher_moment_bound_proved": true,
+    "primitive_L2_Bahadur_remainder_proved": true,
+    "status": "proved_conditional_on_joint_L2_Bahadur_remainder"
+  },
   "mixed_candidate_trigger_curvature": "retained and generally nonzero",
   "parent_formal_status": "FAIL",
   "parent_tag": "d7-continuous-validation-full-v1",
   "plus_one_assigned_to": "D8-B",
+  "policy_C2_theorem": {
+    "assumptions": [
+      "fixed finite pools",
+      "continuous unique winners",
+      "strict threshold separation",
+      "one-face C1 trace regularity",
+      "two-face continuous trace regularity",
+      "local domination"
+    ],
+    "candidate_trigger_hessian": "retained",
+    "d7_gradient_link": "retained",
+    "status": "proved_under_explicit_coordinate_trace_regularity"
+  },
   "policy_smoothness_assumptions": [
     "finite pools",
     "continuous unique winners",
@@ -21,8 +45,16 @@
     "codimension-two regularity"
   ],
   "policy_smoothness_status": "proof_plan_only",
-  "policy_twice_differentiability_status": "sufficient_conditions_and_proof_architecture_only",
+  "policy_twice_differentiability_status": "proved",
   "primary_target": "E(delta_hat)-delta = C_R,B/B - delta/n + o(B^-1+n^-1)",
+  "primitive_quantile_theory": {
+    "full_joint_quantile_moment_theorem": "proved",
+    "general_policy_map_C2_theorem": "open",
+    "joint_higher_moment_bound": "proved_fixed_dimension",
+    "joint_second_moment_expansion": "proved",
+    "scalar_L2_Bahadur_remainder": "proved",
+    "scalar_moment_bound": "proved_under_local_density_and_finite_higher_moment"
+  },
   "quantile_convention": {
     "constant_coefficient_without_extra_assumption": false,
     "d7_candidate_grid": "Bp is integer for p=0.99,0.95,0.90 and B=1000,3000,5000",
@@ -35,9 +67,20 @@
     "mean": "E(theta_hat-theta)=b_theta,B/B+o(B^-1)",
     "second_moment": "B E[(theta_hat-theta)(theta_hat-theta)^T]=Sigma_theta+o(1)"
   },
+  "scalar_quantile_mean_lemma": {
+    "coefficient": "b_p,B=a_p,B/f(q_p)-p(1-p)f'(q_p)/(2f(q_p)^3)",
+    "full_joint_quantile_lemma_proved": false,
+    "status": "proved_under_stated_assumptions"
+  },
   "scientific_numerical_design_locked": false,
   "scientific_simulation_run": false,
-  "status": "winner_cell_c2_proof_scaffold_not_locked",
+  "status": "theory_complete_numerical_design_not_locked",
+  "tess_second_order_corollary": {
+    "evaluation_term": "0.5 gA'' V_EA - gC' delta - 0.5 gC'' V_EC",
+    "reference_term": "gA' C_A,B + 0.5 gA'' V_RA - gC' C_C,B - 0.5 gC'' V_RC",
+    "status": "proved"
+  },
+  "theory_complete_under_stated_assumptions": true,
   "title": "Second-Order Finite-Reference Bias",
   "winner_cell_representation": {
     "finite_partition": true,

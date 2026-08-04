@@ -66,3 +66,63 @@ twice continuous differentiability.
 The correlated-Gaussian Hessian preflight verifies all three Hessian entries
 and mixed-partial symmetry, but the general moving-boundary proof remains
 prospective.
+
+## Scalar quantile mean lemma
+
+Lemma D8-A.2a is now established under explicit local smoothness,
+third-derivative, and tail-integrability assumptions.
+
+It proves the scalar \(B^{-1}\) mean expansion with the exact lattice term.
+The full joint quantile lemma remains incomplete.
+
+## Joint quantile second-moment lifting
+
+Lemma D8-A.2b is established conditional on a joint \(L^2\) Bahadur
+remainder. It yields the complete-vector covariance matrix
+\(\Sigma_\theta\).
+
+Proposition D8-A.2c reduces the vector \(2+\eta\) moment condition to scalar
+component bounds in fixed dimension.
+
+The primitive Bahadur-remainder and scalar-tail proofs remain open, so the
+full joint quantile lemma is not yet closed.
+
+## Primitive Bahadur and full joint quantile theorem
+
+Lemma D8-A.2d establishes a scalar uniform \(2+\eta\) quantile moment bound
+from a local density lower bound and a finite higher moment.
+
+Lemma D8-A.2e upgrades scalar asymptotic linearity to an \(L^2\) Bahadur
+remainder.
+
+Theorem D8-A.2 combines these results with the scalar mean lemma and joint
+lifting lemma. The full joint empirical-quantile moment theorem is now
+established under the stated assumptions.
+
+The remaining central gap is the general policy-map \(C^2\) theorem.
+
+## Regular policy-map \(C^2\) theorem
+
+Lemma D8-A.3a proves coordinate moving-face differentiation under explicit
+one- and two-face trace regularity.
+
+Theorem D8-A.3 proves that the separated continuous policy contrast is
+twice continuously differentiable under fixed finite pools, continuous
+unique winners, strict threshold separation, and those trace assumptions.
+
+The remaining tasks are the final policy-bias theorem and the TESS
+second-order corollary.
+
+## Final second-order theory
+
+Lemma D8-A.4a establishes the expectation-level second-order delta method.
+
+Theorem D8-A.4 combines the full joint quantile theorem, the regular
+policy-map \(C^2\) theorem, and the exact evaluation identity.
+
+Corollary D8-A.5 gives the TESS second-order bias decomposition into
+reference centering, reference curvature, exact comparator-product
+centering, and evaluation curvature.
+
+D8-A theory is complete under its stated assumptions. Numerical validation
+has not yet been designed or run.
