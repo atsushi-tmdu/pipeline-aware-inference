@@ -1,0 +1,80 @@
+{
+  "branch": "tess-top-tier-theory",
+  "cellwise_piecewise_quadratic_lemma_proved": true,
+  "checkpoint_id": "TESS_D8A_COINCIDENCE_GAP_CHECKPOINT_V1",
+  "created_utc": "2026-08-04T08:16:33.870521+00:00",
+  "existing_unit_tests": "82/82 PASS",
+  "files": [
+    {
+      "relative_path": "D8A_THEORY_COMPLETE_SUPERSESSION_NOTICE.md",
+      "sha256": "51dfd6e0c98e245758ad2d54a8da14468643b8302f20c2ab7ef1c396c79a19f9",
+      "size_bytes": 623
+    },
+    {
+      "relative_path": "coincidence_repair/D8A_COINCIDENCE_EVALUATOR_NOTE.md",
+      "sha256": "610c4e88f20dca1bc60415c2ada83461bb6b03faabaa79638904a4f6d68c6ec0",
+      "size_bytes": 583
+    },
+    {
+      "relative_path": "coincidence_repair/D8A_COINCIDENCE_GAP_ADJUDICATION.md",
+      "sha256": "393172cef0a2c45b3b46b42ed0cc40d7c4c0e55db007709bd4735ea54413f690",
+      "size_bytes": 1325
+    },
+    {
+      "relative_path": "coincidence_repair/D8A_COINCIDENT_CELL_PIECEWISE_QUADRATIC_LEMMA.md",
+      "sha256": "bc32dd9704774b0647f4124cbbe57ff80ce9ab029d55f8a2d7b9270fb96473dc",
+      "size_bytes": 1642
+    },
+    {
+      "relative_path": "coincidence_repair/D8A_GENERALIZED_SECOND_ORDER_PROOF_PLAN.md",
+      "sha256": "cda473897e1425d5ea82f886d404ec08eb8c00a78db7cfbb923f446760ca6a7f",
+      "size_bytes": 1396
+    },
+    {
+      "relative_path": "coincidence_repair/README.md",
+      "sha256": "cda473897e1425d5ea82f886d404ec08eb8c00a78db7cfbb923f446760ca6a7f",
+      "size_bytes": 1396
+    },
+    {
+      "relative_path": "coincidence_repair/check_d8a_coincidence_repair.py",
+      "sha256": "813cef231641862dea486d89b1765276203c907835674f051d0c4d4a0a3e800d",
+      "size_bytes": 2127
+    },
+    {
+      "relative_path": "coincidence_repair/check_d8a_current_status.py",
+      "sha256": "cc1dcae2cd297093ad54015cc2d0356aa2b337ab8f8f1a0ed57e7d1447650cf3",
+      "size_bytes": 664
+    },
+    {
+      "relative_path": "coincidence_repair/d8a_coincidence_core.py",
+      "sha256": "68db46337402539190077e02805dae2b4f7c18fa6468c4727f75480c769af551",
+      "size_bytes": 3757
+    },
+    {
+      "relative_path": "coincidence_repair/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": "coincidence_repair/tests/test_d8a_coincidence_repair.py",
+      "sha256": "13f977efca0ea6fae43ec2c3038169435501950b89330dacffbd4c7f30b99afa",
+      "size_bytes": 4153
+    },
+    {
+      "relative_path": "numerical_validation/D8A_SCIENTIFIC_RUN_BLOCKED.md",
+      "sha256": "b9b5206d3ba789b316d746c8a3cc202cc1a4f9ee0d1cc5afd1382b03979c8ca0",
+      "size_bytes": 567
+    }
+  ],
+  "full_generalized_policy_theorem_proved": false,
+  "historical_design_verification": "PASS",
+  "historical_theory_tag": "d8a-theory-complete-v1",
+  "historical_theory_verification": "PASS",
+  "ordinary_C2_at_candidate_coincidence": false,
+  "parent_commit": "c005549e0affe5a8089deb21d19539a6966ef831",
+  "parent_tag": "d8a-numerical-design-lock-v1",
+  "repair_preflight": "PASS",
+  "repair_unit_tests": "8/8 PASS",
+  "scientific_simulation_blocked": true,
+  "scientific_simulation_run": false
+}
