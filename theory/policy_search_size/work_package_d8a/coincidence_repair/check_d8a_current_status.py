@@ -13,10 +13,13 @@ def main() -> None:
         "Ordinary C2 theorem valid at candidate coincidence: NO"
     )
     print(
-        "Explicit cellwise piecewise quadratic lemma proved: YES"
+        "Full generalized policy coincidence theorem proved: YES"
     )
     print(
-        "Full generalized policy coincidence theorem proved: NO"
+        "Generalized expectation and TESS repair proved: YES"
+    )
+    print(
+        "Historical numerical design re-adjudicated: NO"
     )
     print(
         "Locked numerical design scientifically executable: NO"
