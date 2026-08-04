@@ -1,0 +1,61 @@
+{
+  "branch": "tess-top-tier-theory",
+  "created_utc": "2026-08-04T07:32:20.242619+00:00",
+  "diagnostic_cells": 41,
+  "files": [
+    {
+      "relative_path": "D8A_ACCEPTANCE_CRITERIA.md",
+      "sha256": "9632833b38fea0823254334c1bdd1b0d30b634d068912388ebe40dc93017d44d",
+      "size_bytes": 1961
+    },
+    {
+      "relative_path": "D8A_CELL_REGISTRY.json",
+      "sha256": "7d5e88bfd0357c0dfcf58e473463ab507825ec852072b4c49df9bb4be911456c",
+      "size_bytes": 57648
+    },
+    {
+      "relative_path": "D8A_NUMERICAL_DESIGN.json",
+      "sha256": "597bc67538184e25dabac1635d1851064bf448920db15539a2cfff8f3dd587f2",
+      "size_bytes": 7122
+    },
+    {
+      "relative_path": "D8A_NUMERICAL_VALIDATION_PROTOCOL.md",
+      "sha256": "8279b848a591a011318a72273f1869075b7f2d9082ffa51b5aa6e00f6f572b4e",
+      "size_bytes": 2820
+    },
+    {
+      "relative_path": "D8A_RUN_CONTRACT.md",
+      "sha256": "eac241d5db3ff290973c0ef0b220e405100a6214f7d6d0e1400fcdcef21f76ee",
+      "size_bytes": 1041
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "e55191c99d97989c3dbf5b3dbab506bb8e5b1d8d4dd3b702b2cd01a63cdf3331",
+      "size_bytes": 602
+    },
+    {
+      "relative_path": "check_d8a_numerical_design.py",
+      "sha256": "7d9cd820cd7d9b40bbc67d52c0c3aaed20a964fe3198e784117c251b710e972c",
+      "size_bytes": 2189
+    },
+    {
+      "relative_path": "tests/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1
+    },
+    {
+      "relative_path": "tests/test_d8a_numerical_design.py",
+      "sha256": "86aeb440b28fafde45687ec5e7b5dd61b27c97ccac02e0b072c791ca598c4dcd",
+      "size_bytes": 3900
+    }
+  ],
+  "lock_id": "TESS_D8A_NUMERICAL_DESIGN_LOCK_V1",
+  "parent_commit": "a8a2b2b27df8906a3d251ac0241e756698ee76cc",
+  "parent_tag": "d8a-theory-complete-v1",
+  "preflight": "PASS",
+  "primary_cells": 34,
+  "registered_cells": 75,
+  "scientific_numerical_design_locked": true,
+  "scientific_simulation_run": false,
+  "unit_tests": "14/14 PASS"
+}

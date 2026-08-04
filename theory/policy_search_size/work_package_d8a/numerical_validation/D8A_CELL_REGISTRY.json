@@ -1,0 +1,2477 @@
+[
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.281551565545,
+    "cell_id": "d8a-cell-000",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.736599429927,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.736599429927,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.544952135617
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.281551565545,
+    "cell_id": "d8a-cell-001",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.300728388886,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.300728388886,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.980823176659
+  },
+  {
+    "activation_regime": "trigger_above_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.281551565545,
+    "cell_id": "d8a-cell-002",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.136789857394,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.136789857394,
+    "transform": "identity",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.418341422939
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-003",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.099901491334,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 1.099901491334,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.544952135617
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-004",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.664030450293,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.664030450293,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.980823176659
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-005",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.226512204013,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.226512204013,
+    "transform": "identity",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.418341422939
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-006",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.781395738423,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 1.781395738423,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.544952135617
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-007",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.345524697382,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 1.345524697382,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.980823176659
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-008",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.908006451102,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.908006451102,
+    "transform": "identity",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.418341422939
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.566028893549,
+    "cell_id": "d8a-cell-009",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.736599429927,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.355892291531,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.210136602018
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.566028893549,
+    "cell_id": "d8a-cell-010",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.300728388886,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.156454074939,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.40957481861
+  },
+  {
+    "activation_regime": "trigger_above_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.566028893549,
+    "cell_id": "d8a-cell-011",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.136789857394,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.076799683088,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.642828576637
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-012",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.099901491334,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.568236163356,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.210136602018
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-013",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.664030450293,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.368797946763,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.40957481861
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-014",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.226512204013,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.135544188737,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.642828576637
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-015",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.781395738423,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 1.0472815642,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.210136602018
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-016",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.345524697382,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.847843347607,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.40957481861
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-017",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.908006451102,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "primary",
+    "score_separation": 0.61458958958,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.642828576637
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 0.685534594519,
+    "cell_id": "d8a-cell-018",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.736599429927,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 0.409674405832,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.275860188687
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 0.685534594519,
+    "cell_id": "d8a-cell-019",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.300728388886,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 0.175227642346,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.510306952174
+  },
+  {
+    "activation_regime": "trigger_above_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 0.685534594519,
+    "cell_id": "d8a-cell-020",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.136789857394,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 0.084591960871,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 0.77012655539
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-021",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.099901491334,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 0.642466063107,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.275860188687
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-022",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.664030450293,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 0.40801929962,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.510306952174
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-023",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.226512204013,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 0.148199696403,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 0.77012655539
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-024",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.781395738423,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 1.16793042887,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.544952135617,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.275860188687
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-025",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 1.345524697382,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 0.933483665383,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.980823176659,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.510306952174
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-026",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "latent_separation": 0.908006451102,
+    "minimum_correlation_eigenvalue": 1.0,
+    "role": "diagnostic",
+    "score_separation": 0.673664062167,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 1.418341422939,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 0.77012655539
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.281551565545,
+    "cell_id": "d8a-cell-027",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.851955966395,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.851955966395,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.42959559915
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.281551565545,
+    "cell_id": "d8a-cell-028",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.378998462136,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.378998462136,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.902553103409
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-029",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.215258027802,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 1.215258027802,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.42959559915
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-030",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.742300523543,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.742300523543,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.902553103409
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-031",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.276078706049,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.276078706049,
+    "transform": "identity",
+    "trigger_latent_threshold": 1.368774920903,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.368774920903
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-032",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.896752274891,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 1.896752274891,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.42959559915
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-033",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.423794770632,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 1.423794770632,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.902553103409
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-034",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.957572953138,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.957572953138,
+    "transform": "identity",
+    "trigger_latent_threshold": 1.368774920903,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.368774920903
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.566028893549,
+    "cell_id": "d8a-cell-035",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.851955966395,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.403778105411,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.162250788138
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.566028893549,
+    "cell_id": "d8a-cell-036",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.378998462136,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.194544590555,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.371484302995
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-037",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.215258027802,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.616121977235,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.162250788138
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-038",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.742300523543,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.406888462379,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.371484302995
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-039",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.276078706049,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.163798640201,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 1.368774920903,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.614574125172
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-040",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.896752274891,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 1.095167378079,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.162250788138
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-041",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.423794770632,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.885933863223,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.371484302995
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-042",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.957572953138,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "primary",
+    "score_separation": 0.642844041045,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 1.368774920903,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.614574125172
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 0.685534594519,
+    "cell_id": "d8a-cell-043",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.851955966395,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "diagnostic",
+    "score_separation": 0.46908125351,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.21645334101
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 0.685534594519,
+    "cell_id": "d8a-cell-044",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.378998462136,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "diagnostic",
+    "score_separation": 0.218784199597,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.466750394922
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-045",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.215258027802,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "diagnostic",
+    "score_separation": 0.701872910784,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.21645334101
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-046",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.742300523543,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "diagnostic",
+    "score_separation": 0.451575856871,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.466750394922
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-047",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.276078706049,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "diagnostic",
+    "score_separation": 0.179247267017,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 1.368774920903,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 0.739078984776
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-048",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.896752274891,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "diagnostic",
+    "score_separation": 1.227337276547,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.42959559915,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.21645334101
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-049",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 1.423794770632,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "diagnostic",
+    "score_separation": 0.977040222635,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.902553103409,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.466750394922
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-050",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "latent_separation": 0.957572953138,
+    "minimum_correlation_eigenvalue": 0.6,
+    "role": "diagnostic",
+    "score_separation": 0.704711632781,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 1.368774920903,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 0.739078984776
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.281551565545,
+    "cell_id": "d8a-cell-051",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.907622603826,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.907622603826,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.373928961718
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.281551565545,
+    "cell_id": "d8a-cell-052",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.421385877082,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.421385877082,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.860165688462
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-053",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.270924665233,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 1.270924665233,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.373928961718
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-054",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.784687938489,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.784687938489,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.860165688462
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.644853626951,
+    "cell_id": "d8a-cell-055",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.307261059553,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.307261059553,
+    "transform": "identity",
+    "trigger_latent_threshold": 1.337592567399,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.337592567399
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-056",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.952418912323,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 1.952418912323,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.373928961718
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-057",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.466182185579,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 1.466182185579,
+    "transform": "identity",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.860165688462
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.326347874041,
+    "cell_id": "d8a-cell-058",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.988755306642,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.988755306642,
+    "transform": "identity",
+    "trigger_latent_threshold": 1.337592567399,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.337592567399
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.566028893549,
+    "cell_id": "d8a-cell-059",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.907622603826,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.426203443602,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.139825449947
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 1.566028893549,
+    "cell_id": "d8a-cell-060",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.421385877082,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.21474119181,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.351287701739
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-061",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.270924665233,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.638547315427,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.139825449947
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-062",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.784687938489,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.427085063634,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.351287701739
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 1.778372765373,
+    "cell_id": "d8a-cell-063",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.307261059553,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.181324009246,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 1.337592567399,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.597048756127
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-064",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.952418912323,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 1.117592716271,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 1.139825449947
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-065",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.466182185579,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.906130464478,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 1.351287701739
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 2.257418166217,
+    "cell_id": "d8a-cell-066",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.988755306642,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.66036941009,
+    "transform": "exp_0_35",
+    "trigger_latent_threshold": 1.337592567399,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 1.597048756127
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 0.685534594519,
+    "cell_id": "d8a-cell-067",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.907622603826,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.497478962056,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.188055632464
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.281551565545,
+    "candidate_probability": 0.9,
+    "candidate_score_threshold": 0.685534594519,
+    "cell_id": "d8a-cell-068",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.421385877082,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.242069756664,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.443464837856
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-069",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.270924665233,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.73027061933,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.188055632464
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-070",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.784687938489,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.474861413938,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.443464837856
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 1.644853626951,
+    "candidate_probability": 0.95,
+    "candidate_score_threshold": 0.918326251793,
+    "cell_id": "d8a-cell-071",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.307261059553,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.198545507832,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 1.337592567399,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 0.719780743961
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-072",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.952418912323,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 1.255734985093,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.373928961718,
+    "trigger_probability": 0.5,
+    "trigger_score_threshold": 0.188055632464
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-073",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 1.466182185579,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 1.000325779701,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 0.860165688462,
+    "trigger_probability": 0.7,
+    "trigger_score_threshold": 0.443464837856
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "candidate_latent_threshold": 2.326347874041,
+    "candidate_probability": 0.99,
+    "candidate_score_threshold": 1.443790617557,
+    "cell_id": "d8a-cell-074",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "latent_separation": 0.988755306642,
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "role": "diagnostic",
+    "score_separation": 0.724009873596,
+    "transform": "sinh_0_5",
+    "trigger_latent_threshold": 1.337592567399,
+    "trigger_probability": 0.85,
+    "trigger_score_threshold": 0.719780743961
+  }
+]

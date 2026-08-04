@@ -1,0 +1,230 @@
+{
+  "acceptance": {
+    "combined_policy_approximation": {
+      "largest_pair_median_maximum": 0.15,
+      "largest_pair_p90_maximum": 0.4,
+      "metric": "MCSE-adjusted absolute residual divided by (1/B+1/n)*(1+|C_Delta,B|+|Delta_pi|)"
+    },
+    "exact_evaluation_identity": {
+      "familywise_alpha": 0.01,
+      "method": "Bonferroni simultaneous Monte Carlo z check",
+      "required": true
+    },
+    "fatal_checks": [
+      "all declared cells executed",
+      "no undeclared cell deletion",
+      "no oracle integration failure",
+      "all correlation matrices positive definite",
+      "all cells satisfy latent separation >=0.10",
+      "Hessian symmetry error <=1e-8",
+      "independent Hessian methods relative discrepancy <=1e-5",
+      "reference and evaluation streams independent",
+      "quantile convention exactly k_B=ceil(B*p)"
+    ],
+    "interpretation": "Failure of an asymptotic usefulness threshold is not automatically a contradiction of the theorem; fatal exact identity or implementation failures are adjudicated separately.",
+    "reference_approximation": {
+      "largest_B_median_maximum": 0.15,
+      "largest_B_p90_maximum": 0.4,
+      "median_improvement_from_B500_to_B10000_minimum": 0.4,
+      "metric": "MCSE-adjusted |B*(bias-C_B/B)|/(1+|C_B|)"
+    },
+    "second_order_improvement": {
+      "comparison": "absolute bias residual versus first-order-only baseline",
+      "minimum_fraction_improved_primary_cells": 0.75
+    },
+    "tess_approximation": {
+      "largest_pair_median_maximum": 0.25,
+      "largest_pair_p90_maximum": 0.6,
+      "metric": "MCSE-adjusted absolute residual divided by (1/B+1/n)*(1+|C_S,R,B|+|C_S,E|)"
+    }
+  },
+  "cell_registry": {
+    "diagnostic_cells": 41,
+    "latent_separation_minimum": 0.1,
+    "no_post_hoc_cell_dropping": true,
+    "path": "D8A_CELL_REGISTRY.json",
+    "primary_cells": 34,
+    "total_cells": 75
+  },
+  "experiments": {
+    "combined": {
+      "input_randomness": "independent reference and evaluation banks",
+      "policy_prediction": "C_Delta,B/B-Delta_pi/n-C_Delta,B/(B*n)",
+      "tess_prediction": "C_S,R,B/B+C_S,E/n"
+    },
+    "evaluation_only": {
+      "input_randomness": "evaluation bank at population thresholds",
+      "policy_mean_identity": "E(delta_hat)=(1-1/n)*Delta_pi",
+      "targets": [
+        "policy covariance estimator",
+        "adaptive rejection estimator",
+        "comparator product estimator",
+        "TESS contrast"
+      ],
+      "tess_prediction": "bias=C_S,E/n+o(n^-1)"
+    },
+    "reference_only": {
+      "evaluation_expectation": "computed conditionally without evaluation Monte Carlo",
+      "input_randomness": "reference bank only",
+      "primary_prediction": "bias=C_B/B+o(B^-1)",
+      "targets": [
+        "Delta_pi(theta_hat_R)",
+        "pi_A(theta_hat_R)",
+        "pi_C(theta_hat_R)",
+        "Delta_S(theta_hat_R)"
+      ]
+    }
+  },
+  "lineage": {
+    "d7_formal_status": "FAIL",
+    "theory_tag": "d8a-theory-complete-v1"
+  },
+  "lock_id": "TESS_D8A_NUMERICAL_DESIGN_LOCK_V1",
+  "monte_carlo": {
+    "batch_size": 250,
+    "cell_seed_rule": "SeedSequence(master_seed, spawn_key=first four uint32 words of SHA256(canonical_cell_key))",
+    "diagnostic_maximum_replicates": 5000,
+    "diagnostic_minimum_replicates": 1000,
+    "effect_dependent_stopping": false,
+    "generator": "numpy.random.PCG64DXSM",
+    "master_seed": 20260804,
+    "nested_common_random_numbers_across_sizes": true,
+    "precision_limited_fraction_maximum": 0.1,
+    "precision_stopping_only": true,
+    "primary_maximum_replicates": 20000,
+    "primary_minimum_replicates": 2000,
+    "primary_scaled_mcse_target": 0.03,
+    "raw_bank_storage": false,
+    "reference_evaluation_streams_independent": true,
+    "streaming_required": true
+  },
+  "oracle_contract": {
+    "absolute_tolerance": 1e-10,
+    "base_max_quantile": "deterministic one-dimensional quadrature plus root finding",
+    "gradient": "D7 boundary identities and direct moving-face integration",
+    "hessian_audit": "symmetric Richardson finite differences at h={0.002,0.001,0.0005}",
+    "hessian_primary": "iterated moving-face integration",
+    "hessian_symmetry_tolerance": 1e-08,
+    "independent_method_relative_tolerance": 1e-05,
+    "primary_family": "three-dimensional Gaussian copula with common monotone margins",
+    "probabilities": "deterministic low-dimensional Gaussian integration",
+    "relative_tolerance": 1e-09
+  },
+  "outputs": {
+    "required_figures": [
+      "reference_scaled_remainder.pdf",
+      "combined_policy_residual.pdf",
+      "tess_residual.pdf",
+      "second_order_improvement.pdf"
+    ],
+    "required_metadata": [
+      "run_config.json",
+      "environment.txt",
+      "seed_registry.csv",
+      "file_hashes.json",
+      "full_run_log.txt"
+    ],
+    "required_tables": [
+      "cell_registry.csv",
+      "oracle_coefficients.csv",
+      "reference_bias_results.csv",
+      "evaluation_bias_results.csv",
+      "combined_bias_results.csv",
+      "tess_bias_results.csv",
+      "acceptance_check_results.csv"
+    ]
+  },
+  "prohibited_before_run_lock": [
+    "changing a threshold after inspecting scientific results",
+    "dropping a difficult cell",
+    "changing acceptance thresholds",
+    "adding an unregistered DGP as confirmatory evidence",
+    "using D7 simulation output to tune D8-A criteria"
+  ],
+  "purpose": "Validate implementation and finite-sample usefulness of the D8-A second-order policy and TESS bias expansions.",
+  "sample_sizes": {
+    "combined_pairs": [
+      [
+        250,
+        10000
+      ],
+      [
+        500,
+        3000
+      ],
+      [
+        1000,
+        1000
+      ],
+      [
+        3000,
+        500
+      ],
+      [
+        10000,
+        250
+      ],
+      [
+        3000,
+        3000
+      ],
+      [
+        10000,
+        10000
+      ]
+    ],
+    "evaluation_n": [
+      250,
+      500,
+      1000,
+      3000,
+      10000
+    ],
+    "reference_B": [
+      250,
+      500,
+      1000,
+      3000,
+      10000
+    ]
+  },
+  "schema_version": "1.0",
+  "scientific_numerical_design_locked": true,
+  "scientific_simulation_run": false,
+  "scope": {
+    "activation": "A=I(max(X[0],X[1])>c)",
+    "adaptive_rejection": "H=R0+A*M",
+    "base_rejection": "R0=I(X[J0]>q[J0])",
+    "base_winner": "argmax over candidate_pool_base",
+    "candidate_pool_base": [
+      0,
+      1
+    ],
+    "candidate_pool_full": [
+      0,
+      1,
+      2
+    ],
+    "comparator_estimator": "mean(R0)+mean(A)*mean(M)",
+    "full_rejection": "R1=I(X[J1]>q[J1])",
+    "full_winner": "argmax over candidate_pool_full",
+    "incremental": "M=(1-R0)*R1",
+    "policy_contrast": "Delta_pi=Cov(A,M)",
+    "quantile_convention": "k_B=ceil(B*p)",
+    "threshold_dimension": 4
+  },
+  "tess": {
+    "alpha_values": [
+      0.01,
+      0.05
+    ],
+    "probability_guard": "all oracle and estimated probabilities must remain below 1-1e-12",
+    "transform": "g_alpha(x)=log(1-x)/log(1-alpha)"
+  },
+  "transforms": {
+    "common_monotone_transform_preserves_winners": true,
+    "exp_0_35": "h(z)=exp(0.35*z)",
+    "identity": "h(z)=z",
+    "sinh_0_5": "h(z)=sinh(0.5*z)"
+  }
+}
