@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-08-04T04:19:29.646672+00:00",
+  "failed_fatal_checks": [],
+  "failed_scientific_checks": [
+    "bootstrap_coverage_delta_pi",
+    "bootstrap_coverage_delta_s",
+    "both_trigger_ordering_strata",
+    "delta_pi_bias_per_cell",
+    "delta_pi_variance_ratio_per_cell",
+    "delta_s_bias_per_cell",
+    "delta_s_normal_coverage_per_cell",
+    "delta_s_variance_ratio_per_cell",
+    "plus_one_bridge_delta_pi",
+    "plus_one_bridge_delta_s",
+    "plus_one_sign_reversals"
+  ],
+  "locked_implementation_modified": false,
+  "original_failure": "numpy scalar boolean was not JSON serializable while writing D7_VALIDATION_CHECKS.json",
+  "physical_output_counts": {
+    "bootstrap_cells": 18,
+    "bootstrap_outer_rows": 9000,
+    "diagnostic_cells": 9,
+    "diagnostic_replication_rows": 26000,
+    "main_cells": 72,
+    "main_replication_rows": 144000
+  },
+  "reconstructed_status": "FAIL",
+  "recovery_id": "D7_JSON_SERIALIZATION_RECOVERY_V1",
+  "scientific_outputs_reused": [
+    "D7_POPULATION_BENCHMARKS.json",
+    "D7_MAIN_REPLICATIONS.csv",
+    "D7_MAIN_CELL_SUMMARY.csv",
+    "D7_BOOTSTRAP_OUTER_RESULTS.csv",
+    "D7_BOOTSTRAP_CELL_SUMMARY.csv",
+    "D7_DIAGNOSTIC_REPLICATIONS.csv",
+    "D7_DIAGNOSTIC_CELL_SUMMARY.csv",
+    "D7_VALIDATION_SUMMARY.json"
+  ],
+  "scientific_simulation_repeated": false,
+  "summary_status_match": true
+}

@@ -1,0 +1,142 @@
+{
+  "checkpoint_id": "D7_THEORY_EMPIRICAL_PRELOCK_CHECKPOINT_V1",
+  "created_utc": "2026-08-04T02:13:05.824281+00:00",
+  "files": [
+    {
+      "relative_path": ".gitignore",
+      "sha256": "3a9caf4afb99bdcd1abe7ac631c1443260efc7b3e246b62670b703ddccd01dee",
+      "size_bytes": 82
+    },
+    {
+      "relative_path": "D7_CONFIG_DRAFT.json",
+      "sha256": "bf8c7a9e8a1b6a7c23496c77d7fc7016aa53345c237400b7162f9ea67cbfae97",
+      "size_bytes": 2640
+    },
+    {
+      "relative_path": "D7_EMPIRICAL_AUDIT_ADJUDICATION.md",
+      "sha256": "0661983224f60a8fff6259a8d34097b38a389cd211a1ba3067d2608adb600e1d",
+      "size_bytes": 2135
+    },
+    {
+      "relative_path": "D7_PREFLIGHT_ADJUDICATION.md",
+      "sha256": "493b08b97d9de9ea8294224aafd589fcf4a83e7c141620ec9a731d6eda70382b",
+      "size_bytes": 1240
+    },
+    {
+      "relative_path": "D7_PROTOCOL.md",
+      "sha256": "8453036c785dc1b62917e938460da2f8c7396b05dab62042bdca0df033981130",
+      "size_bytes": 7256
+    },
+    {
+      "relative_path": "D7_THEORY_CHECKPOINT.md",
+      "sha256": "f58eac6ba7ff04612e60372a13db23173cc60f68a7dc2b8ef9ff03e882511192",
+      "size_bytes": 861
+    },
+    {
+      "relative_path": "D7_THEORY_MEMO.md",
+      "sha256": "572c79809adf0642588bdb0bfc37f688dcfb0979796a8c3e6d2ec87895b6ae4e",
+      "size_bytes": 14281
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "cdcb1c4ae157a83241a431bf9d52be4fbf0c9b20aba513f020e410e0f4ac75e8",
+      "size_bytes": 2297
+    },
+    {
+      "relative_path": "d7_core.py",
+      "sha256": "b0ce65b8f771b133952e50a85959787e7673ad91b117aca9afed040e348b0942",
+      "size_bytes": 11598
+    },
+    {
+      "relative_path": "d7_preflight.py",
+      "sha256": "9485926ff6567817b30f2979895c8c33d4e4418e1bdc8a471a908dc75147b57d",
+      "size_bytes": 6691
+    },
+    {
+      "relative_path": "d7_preflight_core.py",
+      "sha256": "069030d6e4d8f03cfc838d459ca231c528e3fd0941442a464b440102276b50a3",
+      "size_bytes": 21051
+    },
+    {
+      "relative_path": "empirical_audit/historical_surrogates_v1/D7_ALPHA_SEPARATION_SUMMARY.csv",
+      "sha256": "3ac4151ca61bd31f51f9b9bdbe6b43f1c7e8f5e39fb4edb1e8425af7d4787f26",
+      "size_bytes": 1875
+    },
+    {
+      "relative_path": "empirical_audit/historical_surrogates_v1/D7_BANK_MAPPING.csv",
+      "sha256": "10bb5110861cf0778d2320241f643cbc9728946eee13dd7dba297f139ebb5559",
+      "size_bytes": 2030
+    },
+    {
+      "relative_path": "empirical_audit/historical_surrogates_v1/D7_CANDIDATE_TRIGGER_SEPARATION.csv",
+      "sha256": "97aa605a284e818866ed829569fe1f2dba6d0ea927e0c7d52d44210170552658",
+      "size_bytes": 30208
+    },
+    {
+      "relative_path": "empirical_audit/historical_surrogates_v1/D7_EMPIRICAL_AUDIT_REPORT.md",
+      "sha256": "75529d490b6725be08ac08f3f0487e4b273c3f725937d75b5aab34a65e8fb82b",
+      "size_bytes": 4365
+    },
+    {
+      "relative_path": "empirical_audit/historical_surrogates_v1/D7_EMPIRICAL_AUDIT_SHA256.txt",
+      "sha256": "667d263e7c4e6bf70c9c5a1ac0aecdf69157b01c6ca902a2b8168a4a1357cb68",
+      "size_bytes": 566
+    },
+    {
+      "relative_path": "empirical_audit/historical_surrogates_v1/D7_EMPIRICAL_AUDIT_SUMMARY.json",
+      "sha256": "56c2ae1adba253aab9d30032fc443b1552f9273b35b65626df1268b433b402a6",
+      "size_bytes": 545
+    },
+    {
+      "relative_path": "empirical_audit/historical_surrogates_v1/D7_TRIGGER_AUDIT.csv",
+      "sha256": "d90fb00a2c1d26b8fef357e089735236d9b72ae585321b7378ed99623f537d3d",
+      "size_bytes": 1679
+    },
+    {
+      "relative_path": "run_d7_preflight.sh",
+      "sha256": "b35ad521b1127e14fa610353c05a5f88e840176d32a6a4ed1289073c34eba38b",
+      "size_bytes": 182
+    },
+    {
+      "relative_path": "run_d7_tests.sh",
+      "sha256": "0dd1e0871a6cdc7a2688b2b4cb81889535f31588a0649fb43c3dd8564fec88d6",
+      "size_bytes": 209
+    },
+    {
+      "relative_path": "tests/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1
+    },
+    {
+      "relative_path": "tests/test_d7_core.py",
+      "sha256": "e41c6c84951ecb52ec929d8602e3f7b4e77f46007a3c94b71c44157514cd1210",
+      "size_bytes": 6406
+    },
+    {
+      "relative_path": "tests/test_d7_preflight_core.py",
+      "sha256": "0f82c5f238b581ffb3d3c195968c6c9ffb9271efbaad2d2a327e3060cd0978aa",
+      "size_bytes": 2150
+    },
+    {
+      "relative_path": "verify_d7_theory_checkpoint.py",
+      "sha256": "05ea663009d9d2b768a13d3e8634a858cad17548b09b058c2dc13a43f4517b00",
+      "size_bytes": 1440
+    }
+  ],
+  "metadata": {
+    "branch": "tess-top-tier-theory",
+    "formal_empirical_bridge": "INCOMPLETE",
+    "historical_base_winner_ties": {
+      "high_dependency_linear_20": "12/10000",
+      "mixed_realistic_20": "4/10000"
+    },
+    "historical_threshold_coincidences": 0,
+    "historical_within_one_spacing_pairs": 0,
+    "python": "python",
+    "runtime_preflight": "PASS; not scientific evidence",
+    "unit_tests": "21/21 PASS"
+  },
+  "scientific_numerical_design_locked": false,
+  "scientific_simulation_run": false,
+  "source_head_before_checkpoint_commit": "fe5427aa45d7e0ce84c12ae3a3e3d634f9ef53e4"
+}

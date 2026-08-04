@@ -1,0 +1,60 @@
+{
+  "branch": "tess-top-tier-theory",
+  "created_utc": "2026-08-04T02:52:03.613406+00:00",
+  "files": [
+    {
+      "relative_path": "D7_VALIDATION_IMPLEMENTATION.md",
+      "sha256": "fc434edb8846ad134383c660766e170c3370f65505be6918d7b2f8fa6226ce78",
+      "size_bytes": 1123
+    },
+    {
+      "relative_path": "D7_VALIDATION_IMPLEMENTATION_LOCK.md",
+      "sha256": "17bd4b3d98c1622fa3475ce14927eef994da19f2232742f194930452338ed239",
+      "size_bytes": 799
+    },
+    {
+      "relative_path": "d7_validation.py",
+      "sha256": "ab80d43b07e5d538efd6dba333c66130fac94255758b39019c83853f2e429348",
+      "size_bytes": 2189
+    },
+    {
+      "relative_path": "d7_validation_core.py",
+      "sha256": "6ef2aeaaf8b50a286c81919785227bd8e75cc43188071bef5c99c41fd3680182",
+      "size_bytes": 89639
+    },
+    {
+      "relative_path": "run_d7_validation_full.sh",
+      "sha256": "2c5c13a411bcb5144b77a4f206edfc673a76fadae473319800d01d20dfb418a5",
+      "size_bytes": 519
+    },
+    {
+      "relative_path": "run_d7_validation_smoke.sh",
+      "sha256": "d73c3951a412bc2b8c4193582c4fc7cff8dbb1f5977da0dbb592381c5d36b193",
+      "size_bytes": 429
+    },
+    {
+      "relative_path": "tests/test_d7_validation_core.py",
+      "sha256": "98de182cb672bb135f4b999a4400a28fa6c329b6a821b34bb533732a32d0d74d",
+      "size_bytes": 5469
+    },
+    {
+      "relative_path": "verify_d7_validation_implementation.py",
+      "sha256": "7c9698f380c79e735c571b692a50e3c204f7ca89ba3adcc1706c954c33c610ba",
+      "size_bytes": 1433
+    }
+  ],
+  "lock_id": "TESS_D7_VALIDATION_IMPLEMENTATION_LOCK_V1",
+  "parent_numerical_commit": "4ee14923ae403431096ec4fbcaa0ddecc10628de",
+  "parent_numerical_tag": "d7-continuous-validation-lock-v1",
+  "scientific_full_run_completed": false,
+  "source_head_before_implementation_lock_commit": "4ee14923ae403431096ec4fbcaa0ddecc10628de",
+  "verification": {
+    "numerical_lock": "PASS",
+    "smoke_bootstrap_outer_rows": 12,
+    "smoke_diagnostic_rows": 60,
+    "smoke_main_rows": 120,
+    "theory_checkpoint": "PASS",
+    "unit_tests": "37/37 PASS",
+    "validation_smoke": "PASS; not scientific evidence"
+  }
+}

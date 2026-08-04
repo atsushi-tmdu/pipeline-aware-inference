@@ -1,0 +1,49 @@
+{
+  "fatal_checks": {
+    "benchmark_mcse_to_smallest_main_standard_error_max": true,
+    "bootstrap_cell_count": true,
+    "bootstrap_failures": true,
+    "bootstrap_outer_rows": true,
+    "continuous_dgp_observed_winner_ties": true,
+    "covariance_identity_absolute_error_max": true,
+    "covariance_positive_definite_all_dgps": true,
+    "exact_coincidence_cell_count": true,
+    "exact_main_threshold_coincidences": true,
+    "fixed_finite_nested_pools": true,
+    "main_cell_count": true,
+    "main_replication_rows": true,
+    "minimum_standardized_main_threshold_separation": true,
+    "near_coincidence_cell_count": true,
+    "nonfinite_scientific_outputs": true,
+    "plus_one_support_violations": true,
+    "required_output_files_present": true
+  },
+  "maximum_benchmark_mcse_ratio": 0.022209850577204114,
+  "scientific_checks": {
+    "bootstrap_coverage_delta_pi": false,
+    "bootstrap_coverage_delta_s": false,
+    "bootstrap_sd_delta_pi": true,
+    "bootstrap_sd_delta_s": true,
+    "both_trigger_ordering_strata": false,
+    "delta_pi_bias_median": true,
+    "delta_pi_bias_per_cell": false,
+    "delta_pi_normal_coverage_median": true,
+    "delta_pi_normal_coverage_per_cell": true,
+    "delta_pi_variance_ratio_median": true,
+    "delta_pi_variance_ratio_per_cell": false,
+    "delta_s_bias_median": true,
+    "delta_s_bias_per_cell": false,
+    "delta_s_normal_coverage_median": true,
+    "delta_s_normal_coverage_per_cell": false,
+    "delta_s_variance_ratio_median": true,
+    "delta_s_variance_ratio_per_cell": false,
+    "plus_one_bridge_delta_pi": false,
+    "plus_one_bridge_delta_s": false,
+    "plus_one_sign_reversals": false
+  },
+  "status": "FAIL",
+  "trigger_stratum_pass": {
+    "above_all_base_thresholds": false,
+    "below_all_base_thresholds": false
+  }
+}

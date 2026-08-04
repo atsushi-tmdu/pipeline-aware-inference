@@ -1,0 +1,32 @@
+{
+  "bootstrap_cells": 18,
+  "bootstrap_diagnostics": {
+    "bootstrap_failures": 0,
+    "minimum_finite_bootstrap_replicates": 249,
+    "winner_ties": 0
+  },
+  "bootstrap_outer_rows": 9000,
+  "diagnostic_cells": 9,
+  "diagnostic_info": {
+    "winner_ties": 0
+  },
+  "diagnostic_replication_rows": 26000,
+  "elapsed_seconds": 4715.343145041959,
+  "main_cells": 72,
+  "main_diagnostics": {
+    "maximum_covariance_identity_error": 8.326672684688674e-17,
+    "support_violations": 0,
+    "winner_ties": {
+      "evaluation_base_plus": 0,
+      "evaluation_base_regular": 0,
+      "evaluation_full_plus": 0,
+      "evaluation_full_regular": 0,
+      "reference_base": 0
+    }
+  },
+  "main_replication_rows": 144000,
+  "mode": "full",
+  "scientific_evidence": true,
+  "status": "FAIL",
+  "study_id": "TESS_D7_CONTINUOUS_MAXIMUM_TRIGGER_VALIDATION_V1"
+}

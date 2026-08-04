@@ -1,0 +1,95 @@
+{
+  "adjudicative_scientific_checks": {
+    "bootstrap_normal_coverage_delta_pi_per_cell": [
+      0.92,
+      0.98
+    ],
+    "bootstrap_normal_coverage_delta_s_per_cell": [
+      0.92,
+      0.98
+    ],
+    "bootstrap_sd_to_empirical_sd_ratio_delta_pi_per_cell": [
+      0.8,
+      1.25
+    ],
+    "bootstrap_sd_to_empirical_sd_ratio_delta_s_per_cell": [
+      0.8,
+      1.25
+    ],
+    "both_trigger_ordering_strata_must_pass": true,
+    "delta_pi_absolute_standardized_bias_per_cell_max": 0.2,
+    "delta_pi_empirical_to_exact_variance_ratio_median": [
+      0.9,
+      1.1
+    ],
+    "delta_pi_empirical_to_exact_variance_ratio_per_cell": [
+      0.8,
+      1.25
+    ],
+    "delta_pi_median_absolute_standardized_bias_max": 0.1,
+    "delta_pi_normal_coverage_median": [
+      0.94,
+      0.96
+    ],
+    "delta_pi_normal_coverage_per_cell": [
+      0.925,
+      0.975
+    ],
+    "delta_s_absolute_standardized_bias_per_cell_max": 0.2,
+    "delta_s_empirical_to_exact_variance_ratio_median": [
+      0.9,
+      1.1
+    ],
+    "delta_s_empirical_to_exact_variance_ratio_per_cell": [
+      0.8,
+      1.25
+    ],
+    "delta_s_median_absolute_standardized_bias_max": 0.1,
+    "delta_s_normal_coverage_median": [
+      0.94,
+      0.96
+    ],
+    "delta_s_normal_coverage_per_cell": [
+      0.925,
+      0.975
+    ],
+    "plus_one_bridge_rms_to_empirical_sd_delta_pi_max": 0.15,
+    "plus_one_bridge_rms_to_empirical_sd_delta_s_max": 0.15,
+    "plus_one_strict_sign_reversal_frequency_max": 0.01
+  },
+  "decision_rule": "Formal PASS requires every fatal implementation check and every adjudicative scientific check to pass. Diagnostic near- and exact-coincidence cells are reported but excluded from the formal decision.",
+  "fatal_implementation_checks": {
+    "benchmark_mcse_to_smallest_main_standard_error_max": 0.03,
+    "bootstrap_cell_count": 18,
+    "bootstrap_failures": 0,
+    "bootstrap_outer_rows": 9000,
+    "continuous_dgp_observed_winner_ties": 0,
+    "covariance_identity_absolute_error_max": 1e-12,
+    "covariance_positive_definite_all_dgps": true,
+    "exact_coincidence_cell_count": 1,
+    "exact_main_threshold_coincidences": 0,
+    "fixed_finite_nested_pools": true,
+    "main_cell_count": 72,
+    "main_replication_rows": 144000,
+    "minimum_standardized_main_threshold_separation": 0.2,
+    "near_coincidence_cell_count": 8,
+    "nonfinite_scientific_outputs": 0,
+    "plus_one_support_violations": 0,
+    "required_output_files_present": true
+  },
+  "interpretation_guardrails": [
+    "No threshold, tolerance, grid, repetition count, or PASS/FAIL criterion may be changed after the numerical lock merely to obtain PASS.",
+    "A failed regular-cell criterion remains a formal FAIL even when the excess is numerically small.",
+    "Diagnostic exact-coincidence failure does not change the regular theorem adjudication because it is prospectively excluded.",
+    "D7 results do not validate discrete winner ties or the current frozen empirical policy."
+  ],
+  "nonadjudicative_diagnostics": [
+    "near-coincidence bias, variance, and coverage trajectories",
+    "exact-coincidence ordinary-bootstrap behavior",
+    "directional nonadditivity at exact coincidence",
+    "reference variance fraction",
+    "activation probabilities implied by each trigger boundary"
+  ],
+  "status": "prospective_draft_prelock",
+  "study_id": "TESS_D7_CONTINUOUS_MAXIMUM_TRIGGER_CRITERIA_V1"
+}

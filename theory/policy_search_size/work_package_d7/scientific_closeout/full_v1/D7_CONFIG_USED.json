@@ -1,0 +1,533 @@
+{
+  "config": {
+    "alpha_grid": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "bootstrap_design": {
+      "main_design": {
+        "evaluation_size": 3000,
+        "reference_size": 3000
+      },
+      "outer_datasets_per_cell": 500,
+      "resamples_per_outer_dataset": 249,
+      "resampling": "independent complete-vector resampling of reference and evaluation banks with full recomputation"
+    },
+    "exact_coincidence_diagnostic": {
+      "alpha": 0.05,
+      "anchor_candidate": 0,
+      "dgp": "transparent_k3_max_trigger",
+      "evaluation_size": 3000,
+      "ordinary_bootstrap_coverage_is_adjudicative": false,
+      "outer_repetitions": 2000,
+      "purpose": "demonstrate nonregular behavior; excluded from regular-cell PASS/FAIL criteria",
+      "reference_size": 3000,
+      "trigger_threshold": "c = q_anchor exactly"
+    },
+    "excluded_from_scientific_adjudication": [
+      "discrete candidate-score atoms",
+      "winner ties and deterministic winner-tie breaking",
+      "probabilistic or deterministic trigger-tie allocation",
+      "exact candidate/trigger threshold coincidence",
+      "failed-fit fallback",
+      "growing candidate dimension"
+    ],
+    "expected_counts": {
+      "bootstrap_cells": 18,
+      "bootstrap_outer_rows": 9000,
+      "exact_coincidence_cells": 1,
+      "exact_coincidence_replication_rows": 2000,
+      "main_cells": 72,
+      "main_replication_rows": 144000,
+      "near_coincidence_cells": 8,
+      "near_coincidence_replication_rows": 24000
+    },
+    "main_designs": [
+      {
+        "evaluation_size": 1000,
+        "reference_size": 1000
+      },
+      {
+        "evaluation_size": 3000,
+        "reference_size": 3000
+      },
+      {
+        "evaluation_size": 5000,
+        "reference_size": 3000
+      },
+      {
+        "evaluation_size": 5000,
+        "reference_size": 5000
+      }
+    ],
+    "main_outer_repetitions_per_cell": 2000,
+    "near_coincidence_diagnostic": {
+      "adjudicative": false,
+      "alpha": 0.05,
+      "anchor_candidate": 0,
+      "dgp": "transparent_k3_max_trigger",
+      "evaluation_size": 3000,
+      "offsets_in_anchor_sd": [
+        -0.2,
+        -0.1,
+        -0.05,
+        -0.025,
+        0.025,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "outer_repetitions_per_cell": 3000,
+      "reference_size": 3000
+    },
+    "output_policy": {
+      "compact_summaries_frozen_after_adjudication": true,
+      "full_run_log_required": true,
+      "raw_outputs_ignored": true,
+      "sha256_inventory_required": true
+    },
+    "parent_checkpoint_commit": "4f206b3236c8a943d4fc204698189979ca11bf7a",
+    "parent_checkpoint_tag": "d7-theory-prelock-v1",
+    "population_benchmark": {
+      "candidate_thresholds": "analytic Gaussian marginal quantiles",
+      "chunk_size": 100000,
+      "conditional_boundary_draws_per_boundary": 500000,
+      "master_seed": 2027010702,
+      "maximum_cdf": {
+        "abseps": 1e-10,
+        "master_seed": 2027010701,
+        "maxpts": 5000000,
+        "releps": 1e-10
+      },
+      "seed_derivation": "stable SHA-256 derivation from study ID, DGP, alpha, regime, boundary type, and candidate index",
+      "trigger_probability": "deterministic multivariate-normal CDF evaluated at the predeclared trigger boundary",
+      "unconditional_draws_per_dgp": 10000000
+    },
+    "scientific_randomness": {
+      "bootstrap_master_seed": 2027010712,
+      "master_seed": 2027010711,
+      "outer_seed_derivation": "stable SHA-256 derivation from study ID and complete cell key"
+    },
+    "scientific_scope": "continuous fixed-finite-candidate, almost-surely unique-winner, strictly separated maximum-trigger regime",
+    "smoke_design": {
+      "alpha": 0.05,
+      "bootstrap_outer_datasets_per_cell": 2,
+      "bootstrap_resamples": 49,
+      "evaluation_size": 300,
+      "expected_main_cells": 6,
+      "outer_repetitions_per_cell": 20,
+      "reference_size": 200,
+      "scientific_evidence": false
+    },
+    "status": "prospective_scientific_protocol_draft_prelock",
+    "study_id": "TESS_D7_CONTINUOUS_MAXIMUM_TRIGGER_VALIDATION_V1",
+    "trigger_regimes": {
+      "above_all_base_thresholds": {
+        "construction": "c = max_j q_j(alpha) + offset * median base marginal SD",
+        "offset": 0.25,
+        "purpose": "regular cells with c above every base q_j"
+      },
+      "below_all_base_thresholds": {
+        "construction": "c = min_j q_j(alpha) - offset * median base marginal SD",
+        "offset": 0.25,
+        "purpose": "regular cells with c below every base q_j"
+      }
+    }
+  },
+  "criteria": {
+    "adjudicative_scientific_checks": {
+      "bootstrap_normal_coverage_delta_pi_per_cell": [
+        0.92,
+        0.98
+      ],
+      "bootstrap_normal_coverage_delta_s_per_cell": [
+        0.92,
+        0.98
+      ],
+      "bootstrap_sd_to_empirical_sd_ratio_delta_pi_per_cell": [
+        0.8,
+        1.25
+      ],
+      "bootstrap_sd_to_empirical_sd_ratio_delta_s_per_cell": [
+        0.8,
+        1.25
+      ],
+      "both_trigger_ordering_strata_must_pass": true,
+      "delta_pi_absolute_standardized_bias_per_cell_max": 0.2,
+      "delta_pi_empirical_to_exact_variance_ratio_median": [
+        0.9,
+        1.1
+      ],
+      "delta_pi_empirical_to_exact_variance_ratio_per_cell": [
+        0.8,
+        1.25
+      ],
+      "delta_pi_median_absolute_standardized_bias_max": 0.1,
+      "delta_pi_normal_coverage_median": [
+        0.94,
+        0.96
+      ],
+      "delta_pi_normal_coverage_per_cell": [
+        0.925,
+        0.975
+      ],
+      "delta_s_absolute_standardized_bias_per_cell_max": 0.2,
+      "delta_s_empirical_to_exact_variance_ratio_median": [
+        0.9,
+        1.1
+      ],
+      "delta_s_empirical_to_exact_variance_ratio_per_cell": [
+        0.8,
+        1.25
+      ],
+      "delta_s_median_absolute_standardized_bias_max": 0.1,
+      "delta_s_normal_coverage_median": [
+        0.94,
+        0.96
+      ],
+      "delta_s_normal_coverage_per_cell": [
+        0.925,
+        0.975
+      ],
+      "plus_one_bridge_rms_to_empirical_sd_delta_pi_max": 0.15,
+      "plus_one_bridge_rms_to_empirical_sd_delta_s_max": 0.15,
+      "plus_one_strict_sign_reversal_frequency_max": 0.01
+    },
+    "decision_rule": "Formal PASS requires every fatal implementation check and every adjudicative scientific check to pass. Diagnostic near- and exact-coincidence cells are reported but excluded from the formal decision.",
+    "fatal_implementation_checks": {
+      "benchmark_mcse_to_smallest_main_standard_error_max": 0.03,
+      "bootstrap_cell_count": 18,
+      "bootstrap_failures": 0,
+      "bootstrap_outer_rows": 9000,
+      "continuous_dgp_observed_winner_ties": 0,
+      "covariance_identity_absolute_error_max": 1e-12,
+      "covariance_positive_definite_all_dgps": true,
+      "exact_coincidence_cell_count": 1,
+      "exact_main_threshold_coincidences": 0,
+      "fixed_finite_nested_pools": true,
+      "main_cell_count": 72,
+      "main_replication_rows": 144000,
+      "minimum_standardized_main_threshold_separation": 0.2,
+      "near_coincidence_cell_count": 8,
+      "nonfinite_scientific_outputs": 0,
+      "plus_one_support_violations": 0,
+      "required_output_files_present": true
+    },
+    "interpretation_guardrails": [
+      "No threshold, tolerance, grid, repetition count, or PASS/FAIL criterion may be changed after the numerical lock merely to obtain PASS.",
+      "A failed regular-cell criterion remains a formal FAIL even when the excess is numerically small.",
+      "Diagnostic exact-coincidence failure does not change the regular theorem adjudication because it is prospectively excluded.",
+      "D7 results do not validate discrete winner ties or the current frozen empirical policy."
+    ],
+    "nonadjudicative_diagnostics": [
+      "near-coincidence bias, variance, and coverage trajectories",
+      "exact-coincidence ordinary-bootstrap behavior",
+      "directional nonadditivity at exact coincidence",
+      "reference variance fraction",
+      "activation probabilities implied by each trigger boundary"
+    ],
+    "status": "prospective_draft_prelock",
+    "study_id": "TESS_D7_CONTINUOUS_MAXIMUM_TRIGGER_CRITERIA_V1"
+  },
+  "dgp_specifications": {
+    "continuous_unique_winner_regime": true,
+    "dgp_order": [
+      "transparent_k3_max_trigger",
+      "gain_coupled_k20_max_trigger",
+      "loss_coupled_k20_max_trigger"
+    ],
+    "dgps": {
+      "gain_coupled_k20_max_trigger": {
+        "base_pool": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "candidate_count": 20,
+        "construction": "latent_factor",
+        "description": "High base maxima and extra-library scores share a positive activation-coupling factor, producing positive policy gain.",
+        "factor_loadings": {
+          "activation_coupling": [
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45
+          ],
+          "common": [
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55
+          ],
+          "extra_library": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ]
+        },
+        "full_pool": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "mean": [
+          0.0,
+          0.03,
+          -0.02,
+          0.02,
+          -0.03,
+          0.01,
+          -0.01,
+          0.02,
+          -0.01,
+          0.03,
+          -0.02,
+          0.01,
+          0.0,
+          0.02,
+          -0.03,
+          0.01,
+          -0.01,
+          0.03,
+          -0.02,
+          0.0
+        ]
+      },
+      "loss_coupled_k20_max_trigger": {
+        "base_pool": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "candidate_count": 20,
+        "construction": "latent_factor",
+        "description": "The activation-coupling factor raises base scores while lowering extra-library scores, producing adverse selection.",
+        "factor_loadings": {
+          "activation_coupling": [
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45,
+            -0.45
+          ],
+          "common": [
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55
+          ],
+          "extra_library": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ]
+        },
+        "full_pool": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "mean": [
+          0.0,
+          0.03,
+          -0.02,
+          0.02,
+          -0.03,
+          0.01,
+          -0.01,
+          0.02,
+          -0.01,
+          0.03,
+          -0.02,
+          0.01,
+          0.0,
+          0.02,
+          -0.03,
+          0.01,
+          -0.01,
+          0.03,
+          -0.02,
+          0.0
+        ]
+      },
+      "transparent_k3_max_trigger": {
+        "base_pool": [
+          0,
+          1
+        ],
+        "construction": "explicit_covariance",
+        "covariance": [
+          [
+            1.0,
+            0.315,
+            0.22
+          ],
+          [
+            0.315,
+            0.81,
+            -0.099
+          ],
+          [
+            0.22,
+            -0.099,
+            1.21
+          ]
+        ],
+        "description": "Transparent three-candidate Gaussian benchmark inherited from the D7 derivative preflight.",
+        "full_pool": [
+          0,
+          1,
+          2
+        ],
+        "mean": [
+          0.0,
+          0.1,
+          0.2
+        ]
+      }
+    },
+    "residual_variance_rule": "For latent-factor DGPs, residual variance is one minus the sum of squared loadings for each candidate.",
+    "score_family": "multivariate Gaussian",
+    "study_id": "TESS_D7_CONTINUOUS_MAXIMUM_TRIGGER_DGPS_V1"
+  }
+}

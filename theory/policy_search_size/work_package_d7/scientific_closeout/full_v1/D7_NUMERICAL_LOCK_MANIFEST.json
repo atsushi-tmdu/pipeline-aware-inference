@@ -1,0 +1,70 @@
+{
+  "branch": "tess-top-tier-theory",
+  "created_utc": "2026-08-04T02:32:10.055846+00:00",
+  "files": [
+    {
+      "relative_path": "D7_DGP_SPECIFICATIONS.json",
+      "sha256": "1e72014ae29f47cd1fa5cab26aa93f18c1197722c918ad165a47e151bcc7b342",
+      "size_bytes": 5081
+    },
+    {
+      "relative_path": "D7_NUMERICAL_CONFIG.json",
+      "sha256": "b735adde80d7e6567f7548f061ee7ffefd5d7e0b76a0a359aa8e04aa40c27e33",
+      "size_bytes": 4265
+    },
+    {
+      "relative_path": "D7_NUMERICAL_LOCK.md",
+      "sha256": "bfd714f5bf2e03734ee75b424cbb20887d8d2d72cd9d5464fb9439d3a96ccafd",
+      "size_bytes": 758
+    },
+    {
+      "relative_path": "D7_NUMERICAL_PROTOCOL.md",
+      "sha256": "919b0a73048343166e8db9407ce417bc018b3b6d67cd2b121321ecbe73a1f93a",
+      "size_bytes": 4481
+    },
+    {
+      "relative_path": "D7_NUMERICAL_README.md",
+      "sha256": "385da468d22747bb4353b882d80268f7bf131cb38b7d244ec68ce7e8115c04ef",
+      "size_bytes": 637
+    },
+    {
+      "relative_path": "D7_SCIENTIFIC_CRITERIA.json",
+      "sha256": "ee5a273bbf44006912d32c760ccaa936b80718b600033e093339dee3cddd4920",
+      "size_bytes": 3402
+    },
+    {
+      "relative_path": "check_d7_numerical_design.py",
+      "sha256": "4ee0c7880a19b780378dbe862848b3a69e0fe1a95e77764729dd2b46217feae1",
+      "size_bytes": 1798
+    },
+    {
+      "relative_path": "d7_numerical_design.py",
+      "sha256": "5b9e14bd8f5d02ffe7622fae626084b3af79695ae1c30870ca94ff45353eaac6",
+      "size_bytes": 10335
+    },
+    {
+      "relative_path": "tests/test_d7_numerical_design.py",
+      "sha256": "ca216987a21bee306696cfc11a50e0c477106d170bea75566a4151663ea8dc4a",
+      "size_bytes": 3674
+    },
+    {
+      "relative_path": "verify_d7_numerical_lock.py",
+      "sha256": "db66a3eb9a0384482153b1891b5e4cdb6d8a505383c8006ca624bb8693ef65c7",
+      "size_bytes": 1380
+    }
+  ],
+  "lock_id": "TESS_D7_CONTINUOUS_NUMERICAL_LOCK_V1",
+  "numerical_design": {
+    "bootstrap_cells": 18,
+    "bootstrap_outer_rows": 9000,
+    "exact_coincidence_cells": 1,
+    "main_cells": 72,
+    "main_replication_rows": 144000,
+    "minimum_standardized_main_separation": 0.2375,
+    "near_coincidence_cells": 8
+  },
+  "parent_checkpoint_commit": "4f206b3236c8a943d4fc204698189979ca11bf7a",
+  "parent_checkpoint_tag": "d7-theory-prelock-v1",
+  "scientific_simulation_run": false,
+  "source_head_before_lock_commit": "4f206b3236c8a943d4fc204698189979ca11bf7a"
+}
