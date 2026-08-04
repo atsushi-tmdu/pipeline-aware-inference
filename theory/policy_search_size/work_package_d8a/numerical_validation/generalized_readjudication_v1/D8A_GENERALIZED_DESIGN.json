@@ -1,0 +1,94 @@
+{
+  "acceptance_unit": "latent_equivalence_class",
+  "active_candidate_coincidence_hyperplanes": [
+    "q0=q2",
+    "q1=q2"
+  ],
+  "canonical_transform": "identity",
+  "combined_pairs": [
+    [
+      250,
+      10000
+    ],
+    [
+      500,
+      3000
+    ],
+    [
+      1000,
+      1000
+    ],
+    [
+      3000,
+      500
+    ],
+    [
+      10000,
+      250
+    ],
+    [
+      3000,
+      3000
+    ],
+    [
+      10000,
+      10000
+    ]
+  ],
+  "common_monotone_transform_exact_invariance": true,
+  "diagnostic_scientific_classes": 8,
+  "evaluation_n": [
+    250,
+    500,
+    1000,
+    3000,
+    10000
+  ],
+  "execution_gate": "generalized implementation lock required",
+  "generalized_numerical_design_locked": true,
+  "historical_design_tag": "d8a-numerical-design-lock-v1",
+  "historical_registry_rows": 75,
+  "implementation_locked": false,
+  "lock_id": "TESS_D8A_GENERALIZED_DESIGN_LOCK_V1",
+  "monte_carlo_contract": {
+    "batch_size": 250,
+    "cell_seed_rule": "SeedSequence(master_seed, spawn_key=first four uint32 words of SHA256(canonical_cell_key))",
+    "diagnostic_maximum_replicates": 5000,
+    "diagnostic_minimum_replicates": 1000,
+    "effect_dependent_stopping": false,
+    "generator": "numpy.random.PCG64DXSM",
+    "master_seed": 20260804,
+    "nested_common_random_numbers_across_sizes": true,
+    "precision_limited_fraction_maximum": 0.1,
+    "precision_stopping_only": true,
+    "primary_maximum_replicates": 20000,
+    "primary_minimum_replicates": 2000,
+    "primary_scaled_mcse_target": 0.03,
+    "raw_bank_storage": false,
+    "reference_evaluation_streams_independent": true,
+    "streaming_required": true
+  },
+  "ordinary_hessian_coefficient_allowed": false,
+  "parent_theory_tag": "d8a-generalized-theory-repair-v1",
+  "primary_acceptance_denominator": 17,
+  "primary_scientific_classes": 17,
+  "quantile_convention": "k_B=ceil(B*p)",
+  "reference_B": [
+    250,
+    500,
+    1000,
+    3000,
+    10000
+  ],
+  "reference_coefficient": "C_Delta,B^gen",
+  "schema_version": "2.0",
+  "scientific_equivalence_classes": 25,
+  "scientific_execution_authorized": false,
+  "scientific_simulation_run": false,
+  "tess_alpha_values": [
+    0.01,
+    0.05
+  ],
+  "tess_reference_coefficient": "C_S,R,B^gen",
+  "transformation_audit_rows": 50
+}

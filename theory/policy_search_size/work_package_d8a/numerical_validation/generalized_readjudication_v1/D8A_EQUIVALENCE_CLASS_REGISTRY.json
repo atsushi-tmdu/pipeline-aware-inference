@@ -1,0 +1,1352 @@
+[
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-059",
+      "d8a-cell-067"
+    ],
+    "candidate_added_contrast_variances": [
+      5.238140048704955,
+      5.506651827600681
+    ],
+    "candidate_probability": 0.9,
+    "canonical_cell_id": "d8a-cell-051",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-000",
+    "class_role": "diagnostic",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.907622603826,
+    "member_cell_ids": [
+      "d8a-cell-059",
+      "d8a-cell-051",
+      "d8a-cell-067"
+    ],
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-060",
+      "d8a-cell-068"
+    ],
+    "candidate_added_contrast_variances": [
+      5.238140048704955,
+      5.506651827600681
+    ],
+    "candidate_probability": 0.9,
+    "canonical_cell_id": "d8a-cell-052",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-001",
+    "class_role": "diagnostic",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.421385877082,
+    "member_cell_ids": [
+      "d8a-cell-060",
+      "d8a-cell-052",
+      "d8a-cell-068"
+    ],
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-061",
+      "d8a-cell-069"
+    ],
+    "candidate_added_contrast_variances": [
+      8.246178230275266,
+      8.566919364050372
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-053",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-002",
+    "class_role": "diagnostic",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.270924665233,
+    "member_cell_ids": [
+      "d8a-cell-061",
+      "d8a-cell-053",
+      "d8a-cell-069"
+    ],
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-062",
+      "d8a-cell-070"
+    ],
+    "candidate_added_contrast_variances": [
+      8.246178230275266,
+      8.566919364050372
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-054",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-003",
+    "class_role": "diagnostic",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.784687938489,
+    "member_cell_ids": [
+      "d8a-cell-062",
+      "d8a-cell-054",
+      "d8a-cell-070"
+    ],
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-063",
+      "d8a-cell-071"
+    ],
+    "candidate_added_contrast_variances": [
+      8.246178230275266,
+      8.566919364050372
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-055",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-004",
+    "class_role": "diagnostic",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.307261059553,
+    "member_cell_ids": [
+      "d8a-cell-063",
+      "d8a-cell-055",
+      "d8a-cell-071"
+    ],
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-064",
+      "d8a-cell-072"
+    ],
+    "candidate_added_contrast_variances": [
+      26.923809761874107,
+      27.429093783144044
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-056",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-005",
+    "class_role": "diagnostic",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.952418912323,
+    "member_cell_ids": [
+      "d8a-cell-064",
+      "d8a-cell-056",
+      "d8a-cell-072"
+    ],
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-065",
+      "d8a-cell-073"
+    ],
+    "candidate_added_contrast_variances": [
+      26.923809761874107,
+      27.429093783144044
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-057",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-006",
+    "class_role": "diagnostic",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.466182185579,
+    "member_cell_ids": [
+      "d8a-cell-065",
+      "d8a-cell-057",
+      "d8a-cell-073"
+    ],
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-066",
+      "d8a-cell-074"
+    ],
+    "candidate_added_contrast_variances": [
+      26.923809761874107,
+      27.429093783144044
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-058",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-007",
+    "class_role": "diagnostic",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.55,
+        0.25
+      ],
+      [
+        0.55,
+        1.0,
+        0.15
+      ],
+      [
+        0.25,
+        0.15,
+        1.0
+      ]
+    ],
+    "dependence": "asymmetric",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.988755306642,
+    "member_cell_ids": [
+      "d8a-cell-066",
+      "d8a-cell-058",
+      "d8a-cell-074"
+    ],
+    "minimum_correlation_eigenvalue": 0.439757994589,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-035",
+      "d8a-cell-043"
+    ],
+    "candidate_added_contrast_variances": [
+      4.762811133906092,
+      4.762811133906092
+    ],
+    "candidate_probability": 0.9,
+    "canonical_cell_id": "d8a-cell-027",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-008",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.851955966395,
+    "member_cell_ids": [
+      "d8a-cell-035",
+      "d8a-cell-027",
+      "d8a-cell-043"
+    ],
+    "minimum_correlation_eigenvalue": 0.6,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-036",
+      "d8a-cell-044"
+    ],
+    "candidate_added_contrast_variances": [
+      4.762811133906092,
+      4.762811133906092
+    ],
+    "candidate_probability": 0.9,
+    "canonical_cell_id": "d8a-cell-028",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-009",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.378998462136,
+    "member_cell_ids": [
+      "d8a-cell-036",
+      "d8a-cell-028",
+      "d8a-cell-044"
+    ],
+    "minimum_correlation_eigenvalue": 0.6,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-037",
+      "d8a-cell-045"
+    ],
+    "candidate_added_contrast_variances": [
+      7.6286353586917315,
+      7.6286353586917315
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-029",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-010",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.215258027802,
+    "member_cell_ids": [
+      "d8a-cell-037",
+      "d8a-cell-029",
+      "d8a-cell-045"
+    ],
+    "minimum_correlation_eigenvalue": 0.6,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-038",
+      "d8a-cell-046"
+    ],
+    "candidate_added_contrast_variances": [
+      7.6286353586917315,
+      7.6286353586917315
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-030",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-011",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.742300523543,
+    "member_cell_ids": [
+      "d8a-cell-038",
+      "d8a-cell-030",
+      "d8a-cell-046"
+    ],
+    "minimum_correlation_eigenvalue": 0.6,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-039",
+      "d8a-cell-047"
+    ],
+    "candidate_added_contrast_variances": [
+      7.6286353586917315,
+      7.6286353586917315
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-031",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-012",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.276078706049,
+    "member_cell_ids": [
+      "d8a-cell-039",
+      "d8a-cell-031",
+      "d8a-cell-047"
+    ],
+    "minimum_correlation_eigenvalue": 0.6,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-040",
+      "d8a-cell-048"
+    ],
+    "candidate_added_contrast_variances": [
+      25.71775998281244,
+      25.71775998281244
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-032",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-013",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.896752274891,
+    "member_cell_ids": [
+      "d8a-cell-040",
+      "d8a-cell-032",
+      "d8a-cell-048"
+    ],
+    "minimum_correlation_eigenvalue": 0.6,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-041",
+      "d8a-cell-049"
+    ],
+    "candidate_added_contrast_variances": [
+      25.71775998281244,
+      25.71775998281244
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-033",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-014",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.423794770632,
+    "member_cell_ids": [
+      "d8a-cell-041",
+      "d8a-cell-033",
+      "d8a-cell-049"
+    ],
+    "minimum_correlation_eigenvalue": 0.6,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-042",
+      "d8a-cell-050"
+    ],
+    "candidate_added_contrast_variances": [
+      25.71775998281244,
+      25.71775998281244
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-034",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-015",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.4,
+        0.4
+      ],
+      [
+        0.4,
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        0.4,
+        1.0
+      ]
+    ],
+    "dependence": "equicorrelated_0_4",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.957572953138,
+    "member_cell_ids": [
+      "d8a-cell-042",
+      "d8a-cell-034",
+      "d8a-cell-050"
+    ],
+    "minimum_correlation_eigenvalue": 0.6,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-009",
+      "d8a-cell-018"
+    ],
+    "candidate_added_contrast_variances": [
+      5.844219502300587,
+      5.844219502300587
+    ],
+    "candidate_probability": 0.9,
+    "canonical_cell_id": "d8a-cell-000",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-016",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.736599429927,
+    "member_cell_ids": [
+      "d8a-cell-009",
+      "d8a-cell-000",
+      "d8a-cell-018"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-010",
+      "d8a-cell-019"
+    ],
+    "candidate_added_contrast_variances": [
+      5.844219502300587,
+      5.844219502300587
+    ],
+    "candidate_probability": 0.9,
+    "canonical_cell_id": "d8a-cell-001",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-017",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.300728388886,
+    "member_cell_ids": [
+      "d8a-cell-010",
+      "d8a-cell-001",
+      "d8a-cell-019"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_above_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-011",
+      "d8a-cell-020"
+    ],
+    "candidate_added_contrast_variances": [
+      5.844219502300587,
+      5.844219502300587
+    ],
+    "candidate_probability": 0.9,
+    "canonical_cell_id": "d8a-cell-002",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-018",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.136789857394,
+    "member_cell_ids": [
+      "d8a-cell-011",
+      "d8a-cell-002",
+      "d8a-cell-020"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-012",
+      "d8a-cell-021"
+    ],
+    "candidate_added_contrast_variances": [
+      8.931122913031395,
+      8.931122913031395
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-003",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-019",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.099901491334,
+    "member_cell_ids": [
+      "d8a-cell-012",
+      "d8a-cell-003",
+      "d8a-cell-021"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-013",
+      "d8a-cell-022"
+    ],
+    "candidate_added_contrast_variances": [
+      8.931122913031395,
+      8.931122913031395
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-004",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-020",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.664030450293,
+    "member_cell_ids": [
+      "d8a-cell-013",
+      "d8a-cell-004",
+      "d8a-cell-022"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-014",
+      "d8a-cell-023"
+    ],
+    "candidate_added_contrast_variances": [
+      8.931122913031395,
+      8.931122913031395
+    ],
+    "candidate_probability": 0.95,
+    "canonical_cell_id": "d8a-cell-005",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-021",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.226512204013,
+    "member_cell_ids": [
+      "d8a-cell-014",
+      "d8a-cell-005",
+      "d8a-cell-023"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-015",
+      "d8a-cell-024"
+    ],
+    "candidate_added_contrast_variances": [
+      27.874105962786203,
+      27.874105962786203
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-006",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-022",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.781395738423,
+    "member_cell_ids": [
+      "d8a-cell-015",
+      "d8a-cell-006",
+      "d8a-cell-024"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-016",
+      "d8a-cell-025"
+    ],
+    "candidate_added_contrast_variances": [
+      27.874105962786203,
+      27.874105962786203
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-007",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-023",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 1.345524697382,
+    "member_cell_ids": [
+      "d8a-cell-016",
+      "d8a-cell-007",
+      "d8a-cell-025"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-017",
+      "d8a-cell-026"
+    ],
+    "candidate_added_contrast_variances": [
+      27.874105962786203,
+      27.874105962786203
+    ],
+    "candidate_probability": 0.99,
+    "canonical_cell_id": "d8a-cell-008",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-024",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.908006451102,
+    "member_cell_ids": [
+      "d8a-cell-017",
+      "d8a-cell-008",
+      "d8a-cell-026"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.85
+  }
+]
