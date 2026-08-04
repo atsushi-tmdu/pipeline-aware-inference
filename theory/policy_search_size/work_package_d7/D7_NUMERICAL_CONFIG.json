@@ -1,0 +1,136 @@
+{
+  "alpha_grid": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "bootstrap_design": {
+    "main_design": {
+      "evaluation_size": 3000,
+      "reference_size": 3000
+    },
+    "outer_datasets_per_cell": 500,
+    "resamples_per_outer_dataset": 249,
+    "resampling": "independent complete-vector resampling of reference and evaluation banks with full recomputation"
+  },
+  "exact_coincidence_diagnostic": {
+    "alpha": 0.05,
+    "anchor_candidate": 0,
+    "dgp": "transparent_k3_max_trigger",
+    "evaluation_size": 3000,
+    "ordinary_bootstrap_coverage_is_adjudicative": false,
+    "outer_repetitions": 2000,
+    "purpose": "demonstrate nonregular behavior; excluded from regular-cell PASS/FAIL criteria",
+    "reference_size": 3000,
+    "trigger_threshold": "c = q_anchor exactly"
+  },
+  "excluded_from_scientific_adjudication": [
+    "discrete candidate-score atoms",
+    "winner ties and deterministic winner-tie breaking",
+    "probabilistic or deterministic trigger-tie allocation",
+    "exact candidate/trigger threshold coincidence",
+    "failed-fit fallback",
+    "growing candidate dimension"
+  ],
+  "expected_counts": {
+    "bootstrap_cells": 18,
+    "bootstrap_outer_rows": 9000,
+    "exact_coincidence_cells": 1,
+    "exact_coincidence_replication_rows": 2000,
+    "main_cells": 72,
+    "main_replication_rows": 144000,
+    "near_coincidence_cells": 8,
+    "near_coincidence_replication_rows": 24000
+  },
+  "main_designs": [
+    {
+      "evaluation_size": 1000,
+      "reference_size": 1000
+    },
+    {
+      "evaluation_size": 3000,
+      "reference_size": 3000
+    },
+    {
+      "evaluation_size": 5000,
+      "reference_size": 3000
+    },
+    {
+      "evaluation_size": 5000,
+      "reference_size": 5000
+    }
+  ],
+  "main_outer_repetitions_per_cell": 2000,
+  "near_coincidence_diagnostic": {
+    "adjudicative": false,
+    "alpha": 0.05,
+    "anchor_candidate": 0,
+    "dgp": "transparent_k3_max_trigger",
+    "evaluation_size": 3000,
+    "offsets_in_anchor_sd": [
+      -0.2,
+      -0.1,
+      -0.05,
+      -0.025,
+      0.025,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "outer_repetitions_per_cell": 3000,
+    "reference_size": 3000
+  },
+  "output_policy": {
+    "compact_summaries_frozen_after_adjudication": true,
+    "full_run_log_required": true,
+    "raw_outputs_ignored": true,
+    "sha256_inventory_required": true
+  },
+  "parent_checkpoint_commit": "4f206b3236c8a943d4fc204698189979ca11bf7a",
+  "parent_checkpoint_tag": "d7-theory-prelock-v1",
+  "population_benchmark": {
+    "candidate_thresholds": "analytic Gaussian marginal quantiles",
+    "chunk_size": 100000,
+    "conditional_boundary_draws_per_boundary": 500000,
+    "master_seed": 2027010702,
+    "maximum_cdf": {
+      "abseps": 1e-10,
+      "master_seed": 2027010701,
+      "maxpts": 5000000,
+      "releps": 1e-10
+    },
+    "seed_derivation": "stable SHA-256 derivation from study ID, DGP, alpha, regime, boundary type, and candidate index",
+    "trigger_probability": "deterministic multivariate-normal CDF evaluated at the predeclared trigger boundary",
+    "unconditional_draws_per_dgp": 10000000
+  },
+  "scientific_randomness": {
+    "bootstrap_master_seed": 2027010712,
+    "master_seed": 2027010711,
+    "outer_seed_derivation": "stable SHA-256 derivation from study ID and complete cell key"
+  },
+  "scientific_scope": "continuous fixed-finite-candidate, almost-surely unique-winner, strictly separated maximum-trigger regime",
+  "smoke_design": {
+    "alpha": 0.05,
+    "bootstrap_outer_datasets_per_cell": 2,
+    "bootstrap_resamples": 49,
+    "evaluation_size": 300,
+    "expected_main_cells": 6,
+    "outer_repetitions_per_cell": 20,
+    "reference_size": 200,
+    "scientific_evidence": false
+  },
+  "status": "prospective_scientific_protocol_draft_prelock",
+  "study_id": "TESS_D7_CONTINUOUS_MAXIMUM_TRIGGER_VALIDATION_V1",
+  "trigger_regimes": {
+    "above_all_base_thresholds": {
+      "construction": "c = max_j q_j(alpha) + offset * median base marginal SD",
+      "offset": 0.25,
+      "purpose": "regular cells with c above every base q_j"
+    },
+    "below_all_base_thresholds": {
+      "construction": "c = min_j q_j(alpha) - offset * median base marginal SD",
+      "offset": 0.25,
+      "purpose": "regular cells with c below every base q_j"
+    }
+  }
+}
