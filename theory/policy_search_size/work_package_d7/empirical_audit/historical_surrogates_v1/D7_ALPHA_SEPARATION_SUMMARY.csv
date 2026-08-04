@@ -1,0 +1,13 @@
+library,mapping_status,alpha,minimum_absolute_gap,closest_candidate,closest_candidate_order,closest_signed_gap,minimum_gap_in_local_score_spacings,exact_coincidence_count,within_one_spacing_count
+high_dependency_linear_20,historical_surrogate_20_candidate,0.2,0.013483333333333403,logreg_l1_c01,5,0.013483333333333403,121447069951425.0,0,0
+high_dependency_linear_20,historical_surrogate_20_candidate,0.1,0.0262555555555557,logreg_l1_c01,5,0.0262555555555557,236489020432812.0,0,0
+high_dependency_linear_20,historical_surrogate_20_candidate,0.05,0.03734444444444451,logreg_l1_c01,5,0.03734444444444451,336368852168717.0,0,0
+high_dependency_linear_20,historical_surrogate_20_candidate,0.025,0.047588888888889014,logreg_l1_c01,5,0.047588888888889014,428642604533953.0,0,0
+high_dependency_linear_20,historical_surrogate_20_candidate,0.01,0.05734444444444453,logreg_l1_c01,5,0.05734444444444453,516512837263537.0,0,0
+high_dependency_linear_20,historical_surrogate_20_candidate,0.005,0.06351111111111118,linear_svm_c1,7,0.06351111111111118,572057232667773.0,0,0
+mixed_realistic_20,historical_surrogate_20_candidate,0.2,0.002177777777777834,gaussian_nb,4,-0.002177777777777834,19615678376992.0,0,0
+mixed_realistic_20,historical_surrogate_20_candidate,0.1,0.00044999999999995044,decision_tree,5,0.00044999999999995044,4053239664633.0,0,0
+mixed_realistic_20,historical_surrogate_20_candidate,0.05,0.009133333333333327,decision_tree,5,0.009133333333333327,82265753193301.0,0,0
+mixed_realistic_20,historical_surrogate_20_candidate,0.025,0.01688333333333336,decision_tree,5,0.01688333333333336,152071547417544.0,0,0
+mixed_realistic_20,historical_surrogate_20_candidate,0.01,0.02588333333333337,decision_tree,5,0.02588333333333337,233136340710213.0,0,0
+mixed_realistic_20,historical_surrogate_20_candidate,0.005,0.0332888888888887,decision_tree,5,0.0332888888888887,299839655191154.0,0,0

@@ -1,0 +1,66 @@
+{
+  "activation_rule": "T=max base candidate score; A=I(T>c)",
+  "empirical_audit": {
+    "base_winner_ties": {
+      "high_dependency_linear_20": {
+        "count": 12,
+        "rate": 0.0012,
+        "replications": 10000
+      },
+      "mixed_realistic_20": {
+        "count": 4,
+        "rate": 0.0004,
+        "replications": 10000
+      }
+    },
+    "candidate_trigger_pairs_within_one_local_spacing": 0,
+    "exact_candidate_trigger_coincidences": 0,
+    "exact_manifest_hash_match_libraries": [],
+    "formal_empirical_bridge_complete": false,
+    "historical_complete_20_candidate_libraries": [
+      "high_dependency_linear_20",
+      "mixed_realistic_20"
+    ],
+    "historical_incomplete_library": "support2_real_structure_20",
+    "interpretation": "historical libraries support threshold separation, but positive-probability AUROC winner ties prevent an exact continuous unique-winner bridge",
+    "status": "historical_surrogate_diagnostic_only"
+  },
+  "empirical_audit_required": [
+    "trigger threshold",
+    "base candidate thresholds",
+    "minimum separation",
+    "threshold ordering",
+    "trigger ties",
+    "tie-randomization count"
+  ],
+  "evaluation_influence_target": "(A-rho)(M-mu)-Delta_pi",
+  "excluded": [
+    "deterministic trigger-tie randomization",
+    "failed-fit fallback",
+    "growing candidate dimension",
+    "simultaneous alpha-process inference"
+  ],
+  "next_step": "lock a prospective continuous D7 scientific numerical protocol; reserve discrete winner ties and deterministic tie-breaking for the next work package",
+  "nonregular_boundary": "q_j=c with kappa_j(h_qj-h_c)_+",
+  "parent_lock_tag": "tess-theory-work-package-d6-v1-lock-20260803",
+  "parent_results_tag": "d6-validation-full-v1",
+  "preflight_status": "PASS_runtime_only_not_scientific_evidence",
+  "reference_influence_target": "sum_j beta_j[p-I(X_j<=q_j)] + beta_c[s-I(max_base<=c)]",
+  "regular_regime": "c differs from every base candidate threshold q_j",
+  "regularity_assumptions": [
+    "fixed finite nested pools",
+    "independent complete-vector banks",
+    "almost-sure unique winners",
+    "regular candidate quantiles",
+    "regular maximum quantile",
+    "smooth boundary probabilities",
+    "strict trigger/candidate threshold separation",
+    "negligible distinct-boundary intersections",
+    "fixed declared policy",
+    "interior TESS domain"
+  ],
+  "scientific_run_completed": false,
+  "status": "mathematically_completed_draft_prelock",
+  "study_id": "TESS_THEORY_D7_MAXIMUM_TRIGGER_V1",
+  "theory_result": "regular maximum-trigger two-bank theorem plus explicit candidate/trigger coincidence nonregularity"
+}

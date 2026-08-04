@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+outputs/
+preflight_output/
+results_freeze/
+D7_FULL_RUN_LOG.txt
