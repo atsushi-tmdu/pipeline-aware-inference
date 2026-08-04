@@ -1,0 +1,48 @@
+{
+  "d7_if_gradient_link": {
+    "candidate": "partial_qj Delta=f_j(q_j) beta_j",
+    "status": "established under stated boundary-differentiation conditions",
+    "trigger": "partial_c Delta=f_T(c) beta_c"
+  },
+  "deterministic_second_order_stochastic_remainder_assumed": false,
+  "exact_identity": "E_E(delta_hat|theta_hat)=(1-1/n)Delta(theta_hat)",
+  "gaussian_hessian_preflight": "PASS",
+  "mixed_candidate_trigger_curvature": "retained and generally nonzero",
+  "parent_formal_status": "FAIL",
+  "parent_tag": "d7-continuous-validation-full-v1",
+  "plus_one_assigned_to": "D8-B",
+  "policy_smoothness_assumptions": [
+    "finite pools",
+    "continuous unique winners",
+    "strict threshold separation",
+    "two local density derivatives",
+    "positive boundary densities",
+    "dominated boundary traces",
+    "codimension-two regularity"
+  ],
+  "policy_smoothness_status": "proof_plan_only",
+  "policy_twice_differentiability_status": "sufficient_conditions_and_proof_architecture_only",
+  "primary_target": "E(delta_hat)-delta = C_R,B/B - delta/n + o(B^-1+n^-1)",
+  "quantile_convention": {
+    "constant_coefficient_without_extra_assumption": false,
+    "d7_candidate_grid": "Bp is integer for p=0.99,0.95,0.90 and B=1000,3000,5000",
+    "definition": "k_B=ceil(Bp)",
+    "lattice_offset": "a_p,B=k_B-(B+1)p"
+  },
+  "reference_coefficient": "C_R,B=gradient^T b_theta,B+0.5 trace(Hessian Sigma_theta)",
+  "reference_moment_targets": {
+    "higher_moment": "E||theta_hat-theta||^(2+eta)=O(B^(-1-eta/2))",
+    "mean": "E(theta_hat-theta)=b_theta,B/B+o(B^-1)",
+    "second_moment": "B E[(theta_hat-theta)(theta_hat-theta)^T]=Sigma_theta+o(1)"
+  },
+  "scientific_numerical_design_locked": false,
+  "scientific_simulation_run": false,
+  "status": "winner_cell_c2_proof_scaffold_not_locked",
+  "title": "Second-Order Finite-Reference Bias",
+  "winner_cell_representation": {
+    "finite_partition": true,
+    "maximum_cell_count": "|J0|*|J1|",
+    "winner_cells_move_with_thresholds": false
+  },
+  "work_package": "D8-A"
+}
