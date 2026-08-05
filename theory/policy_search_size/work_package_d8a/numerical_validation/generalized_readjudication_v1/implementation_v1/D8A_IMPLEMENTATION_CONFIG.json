@@ -1,0 +1,32 @@
+{
+  "analytic_boundary_oracle_locked": true,
+  "both_coincidence_corrections_locked": true,
+  "deterministic_gaussian_backend_locked": true,
+  "engineering_smoke": {
+    "class_count": 2,
+    "class_role": "diagnostic",
+    "evaluation_size": 64,
+    "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+    "reference_size": 64,
+    "replicates_per_class": 20
+  },
+  "engineering_smoke_run": true,
+  "engineering_test_count": 55,
+  "full_all_class_oracle_audit_completed": true,
+  "generalized_oracle_implemented": true,
+  "genz_backend_is_lock_source": false,
+  "implementation_lock_id": "TESS_D8A_GENERALIZED_IMPLEMENTATION_LOCK_V1",
+  "implementation_locked": true,
+  "independent_quadrature_adjudication_completed": true,
+  "maximum_analytic_directional_error_radius_0_002": 4.4623121170372926e-05,
+  "maximum_full_directional_error": 2.2297858004449722e-05,
+  "maximum_kink_identity_error": 2.220446049250313e-16,
+  "maximum_oracle_step_discrepancy": 0.0,
+  "package_id": "TESS_D8A_GENERALIZED_IMPLEMENTATION_V1",
+  "parent_design_tag": "d8a-generalized-design-lock-v1",
+  "planned_tag": "d8a-generalized-implementation-lock-v1",
+  "scientific_execution_authorized": true,
+  "scientific_simulation_run": false,
+  "seed_contract_implemented": true,
+  "transform_invariance_audit_implemented": true
+}

@@ -1,0 +1,255 @@
+{
+  "analytic_boundary_audit": "PASS",
+  "analytic_boundary_oracle_locked": true,
+  "both_coincidence_corrections_locked": true,
+  "branch": "tess-top-tier-theory",
+  "created_utc": "2026-08-05T02:07:57.505538+00:00",
+  "deterministic_gaussian_backend_locked": true,
+  "engineering_tests": "55/55 PASS",
+  "files": [
+    {
+      "relative_path": "D8A_GENERALIZED_IMPLEMENTATION_LOCKED_NOTICE.md",
+      "sha256": "c5a5b28eda3d8681231439546894128d6084429334b8b13fc38014b952bfa421",
+      "size_bytes": 425
+    },
+    {
+      "relative_path": "numerical_validation/D8A_SCIENTIFIC_RUN_PENDING.md",
+      "sha256": "43d7bf3d0ace67fb6ac276da793386377a7a239776f30b45e69e26d16b7bbc51",
+      "size_bytes": 413
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_ANALYTIC_BOUNDARY_ORACLE.md",
+      "sha256": "8eac7e8a0814f8d82da6e7fc89492584fe7527a877a04ebe11c9c883f91e854c",
+      "size_bytes": 780
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_CURRENT_STATUS.md",
+      "sha256": "0d2c1ff5779025c99d505c2b86be45e4b9afd0c379179eac6df1c4bc56cd3873",
+      "size_bytes": 473
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_FULL_ORACLE_ENGINEERING_AUDIT.md",
+      "sha256": "ff0c5fd8a7498f4c7e65c85bb83fc90c240ef90e625c6fa0d14e01c0e07cb6e3",
+      "size_bytes": 698
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_GAUSSIAN_BACKEND_ADJUDICATION.md",
+      "sha256": "8fb2441c2ceba4d1f04780a78aecec9e3f69c8315a4b6c0d49bbd5e49484a13c",
+      "size_bytes": 807
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_IMPLEMENTATION_ADJUDICATION.md",
+      "sha256": "153b586a6612dad6ff68c10e49dce52f488ef479ecc3d2b1b4499dcf1415cac3",
+      "size_bytes": 1025
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_IMPLEMENTATION_CONFIG.json",
+      "sha256": "ab3a87d5deb3e080d3b724a087b2e504ebace66159041ad91538c2344712e6e4",
+      "size_bytes": 1296
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_IMPLEMENTATION_LOCK.md",
+      "sha256": "a2b89609a85ee7e7dde9ee9da3d044ab667d92260e245d3f9ec0e4e54e22387d",
+      "size_bytes": 2050
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_IMPLEMENTATION_PROTOCOL.md",
+      "sha256": "d043d7c65a19750e75464439d0be00f7f665c9803cd7c0787fdcafca613c75bf",
+      "size_bytes": 1216
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/README.md",
+      "sha256": "7f6d80b5d9d1b758ff0a2f48f314413ed0125aa7396937f6e081012217a17058",
+      "size_bytes": 722
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/analytic_boundary_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_analytic_boundary_audit.csv",
+      "sha256": "dd0e7218197bbfdeea6bc7e749e37ea87f275f8db11caa5edd79c1df74562275",
+      "size_bytes": 3506
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/analytic_boundary_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_analytic_boundary_audit_summary.json",
+      "sha256": "a165edf4bc6b2d7804a861cf1bfdb0aca2e398efb8038214afd89afa71a5046e",
+      "size_bytes": 589
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/analytic_radius_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_analytic_radius_diagnostic.csv",
+      "sha256": "6fc68bc50aba378a35825144eb98f975d96c49e779af3644f10d45b1b663d10d",
+      "size_bytes": 215601
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/analytic_radius_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_analytic_radius_diagnostic_summary.json",
+      "sha256": "cb3078c3b5c39f969b1d0931528702ffde8c22a20a8061ad3612a24393c6d953",
+      "size_bytes": 1544
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/check_d8a_implementation_lock_status.py",
+      "sha256": "9d644081fb52fdccc25fcc08972e205d265ee1a9a4fd7717fb28702c4cedb1f8",
+      "size_bytes": 2167
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/check_d8a_implementation_preflight.py",
+      "sha256": "b6c6d2e57606f814038a13ec7bf7d2492a20d379154e1768d7111aedfa66f0a4",
+      "size_bytes": 4366
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/d8a_analytic_policy_derivatives.py",
+      "sha256": "c874b67a6fc97aeb6506c8d77c78695d099570800b6f8aa4f014f4bf47d4410e",
+      "size_bytes": 9193
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/d8a_deterministic_gaussian.py",
+      "sha256": "3e004967a801f7f6b9f2dbd7689fecbdb129f3ff42f40c18c77f52d36795dd09",
+      "size_bytes": 6652
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/d8a_engineering_smoke.py",
+      "sha256": "eb4bde613dd51be454188c32231e29a339f3e70c73fbd428041e5c28a8bd0b60",
+      "size_bytes": 4915
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/d8a_generalized_oracle.py",
+      "sha256": "f0bcd6dfc8d5918475a842d74fcfb685bc7edd6ef67f61998edc9745dc4db37e",
+      "size_bytes": 29342
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/d8a_policy_engine.py",
+      "sha256": "d252796a690584d0ba4e6f6e90ff39d80ca283cae75d4b6a8afc4c7154a1dad8",
+      "size_bytes": 21457
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/d8a_seed_contract.py",
+      "sha256": "20a33c85d21fe9e1e309f14aab02efcd2fdf0cf4a3ced27601bf56a13a4ac953",
+      "size_bytes": 1704
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/d8a_transform_audit.py",
+      "sha256": "314146dcb4aea28998322514584040eb32b0d61b4e8daaac7bad9547ffa9e4ee",
+      "size_bytes": 2451
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/engineering_smoke/NON_SCIENTIFIC_ENGINEERING_ONLY_results.csv",
+      "sha256": "a4dcd60ebe0fa5c356f0542d99a0e3dade3d445d677d6b037f3b878bb232a13c",
+      "size_bytes": 3507
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/engineering_smoke/NON_SCIENTIFIC_ENGINEERING_ONLY_summary.json",
+      "sha256": "5c384cd0c1ce3420139867865a09941e41e1798834329d71dc9ade2e24f0d068",
+      "size_bytes": 317
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/full_oracle_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_full_oracle_audit.csv",
+      "sha256": "65aee2473eed904d80766fe6d3d499fce7d5c22850337569c4d2046742aa98c2",
+      "size_bytes": 7054
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/full_oracle_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_full_oracle_audit_summary.json",
+      "sha256": "8c802200b9d73b11b9976af796cd11fd9684553ccfbf16128f05e63b276f6498",
+      "size_bytes": 541
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/gradient_quadrature_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_gradient_quadrature_diagnostic_summary.json",
+      "sha256": "3c55f3f2e356952f62189f0a916f139ebc093d29ede561370cf13cb995d58e99",
+      "size_bytes": 7354
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/oracle_tolerance_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_coefficient_step_diagnostic.csv",
+      "sha256": "ed51a7206f474e2fa9c1d0fd699f02c150af7c2bf078e61df8054f6c38337a29",
+      "size_bytes": 3084
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/oracle_tolerance_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_directional_radius_diagnostic.csv",
+      "sha256": "4ea522b6b715f1c4626af645109c7ff71d2716df22ee33ea60b83d17488740a3",
+      "size_bytes": 35844
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/oracle_tolerance_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_oracle_tolerance_diagnostic_summary.json",
+      "sha256": "4a2d352161c2f38230f0ccef5b2d18592003ed3612e4b3610152e1e63a100d46",
+      "size_bytes": 1749
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/run_d8a_analytic_boundary_audit.py",
+      "sha256": "28ef602fd78b7cc811cc30af12d9988668ca0d8eb3632a2690c5aeb0c893bbe8",
+      "size_bytes": 5314
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/run_d8a_full_oracle_audit.py",
+      "sha256": "d1d6aeff8d00276c25615bae4f6115ab1c7d0afe1e6063d691a7fa5bf94f699f",
+      "size_bytes": 13608
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/targeted_gradient_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_targeted_gradient_diagnostic.csv",
+      "sha256": "3636720e2e5ef1624be15a479fbed6b0828e3f9a2777541db61662a0a2fbbdad",
+      "size_bytes": 5184
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/targeted_gradient_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_targeted_gradient_diagnostic_summary.json",
+      "sha256": "a38add1b651c7d1805e8ff09dc96348919e0c7f477f1e30aa6d344c44a1d1485",
+      "size_bytes": 2402
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/test_analytic_boundary_oracle.py",
+      "sha256": "9ae9ae3dcd943652e097d15c997a14f994fb4d8d9d869de21bb7892cb0d74224",
+      "size_bytes": 4949
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/test_deterministic_gaussian_backend.py",
+      "sha256": "6f3a6b41ec2a3184d7f2632348e42d2cc1e6bebefee5260fa39137f47d876fb5",
+      "size_bytes": 6516
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/test_direct_generalized_oracle.py",
+      "sha256": "286ed44e797b50aa817fda99f5293bf06b08ff88877ae08f7ffd47f4304b6412",
+      "size_bytes": 5031
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/test_oracle.py",
+      "sha256": "8ce9aea35a0f19d636b3df8b596684188430525178cb0db86bb0ebf9ddcb3649",
+      "size_bytes": 3943
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/test_policy_engine.py",
+      "sha256": "fc634e94b13453c754fbac514ca6e8d6369499029b379f6a8649b69724fd83b0",
+      "size_bytes": 5206
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/test_seed_contract.py",
+      "sha256": "0ab8699eb50799b19f68fe2ca33830f181b51340e96cbe6df1109ba87158e40e",
+      "size_bytes": 1874
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/test_smoke_contract.py",
+      "sha256": "b3e26f1fceeba8540f61604d89b7adaa71ac1f144ac95f4474ba104a8b38950d",
+      "size_bytes": 1403
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/tests/test_transform_audit.py",
+      "sha256": "6231ed6cfa28507ede11055a572a2b0097e2e5c1e7685b3e7739b5ede4561ca3",
+      "size_bytes": 2288
+    },
+    {
+      "relative_path": "numerical_validation/generalized_readjudication_v1/implementation_v1/verify_d8a_generalized_implementation_lock.py",
+      "sha256": "07fa20c54eb32642c9a5c72c20efa638912dc4e980c4c6f8903ed2df05e6f7a3",
+      "size_bytes": 2764
+    }
+  ],
+  "full_all_class_oracle_audit": "PASS",
+  "implementation_preflight": "PASS",
+  "independent_quadrature_adjudication": "CURRENT_GENZ_VALUE_BACKEND_BIAS",
+  "lock_id": "TESS_D8A_GENERALIZED_IMPLEMENTATION_LOCK_V1",
+  "maximum_analytic_directional_error_radius_0_002": 4.4623121170372926e-05,
+  "maximum_full_directional_error": 2.2297858004449722e-05,
+  "maximum_kink_identity_error": 2.220446049250313e-16,
+  "maximum_oracle_step_discrepancy": 0.0,
+  "parent_commit": "734aa65f3a9d57ca14dcad110df01be85e17fbfa",
+  "parent_tag": "d8a-generalized-design-lock-v1",
+  "planned_tag": "d8a-generalized-implementation-lock-v1",
+  "scientific_execution_authorized": true,
+  "scientific_simulation_run": false,
+  "theory_tag": "d8a-generalized-theory-repair-v1"
+}

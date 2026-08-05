@@ -1,0 +1,14 @@
+{
+  "all_values_finite": true,
+  "analytic_boundary_oracle_implemented": true,
+  "classes_audited": 25,
+  "implementation_lock_created": false,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "maximum_directional_error_radius_0.001": 2.2297858004449722e-05,
+  "maximum_directional_error_radius_0.002": 4.4623121170372926e-05,
+  "maximum_kink_identity_error": 2.220446049250313e-16,
+  "maximum_step_argument_dependence": 0.0,
+  "results_file": "NON_SCIENTIFIC_ENGINEERING_ONLY_analytic_boundary_audit.csv",
+  "scientific_execution_authorized": false,
+  "scientific_simulation_run": false
+}

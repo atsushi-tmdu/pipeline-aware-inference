@@ -1,0 +1,93 @@
+{
+  "adjudication": "ANALYTIC_GRADIENT_SUPPORTED",
+  "backend_summaries": {
+    "fixed_genz": {
+      "maximum_absolute_gradient_difference": 2.5262177319462786e-07,
+      "maximum_absolute_symmetric_quadratic_difference": 0.0001938352180515246,
+      "maximum_plus_normalized_residual": 0.0003919007618424786,
+      "rows_used": 4
+    },
+    "scipy_qmvnt": {
+      "maximum_absolute_gradient_difference": 6.929095103247462e-08,
+      "maximum_absolute_symmetric_quadratic_difference": 6.876364127259005e-05,
+      "maximum_plus_normalized_residual": 0.0001380545955331769,
+      "rows_used": 4
+    }
+  },
+  "class_id": "d8a-generalized-class-016",
+  "class_record": {
+    "activation_regime": "trigger_below_candidate",
+    "active_candidate_coincidence_hyperplanes": [
+      "q0=q2",
+      "q1=q2"
+    ],
+    "audit_member_cell_ids": [
+      "d8a-cell-009",
+      "d8a-cell-018"
+    ],
+    "candidate_added_contrast_variances": [
+      5.844219502300587,
+      5.844219502300587
+    ],
+    "candidate_probability": 0.9,
+    "canonical_cell_id": "d8a-cell-000",
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-016",
+    "class_role": "primary",
+    "correlation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "dependence": "independent",
+    "deterministic_audit_member_count": 2,
+    "exact_common_transform_invariance": true,
+    "latent_separation": 0.736599429927,
+    "member_cell_ids": [
+      "d8a-cell-009",
+      "d8a-cell-000",
+      "d8a-cell-018"
+    ],
+    "minimum_correlation_eigenvalue": 1.0,
+    "scientific_simulation_member_count": 1,
+    "transforms": [
+      "exp_0_35",
+      "identity",
+      "sinh_0_5"
+    ],
+    "trigger_probability": 0.5
+  },
+  "direction": [
+    1.0,
+    0.3,
+    -0.8,
+    0.2
+  ],
+  "implementation_lock_created": false,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "q_minus": 0.12171970176845623,
+  "q_plus": 0.06004337358500786,
+  "qmc_backend_available": true,
+  "results_file": "NON_SCIENTIFIC_ENGINEERING_ONLY_targeted_gradient_diagnostic.csv",
+  "scientific_execution_authorized": false,
+  "scientific_simulation_run": false,
+  "target": "adaptive_probability",
+  "theta": [
+    1.2815515655446004,
+    1.2815515655446004,
+    1.2815515655446004,
+    0.5449521356173572
+  ]
+}

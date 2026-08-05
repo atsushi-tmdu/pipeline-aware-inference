@@ -1,0 +1,11 @@
+{
+  "all_transform_invariance_pass": true,
+  "classes_executed": 2,
+  "evaluation_size": 64,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "reference_size": 64,
+  "replicates_per_class": 20,
+  "results_file": "NON_SCIENTIFIC_ENGINEERING_ONLY_results.csv",
+  "scientific_simulation_run": false,
+  "total_rows": 40
+}

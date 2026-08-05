@@ -1,0 +1,56 @@
+{
+  "classes_audited": 25,
+  "direction_count": 4,
+  "implementation_lock_created": false,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "maximum_normalized_error_by_radius": {
+    "0.000500": 0.0007805988078146697,
+    "0.001000": 0.0003919007618424786,
+    "0.002000": 0.00019921482519169587,
+    "0.004000": 0.00010876150327576717
+  },
+  "maximum_repeated_policy_value_difference": 0.0,
+  "maximum_step_argument_dependence": 0.0,
+  "radius_0.001_meets_1e_4_target": false,
+  "radius_0.002_meets_1e_4_target": false,
+  "radius_grid": [
+    0.004,
+    0.002,
+    0.001,
+    0.0005
+  ],
+  "scientific_execution_authorized": false,
+  "scientific_simulation_run": false,
+  "smaller_radius_error_ratios": {
+    "0.001000_to_0.000500": 1.9918277375751192,
+    "0.002000_to_0.001000": 1.9672268942101538,
+    "0.004000_to_0.002000": 1.8316667128679007
+  },
+  "targets_audited": [
+    "delta_pi",
+    "adaptive_probability",
+    "comparator_probability"
+  ],
+  "worst_case_by_radius": {
+    "0.000500": {
+      "class_id": "d8a-generalized-class-016",
+      "direction_index": 0,
+      "target": "adaptive_probability"
+    },
+    "0.001000": {
+      "class_id": "d8a-generalized-class-016",
+      "direction_index": 0,
+      "target": "adaptive_probability"
+    },
+    "0.002000": {
+      "class_id": "d8a-generalized-class-016",
+      "direction_index": 0,
+      "target": "adaptive_probability"
+    },
+    "0.004000": {
+      "class_id": "d8a-generalized-class-021",
+      "direction_index": 0,
+      "target": "adaptive_probability"
+    }
+  }
+}

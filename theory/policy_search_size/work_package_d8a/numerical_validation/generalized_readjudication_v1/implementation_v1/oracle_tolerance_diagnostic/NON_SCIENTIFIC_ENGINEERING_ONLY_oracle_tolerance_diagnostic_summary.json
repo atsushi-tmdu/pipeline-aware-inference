@@ -1,0 +1,64 @@
+{
+  "directional_error_convergence_ratios": {
+    "0.000500_to_0.000250": 2.2307538214881064,
+    "0.001000_to_0.000500": 2.5810361935820536,
+    "0.002000_to_0.001000": 3.6593683217584765
+  },
+  "implementation_lock_created": false,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "maximum_directional_error_by_radius": {
+    "0.000250": 0.0006997655788154589,
+    "0.000500": 0.0003136901849387641,
+    "0.001000": 0.00012153653083935012,
+    "0.002000": 3.3212434538687496e-05
+  },
+  "maximum_h_0.008_vs_0.006_class": "d8a-generalized-class-024",
+  "maximum_h_0.008_vs_0.006_discrepancy": 0.00024665726219105094,
+  "maximum_h_0.008_vs_0.006_target": "delta_pi",
+  "maximum_repeat_discrepancy": 0.0,
+  "radius_grid": [
+    0.002,
+    0.001,
+    0.0005,
+    0.00025
+  ],
+  "scientific_execution_authorized": false,
+  "scientific_simulation_run": false,
+  "selected_class_count": 5,
+  "selected_class_ids": [
+    "d8a-generalized-class-017",
+    "d8a-generalized-class-016",
+    "d8a-generalized-class-024",
+    "d8a-generalized-class-023",
+    "d8a-generalized-class-022"
+  ],
+  "step_grid": [
+    0.016,
+    0.012,
+    0.01,
+    0.008,
+    0.006
+  ],
+  "worst_direction_by_radius": {
+    "0.000250": {
+      "class_id": "d8a-generalized-class-017",
+      "direction_index": 0,
+      "target": "adaptive_probability"
+    },
+    "0.000500": {
+      "class_id": "d8a-generalized-class-017",
+      "direction_index": 0,
+      "target": "adaptive_probability"
+    },
+    "0.001000": {
+      "class_id": "d8a-generalized-class-017",
+      "direction_index": 0,
+      "target": "adaptive_probability"
+    },
+    "0.002000": {
+      "class_id": "d8a-generalized-class-024",
+      "direction_index": 0,
+      "target": "comparator_probability"
+    }
+  }
+}
