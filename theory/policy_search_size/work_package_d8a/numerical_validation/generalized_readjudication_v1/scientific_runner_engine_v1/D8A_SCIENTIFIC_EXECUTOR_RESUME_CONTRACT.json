@@ -1,0 +1,24 @@
+{
+  "atomic_batch_jsonl": true,
+  "batch_filename": "batch_<first>_<last>.jsonl",
+  "completed_job_rerun": "idempotent_no_new_batches",
+  "contract_id": "TESS_D8A_SCIENTIFIC_EXECUTOR_RESUME_CONTRACT_V1",
+  "deterministic_job_order": "class_id, family_order, job_id",
+  "family_order": [
+    "reference_only",
+    "evaluation_only",
+    "combined"
+  ],
+  "job_level_parallelism_allowed": true,
+  "resume_requires_contiguous_indices_from_zero": true,
+  "runner_engine_locked": false,
+  "schema_version": "1.0",
+  "scientific_executor_self_verifies_lock": true,
+  "scientific_job_count": 75,
+  "scientific_output_root_created_only_after_lock_verification": true,
+  "scientific_output_root_relative_to_repo": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1",
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false,
+  "seed_reconstruction": "locked seed inventory and replicate index",
+  "within_job_replicate_order": "strictly increasing"
+}

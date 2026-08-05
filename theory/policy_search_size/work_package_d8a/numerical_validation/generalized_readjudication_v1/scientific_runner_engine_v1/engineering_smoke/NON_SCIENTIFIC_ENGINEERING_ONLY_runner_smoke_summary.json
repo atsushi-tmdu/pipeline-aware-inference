@@ -1,0 +1,31 @@
+{
+  "all_resume_checks_pass": true,
+  "all_tess_outputs_valid": true,
+  "classes_executed": 2,
+  "engineering_sample_override": {
+    "combined_pairs": [
+      [
+        64,
+        64
+      ]
+    ],
+    "evaluation_sizes": [
+      64
+    ],
+    "reference_sizes": [
+      64
+    ]
+  },
+  "family_job_counts": {
+    "combined": 2,
+    "evaluation_only": 2,
+    "reference_only": 2
+  },
+  "family_jobs_executed": 6,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "replicates_per_job": 20,
+  "runner_engine_locked": false,
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false,
+  "total_job_replicates": 120
+}

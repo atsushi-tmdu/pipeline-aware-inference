@@ -1,0 +1,43 @@
+{
+  "adopted_before_scientific_output": true,
+  "aggregation": "maximum over every registered point and stopping-driving output within a family job",
+  "amendment_id": "TESS_D8A_PROSPECTIVE_RATE_AWARE_PRECISION_CONTRACT_AMENDMENT_V2",
+  "combined_scale": "(B^-1+n^-1)*(1+|C_R(B)|+|C_E|)",
+  "effect_dependent_stopping": false,
+  "evaluation_coefficients": {
+    "adaptive_probability": 0.0,
+    "comparator_probability": "+Delta_pi",
+    "policy_contrast": "-Delta_pi",
+    "tess_contrast": "C_S,E"
+  },
+  "evaluation_scale": "n^-1*(1+|C_E|)",
+  "mcse_formula": "sample_sd_ddof1/sqrt(R)",
+  "monte_carlo_variance_ddof": 1,
+  "precision_target_diagnostic": 0.03,
+  "precision_target_primary": 0.03,
+  "reference_scale": "B^-1*(1+|C_R(B)|)",
+  "runner_engine_locked": false,
+  "scale_source": "locked DGP, registered B/n, and locked oracle coefficients",
+  "scale_uses_observed_monte_carlo_mean": false,
+  "schema_version": "2.0",
+  "scientific_output_inspected_before_amendment": false,
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false,
+  "simultaneous_critical_values": {
+    "acceptance_comparison_counts": {
+      "combined_policy": 119,
+      "combined_tess": 238,
+      "reference_policy": 85
+    },
+    "acceptance_total_comparisons": 442,
+    "acceptance_z_star": 4.2372795825947795,
+    "evaluation_identity_comparisons": 85,
+    "evaluation_identity_z_star": 3.8509780194087373,
+    "familywise_alpha": 0.01,
+    "two_sided": true
+  },
+  "status": "PROSPECTIVELY_AMENDED_RATE_AWARE_BEFORE_SCIENTIFIC_RUN",
+  "studentized_v1_superseded": true,
+  "tess_boundary_status_scale": 1.0,
+  "tess_primary_largest_pair_nonfinite": "formal criterion failure"
+}

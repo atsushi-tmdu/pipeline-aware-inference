@@ -1,0 +1,76 @@
+{
+  "completed_rerun_idempotent": true,
+  "details": [
+    {
+      "completed_rerun_idempotent": true,
+      "direct_replicates": 20,
+      "family": "reference_only",
+      "interrupted_replicates": 8,
+      "job_id": "d8a-generalized-class-000__reference_only",
+      "resume_matches_direct": true,
+      "resumed_replicates": 20,
+      "temporary_files_remaining": 0
+    },
+    {
+      "completed_rerun_idempotent": true,
+      "direct_replicates": 20,
+      "family": "evaluation_only",
+      "interrupted_replicates": 8,
+      "job_id": "d8a-generalized-class-000__evaluation_only",
+      "resume_matches_direct": true,
+      "resumed_replicates": 20,
+      "temporary_files_remaining": 0
+    },
+    {
+      "completed_rerun_idempotent": true,
+      "direct_replicates": 20,
+      "family": "combined",
+      "interrupted_replicates": 8,
+      "job_id": "d8a-generalized-class-000__combined",
+      "resume_matches_direct": true,
+      "resumed_replicates": 20,
+      "temporary_files_remaining": 0
+    },
+    {
+      "completed_rerun_idempotent": true,
+      "direct_replicates": 20,
+      "family": "reference_only",
+      "interrupted_replicates": 8,
+      "job_id": "d8a-generalized-class-001__reference_only",
+      "resume_matches_direct": true,
+      "resumed_replicates": 20,
+      "temporary_files_remaining": 0
+    },
+    {
+      "completed_rerun_idempotent": true,
+      "direct_replicates": 20,
+      "family": "evaluation_only",
+      "interrupted_replicates": 8,
+      "job_id": "d8a-generalized-class-001__evaluation_only",
+      "resume_matches_direct": true,
+      "resumed_replicates": 20,
+      "temporary_files_remaining": 0
+    },
+    {
+      "completed_rerun_idempotent": true,
+      "direct_replicates": 20,
+      "family": "combined",
+      "interrupted_replicates": 8,
+      "job_id": "d8a-generalized-class-001__combined",
+      "resume_matches_direct": true,
+      "resumed_replicates": 20,
+      "temporary_files_remaining": 0
+    }
+  ],
+  "engineering_audit_pass": true,
+  "executor_refusal_returncode": 2,
+  "executor_refused_without_lock": true,
+  "interruption_point": 8,
+  "jobs_tested": 6,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "resume_matches_direct": true,
+  "resume_target": 20,
+  "runner_engine_locked": false,
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false
+}

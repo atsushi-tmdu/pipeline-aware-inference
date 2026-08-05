@@ -1,0 +1,54 @@
+{
+  "acceptance_residual_z_star": 4.2372795825947795,
+  "adopted_before_scientific_output": true,
+  "combined_policy_acceptance": {
+    "largest_pair": [
+      10000,
+      10000
+    ],
+    "median_maximum": 0.15,
+    "p90_maximum": 0.4,
+    "prediction": "C_Delta,B/B-Delta_pi/n-C_Delta,B/(B*n)"
+  },
+  "combined_tess_acceptance": {
+    "any_nonfinite_primary_record": "formal criterion failure",
+    "evaluated_separately_by_alpha": true,
+    "largest_pair": [
+      10000,
+      10000
+    ],
+    "median_maximum": 0.25,
+    "p90_maximum": 0.6
+  },
+  "contract_id": "TESS_D8A_SCIENTIFIC_SUMMARY_ACCEPTANCE_CONTRACT_V1",
+  "exact_evaluation_identity": {
+    "comparison_count": 85,
+    "familywise_alpha": 0.01,
+    "target": "(1-1/n)*Delta_pi",
+    "two_sided_bonferroni": true,
+    "z_star": 3.8509780194087373
+  },
+  "formal_status": "PASS only if every scientific criterion and every fatal check passes",
+  "post_hoc_class_dropping_allowed": false,
+  "precision_limited_primary": {
+    "diagnostic_classes_enter_denominator": false,
+    "fraction_maximum": 0.1,
+    "maximum_allowed_class_count": 1
+  },
+  "primary_acceptance_denominator": 17,
+  "quantile_method": "numpy_linear_type7",
+  "reference_acceptance": {
+    "comparison_B": 500,
+    "improvement_rule": "unadjusted absolute residual of generalized prediction is strictly smaller than the first-order-only prediction",
+    "largest_B": 10000,
+    "largest_B_median_maximum": 0.15,
+    "largest_B_p90_maximum": 0.4,
+    "median_improvement_minimum": 0.4,
+    "second_order_improved_fraction_minimum": 0.75
+  },
+  "runner_engine_locked": false,
+  "schema_version": "1.0",
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false,
+  "transformed_audit_rows_count_as_independent_evidence": false
+}

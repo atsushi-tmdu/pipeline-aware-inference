@@ -1,0 +1,67 @@
+{
+  "acceptance_evaluator_implemented": true,
+  "acceptance_scales_partially_recovered": true,
+  "diagnostic_maximum_replicates": 5000,
+  "diagnostic_minimum_replicates": 1000,
+  "effect_dependent_stopping": false,
+  "engine_package_id": "TESS_D8A_SCIENTIFIC_RUNNER_ENGINE_V1",
+  "engineering_smoke": {
+    "combined_pairs": [
+      [
+        64,
+        64
+      ]
+    ],
+    "diagnostic_classes": 2,
+    "evaluation_sizes": [
+      64
+    ],
+    "family_jobs": 6,
+    "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+    "reference_sizes": [
+      64
+    ],
+    "replicates_per_job": 20
+  },
+  "engineering_test_count": 82,
+  "executor_resume_contract_id": "TESS_D8A_SCIENTIFIC_EXECUTOR_RESUME_CONTRACT_V1",
+  "family_jobs": 75,
+  "final_execution_gate_state": "CLOSED",
+  "interrupt_resume_engineering_audited": true,
+  "job_level_parallelism_implemented": true,
+  "monte_carlo_contract_adjudicated": true,
+  "monte_carlo_variance_ddof": 1,
+  "natural_scale_precision_contract_amended": true,
+  "parent_tag": "d8a-scientific-run-package-prelock-v1",
+  "precision_contract_status": "PROSPECTIVELY_AMENDED_NATURAL_SCALE_BEFORE_SCIENTIFIC_RUN",
+  "precision_scale_uses_observed_mean": false,
+  "precision_target_diagnostic": 0.03,
+  "precision_target_primary": 0.03,
+  "primary_acceptance_denominator": 17,
+  "primary_maximum_replicates": 20000,
+  "primary_minimum_replicates": 2000,
+  "prospective_precision_amendment_required": false,
+  "prospective_precision_contract_amended": true,
+  "prospective_precision_contract_id": "TESS_D8A_PROSPECTIVE_NATURAL_SCALE_PRECISION_CONTRACT_AMENDMENT_V3",
+  "rate_aware_precision_contract_amended": true,
+  "rate_aware_precision_retained_for_acceptance": true,
+  "rate_aware_precision_v2_superseded_for_stopping": true,
+  "role_aware_precision_only_stopping_implemented": true,
+  "runner_engine_implemented": true,
+  "runner_engine_locked": false,
+  "scheduler_implemented": true,
+  "schema_version": "1.0",
+  "scientific_equivalence_classes": 25,
+  "scientific_executor_implemented": true,
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false,
+  "shared_batch_size": 250,
+  "stopping_contract_complete": true,
+  "studentized_precision_v1_superseded": true,
+  "summary_acceptance_contract_id": "TESS_D8A_SCIENTIFIC_SUMMARY_ACCEPTANCE_CONTRACT_V1",
+  "summary_engine_implemented": true,
+  "tess_boundary_policy_adjudicated": true,
+  "tess_boundary_records_silently_dropped": false,
+  "tess_boundary_records_structured": true,
+  "undefined_tess_policy": "null in engineering output; fatal policy must be fixed before scientific runner lock"
+}

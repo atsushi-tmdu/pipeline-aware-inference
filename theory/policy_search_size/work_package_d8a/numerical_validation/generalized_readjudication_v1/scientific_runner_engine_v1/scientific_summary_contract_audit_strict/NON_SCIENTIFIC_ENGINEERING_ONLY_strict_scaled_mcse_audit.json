@@ -1,0 +1,131 @@
+{
+  "all_mcse_contexts": [
+    {
+      "context": "31: =\n32: \\frac{\n33: \\left[\n34: |B\\{\\widehat{\\operatorname{Bias}}_R-C_B/B\\}|\n35: -\n36: z_\\star B\\,\\operatorname{MCSE}\n37: \\right]_+\n38: }{\n39: 1+|C_B|\n40: }.\n41: \\]",
+      "context_end_line": 41,
+      "context_start_line": 31,
+      "line_number": 36,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_ACCEPTANCE_CRITERIA.md",
+      "ref": "HEAD"
+    },
+    {
+      "context": "47: \n48: The median must improve by at least 40% from \\(B=500\\) to \\(B=10{,}000\\).\n49: \n50: ## Combined policy approximation\n51: \n52: The MCSE-adjusted absolute residual is divided by\n53: \n54: \\[\n55: (B^{-1}+n^{-1})\n56: (1+|C_{\\Delta,B}|+|\\Delta_\\pi|).\n57: \\]",
+      "context_end_line": 57,
+      "context_start_line": 47,
+      "line_number": 52,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_ACCEPTANCE_CRITERIA.md",
+      "ref": "HEAD"
+    },
+    {
+      "context": "82: baseline.\n83: \n84: ## Precision limitation\n85: \n86: No more than 10% of primary cells may reach the maximum replicate count\n87: without meeting the locked MCSE target.",
+      "context_end_line": 87,
+      "context_start_line": 82,
+      "line_number": 87,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_ACCEPTANCE_CRITERIA.md",
+      "ref": "HEAD"
+    },
+    {
+      "context": "1: {\n2:   \"acceptance\": {\n3:     \"combined_policy_approximation\": {\n4:       \"largest_pair_median_maximum\": 0.15,\n5:       \"largest_pair_p90_maximum\": 0.4,\n6:       \"metric\": \"MCSE-adjusted absolute residual divided by (1/B+1/n)*(1+|C_Delta,B|+|Delta_pi|)\"\n7:     },\n8:     \"exact_evaluation_identity\": {\n9:       \"familywise_alpha\": 0.01,\n10:       \"method\": \"Bonferroni simultaneous Monte Carlo z check\",\n11:       \"required\": true",
+      "context_end_line": 11,
+      "context_start_line": 1,
+      "line_number": 6,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json",
+      "ref": "HEAD"
+    },
+    {
+      "context": "24:     \"interpretation\": \"Failure of an asymptotic usefulness threshold is not automatically a contradiction of the theorem; fatal exact identity or implementation failures are adjudicated separately.\",\n25:     \"reference_approximation\": {\n26:       \"largest_B_median_maximum\": 0.15,\n27:       \"largest_B_p90_maximum\": 0.4,\n28:       \"median_improvement_from_B500_to_B10000_minimum\": 0.4,\n29:       \"metric\": \"MCSE-adjusted |B*(bias-C_B/B)|/(1+|C_B|)\"\n30:     },\n31:     \"second_order_improvement\": {\n32:       \"comparison\": \"absolute bias residual versus first-order-only baseline\",\n33:       \"minimum_fraction_improved_primary_cells\": 0.75\n34:     },",
+      "context_end_line": 34,
+      "context_start_line": 24,
+      "line_number": 29,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json",
+      "ref": "HEAD"
+    },
+    {
+      "context": "33:       \"minimum_fraction_improved_primary_cells\": 0.75\n34:     },\n35:     \"tess_approximation\": {\n36:       \"largest_pair_median_maximum\": 0.25,\n37:       \"largest_pair_p90_maximum\": 0.6,\n38:       \"metric\": \"MCSE-adjusted absolute residual divided by (1/B+1/n)*(1+|C_S,R,B|+|C_S,E|)\"\n39:     }\n40:   },\n41:   \"cell_registry\": {\n42:     \"diagnostic_cells\": 41,\n43:     \"latent_separation_minimum\": 0.1,",
+      "context_end_line": 43,
+      "context_start_line": 33,
+      "line_number": 38,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json",
+      "ref": "HEAD"
+    },
+    {
+      "context": "91:     \"nested_common_random_numbers_across_sizes\": true,\n92:     \"precision_limited_fraction_maximum\": 0.1,\n93:     \"precision_stopping_only\": true,\n94:     \"primary_maximum_replicates\": 20000,\n95:     \"primary_minimum_replicates\": 2000,\n96:     \"primary_scaled_mcse_target\": 0.03,\n97:     \"raw_bank_storage\": false,\n98:     \"reference_evaluation_streams_independent\": true,\n99:     \"streaming_required\": true\n100:   },\n101:   \"oracle_contract\": {",
+      "context_end_line": 101,
+      "context_start_line": 91,
+      "line_number": 96,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json",
+      "ref": "HEAD"
+    },
+    {
+      "context": "83: be smaller than Monte Carlo resolution in some cells.\n84: \n85: ## Precision limitation\n86: \n87: No more than 10% of the 17 primary equivalence classes may reach the maximum\n88: replicate count without meeting the locked MCSE target.",
+      "context_end_line": 88,
+      "context_start_line": 83,
+      "line_number": 88,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_ACCEPTANCE_CRITERIA.md",
+      "ref": "HEAD"
+    },
+    {
+      "context": "61:     \"nested_common_random_numbers_across_sizes\": true,\n62:     \"precision_limited_fraction_maximum\": 0.1,\n63:     \"precision_stopping_only\": true,\n64:     \"primary_maximum_replicates\": 20000,\n65:     \"primary_minimum_replicates\": 2000,\n66:     \"primary_scaled_mcse_target\": 0.03,\n67:     \"raw_bank_storage\": false,\n68:     \"reference_evaluation_streams_independent\": true,\n69:     \"streaming_required\": true\n70:   },\n71:   \"ordinary_hessian_coefficient_allowed\": false,",
+      "context_end_line": 71,
+      "context_start_line": 61,
+      "line_number": 66,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json",
+      "ref": "HEAD"
+    }
+  ],
+  "current_engine_excluded": true,
+  "exact_formula_candidates": [],
+  "files_scanned": 167,
+  "generic_precision_plumbing_excluded": 2,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "refs_audited": [
+    "HEAD",
+    "d8a-numerical-design-lock-v1",
+    "d8a-generalized-design-lock-v1",
+    "d8a-generalized-implementation-lock-v1",
+    "d8a-scientific-run-package-prelock-v1",
+    "d8a-coincidence-gap-audit-v1",
+    "d8a-generalized-theory-repair-v1",
+    "d8a-theory-complete-v1",
+    "d8a-theory-prelock-v1"
+  ],
+  "runner_engine_locked": false,
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false,
+  "strict_status": "TARGET_ONLY_FORMULA_NOT_FOUND",
+  "target_constants_are_formula_evidence": false,
+  "target_occurrences": [
+    {
+      "context": "87:     \"diagnostic_minimum_replicates\": 1000,\n88:     \"effect_dependent_stopping\": false,\n89:     \"generator\": \"numpy.random.PCG64DXSM\",\n90:     \"master_seed\": 20260804,\n91:     \"nested_common_random_numbers_across_sizes\": true,\n92:     \"precision_limited_fraction_maximum\": 0.1,\n93:     \"precision_stopping_only\": true,\n94:     \"primary_maximum_replicates\": 20000,\n95:     \"primary_minimum_replicates\": 2000,\n96:     \"primary_scaled_mcse_target\": 0.03,\n97:     \"raw_bank_storage\": false,",
+      "context_end_line": 97,
+      "context_start_line": 87,
+      "line_number": 92,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json",
+      "ref": "HEAD"
+    },
+    {
+      "context": "91:     \"nested_common_random_numbers_across_sizes\": true,\n92:     \"precision_limited_fraction_maximum\": 0.1,\n93:     \"precision_stopping_only\": true,\n94:     \"primary_maximum_replicates\": 20000,\n95:     \"primary_minimum_replicates\": 2000,\n96:     \"primary_scaled_mcse_target\": 0.03,\n97:     \"raw_bank_storage\": false,\n98:     \"reference_evaluation_streams_independent\": true,\n99:     \"streaming_required\": true\n100:   },\n101:   \"oracle_contract\": {",
+      "context_end_line": 101,
+      "context_start_line": 91,
+      "line_number": 96,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json",
+      "ref": "HEAD"
+    },
+    {
+      "context": "57:     \"diagnostic_minimum_replicates\": 1000,\n58:     \"effect_dependent_stopping\": false,\n59:     \"generator\": \"numpy.random.PCG64DXSM\",\n60:     \"master_seed\": 20260804,\n61:     \"nested_common_random_numbers_across_sizes\": true,\n62:     \"precision_limited_fraction_maximum\": 0.1,\n63:     \"precision_stopping_only\": true,\n64:     \"primary_maximum_replicates\": 20000,\n65:     \"primary_minimum_replicates\": 2000,\n66:     \"primary_scaled_mcse_target\": 0.03,\n67:     \"raw_bank_storage\": false,",
+      "context_end_line": 67,
+      "context_start_line": 57,
+      "line_number": 62,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json",
+      "ref": "HEAD"
+    },
+    {
+      "context": "61:     \"nested_common_random_numbers_across_sizes\": true,\n62:     \"precision_limited_fraction_maximum\": 0.1,\n63:     \"precision_stopping_only\": true,\n64:     \"primary_maximum_replicates\": 20000,\n65:     \"primary_minimum_replicates\": 2000,\n66:     \"primary_scaled_mcse_target\": 0.03,\n67:     \"raw_bank_storage\": false,\n68:     \"reference_evaluation_streams_independent\": true,\n69:     \"streaming_required\": true\n70:   },\n71:   \"ordinary_hessian_coefficient_allowed\": false,",
+      "context_end_line": 71,
+      "context_start_line": 61,
+      "line_number": 66,
+      "path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json",
+      "ref": "HEAD"
+    }
+  ]
+}

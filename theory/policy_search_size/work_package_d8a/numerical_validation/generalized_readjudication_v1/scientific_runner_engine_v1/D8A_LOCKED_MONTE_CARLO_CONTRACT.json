@@ -1,0 +1,39 @@
+{
+  "normalized_schedules": {
+    "diagnostic": {
+      "batch_size": 250,
+      "initial_replicates": 1000,
+      "maximum_replicates": 5000
+    },
+    "primary": {
+      "batch_size": 250,
+      "initial_replicates": 2000,
+      "maximum_replicates": 20000
+    }
+  },
+  "precision_only_stopping": true,
+  "raw_contract": {
+    "batch_size": 250,
+    "cell_seed_rule": "SeedSequence(master_seed, spawn_key=first four uint32 words of SHA256(canonical_cell_key))",
+    "diagnostic_maximum_replicates": 5000,
+    "diagnostic_minimum_replicates": 1000,
+    "effect_dependent_stopping": false,
+    "generator": "numpy.random.PCG64DXSM",
+    "master_seed": 20260804,
+    "nested_common_random_numbers_across_sizes": true,
+    "precision_limited_fraction_maximum": 0.1,
+    "precision_stopping_only": true,
+    "primary_maximum_replicates": 20000,
+    "primary_minimum_replicates": 2000,
+    "primary_scaled_mcse_target": 0.03,
+    "raw_bank_storage": false,
+    "reference_evaluation_streams_independent": true,
+    "streaming_required": true
+  },
+  "raw_contract_retained_verbatim": true,
+  "runner_engine_locked": false,
+  "schema_version": "1.0",
+  "scientific_simulation_run": false,
+  "shared_batch_size": 250,
+  "source": "scientific_run_prelock_v1/D8A_SCIENTIFIC_RUN_CONFIG.json:monte_carlo_contract"
+}

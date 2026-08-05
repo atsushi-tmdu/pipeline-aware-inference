@@ -1,0 +1,20 @@
+{
+  "class_id": "d8a-generalized-class-001",
+  "class_role": "diagnostic",
+  "complete": true,
+  "family": "combined",
+  "job_id": "d8a-generalized-class-001__combined",
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "new_batches_this_call": 3,
+  "precision": {
+    "maximum_scaled_mcse": 0.1345789798613931,
+    "precision_pass": false,
+    "replicate_count": 20,
+    "target": 1e-12
+  },
+  "precision_limited": false,
+  "replicate_count": 20,
+  "schema_version": "1.0",
+  "scientific_simulation_run": false,
+  "stop_reason": "maximum_replicates_reached"
+}

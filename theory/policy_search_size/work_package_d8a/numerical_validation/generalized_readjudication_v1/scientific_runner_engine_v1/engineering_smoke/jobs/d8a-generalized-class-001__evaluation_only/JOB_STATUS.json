@@ -1,0 +1,25 @@
+{
+  "batch": {
+    "filename": "batch_0_19.jsonl",
+    "first_replicate": 0,
+    "last_replicate": 19,
+    "row_count": 20,
+    "sha256": "a6bb281ef38fbe9f5f3f85a514277fc2b16b5f48830407dfc731a92b9b81b0ff"
+  },
+  "job_id": "d8a-generalized-class-001__evaluation_only",
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "scan": {
+    "batch_count": 1,
+    "batches": [
+      {
+        "first_replicate": 0,
+        "last_replicate": 19,
+        "row_count": 20,
+        "sha256": "a6bb281ef38fbe9f5f3f85a514277fc2b16b5f48830407dfc731a92b9b81b0ff"
+      }
+    ],
+    "next_replicate_index": 20,
+    "row_count": 20
+  },
+  "scientific_simulation_run": false
+}

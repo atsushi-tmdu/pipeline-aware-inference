@@ -1,0 +1,28 @@
+{
+  "combined_policy_acceptance_scale_recovered": true,
+  "combined_policy_scaled_mcse": "MCSE/((1/B+1/n)*(1+|C_Delta,B|+|Delta_pi|))",
+  "combined_tess_acceptance_scale_recovered": true,
+  "combined_tess_scaled_mcse": "MCSE/((1/B+1/n)*(1+|C_S,R,B|+|C_S,E|))",
+  "historical_audit_status_superseded": "PARTIAL_SCALING_EVIDENCE_FOUND",
+  "historical_python_formula_candidates": 37,
+  "historical_python_mcse_formula_candidates": 0,
+  "missing_items": [
+    "Monte Carlo variance estimator and ddof",
+    "evaluation-only scaled-MCSE denominator",
+    "aggregation over sample sizes and estimands",
+    "set of stopping-driving policy and TESS outputs",
+    "diagnostic-class precision rule",
+    "TESS boundary-record precision handling",
+    "exact z_star construction for acceptance"
+  ],
+  "prospective_amendment_required": true,
+  "reference_acceptance_scale_recovered": true,
+  "reference_scaled_mcse": "B*MCSE/(1+|C_B|)",
+  "runner_engine_locked": false,
+  "schema_version": "1.0",
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false,
+  "status": "ACCEPTANCE_SCALES_PARTIALLY_RECOVERED_STOPPING_CONTRACT_INCOMPLETE",
+  "stopping_contract_complete": false,
+  "strict_audit_status": "TARGET_ONLY_FORMULA_NOT_FOUND"
+}

@@ -1,0 +1,19 @@
+{
+  "executor_resume_contract_id": "TESS_D8A_SCIENTIFIC_EXECUTOR_RESUME_CONTRACT_V1",
+  "lock_id": "TESS_D8A_SCIENTIFIC_RUNNER_ENGINE_LOCK_V1",
+  "lock_tag": "d8a-scientific-runner-engine-lock-v1",
+  "manifest_file": "D8A_SCIENTIFIC_RUNNER_ENGINE_MANIFEST.json",
+  "manifest_file_count": 158,
+  "manifest_sha256": "af25abaf5dfe0d00a0fb75c1d0c48ed1583dc47bc523e85730efdc8d1c7f95a1",
+  "parent_generalized_implementation_tag": "d8a-generalized-implementation-lock-v1",
+  "parent_scientific_run_package_commit": "8bf09a0bca7d29d73f0d142ff9f6013e265c2295",
+  "parent_scientific_run_package_tag": "d8a-scientific-run-package-prelock-v1",
+  "precision_contract_id": "TESS_D8A_PROSPECTIVE_NATURAL_SCALE_PRECISION_CONTRACT_AMENDMENT_V3",
+  "required_runner_test_count": 82,
+  "runner_engine_locked": true,
+  "schema_version": "1.0",
+  "scientific_execution_authorized": true,
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false,
+  "summary_acceptance_contract_id": "TESS_D8A_SCIENTIFIC_SUMMARY_ACCEPTANCE_CONTRACT_V1"
+}

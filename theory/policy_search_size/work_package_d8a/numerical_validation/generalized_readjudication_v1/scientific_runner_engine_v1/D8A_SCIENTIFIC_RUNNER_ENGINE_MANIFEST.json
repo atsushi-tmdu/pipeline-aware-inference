@@ -1,0 +1,804 @@
+{
+  "engine_root_relative_to_repo": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1",
+  "excluded_lock_files": [
+    "D8A_SCIENTIFIC_RUNNER_ENGINE_LOCK.json",
+    "D8A_SCIENTIFIC_RUNNER_ENGINE_LOCK.md",
+    "D8A_SCIENTIFIC_RUNNER_ENGINE_MANIFEST.json",
+    "verify_d8a_scientific_runner_engine_lock.py"
+  ],
+  "file_count": 158,
+  "files": [
+    {
+      "path": ".DS_Store",
+      "sha256": "d8a1bd0f359693792c8b472032a61ff19a862d0d988a199e5a16647afe0b1a37",
+      "size": 6148
+    },
+    {
+      "path": "D8A_LOCKED_MONTE_CARLO_CONTRACT.json",
+      "sha256": "0b77c91c05080045977fe366c3a5a8f55c7c6b72af1a1c69e04ca3fba7495b90",
+      "size": 1305
+    },
+    {
+      "path": "D8A_PRECISION_CONTRACT_GAP.json",
+      "sha256": "04c9c51f623497af2a2f09b2f74ed0da0315e4f12751e17c7173a8f0434e7562",
+      "size": 1248
+    },
+    {
+      "path": "D8A_PRECISION_CONTRACT_GAP_ADJUDICATION.md",
+      "sha256": "458728a7ae6be612dd7047d5753a0a0e73585fc9d8854a53eb442bda45592c84",
+      "size": 2334
+    },
+    {
+      "path": "D8A_PRECISION_ONLY_STOPPING_POLICY.md",
+      "sha256": "9490219ee776f74fabbae0150cdba190a36029ba9c4ea3a31e94b2374717732f",
+      "size": 810
+    },
+    {
+      "path": "D8A_PROSPECTIVE_NATURAL_SCALE_PRECISION_CONTRACT.json",
+      "sha256": "55e69580178bd64521583869fdc5610adfc999393b260303dab4be74aff52ca7",
+      "size": 1731
+    },
+    {
+      "path": "D8A_PROSPECTIVE_PRECISION_CONTRACT_AMENDMENT.md",
+      "sha256": "b3ae53dce89b5a326890c0a05c1f7bbe62b8e5390e732ea3048a1c2e25bb2bdf",
+      "size": 4141
+    },
+    {
+      "path": "D8A_PROSPECTIVE_RATE_AWARE_PRECISION_CONTRACT.json",
+      "sha256": "5fad57c99c07e137eb4aef5a145802d1b0bcf3a59278062ab642429439a9377d",
+      "size": 1689
+    },
+    {
+      "path": "D8A_RATE_AWARE_PRECISION_V2_SUPERSEDED.md",
+      "sha256": "46842b90d22ec2f2794f6dfa3faad9e32e4874f4ce1342b4e2cb852fe45947bd",
+      "size": 702
+    },
+    {
+      "path": "D8A_RUNNER_ENGINE_PROTOCOL.md",
+      "sha256": "efeaa6b15053d582053973ddfaad2f826719847574ac98f42c49097f8b4ca5c2",
+      "size": 1262
+    },
+    {
+      "path": "D8A_SCIENTIFIC_EXECUTOR_RESUME_CONTRACT.json",
+      "sha256": "6a6a4c36923794d4c1ff362ef60a49f13c5228080f2ee7e196f48e39359a2d70",
+      "size": 1029
+    },
+    {
+      "path": "D8A_SCIENTIFIC_RUNNER_ENGINE_CONFIG.json",
+      "sha256": "593a00a1f8f102030acc0a5dac1bd562164c7cc9381c5559a34d7e05d2b54227",
+      "size": 2603
+    },
+    {
+      "path": "D8A_SCIENTIFIC_SUMMARY_ACCEPTANCE_CONTRACT.json",
+      "sha256": "db2f94bee242131c33af85ae552a2bcde3483e7dbdb564613288d6f821c4d28e",
+      "size": 1782
+    },
+    {
+      "path": "D8A_STUDENTIZED_PRECISION_V1_SUPERSEDED.md",
+      "sha256": "f26a051407a0d8bf6f7c4836814d9eb4d03d2fab41b9849144b699ac2e515c2c",
+      "size": 624
+    },
+    {
+      "path": "D8A_TESS_BOUNDARY_POLICY.md",
+      "sha256": "64fd3cbf95abf0936221fda5a63e9959a1e18453182bb56aca188c36696d70ac",
+      "size": 681
+    },
+    {
+      "path": "README.md",
+      "sha256": "28d5229bc1417bc634061a777c90687e63bb8fa96115582ca2b0a4268298a6f4",
+      "size": 689
+    },
+    {
+      "path": "check_d8a_executor_resume_preflight.py",
+      "sha256": "164fe1329c368974e1eb0d4a5fc16e7dc058df1059eeab758fa76d32ac6b1e2b",
+      "size": 4005
+    },
+    {
+      "path": "check_d8a_precision_contract_gap.py",
+      "sha256": "dc4980aa75512da702f0aa74123a6fb26bcb2a86445a492afc7844bb02cb6f11",
+      "size": 2561
+    },
+    {
+      "path": "check_d8a_prospective_precision_contract.py",
+      "sha256": "3d44e5aaf927bb1e589e6b548c685b396ea926d9868db694030b578afc440c83",
+      "size": 4105
+    },
+    {
+      "path": "check_d8a_runner_engine_preflight.py",
+      "sha256": "eaa52c0f36ca312a6ae6a25006b88cbb0ae342ce2ab9f1bb251b4771d80375be",
+      "size": 3792
+    },
+    {
+      "path": "check_d8a_stopping_and_tess_adjudication.py",
+      "sha256": "2ea4beebc9eb57da156df1e0d4d2a257ef760479f9d5846323966b05fe1cc2d2",
+      "size": 3633
+    },
+    {
+      "path": "check_d8a_summary_acceptance_preflight.py",
+      "sha256": "6dc699e9a82f166366f6aeb76070c07c504ee109ed93403221c2103f73cda390",
+      "size": 3083
+    },
+    {
+      "path": "d8a_runner_acceptance.py",
+      "sha256": "26c04a98cdc1fa441d28b4d4225ee286b4c30c1d50e6751fa7835d8d2c776702",
+      "size": 14536
+    },
+    {
+      "path": "d8a_runner_engine.py",
+      "sha256": "d46ec32ee174d5c59cc30bc0b0e3b5a5d76d87a6a27acbc5d66ff9dd759e2bdd",
+      "size": 14468
+    },
+    {
+      "path": "d8a_runner_io.py",
+      "sha256": "23dcb3b1a16e6b12e3f5e6e93245f7a82b77a11fc404a21973217e165806f1a2",
+      "size": 5559
+    },
+    {
+      "path": "d8a_runner_precision.py",
+      "sha256": "36f27c3e157213fcd771af3a4813264d5534d8fdbf46913130aabebd4fe9ab6e",
+      "size": 9316
+    },
+    {
+      "path": "d8a_runner_precision_scales.py",
+      "sha256": "920428323efb0485bbc3c7c343e816d33798be8eb5edda842db7eb09ac34838f",
+      "size": 4970
+    },
+    {
+      "path": "d8a_runner_scheduler.py",
+      "sha256": "1c9f18f874b054ba6084d02265d233bb507bed3e060a6b6f7d34baaed2ee20e2",
+      "size": 13263
+    },
+    {
+      "path": "d8a_runner_seed.py",
+      "sha256": "c137ffe8a526f633d4b5c6e996146f672c2671759c8534328b8821fbafe2206f",
+      "size": 2784
+    },
+    {
+      "path": "d8a_runner_statistics.py",
+      "sha256": "42facc3a94d21cc30bf300ece97315a49491b030fba7e8fd49ab3811c7945d27",
+      "size": 4165
+    },
+    {
+      "path": "d8a_runner_stopping.py",
+      "sha256": "1783ad0005fc7c73844178878b7bef803578523cf39dd3835f92805029169afd",
+      "size": 3197
+    },
+    {
+      "path": "d8a_runner_summary.py",
+      "sha256": "dc2d6afd159aa317f01aefc2c8032019231ff9dcddb8fe7aacbd0ff72e93a787",
+      "size": 6313
+    },
+    {
+      "path": "engineering_smoke/NON_SCIENTIFIC_ENGINEERING_ONLY_runner_smoke_summary.json",
+      "sha256": "b7da2941d4beabefa258ef37aea35e3bdfd58b2782e5030f23cf7f19f754493a",
+      "size": 635
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-000__combined/JOB_STATUS.json",
+      "sha256": "08775e97d0b72c52e00bd00bf5f305ee4f799166f26077344a250ed6574750fb",
+      "size": 647
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-000__combined/batches/batch_0_19.jsonl",
+      "sha256": "e8dc35f3257b9d5c08e5fff3f4ce3250a46d89b99926f636eefb8b2441d5464f",
+      "size": 21901
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-000__evaluation_only/JOB_STATUS.json",
+      "sha256": "d1eb6832f38d8c43f6a7d35fae5c0d2203561187d56a22d8e997a62e4b06e6a7",
+      "size": 654
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_0_19.jsonl",
+      "sha256": "fac44cfd2d53f729087aef3ae45322e18c8bbdd9ac9f6ea24ecc0250d7423897",
+      "size": 19483
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-000__reference_only/JOB_STATUS.json",
+      "sha256": "a3491a608235229bb4f2b6c21752ce7a570ccefcdf2f3dd63d644f91885c89f0",
+      "size": 653
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-000__reference_only/batches/batch_0_19.jsonl",
+      "sha256": "8bc72cf5af2c5899b128209e78883017e70ea23edb8ac3d7279e9e33ffdcdfcc",
+      "size": 22804
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-001__combined/JOB_STATUS.json",
+      "sha256": "3caf4ffa7873af01b9cd2c0f17d46602865dd98888da3f781ec5b792243f5dd6",
+      "size": 647
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-001__combined/batches/batch_0_19.jsonl",
+      "sha256": "f73cb40f793ce27395cd273acbeb7ed978b61d5f6d782042d1ee54d9060c282f",
+      "size": 21823
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-001__evaluation_only/JOB_STATUS.json",
+      "sha256": "890305128ee3563a67e297876bd304096eb5407acf863a4d7ea8fe9f20ad001f",
+      "size": 654
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_0_19.jsonl",
+      "sha256": "a6bb281ef38fbe9f5f3f85a514277fc2b16b5f48830407dfc731a92b9b81b0ff",
+      "size": 19572
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-001__reference_only/JOB_STATUS.json",
+      "sha256": "9657546d78589308fb8500e05276eac29d8bc15121ffec9a88f4ca35c95314e8",
+      "size": 653
+    },
+    {
+      "path": "engineering_smoke/jobs/d8a-generalized-class-001__reference_only/batches/batch_0_19.jsonl",
+      "sha256": "4c69dca7e445b128fde1cbb8635a835b2c7fa8cb65153105056dbe4e03fe1f12",
+      "size": 22773
+    },
+    {
+      "path": "execute_d8a_scientific_run.py",
+      "sha256": "a5d78e92e6e1588800cc25fe6e6708d0d891202ef2666132c650973d909ddcdf",
+      "size": 11732
+    },
+    {
+      "path": "executor_resume_engineering_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_executor_resume_audit.json",
+      "sha256": "d83b6f0be355c5f0295e88a1233c3df8ef6d1b5676a081731bf9e2630fbe79bc",
+      "size": 2346
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/RUN_METADATA.json",
+      "sha256": "df7548c5f506382aa8226020f4bf43400871742058b7ec23baa44405d25783fd",
+      "size": 167
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__combined/JOB_STATUS.json",
+      "sha256": "0878dd3f6e633e6068fa0fc608770262cadbb04132ddae80e4df2a43e91abece",
+      "size": 560
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__combined/JOB_SUMMARY.json",
+      "sha256": "ea7d163ced7ec2b068647793fc35d9c37317a62abf9b100d5a8b052d468d0be5",
+      "size": 18299
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__combined/PRECISION_STATUS.json",
+      "sha256": "5de4de11d6615a42fdf4d1b348bfc2120e647c0e354b40a1908638d141f4298b",
+      "size": 34888
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__combined/batches/batch_0_7.jsonl",
+      "sha256": "4456ee2f7e855f4a0d20b84b3ca42acb5261d007aaf5ad3c6f47b19879793030",
+      "size": 51167
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__combined/batches/batch_12_15.jsonl",
+      "sha256": "589a5b4af9d9c3c0bcdbbd9dc58fe5b8b70b7febd8d3bbbb3cf3c2b0e4a7e407",
+      "size": 25556
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__combined/batches/batch_16_19.jsonl",
+      "sha256": "e08e7a4869211c366dde91970117cdd0e4c00651b6dac6a13a880330242a04f1",
+      "size": 25317
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__combined/batches/batch_8_11.jsonl",
+      "sha256": "71b5104dfe044164929aa36cab5bde2b245f29636da508452457d08b0e3432d2",
+      "size": 25654
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__evaluation_only/JOB_STATUS.json",
+      "sha256": "22a43eb3d204c4040aab8c445e44c7427464088bbe227acb2e3ef340f3e39076",
+      "size": 573
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "37b3b31df8e2c16b7d32b6fa2e8a062046fef0200ef7d7db7ef4b4c95e9fb5ac",
+      "size": 13036
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "ff46bc41cde85b0ae719b52f9f4b76b68444e3ceeb76667c6370d3c4db94d5e3",
+      "size": 25033
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_0_7.jsonl",
+      "sha256": "02d0b70930af8b9bec2acd36b4fdea4035ed370d84c006019e08e1c67e8b32fa",
+      "size": 31827
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_12_15.jsonl",
+      "sha256": "418bc94c5fc85390c72fb6715a7345892628aa4c66342dea8253d2fd2a30d38e",
+      "size": 15928
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_16_19.jsonl",
+      "sha256": "202fa1576fd68c1417821719acee228b346a5de180acd77d72c848cb60aa01a0",
+      "size": 15849
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_8_11.jsonl",
+      "sha256": "c36fde51b8aaf56da9a148f9da060cda4f952654ea9f7cca495b51cb00520648",
+      "size": 15977
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__reference_only/JOB_STATUS.json",
+      "sha256": "e08ebcd8d55e531e7eab7fee903e88b321c5e70e1f734a89d8baafb86b85b6e0",
+      "size": 573
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__reference_only/JOB_SUMMARY.json",
+      "sha256": "8dbd1a5ac2380e1c3b86fba3888b1319311ae6121ff025dda66ef18b9e3a9f87",
+      "size": 13093
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__reference_only/PRECISION_STATUS.json",
+      "sha256": "3ecf07cc6a94fd1c7fc6499c61fdf25c5f98e0312cb8594506a248dae89e6b03",
+      "size": 25117
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__reference_only/batches/batch_0_7.jsonl",
+      "sha256": "682dab7b89ba5242d7c28bd9d3a70b0feb3a4e29b425c55c272b6fde14ea54c6",
+      "size": 37883
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__reference_only/batches/batch_12_15.jsonl",
+      "sha256": "ddb5573b282635561baf5b3e0478a78dbcda90ca3302518af5c33c8298fcb655",
+      "size": 18980
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__reference_only/batches/batch_16_19.jsonl",
+      "sha256": "a1f627fc91677df3b998383332f273d20d183bfa5d4c2a42e65e0126565dfb48",
+      "size": 18980
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-000__reference_only/batches/batch_8_11.jsonl",
+      "sha256": "6fdba266be719fdc9bbf4727820d689655a33497b30de0ce521350a87cf61354",
+      "size": 18995
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__combined/JOB_STATUS.json",
+      "sha256": "4bd070c8b6f69ce3a5d45b1e979db0f567826e3e64bb5adbd8a972c8f58ae5d6",
+      "size": 559
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__combined/JOB_SUMMARY.json",
+      "sha256": "32bdda62b66a79960a606a242463130d1ab23ece49f4542217634f119ab9bf65",
+      "size": 18360
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__combined/PRECISION_STATUS.json",
+      "sha256": "8f6dd92f8f06171c3938443cda64a15b566c776323da35ae8425c8d347492672",
+      "size": 34909
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__combined/batches/batch_0_7.jsonl",
+      "sha256": "91326c6bdd3dc607810d2a6d5c10764e2dc65ba3daa1cd3f5c0cba2f28830b5e",
+      "size": 51307
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__combined/batches/batch_12_15.jsonl",
+      "sha256": "daa0667f12cf0fb0a5f1948644fe6867f7a0fed43bb8779dac3af4bc4344f959",
+      "size": 25412
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__combined/batches/batch_16_19.jsonl",
+      "sha256": "e8b693e0d54c9a639fb1c4b8dd13981cd0fd793c2d9fce3043524f7a6fced094",
+      "size": 25653
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__combined/batches/batch_8_11.jsonl",
+      "sha256": "30ab158fabce7801b080075061172a86c273ad1466e5d9521f1ffc77f219d280",
+      "size": 25524
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__evaluation_only/JOB_STATUS.json",
+      "sha256": "a767663b65bd2b1eeb356da03c7d97e92e2426f5e045e02c2b1e2c572697f5b3",
+      "size": 574
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "bc6f9df1cb97bdcfd63df7e2dbd318aad12fedc04c191f5c7734b87e8ed9141e",
+      "size": 13065
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "ea257c3319b30298f477fc5599d021d44f497f7c2ff9b5c5f88da6b409ecfa3f",
+      "size": 25033
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_0_7.jsonl",
+      "sha256": "79700c4f7cfa2f2892ba439c14ae6e8b2cfd052417aa21db0e09a617fcedf679",
+      "size": 31661
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_12_15.jsonl",
+      "sha256": "f982f2468f97324e6eab240ccaf94c89cf14b45f5b51d8c16fd440d381bb55c0",
+      "size": 15888
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_16_19.jsonl",
+      "sha256": "5b582dc64d3f63e204221ecc83aa70589792a632bb6045c22ec09beebe3a2588",
+      "size": 15968
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_8_11.jsonl",
+      "sha256": "3dc5a71e342eee96007c341ceeee3d73e6966408407ec6649ec5e004838e1d95",
+      "size": 15859
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__reference_only/JOB_STATUS.json",
+      "sha256": "68de74b6141a7b5b5f2292e2c5905f910948d44a5735d0c1fce8bdb3adb9f150",
+      "size": 572
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__reference_only/JOB_SUMMARY.json",
+      "sha256": "aa73313fed4077a51a0bd08ea381aa89da6f3e431440b9945364b03e1a573ac5",
+      "size": 13104
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__reference_only/PRECISION_STATUS.json",
+      "sha256": "34aae695457d4118ab7c40e66a68d91e1d41b9d91857ae6f0c3647744a3f5bab",
+      "size": 25101
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__reference_only/batches/batch_0_7.jsonl",
+      "sha256": "5edc74054be0022157dfaff38b1ee8fb2ca16f1f30a7fb392f009f80605f1970",
+      "size": 37978
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__reference_only/batches/batch_12_15.jsonl",
+      "sha256": "0e8ce1ae1250af051b8a8b7639d079eb8a5bb1565f1bad86bdaa0168233e3e77",
+      "size": 18984
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__reference_only/batches/batch_16_19.jsonl",
+      "sha256": "4864a5f38129bcc85528926e6a6ba34c2a237f425219af39f318256addd665f5",
+      "size": 18961
+    },
+    {
+      "path": "executor_resume_engineering_audit/direct_run/jobs/d8a-generalized-class-001__reference_only/batches/batch_8_11.jsonl",
+      "sha256": "d9a38737ce0fa36ed353184091e2c260d48e38381e1bd782b57a7b302e59fc2b",
+      "size": 18987
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/RUN_METADATA.json",
+      "sha256": "df7548c5f506382aa8226020f4bf43400871742058b7ec23baa44405d25783fd",
+      "size": 167
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__combined/JOB_STATUS.json",
+      "sha256": "b4c0640be6c514796696b9dbb6b15e2a7e41d603046a49120f5f12f8c54f948b",
+      "size": 560
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__combined/JOB_SUMMARY.json",
+      "sha256": "ea7d163ced7ec2b068647793fc35d9c37317a62abf9b100d5a8b052d468d0be5",
+      "size": 18299
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__combined/PRECISION_STATUS.json",
+      "sha256": "5de4de11d6615a42fdf4d1b348bfc2120e647c0e354b40a1908638d141f4298b",
+      "size": 34888
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__combined/batches/batch_0_7.jsonl",
+      "sha256": "4456ee2f7e855f4a0d20b84b3ca42acb5261d007aaf5ad3c6f47b19879793030",
+      "size": 51167
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__combined/batches/batch_12_15.jsonl",
+      "sha256": "589a5b4af9d9c3c0bcdbbd9dc58fe5b8b70b7febd8d3bbbb3cf3c2b0e4a7e407",
+      "size": 25556
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__combined/batches/batch_16_19.jsonl",
+      "sha256": "e08e7a4869211c366dde91970117cdd0e4c00651b6dac6a13a880330242a04f1",
+      "size": 25317
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__combined/batches/batch_8_11.jsonl",
+      "sha256": "71b5104dfe044164929aa36cab5bde2b245f29636da508452457d08b0e3432d2",
+      "size": 25654
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__evaluation_only/JOB_STATUS.json",
+      "sha256": "e2b72fbac0e7f097eab54fb6e9df365f0604c93e099e8ee685bf4752adf268d9",
+      "size": 573
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "37b3b31df8e2c16b7d32b6fa2e8a062046fef0200ef7d7db7ef4b4c95e9fb5ac",
+      "size": 13036
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "ff46bc41cde85b0ae719b52f9f4b76b68444e3ceeb76667c6370d3c4db94d5e3",
+      "size": 25033
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_0_7.jsonl",
+      "sha256": "02d0b70930af8b9bec2acd36b4fdea4035ed370d84c006019e08e1c67e8b32fa",
+      "size": 31827
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_12_15.jsonl",
+      "sha256": "418bc94c5fc85390c72fb6715a7345892628aa4c66342dea8253d2fd2a30d38e",
+      "size": 15928
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_16_19.jsonl",
+      "sha256": "202fa1576fd68c1417821719acee228b346a5de180acd77d72c848cb60aa01a0",
+      "size": 15849
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__evaluation_only/batches/batch_8_11.jsonl",
+      "sha256": "c36fde51b8aaf56da9a148f9da060cda4f952654ea9f7cca495b51cb00520648",
+      "size": 15977
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__reference_only/JOB_STATUS.json",
+      "sha256": "855793cac1a46c219d66a4b387fc2b05fd6a195bf0bfbed630d3a7290054ffd5",
+      "size": 573
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__reference_only/JOB_SUMMARY.json",
+      "sha256": "8dbd1a5ac2380e1c3b86fba3888b1319311ae6121ff025dda66ef18b9e3a9f87",
+      "size": 13093
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__reference_only/PRECISION_STATUS.json",
+      "sha256": "3ecf07cc6a94fd1c7fc6499c61fdf25c5f98e0312cb8594506a248dae89e6b03",
+      "size": 25117
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__reference_only/batches/batch_0_7.jsonl",
+      "sha256": "682dab7b89ba5242d7c28bd9d3a70b0feb3a4e29b425c55c272b6fde14ea54c6",
+      "size": 37883
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__reference_only/batches/batch_12_15.jsonl",
+      "sha256": "ddb5573b282635561baf5b3e0478a78dbcda90ca3302518af5c33c8298fcb655",
+      "size": 18980
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__reference_only/batches/batch_16_19.jsonl",
+      "sha256": "a1f627fc91677df3b998383332f273d20d183bfa5d4c2a42e65e0126565dfb48",
+      "size": 18980
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-000__reference_only/batches/batch_8_11.jsonl",
+      "sha256": "6fdba266be719fdc9bbf4727820d689655a33497b30de0ce521350a87cf61354",
+      "size": 18995
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__combined/JOB_STATUS.json",
+      "sha256": "81e2c3b4dc9e681ebf1e8ccef64d04b8b0949d51bb8a1c18c73842798f2df267",
+      "size": 559
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__combined/JOB_SUMMARY.json",
+      "sha256": "32bdda62b66a79960a606a242463130d1ab23ece49f4542217634f119ab9bf65",
+      "size": 18360
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__combined/PRECISION_STATUS.json",
+      "sha256": "8f6dd92f8f06171c3938443cda64a15b566c776323da35ae8425c8d347492672",
+      "size": 34909
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__combined/batches/batch_0_7.jsonl",
+      "sha256": "91326c6bdd3dc607810d2a6d5c10764e2dc65ba3daa1cd3f5c0cba2f28830b5e",
+      "size": 51307
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__combined/batches/batch_12_15.jsonl",
+      "sha256": "daa0667f12cf0fb0a5f1948644fe6867f7a0fed43bb8779dac3af4bc4344f959",
+      "size": 25412
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__combined/batches/batch_16_19.jsonl",
+      "sha256": "e8b693e0d54c9a639fb1c4b8dd13981cd0fd793c2d9fce3043524f7a6fced094",
+      "size": 25653
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__combined/batches/batch_8_11.jsonl",
+      "sha256": "30ab158fabce7801b080075061172a86c273ad1466e5d9521f1ffc77f219d280",
+      "size": 25524
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__evaluation_only/JOB_STATUS.json",
+      "sha256": "b3d42d48d9b8890e8fb83e5ce2b4a5d21e911743522df289b2bdbff254cf883e",
+      "size": 574
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "bc6f9df1cb97bdcfd63df7e2dbd318aad12fedc04c191f5c7734b87e8ed9141e",
+      "size": 13065
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "ea257c3319b30298f477fc5599d021d44f497f7c2ff9b5c5f88da6b409ecfa3f",
+      "size": 25033
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_0_7.jsonl",
+      "sha256": "79700c4f7cfa2f2892ba439c14ae6e8b2cfd052417aa21db0e09a617fcedf679",
+      "size": 31661
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_12_15.jsonl",
+      "sha256": "f982f2468f97324e6eab240ccaf94c89cf14b45f5b51d8c16fd440d381bb55c0",
+      "size": 15888
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_16_19.jsonl",
+      "sha256": "5b582dc64d3f63e204221ecc83aa70589792a632bb6045c22ec09beebe3a2588",
+      "size": 15968
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__evaluation_only/batches/batch_8_11.jsonl",
+      "sha256": "3dc5a71e342eee96007c341ceeee3d73e6966408407ec6649ec5e004838e1d95",
+      "size": 15859
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__reference_only/JOB_STATUS.json",
+      "sha256": "c9bc594bdb8309a0163c9d2050a298cfbed4b98fa67b170153b23d756f4c41a5",
+      "size": 572
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__reference_only/JOB_SUMMARY.json",
+      "sha256": "aa73313fed4077a51a0bd08ea381aa89da6f3e431440b9945364b03e1a573ac5",
+      "size": 13104
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__reference_only/PRECISION_STATUS.json",
+      "sha256": "34aae695457d4118ab7c40e66a68d91e1d41b9d91857ae6f0c3647744a3f5bab",
+      "size": 25101
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__reference_only/batches/batch_0_7.jsonl",
+      "sha256": "5edc74054be0022157dfaff38b1ee8fb2ca16f1f30a7fb392f009f80605f1970",
+      "size": 37978
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__reference_only/batches/batch_12_15.jsonl",
+      "sha256": "0e8ce1ae1250af051b8a8b7639d079eb8a5bb1565f1bad86bdaa0168233e3e77",
+      "size": 18984
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__reference_only/batches/batch_16_19.jsonl",
+      "sha256": "4864a5f38129bcc85528926e6a6ba34c2a237f425219af39f318256addd665f5",
+      "size": 18961
+    },
+    {
+      "path": "executor_resume_engineering_audit/resumed_run/jobs/d8a-generalized-class-001__reference_only/batches/batch_8_11.jsonl",
+      "sha256": "d9a38737ce0fa36ed353184091e2c260d48e38381e1bd782b57a7b302e59fc2b",
+      "size": 18987
+    },
+    {
+      "path": "precision_engineering_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_natural_scale_precision_audit_summary.json",
+      "sha256": "e05863fd4f01530c4cb88ce39eb41053915e4eba5db9d6be3e1f41c7bc64c72e",
+      "size": 44333
+    },
+    {
+      "path": "precision_engineering_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_precision_audit_summary.json",
+      "sha256": "3a592c5775113aa3949306663bb29a72e81002ae666e1f95555e6ac698ed1144",
+      "size": 32788
+    },
+    {
+      "path": "precision_engineering_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_rate_aware_precision_audit_summary.json",
+      "sha256": "1450c03e1c19dc16ddba7c822370b192a96836a68aff354cc176ccfd8a5ceb36",
+      "size": 41330
+    },
+    {
+      "path": "run_d8a_executor_resume_engineering_audit.py",
+      "sha256": "958b6f72182328dfa857225a90b7fc4cf3e98cdc72f6d35966e22396038eedda",
+      "size": 10186
+    },
+    {
+      "path": "run_d8a_precision_engineering_audit.py",
+      "sha256": "97711737a2e16a2d23e11315b37103dcbd549e4d304072e80d92595db5873b2f",
+      "size": 6096
+    },
+    {
+      "path": "run_d8a_runner_engineering_smoke.py",
+      "sha256": "df649e439990be3004844321f556e0de8d923dc133772b1d0ec67f1e112fbdef",
+      "size": 6057
+    },
+    {
+      "path": "run_d8a_scientific_validation_gate.py",
+      "sha256": "0961335db87051840e0508f8ebf7b350997d327e5addaea6c5c84bc217230bbc",
+      "size": 2694
+    },
+    {
+      "path": "run_d8a_summary_acceptance_engineering_audit.py",
+      "sha256": "cd5334f0a9b35e007cf985de1cd08bcb0958e471d0273fada0176ba95c4959b8",
+      "size": 6663
+    },
+    {
+      "path": "scientific_precision_scaling_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_precision_scaling_reconstruction.json",
+      "sha256": "4c543e54f458ddf70fb20f7b881915b372cd007efce8f43573ac19b4b31af006",
+      "size": 79009
+    },
+    {
+      "path": "scientific_precision_scaling_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_precision_scaling_reconstruction.md",
+      "sha256": "36da02034aaf979f1d2da97b736c7c441667e0e7a27311ea5c8032eec5e9d314",
+      "size": 56334
+    },
+    {
+      "path": "scientific_summary_contract_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_scientific_summary_contract_audit.json",
+      "sha256": "631c6d528d30b3d52b49f1506e179e877d0958f5c96e298e1e721fb177ce60bb",
+      "size": 58001
+    },
+    {
+      "path": "scientific_summary_contract_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_scientific_summary_contract_audit.md",
+      "sha256": "a339c70b6238fdd209caf6e8fed7d7fac4ee957e135f9823a47071c1e9bca36e",
+      "size": 10740
+    },
+    {
+      "path": "scientific_summary_contract_audit_strict/NON_SCIENTIFIC_ENGINEERING_ONLY_strict_scaled_mcse_audit.json",
+      "sha256": "701eeced3c716513b70faa80c5e0ec173fdd15b87a7ea311e81691d90d1d3050",
+      "size": 9638
+    },
+    {
+      "path": "scientific_summary_contract_audit_strict/NON_SCIENTIFIC_ENGINEERING_ONLY_strict_scaled_mcse_audit.md",
+      "sha256": "7849a228fc1081600d2f233e0e29dc8a5a9f3bc6003bb326fabcc7b53d82c592",
+      "size": 3481
+    },
+    {
+      "path": "summary_acceptance_engineering_audit/NON_SCIENTIFIC_ENGINEERING_ONLY_summary_acceptance_audit.json",
+      "sha256": "1a15b76701438df471d611687f2369425d07e12d7247751d7ef21db2dcd55b07",
+      "size": 21142
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "tests/test_atomic_io.py",
+      "sha256": "da706ea456aa66037953f7fd5ed8fe9539d3cecc16c5ca6e8419b1b531ceb3ae",
+      "size": 4011
+    },
+    {
+      "path": "tests/test_family_engine.py",
+      "sha256": "2d2c05287101e2122d51d59764d0b9012ffd855d130a0bceac4b1e62da472290",
+      "size": 4947
+    },
+    {
+      "path": "tests/test_prospective_precision_contract.py",
+      "sha256": "3252f80e46686a94a645e9064fadca59c91f4d02e5a30b63d4415c9550179bf7",
+      "size": 7276
+    },
+    {
+      "path": "tests/test_runner_statistics.py",
+      "sha256": "9f05d564beadbade3c32ddbf07398d76c2d10cf6bbc1997e69111645b6097e9a",
+      "size": 1319
+    },
+    {
+      "path": "tests/test_scheduler_infrastructure.py",
+      "sha256": "674ae8d3c54820a6b4b8dba3966ac4b7fca06a2dc8401e446dd9b350e3464bb9",
+      "size": 7281
+    },
+    {
+      "path": "tests/test_seed_inventory.py",
+      "sha256": "47c12e1c329a22f9880f87672817e0757371bd7c7ac8f4ad1d8bbd0721e1fa30",
+      "size": 2367
+    },
+    {
+      "path": "tests/test_stopping_rule.py",
+      "sha256": "73e32ad6106ca49be5a62f3c5346168dc7f8570c8643f229aba2c8c70f69d925",
+      "size": 2663
+    },
+    {
+      "path": "tests/test_summary_acceptance.py",
+      "sha256": "340a825d5b6beac723d465cc53e247a9bc17306fc85deae9a7dc75153217adc0",
+      "size": 8498
+    },
+    {
+      "path": "tests/test_tess_boundary_policy.py",
+      "sha256": "06142142d2ba18a61c196ae22ef825b6d731f4c37148a0435c52fbf6741da76b",
+      "size": 2165
+    }
+  ],
+  "manifest_id": "TESS_D8A_SCIENTIFIC_RUNNER_ENGINE_MANIFEST_V1",
+  "schema_version": "1.0"
+}

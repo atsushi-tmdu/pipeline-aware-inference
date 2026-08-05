@@ -1,0 +1,784 @@
+{
+  "all_hits": [
+    {
+      "context": "29: The historical design remains blocked until:\n30: \n31: 1. generalized oracle coefficients are implemented;\n32: 2. the 75-cell registry is checked against the repaired assumptions;\n33: 3. acceptance criteria are re-adjudicated;\n34: 4. a new design-repair and implementation lock is created.\n35: \n36: Scientific simulation has not been run.",
+      "context_end_line": 36,
+      "context_start_line": 29,
+      "line_number": 33,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/coincidence_repair/D8A_GENERALIZED_THEORY_ADJUDICATION.md"
+    },
+    {
+      "context": "32: \\frac{\n33: \\left[\n34: |B\\{\\widehat{\\operatorname{Bias}}_R-C_B/B\\}|\n35: -\n36: z_\\star B\\,\\operatorname{MCSE}\n37: \\right]_+\n38: }{\n39: 1+|C_B|\n40: }.",
+      "context_end_line": 40,
+      "context_start_line": 32,
+      "line_number": 36,
+      "pattern": "mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "48: The median must improve by at least 40% from \\(B=500\\) to \\(B=10{,}000\\).\n49: \n50: ## Combined policy approximation\n51: \n52: The MCSE-adjusted absolute residual is divided by\n53: \n54: \\[\n55: (B^{-1}+n^{-1})\n56: (1+|C_{\\Delta,B}|+|\\Delta_\\pi|).",
+      "context_end_line": 56,
+      "context_start_line": 48,
+      "line_number": 52,
+      "pattern": "mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "83: \n84: ## Precision limitation\n85: \n86: No more than 10% of primary cells may reach the maximum replicate count\n87: without meeting the locked MCSE target.",
+      "context_end_line": 87,
+      "context_start_line": 83,
+      "line_number": 87,
+      "pattern": "mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "1: # D8-A Numerical Acceptance Criteria\n2: \n3: ## Fatal implementation checks\n4: \n5: The run is invalid if any of the following occurs:",
+      "context_end_line": 5,
+      "context_start_line": 1,
+      "line_number": 1,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "92:     \"precision_limited_fraction_maximum\": 0.1,\n93:     \"precision_stopping_only\": true,\n94:     \"primary_maximum_replicates\": 20000,\n95:     \"primary_minimum_replicates\": 2000,\n96:     \"primary_scaled_mcse_target\": 0.03,\n97:     \"raw_bank_storage\": false,\n98:     \"reference_evaluation_streams_independent\": true,\n99:     \"streaming_required\": true\n100:   },",
+      "context_end_line": 100,
+      "context_start_line": 92,
+      "line_number": 96,
+      "pattern": "scaled_mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json"
+    },
+    {
+      "context": "2:   \"acceptance\": {\n3:     \"combined_policy_approximation\": {\n4:       \"largest_pair_median_maximum\": 0.15,\n5:       \"largest_pair_p90_maximum\": 0.4,\n6:       \"metric\": \"MCSE-adjusted absolute residual divided by (1/B+1/n)*(1+|C_Delta,B|+|Delta_pi|)\"\n7:     },\n8:     \"exact_evaluation_identity\": {\n9:       \"familywise_alpha\": 0.01,\n10:       \"method\": \"Bonferroni simultaneous Monte Carlo z check\",",
+      "context_end_line": 10,
+      "context_start_line": 2,
+      "line_number": 6,
+      "pattern": "mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json"
+    },
+    {
+      "context": "25:     \"reference_approximation\": {\n26:       \"largest_B_median_maximum\": 0.15,\n27:       \"largest_B_p90_maximum\": 0.4,\n28:       \"median_improvement_from_B500_to_B10000_minimum\": 0.4,\n29:       \"metric\": \"MCSE-adjusted |B*(bias-C_B/B)|/(1+|C_B|)\"\n30:     },\n31:     \"second_order_improvement\": {\n32:       \"comparison\": \"absolute bias residual versus first-order-only baseline\",\n33:       \"minimum_fraction_improved_primary_cells\": 0.75",
+      "context_end_line": 33,
+      "context_start_line": 25,
+      "line_number": 29,
+      "pattern": "mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json"
+    },
+    {
+      "context": "34:     },\n35:     \"tess_approximation\": {\n36:       \"largest_pair_median_maximum\": 0.25,\n37:       \"largest_pair_p90_maximum\": 0.6,\n38:       \"metric\": \"MCSE-adjusted absolute residual divided by (1/B+1/n)*(1+|C_S,R,B|+|C_S,E|)\"\n39:     }\n40:   },\n41:   \"cell_registry\": {\n42:     \"diagnostic_cells\": 41,",
+      "context_end_line": 42,
+      "context_start_line": 34,
+      "line_number": 38,
+      "pattern": "mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json"
+    },
+    {
+      "context": "89:     \"generator\": \"numpy.random.PCG64DXSM\",\n90:     \"master_seed\": 20260804,\n91:     \"nested_common_random_numbers_across_sizes\": true,\n92:     \"precision_limited_fraction_maximum\": 0.1,\n93:     \"precision_stopping_only\": true,\n94:     \"primary_maximum_replicates\": 20000,\n95:     \"primary_minimum_replicates\": 2000,\n96:     \"primary_scaled_mcse_target\": 0.03,\n97:     \"raw_bank_storage\": false,",
+      "context_end_line": 97,
+      "context_start_line": 89,
+      "line_number": 93,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json"
+    },
+    {
+      "context": "136:   },\n137:   \"prohibited_before_run_lock\": [\n138:     \"changing a threshold after inspecting scientific results\",\n139:     \"dropping a difficult cell\",\n140:     \"changing acceptance thresholds\",\n141:     \"adding an unregistered DGP as confirmatory evidence\",\n142:     \"using D7 simulation output to tune D8-A criteria\"\n143:   ],\n144:   \"purpose\": \"Validate implementation and finite-sample usefulness of the D8-A second-order policy and TESS bias expansions.\",",
+      "context_end_line": 144,
+      "context_start_line": 136,
+      "line_number": 140,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json"
+    },
+    {
+      "context": "3:   \"created_utc\": \"2026-08-04T07:32:20.242619+00:00\",\n4:   \"diagnostic_cells\": 41,\n5:   \"files\": [\n6:     {\n7:       \"relative_path\": \"D8A_ACCEPTANCE_CRITERIA.md\",\n8:       \"sha256\": \"9632833b38fea0823254334c1bdd1b0d30b634d068912388ebe40dc93017d44d\",\n9:       \"size_bytes\": 1961\n10:     },\n11:     {",
+      "context_end_line": 11,
+      "context_start_line": 3,
+      "line_number": 7,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN_MANIFEST.json"
+    },
+    {
+      "context": "27: \n28: The formal result must report:\n29: \n30: - every fatal check;\n31: - every acceptance criterion;\n32: - every precision-limited cell;\n33: - the full cell count and replicate count;\n34: - both successful and failed criteria.\n35: ",
+      "context_end_line": 35,
+      "context_start_line": 27,
+      "line_number": 31,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_RUN_CONTRACT.md"
+    },
+    {
+      "context": "6: has not yet been run.\n7: \n8: The next checkpoint must prepare the immutable run command, output directory,\n9: seed inventory, resume/atomic-write contract, and final pre-run verifier\n10: without changing the locked design or acceptance criteria.",
+      "context_end_line": 10,
+      "context_start_line": 6,
+      "line_number": 10,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_SCIENTIFIC_RUN_PENDING.md"
+    },
+    {
+      "context": "36: \\(C_{\\Delta,B}^{\\mathrm{gen}}\\).\n37: \n38: At \\(B=10{,}000\\), over the 17 primary equivalence classes:\n39: \n40: - median normalized residual at most \\(0.15\\);\n41: - 90th percentile at most \\(0.40\\);\n42: - median improvement from \\(B=500\\) to \\(B=10{,}000\\) at least 40%.\n43: \n44: ## Combined policy approximation",
+      "context_end_line": 44,
+      "context_start_line": 36,
+      "line_number": 40,
+      "pattern": "normalized_residual",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "44: ## Combined policy approximation\n45: \n46: At \\((B,n)=(10{,}000,10{,}000)\\), over the 17 primary classes:\n47: \n48: - median normalized residual at most \\(0.15\\);\n49: - 90th percentile at most \\(0.40\\).\n50: \n51: The approximation is\n52: ",
+      "context_end_line": 52,
+      "context_start_line": 44,
+      "line_number": 48,
+      "pattern": "normalized_residual",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "63: Use \\(C_{S,R,B}^{\\mathrm{gen}}\\) and the unchanged \\(C_{S,E}\\).\n64: \n65: At the largest pair:\n66: \n67: - median normalized residual at most \\(0.25\\);\n68: - 90th percentile at most \\(0.60\\).\n69: \n70: ## Improvement reporting\n71: ",
+      "context_end_line": 71,
+      "context_start_line": 63,
+      "line_number": 67,
+      "pattern": "normalized_residual",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "84: \n85: ## Precision limitation\n86: \n87: No more than 10% of the 17 primary equivalence classes may reach the maximum\n88: replicate count without meeting the locked MCSE target.",
+      "context_end_line": 88,
+      "context_start_line": 84,
+      "line_number": 88,
+      "pattern": "mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "1: # D8-A Generalized Acceptance Criteria\n2: \n3: ## Acceptance unit\n4: \n5: Scientific summaries use the 25 latent equivalence classes.",
+      "context_end_line": 5,
+      "context_start_line": 1,
+      "line_number": 1,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "21:   locked kink correction;\n22: - reference and evaluation streams are not independent;\n23: - the empirical quantile convention is not \\(k_B=\\lceil Bp\\rceil\\);\n24: - a registered scientific class is omitted;\n25: - an acceptance threshold is changed after scientific output is inspected.\n26: \n27: ## Exact evaluation identity\n28: \n29: The finite-\\(n\\) covariance identity remains a fatal implementation check and",
+      "context_end_line": 29,
+      "context_start_line": 21,
+      "line_number": 25,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_ACCEPTANCE_CRITERIA.md"
+    },
+    {
+      "context": "62:     \"precision_limited_fraction_maximum\": 0.1,\n63:     \"precision_stopping_only\": true,\n64:     \"primary_maximum_replicates\": 20000,\n65:     \"primary_minimum_replicates\": 2000,\n66:     \"primary_scaled_mcse_target\": 0.03,\n67:     \"raw_bank_storage\": false,\n68:     \"reference_evaluation_streams_independent\": true,\n69:     \"streaming_required\": true\n70:   },",
+      "context_end_line": 70,
+      "context_start_line": 62,
+      "line_number": 66,
+      "pattern": "scaled_mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json"
+    },
+    {
+      "context": "59:     \"generator\": \"numpy.random.PCG64DXSM\",\n60:     \"master_seed\": 20260804,\n61:     \"nested_common_random_numbers_across_sizes\": true,\n62:     \"precision_limited_fraction_maximum\": 0.1,\n63:     \"precision_stopping_only\": true,\n64:     \"primary_maximum_replicates\": 20000,\n65:     \"primary_minimum_replicates\": 2000,\n66:     \"primary_scaled_mcse_target\": 0.03,\n67:     \"raw_bank_storage\": false,",
+      "context_end_line": 67,
+      "context_start_line": 59,
+      "line_number": 63,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json"
+    },
+    {
+      "context": "8:       \"sha256\": \"85fea7a3e69d6c7c58fb26338d36c0c24de85e51f197f6a98b4fb1388363cb38\",\n9:       \"size_bytes\": 29629\n10:     },\n11:     {\n12:       \"relative_path\": \"D8A_GENERALIZED_ACCEPTANCE_CRITERIA.md\",\n13:       \"sha256\": \"0a6cf38f0afa5c391db615119a10e8a539654fa6053665c87b960f2c1f6b6981\",\n14:       \"size_bytes\": 2707\n15:     },\n16:     {",
+      "context_end_line": 16,
+      "context_start_line": 8,
+      "line_number": 12,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN_MANIFEST.json"
+    },
+    {
+      "context": "46: dependence and probabilities belong to one scientific equivalence class.\n47: \n48: ## Re-adjudicated unit\n49: \n50: Acceptance criteria are aggregated over 25 latent equivalence classes rather\n51: than 75 transformed rows.\n52: \n53: The original row-level primary designation induces:\n54: ",
+      "context_end_line": 54,
+      "context_start_line": 46,
+      "line_number": 50,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN_READJUDICATION.md"
+    },
+    {
+      "context": "17: - exact common-transform finite-sample invariance;\n18: - deterministic independent seed streams.\n19: \n20: The audit does not estimate scientific bias and does not apply the locked\n21: scientific acceptance criteria.",
+      "context_end_line": 21,
+      "context_start_line": 17,
+      "line_number": 21,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_FULL_ORACLE_ENGINEERING_AUDIT.md"
+    },
+    {
+      "context": "53: ## Authorization boundary\n54: \n55: This lock authorizes execution of the already locked scientific design.\n56: \n57: It does not change the registered design or its acceptance criteria, and it\n58: does not constitute a scientific simulation run.",
+      "context_end_line": 58,
+      "context_start_line": 53,
+      "line_number": 57,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_IMPLEMENTATION_LOCK.md"
+    },
+    {
+      "context": "1: label,backend,qmc_points,radius,estimated_integration_error_sum,baseline,plus,minus,plus_normalized_residual,minus_normalized_residual,corrected_central_gradient,analytic_directional_gradient,directional_gradient_difference,observed_symmetric_quadratic,predicted_symmetric_quadratic,symmetric_quadratic_difference\n2: NON_SCIENTIFIC_ENGINEERING_ONLY,fixed_genz,0,0.008,0.0,0.22099999944195703,0.21979581457466052,0.22221581253331937,6.761488417772465e-05,4.459440629267508e-06,-0.15100316710344455,-0.15100291448167136,-2.5262177319462786e-07,0.09084550051455254,0.09088153767673204,-3.6037162179508586e-05\n3: NON_SCIENTIFIC_ENGINEERING_ONLY,fixed_genz,0,0.004,0.0,0.22099999944195703,0.22039694677612742,0.22160595860028903,0.00010636751895942709,9.264360112393177e-07,-0.15100312536383434,-0.15100291448167136,-2.108821629820401e-07,0.09082789069990438,0.09088153767673204,-5.364697682766484e-05\n4: NON_SCIENTIFIC_ENGINEERING_ONLY,fixed_genz,0,0.002,0.0,0.22099999944195703,0.22069823298962873,0.22130249215531111,0.00019921482519169587,1.3959181033307289e-06,-0.15100311509241165,-0.15100291448167136,-2.0061074029742443e-07,0.09078262822037608,0.09088153767673204,-9.890945635596116e-05\n5: NON_SCIENTIFIC_ENGINEERING_ONLY,fixed_genz,0,0.001,0.0,0.22099999944195703,0.22084905617894818,0.22115112408037083,0.0003919007618424786,4.230366057456081e-06,-0.15100311254723225,-0.15100291448167136,-1.98065560896854e-07,0.09068770245868052,0.09088153767673204,-0.0001938352180515246",
+      "context_end_line": 5,
+      "context_start_line": 1,
+      "line_number": 1,
+      "pattern": "normalized_residual",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1/targeted_gradient_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_targeted_gradient_diagnostic.csv"
+    },
+    {
+      "context": "3:   \"backend_summaries\": {\n4:     \"fixed_genz\": {\n5:       \"maximum_absolute_gradient_difference\": 2.5262177319462786e-07,\n6:       \"maximum_absolute_symmetric_quadratic_difference\": 0.0001938352180515246,\n7:       \"maximum_plus_normalized_residual\": 0.0003919007618424786,\n8:       \"rows_used\": 4\n9:     },\n10:     \"scipy_qmvnt\": {\n11:       \"maximum_absolute_gradient_difference\": 6.929095103247462e-08,",
+      "context_end_line": 11,
+      "context_start_line": 3,
+      "line_number": 7,
+      "pattern": "normalized_residual",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1/targeted_gradient_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_targeted_gradient_diagnostic_summary.json"
+    },
+    {
+      "context": "9:     },\n10:     \"scipy_qmvnt\": {\n11:       \"maximum_absolute_gradient_difference\": 6.929095103247462e-08,\n12:       \"maximum_absolute_symmetric_quadratic_difference\": 6.876364127259005e-05,\n13:       \"maximum_plus_normalized_residual\": 0.0001380545955331769,\n14:       \"rows_used\": 4\n15:     }\n16:   },\n17:   \"class_id\": \"d8a-generalized-class-016\",",
+      "context_end_line": 17,
+      "context_start_line": 9,
+      "line_number": 13,
+      "pattern": "normalized_residual",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1/targeted_gradient_diagnostic/NON_SCIENTIFIC_ENGINEERING_ONLY_targeted_gradient_diagnostic_summary.json"
+    },
+    {
+      "context": "45: 3. reject overlapping or noncontiguous replicate intervals;\n46: 4. continue at the first missing replicate index;\n47: 5. regenerate no completed replicate;\n48: 6. preserve the original seed namespace;\n49: 7. leave acceptance criteria unchanged.\n50: \n51: Temporary files are never treated as completed output.\n52: \n53: ## Completion",
+      "context_end_line": 53,
+      "context_start_line": 45,
+      "line_number": 49,
+      "pattern": "acceptance",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/D8A_SCIENTIFIC_OUTPUT_AND_RESUME_CONTRACT.md"
+    },
+    {
+      "context": "64:     \"precision_limited_fraction_maximum\": 0.1,\n65:     \"precision_stopping_only\": true,\n66:     \"primary_maximum_replicates\": 20000,\n67:     \"primary_minimum_replicates\": 2000,\n68:     \"primary_scaled_mcse_target\": 0.03,\n69:     \"raw_bank_storage\": false,\n70:     \"reference_evaluation_streams_independent\": true,\n71:     \"streaming_required\": true\n72:   },",
+      "context_end_line": 72,
+      "context_start_line": 64,
+      "line_number": 68,
+      "pattern": "scaled_mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/D8A_SCIENTIFIC_RUN_CONFIG.json"
+    },
+    {
+      "context": "61:     \"generator\": \"numpy.random.PCG64DXSM\",\n62:     \"master_seed\": 20260804,\n63:     \"nested_common_random_numbers_across_sizes\": true,\n64:     \"precision_limited_fraction_maximum\": 0.1,\n65:     \"precision_stopping_only\": true,\n66:     \"primary_maximum_replicates\": 20000,\n67:     \"primary_minimum_replicates\": 2000,\n68:     \"primary_scaled_mcse_target\": 0.03,\n69:     \"raw_bank_storage\": false,",
+      "context_end_line": 69,
+      "context_start_line": 61,
+      "line_number": 65,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/D8A_SCIENTIFIC_RUN_CONFIG.json"
+    },
+    {
+      "context": "24:     \"precision_limited_fraction_maximum\": 0.1,\n25:     \"precision_stopping_only\": true,\n26:     \"primary_maximum_replicates\": 20000,\n27:     \"primary_minimum_replicates\": 2000,\n28:     \"primary_scaled_mcse_target\": 0.03,\n29:     \"raw_bank_storage\": false,\n30:     \"reference_evaluation_streams_independent\": true,\n31:     \"streaming_required\": true\n32:   },",
+      "context_end_line": 32,
+      "context_start_line": 24,
+      "line_number": 28,
+      "pattern": "scaled_mcse",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_LOCKED_MONTE_CARLO_CONTRACT.json"
+    },
+    {
+      "context": "21:     \"generator\": \"numpy.random.PCG64DXSM\",\n22:     \"master_seed\": 20260804,\n23:     \"nested_common_random_numbers_across_sizes\": true,\n24:     \"precision_limited_fraction_maximum\": 0.1,\n25:     \"precision_stopping_only\": true,\n26:     \"primary_maximum_replicates\": 20000,\n27:     \"primary_minimum_replicates\": 2000,\n28:     \"primary_scaled_mcse_target\": 0.03,\n29:     \"raw_bank_storage\": false,",
+      "context_end_line": 29,
+      "context_start_line": 21,
+      "line_number": 25,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_LOCKED_MONTE_CARLO_CONTRACT.json"
+    },
+    {
+      "context": "18: 2. at or beyond that minimum, stop only when the external locked precision\n19:    assessment passes;\n20: 3. otherwise continue by the shared locked batch size;\n21: 4. stop at that role's maximum replicate count;\n22: 5. distinguish `precision_target_met` from\n23:    `maximum_replicates_reached`.\n24: \n25: The runner engine does not reinterpret the locked precision targets.",
+      "context_end_line": 25,
+      "context_start_line": 18,
+      "line_number": 22,
+      "pattern": "precision_target",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_PRECISION_ONLY_STOPPING_POLICY.md"
+    },
+    {
+      "context": "21: 4. stop at that role's maximum replicate count;\n22: 5. distinguish `precision_target_met` from\n23:    `maximum_replicates_reached`.\n24: \n25: The runner engine does not reinterpret the locked precision targets.",
+      "context_end_line": 25,
+      "context_start_line": 21,
+      "line_number": 25,
+      "pattern": "precision_target",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_PRECISION_ONLY_STOPPING_POLICY.md"
+    },
+    {
+      "context": "61:         )\n62:         if (\n63:             not precision.stop\n64:             or precision.reason\n65:             != \"precision_target_met\"\n66:         ):\n67:             failures.append(\n68:                 f\"{role}: precision stop incorrect\"\n69:             )",
+      "context_end_line": 69,
+      "context_start_line": 61,
+      "line_number": 65,
+      "pattern": "precision_target",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+    },
+    {
+      "context": "46: \n47:         initial = rule.decide(\n48:             role,\n49:             0,\n50:             precision_pass=True,\n51:         )\n52:         if initial.stop:\n53:             failures.append(\n54:                 f\"{role}: stopped before minimum\"",
+      "context_end_line": 54,
+      "context_start_line": 46,
+      "line_number": 50,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+    },
+    {
+      "context": "56: \n57:         precision = rule.decide(\n58:             role,\n59:             schedule.initial_replicates,\n60:             precision_pass=True,\n61:         )\n62:         if (\n63:             not precision.stop\n64:             or precision.reason",
+      "context_end_line": 64,
+      "context_start_line": 56,
+      "line_number": 60,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+    },
+    {
+      "context": "70: \n71:         maximum = rule.decide(\n72:             role,\n73:             schedule.maximum_replicates,\n74:             precision_pass=False,\n75:         )\n76:         if (\n77:             not maximum.stop\n78:             or maximum.reason",
+      "context_end_line": 78,
+      "context_start_line": 70,
+      "line_number": 74,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+    },
+    {
+      "context": "8:     tess_contrast_record,\n9:     tess_status_is_valid,\n10: )\n11: from d8a_runner_stopping import (\n12:     RoleAwarePrecisionOnlyStoppingRule,\n13:     StoppingSchedule,\n14: )\n15: \n16: ",
+      "context_end_line": 16,
+      "context_start_line": 8,
+      "line_number": 12,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+    },
+    {
+      "context": "26:     schedules = contract[\n27:         \"normalized_schedules\"\n28:     ]\n29: \n30:     rule = RoleAwarePrecisionOnlyStoppingRule(\n31:         primary=StoppingSchedule(\n32:             **schedules[\"primary\"]\n33:         ),\n34:         diagnostic=StoppingSchedule(",
+      "context_end_line": 34,
+      "context_start_line": 26,
+      "line_number": 30,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+    },
+    {
+      "context": "58:             and precision_pass\n59:         ):\n60:             return StoppingDecision(\n61:                 stop=True,\n62:                 reason=\"precision_target_met\",\n63:                 next_batch_size=0,\n64:             )\n65: \n66:         remaining = (",
+      "context_end_line": 66,
+      "context_start_line": 58,
+      "line_number": 62,
+      "pattern": "precision_target",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+    },
+    {
+      "context": "84:                 self.batch_size,\n85:                 remaining,\n86:             )\n87:             reason = (\n88:                 \"precision_target_not_met\"\n89:             )\n90: \n91:         return StoppingDecision(\n92:             stop=False,",
+      "context_end_line": 92,
+      "context_start_line": 84,
+      "line_number": 88,
+      "pattern": "precision_target",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+    },
+    {
+      "context": "37:     def decide(\n38:         self,\n39:         completed_replicates: int,\n40:         *,\n41:         precision_pass: bool,\n42:     ) -> StoppingDecision:\n43:         completed = int(completed_replicates)\n44:         if completed < 0:\n45:             raise ValueError(",
+      "context_end_line": 45,
+      "context_start_line": 37,
+      "line_number": 41,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+    },
+    {
+      "context": "54:             )\n55: \n56:         if (\n57:             completed >= self.initial_replicates\n58:             and precision_pass\n59:         ):\n60:             return StoppingDecision(\n61:                 stop=True,\n62:                 reason=\"precision_target_met\",",
+      "context_end_line": 62,
+      "context_start_line": 54,
+      "line_number": 58,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+    },
+    {
+      "context": "117:         self,\n118:         class_role: str,\n119:         completed_replicates: int,\n120:         *,\n121:         precision_pass: bool,\n122:     ) -> StoppingDecision:\n123:         return self.schedule_for(\n124:             class_role\n125:         ).decide(",
+      "context_end_line": 125,
+      "context_start_line": 117,
+      "line_number": 121,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+    },
+    {
+      "context": "123:         return self.schedule_for(\n124:             class_role\n125:         ).decide(\n126:             completed_replicates,\n127:             precision_pass=precision_pass,\n128:         )",
+      "context_end_line": 128,
+      "context_start_line": 123,
+      "line_number": 127,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+    },
+    {
+      "context": "95:         )\n96: \n97: \n98: @dataclass(frozen=True)\n99: class RoleAwarePrecisionOnlyStoppingRule:\n100:     primary: StoppingSchedule\n101:     diagnostic: StoppingSchedule\n102: \n103:     def schedule_for(",
+      "context_end_line": 103,
+      "context_start_line": 95,
+      "line_number": 99,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+    },
+    {
+      "context": "69:         )\n70:         self.assertTrue(decision.stop)\n71:         self.assertEqual(\n72:             decision.reason,\n73:             \"precision_target_met\",\n74:         )\n75: \n76:     def test_diagnostic_maximum_stops(\n77:         self,",
+      "context_end_line": 77,
+      "context_start_line": 69,
+      "line_number": 73,
+      "pattern": "precision_target",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "42:         rule = make_rule()\n43:         decision = rule.decide(\n44:             \"primary\",\n45:             0,\n46:             precision_pass=True,\n47:         )\n48:         self.assertFalse(decision.stop)\n49: \n50:     def test_diagnostic_initial_stage_continues(",
+      "context_end_line": 50,
+      "context_start_line": 42,
+      "line_number": 46,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "53:         rule = make_rule()\n54:         decision = rule.decide(\n55:             \"diagnostic\",\n56:             0,\n57:             precision_pass=True,\n58:         )\n59:         self.assertFalse(decision.stop)\n60: \n61:     def test_primary_precision_pass_stops(",
+      "context_end_line": 61,
+      "context_start_line": 53,
+      "line_number": 57,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "57:             precision_pass=True,\n58:         )\n59:         self.assertFalse(decision.stop)\n60: \n61:     def test_primary_precision_pass_stops(\n62:         self,\n63:     ) -> None:\n64:         rule = make_rule()\n65:         decision = rule.decide(",
+      "context_end_line": 65,
+      "context_start_line": 57,
+      "line_number": 61,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "64:         rule = make_rule()\n65:         decision = rule.decide(\n66:             \"primary\",\n67:             rule.primary.initial_replicates,\n68:             precision_pass=True,\n69:         )\n70:         self.assertTrue(decision.stop)\n71:         self.assertEqual(\n72:             decision.reason,",
+      "context_end_line": 72,
+      "context_start_line": 64,
+      "line_number": 68,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "79:         rule = make_rule()\n80:         decision = rule.decide(\n81:             \"diagnostic\",\n82:             rule.diagnostic.maximum_replicates,\n83:             precision_pass=False,\n84:         )\n85:         self.assertTrue(decision.stop)\n86:         self.assertEqual(\n87:             decision.reason,",
+      "context_end_line": 87,
+      "context_start_line": 79,
+      "line_number": 83,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "93:         schedule = rule.primary\n94:         decision = rule.decide(\n95:             \"primary\",\n96:             schedule.maximum_replicates - 1,\n97:             precision_pass=False,\n98:         )\n99:         self.assertEqual(\n100:             decision.next_batch_size,\n101:             1,",
+      "context_end_line": 101,
+      "context_start_line": 93,
+      "line_number": 97,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "106:         with self.assertRaises(ValueError):\n107:             rule.decide(\n108:                 \"unknown\",\n109:                 0,\n110:                 precision_pass=False,\n111:             )\n112: \n113: \n114: if __name__ == \"__main__\":",
+      "context_end_line": 114,
+      "context_start_line": 106,
+      "line_number": 110,
+      "pattern": "precision_pass",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "4: import unittest\n5: from pathlib import Path\n6: \n7: from d8a_runner_stopping import (\n8:     RoleAwarePrecisionOnlyStoppingRule,\n9:     StoppingSchedule,\n10: )\n11: \n12: ",
+      "context_end_line": 12,
+      "context_start_line": 4,
+      "line_number": 8,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "22: ]\n23: \n24: \n25: def make_rule() -> (\n26:     RoleAwarePrecisionOnlyStoppingRule\n27: ):\n28:     return RoleAwarePrecisionOnlyStoppingRule(\n29:         primary=StoppingSchedule(\n30:             **SCHEDULES[\"primary\"]",
+      "context_end_line": 30,
+      "context_start_line": 22,
+      "line_number": 26,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "24: \n25: def make_rule() -> (\n26:     RoleAwarePrecisionOnlyStoppingRule\n27: ):\n28:     return RoleAwarePrecisionOnlyStoppingRule(\n29:         primary=StoppingSchedule(\n30:             **SCHEDULES[\"primary\"]\n31:         ),\n32:         diagnostic=StoppingSchedule(",
+      "context_end_line": 32,
+      "context_start_line": 24,
+      "line_number": 28,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "34:         ),\n35:     )\n36: \n37: \n38: class StoppingRuleTests(unittest.TestCase):\n39:     def test_primary_initial_stage_continues(\n40:         self,\n41:     ) -> None:\n42:         rule = make_rule()",
+      "context_end_line": 42,
+      "context_start_line": 34,
+      "line_number": 38,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+    },
+    {
+      "context": "110:         )\n111: \n112:     def test_stopping_is_precision_only(self) -> None:\n113:         mc = CONFIG[\"monte_carlo\"]\n114:         self.assertTrue(mc[\"precision_stopping_only\"])\n115:         self.assertFalse(mc[\"effect_dependent_stopping\"])\n116: \n117:     def test_no_post_hoc_cell_dropping(self) -> None:\n118:         self.assertTrue(",
+      "context_end_line": 118,
+      "context_start_line": 110,
+      "line_number": 114,
+      "pattern": "stopping",
+      "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/tests/test_d8a_numerical_design.py"
+    }
+  ],
+  "audit_status": "SOURCE_FOUND_REVIEW_REQUIRED",
+  "design_acceptance_unit": "latent_equivalence_class",
+  "design_primary_acceptance_denominator": 17,
+  "files_scanned": 200,
+  "hit_count": 62,
+  "label": "NON_SCIENTIFIC_ENGINEERING_ONLY",
+  "run_config_monte_carlo_contract": {
+    "batch_size": 250,
+    "cell_seed_rule": "SeedSequence(master_seed, spawn_key=first four uint32 words of SHA256(canonical_cell_key))",
+    "diagnostic_maximum_replicates": 5000,
+    "diagnostic_minimum_replicates": 1000,
+    "effect_dependent_stopping": false,
+    "generator": "numpy.random.PCG64DXSM",
+    "master_seed": 20260804,
+    "nested_common_random_numbers_across_sizes": true,
+    "precision_limited_fraction_maximum": 0.1,
+    "precision_stopping_only": true,
+    "primary_maximum_replicates": 20000,
+    "primary_minimum_replicates": 2000,
+    "primary_scaled_mcse_target": 0.03,
+    "raw_bank_storage": false,
+    "reference_evaluation_streams_independent": true,
+    "streaming_required": true
+  },
+  "runner_engine_locked": false,
+  "scaled_mcse_definition": {
+    "exact_formula_or_implementation_found": true,
+    "formula_like_hits": [],
+    "implementation_hits": [
+      {
+        "context": "46: \n47:         initial = rule.decide(\n48:             role,\n49:             0,\n50:             precision_pass=True,\n51:         )\n52:         if initial.stop:\n53:             failures.append(\n54:                 f\"{role}: stopped before minimum\"",
+        "context_end_line": 54,
+        "context_start_line": 46,
+        "line_number": 50,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+      },
+      {
+        "context": "56: \n57:         precision = rule.decide(\n58:             role,\n59:             schedule.initial_replicates,\n60:             precision_pass=True,\n61:         )\n62:         if (\n63:             not precision.stop\n64:             or precision.reason",
+        "context_end_line": 64,
+        "context_start_line": 56,
+        "line_number": 60,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+      },
+      {
+        "context": "70: \n71:         maximum = rule.decide(\n72:             role,\n73:             schedule.maximum_replicates,\n74:             precision_pass=False,\n75:         )\n76:         if (\n77:             not maximum.stop\n78:             or maximum.reason",
+        "context_end_line": 78,
+        "context_start_line": 70,
+        "line_number": 74,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+      },
+      {
+        "context": "123:         return self.schedule_for(\n124:             class_role\n125:         ).decide(\n126:             completed_replicates,\n127:             precision_pass=precision_pass,\n128:         )",
+        "context_end_line": 128,
+        "context_start_line": 123,
+        "line_number": 127,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+      },
+      {
+        "context": "42:         rule = make_rule()\n43:         decision = rule.decide(\n44:             \"primary\",\n45:             0,\n46:             precision_pass=True,\n47:         )\n48:         self.assertFalse(decision.stop)\n49: \n50:     def test_diagnostic_initial_stage_continues(",
+        "context_end_line": 50,
+        "context_start_line": 42,
+        "line_number": 46,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+      },
+      {
+        "context": "53:         rule = make_rule()\n54:         decision = rule.decide(\n55:             \"diagnostic\",\n56:             0,\n57:             precision_pass=True,\n58:         )\n59:         self.assertFalse(decision.stop)\n60: \n61:     def test_primary_precision_pass_stops(",
+        "context_end_line": 61,
+        "context_start_line": 53,
+        "line_number": 57,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+      },
+      {
+        "context": "57:             precision_pass=True,\n58:         )\n59:         self.assertFalse(decision.stop)\n60: \n61:     def test_primary_precision_pass_stops(\n62:         self,\n63:     ) -> None:\n64:         rule = make_rule()\n65:         decision = rule.decide(",
+        "context_end_line": 65,
+        "context_start_line": 57,
+        "line_number": 61,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+      },
+      {
+        "context": "64:         rule = make_rule()\n65:         decision = rule.decide(\n66:             \"primary\",\n67:             rule.primary.initial_replicates,\n68:             precision_pass=True,\n69:         )\n70:         self.assertTrue(decision.stop)\n71:         self.assertEqual(\n72:             decision.reason,",
+        "context_end_line": 72,
+        "context_start_line": 64,
+        "line_number": 68,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+      },
+      {
+        "context": "79:         rule = make_rule()\n80:         decision = rule.decide(\n81:             \"diagnostic\",\n82:             rule.diagnostic.maximum_replicates,\n83:             precision_pass=False,\n84:         )\n85:         self.assertTrue(decision.stop)\n86:         self.assertEqual(\n87:             decision.reason,",
+        "context_end_line": 87,
+        "context_start_line": 79,
+        "line_number": 83,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+      },
+      {
+        "context": "93:         schedule = rule.primary\n94:         decision = rule.decide(\n95:             \"primary\",\n96:             schedule.maximum_replicates - 1,\n97:             precision_pass=False,\n98:         )\n99:         self.assertEqual(\n100:             decision.next_batch_size,\n101:             1,",
+        "context_end_line": 101,
+        "context_start_line": 93,
+        "line_number": 97,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+      },
+      {
+        "context": "106:         with self.assertRaises(ValueError):\n107:             rule.decide(\n108:                 \"unknown\",\n109:                 0,\n110:                 precision_pass=False,\n111:             )\n112: \n113: \n114: if __name__ == \"__main__\":",
+        "context_end_line": 114,
+        "context_start_line": 106,
+        "line_number": 110,
+        "pattern": "precision_pass",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+      },
+      {
+        "context": "110:         )\n111: \n112:     def test_stopping_is_precision_only(self) -> None:\n113:         mc = CONFIG[\"monte_carlo\"]\n114:         self.assertTrue(mc[\"precision_stopping_only\"])\n115:         self.assertFalse(mc[\"effect_dependent_stopping\"])\n116: \n117:     def test_no_post_hoc_cell_dropping(self) -> None:\n118:         self.assertTrue(",
+        "context_end_line": 118,
+        "context_start_line": 110,
+        "line_number": 114,
+        "pattern": "stopping",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/tests/test_d8a_numerical_design.py"
+      }
+    ],
+    "relevant_json_fields": [
+      {
+        "path": "monte_carlo_contract.precision_limited_fraction_maximum",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/D8A_SCIENTIFIC_RUN_CONFIG.json",
+        "value": 0.1,
+        "value_type": "float"
+      },
+      {
+        "path": "monte_carlo_contract.precision_stopping_only",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/D8A_SCIENTIFIC_RUN_CONFIG.json",
+        "value": true,
+        "value_type": "bool"
+      },
+      {
+        "path": "monte_carlo_contract.primary_scaled_mcse_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/D8A_SCIENTIFIC_RUN_CONFIG.json",
+        "value": 0.03,
+        "value_type": "float"
+      },
+      {
+        "path": "precision_only_stopping",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_LOCKED_MONTE_CARLO_CONTRACT.json",
+        "value": true,
+        "value_type": "bool"
+      },
+      {
+        "path": "raw_contract.precision_limited_fraction_maximum",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_LOCKED_MONTE_CARLO_CONTRACT.json",
+        "value": 0.1,
+        "value_type": "float"
+      },
+      {
+        "path": "raw_contract.precision_stopping_only",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_LOCKED_MONTE_CARLO_CONTRACT.json",
+        "value": true,
+        "value_type": "bool"
+      },
+      {
+        "path": "raw_contract.primary_scaled_mcse_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_LOCKED_MONTE_CARLO_CONTRACT.json",
+        "value": 0.03,
+        "value_type": "float"
+      },
+      {
+        "path": "monte_carlo_contract.precision_limited_fraction_maximum",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json",
+        "value": 0.1,
+        "value_type": "float"
+      },
+      {
+        "path": "monte_carlo_contract.precision_stopping_only",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json",
+        "value": true,
+        "value_type": "bool"
+      },
+      {
+        "path": "monte_carlo_contract.primary_scaled_mcse_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json",
+        "value": 0.03,
+        "value_type": "float"
+      }
+    ],
+    "status": "FORMULA_OR_IMPLEMENTATION_FOUND",
+    "target_only_hits": [
+      {
+        "context": "92:     \"precision_limited_fraction_maximum\": 0.1,\n93:     \"precision_stopping_only\": true,\n94:     \"primary_maximum_replicates\": 20000,\n95:     \"primary_minimum_replicates\": 2000,\n96:     \"primary_scaled_mcse_target\": 0.03,\n97:     \"raw_bank_storage\": false,\n98:     \"reference_evaluation_streams_independent\": true,\n99:     \"streaming_required\": true\n100:   },",
+        "context_end_line": 100,
+        "context_start_line": 92,
+        "line_number": 96,
+        "pattern": "scaled_mcse",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/D8A_NUMERICAL_DESIGN.json"
+      },
+      {
+        "context": "62:     \"precision_limited_fraction_maximum\": 0.1,\n63:     \"precision_stopping_only\": true,\n64:     \"primary_maximum_replicates\": 20000,\n65:     \"primary_minimum_replicates\": 2000,\n66:     \"primary_scaled_mcse_target\": 0.03,\n67:     \"raw_bank_storage\": false,\n68:     \"reference_evaluation_streams_independent\": true,\n69:     \"streaming_required\": true\n70:   },",
+        "context_end_line": 70,
+        "context_start_line": 62,
+        "line_number": 66,
+        "pattern": "scaled_mcse",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json"
+      },
+      {
+        "context": "64:     \"precision_limited_fraction_maximum\": 0.1,\n65:     \"precision_stopping_only\": true,\n66:     \"primary_maximum_replicates\": 20000,\n67:     \"primary_minimum_replicates\": 2000,\n68:     \"primary_scaled_mcse_target\": 0.03,\n69:     \"raw_bank_storage\": false,\n70:     \"reference_evaluation_streams_independent\": true,\n71:     \"streaming_required\": true\n72:   },",
+        "context_end_line": 72,
+        "context_start_line": 64,
+        "line_number": 68,
+        "pattern": "scaled_mcse",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/D8A_SCIENTIFIC_RUN_CONFIG.json"
+      },
+      {
+        "context": "24:     \"precision_limited_fraction_maximum\": 0.1,\n25:     \"precision_stopping_only\": true,\n26:     \"primary_maximum_replicates\": 20000,\n27:     \"primary_minimum_replicates\": 2000,\n28:     \"primary_scaled_mcse_target\": 0.03,\n29:     \"raw_bank_storage\": false,\n30:     \"reference_evaluation_streams_independent\": true,\n31:     \"streaming_required\": true\n32:   },",
+        "context_end_line": 32,
+        "context_start_line": 24,
+        "line_number": 28,
+        "pattern": "scaled_mcse",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_LOCKED_MONTE_CARLO_CONTRACT.json"
+      },
+      {
+        "context": "18: 2. at or beyond that minimum, stop only when the external locked precision\n19:    assessment passes;\n20: 3. otherwise continue by the shared locked batch size;\n21: 4. stop at that role's maximum replicate count;\n22: 5. distinguish `precision_target_met` from\n23:    `maximum_replicates_reached`.\n24: \n25: The runner engine does not reinterpret the locked precision targets.",
+        "context_end_line": 25,
+        "context_start_line": 18,
+        "line_number": 22,
+        "pattern": "precision_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_PRECISION_ONLY_STOPPING_POLICY.md"
+      },
+      {
+        "context": "21: 4. stop at that role's maximum replicate count;\n22: 5. distinguish `precision_target_met` from\n23:    `maximum_replicates_reached`.\n24: \n25: The runner engine does not reinterpret the locked precision targets.",
+        "context_end_line": 25,
+        "context_start_line": 21,
+        "line_number": 25,
+        "pattern": "precision_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/D8A_PRECISION_ONLY_STOPPING_POLICY.md"
+      },
+      {
+        "context": "61:         )\n62:         if (\n63:             not precision.stop\n64:             or precision.reason\n65:             != \"precision_target_met\"\n66:         ):\n67:             failures.append(\n68:                 f\"{role}: precision stop incorrect\"\n69:             )",
+        "context_end_line": 69,
+        "context_start_line": 61,
+        "line_number": 65,
+        "pattern": "precision_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/check_d8a_stopping_and_tess_adjudication.py"
+      },
+      {
+        "context": "58:             and precision_pass\n59:         ):\n60:             return StoppingDecision(\n61:                 stop=True,\n62:                 reason=\"precision_target_met\",\n63:                 next_batch_size=0,\n64:             )\n65: \n66:         remaining = (",
+        "context_end_line": 66,
+        "context_start_line": 58,
+        "line_number": 62,
+        "pattern": "precision_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+      },
+      {
+        "context": "84:                 self.batch_size,\n85:                 remaining,\n86:             )\n87:             reason = (\n88:                 \"precision_target_not_met\"\n89:             )\n90: \n91:         return StoppingDecision(\n92:             stop=False,",
+        "context_end_line": 92,
+        "context_start_line": 84,
+        "line_number": 88,
+        "pattern": "precision_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/d8a_runner_stopping.py"
+      },
+      {
+        "context": "69:         )\n70:         self.assertTrue(decision.stop)\n71:         self.assertEqual(\n72:             decision.reason,\n73:             \"precision_target_met\",\n74:         )\n75: \n76:     def test_diagnostic_maximum_stops(\n77:         self,",
+        "context_end_line": 77,
+        "context_start_line": 69,
+        "line_number": 73,
+        "pattern": "precision_target",
+        "relative_path": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_runner_engine_v1/tests/test_stopping_rule.py"
+      }
+    ],
+    "target_value_found": true
+  },
+  "schedule": {
+    "batch_size": 250,
+    "diagnostic_maximum_replicates": 5000,
+    "diagnostic_minimum_replicates": 1000,
+    "precision_limited_fraction_maximum": 0.1,
+    "primary_maximum_replicates": 20000,
+    "primary_minimum_replicates": 2000,
+    "primary_scaled_mcse_target": 0.03
+  },
+  "scientific_output_root_touched": false,
+  "scientific_simulation_run": false
+}
