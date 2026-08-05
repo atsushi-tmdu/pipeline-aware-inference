@@ -1,0 +1,96 @@
+{
+  "acceptance_unit": "latent_equivalence_class",
+  "branch": "tess-top-tier-theory",
+  "combined_pairs": [
+    [
+      250,
+      10000
+    ],
+    [
+      500,
+      3000
+    ],
+    [
+      1000,
+      1000
+    ],
+    [
+      3000,
+      500
+    ],
+    [
+      10000,
+      250
+    ],
+    [
+      3000,
+      3000
+    ],
+    [
+      10000,
+      10000
+    ]
+  ],
+  "created_utc": "2026-08-05T02:19:38.826198+00:00",
+  "design_tag": "d8a-generalized-design-lock-v1",
+  "diagnostic_scientific_classes": 8,
+  "evaluation_sizes": [
+    250,
+    500,
+    1000,
+    3000,
+    10000
+  ],
+  "family_jobs": 75,
+  "implementation_commit": "1c8ed43cf35ff0b7675f19f57861e41cf86d82a7",
+  "implementation_tag": "d8a-generalized-implementation-lock-v1",
+  "locked_dependency_hashes": {
+    "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_EQUIVALENCE_CLASS_REGISTRY.json": "85fea7a3e69d6c7c58fb26338d36c0c24de85e51f197f6a98b4fb1388363cb38",
+    "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_GENERALIZED_DESIGN.json": "283f50ab738f5b700ab6c08c571dd954cf1f713681d8e00d8aaacb94be3bc1e1",
+    "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_IMPLEMENTATION_CONFIG.json": "ab3a87d5deb3e080d3b724a087b2e504ebace66159041ad91538c2344712e6e4",
+    "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1/D8A_IMPLEMENTATION_LOCK_MANIFEST.json": "834af0234e6e07c1d6ba73160339fa1d88592b6832fc094f8100b5e943a3e00d",
+    "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1/d8a_seed_contract.py": "20a33c85d21fe9e1e309f14aab02efcd2fdf0cf4a3ced27601bf56a13a4ac953"
+  },
+  "locked_execution_command": "PYTHONPATH=\"/Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/implementation_v1\" \"python\" \"/Users/sendaatsushi/Documents/pipeline-aware/pipeline-aware-inference-clean-20260803/theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/run_d8a_scientific_validation.py\" --execute",
+  "monte_carlo_contract": {
+    "batch_size": 250,
+    "cell_seed_rule": "SeedSequence(master_seed, spawn_key=first four uint32 words of SHA256(canonical_cell_key))",
+    "diagnostic_maximum_replicates": 5000,
+    "diagnostic_minimum_replicates": 1000,
+    "effect_dependent_stopping": false,
+    "generator": "numpy.random.PCG64DXSM",
+    "master_seed": 20260804,
+    "nested_common_random_numbers_across_sizes": true,
+    "precision_limited_fraction_maximum": 0.1,
+    "precision_stopping_only": true,
+    "primary_maximum_replicates": 20000,
+    "primary_minimum_replicates": 2000,
+    "primary_scaled_mcse_target": 0.03,
+    "raw_bank_storage": false,
+    "reference_evaluation_streams_independent": true,
+    "streaming_required": true
+  },
+  "output_root_relative_to_repo": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1",
+  "package_id": "TESS_D8A_SCIENTIFIC_RUN_PACKAGE_PRELOCK_V1",
+  "primary_scientific_classes": 17,
+  "reference_sizes": [
+    250,
+    500,
+    1000,
+    3000,
+    10000
+  ],
+  "run_entrypoint_relative_to_repo": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/run_d8a_scientific_validation.py",
+  "run_infrastructure_prelocked": true,
+  "schema_version": "1.0",
+  "scientific_equivalence_classes": 25,
+  "scientific_execution_started": false,
+  "scientific_runner_engine_locked": false,
+  "scientific_simulation_run": false,
+  "tess_alpha_values": [
+    0.01,
+    0.05
+  ],
+  "theory_tag": "d8a-generalized-theory-repair-v1",
+  "transformation_audit_rows": 50
+}

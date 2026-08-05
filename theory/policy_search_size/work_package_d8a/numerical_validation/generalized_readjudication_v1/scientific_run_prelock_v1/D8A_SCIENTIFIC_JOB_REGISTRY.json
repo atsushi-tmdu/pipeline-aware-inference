@@ -1,0 +1,2702 @@
+[
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-000",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-000__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-000__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-000",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-000__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-000__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-000",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-000__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-000__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-001",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-001__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-001__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-001",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-001__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-001__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-001",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-001__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-001__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-002",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-002__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-002__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-002",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-002__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-002__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-002",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-002__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-002__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-003",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-003__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-003__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-003",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-003__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-003__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-003",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-003__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-003__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-004",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-004__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-004__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-004",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-004__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-004__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-004",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-004__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-004__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-005",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-005__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-005__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-005",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-005__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-005__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-005",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-005__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-005__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-006",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-006__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-006__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-006",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-006__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-006__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-006",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-006__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-006__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-007",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-007__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-007__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-007",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-007__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-007__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-007",
+    "class_role": "diagnostic",
+    "dependence": "asymmetric",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-007__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-007__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-008",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-008__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-008__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-008",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-008__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-008__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-008",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-008__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-008__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-009",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-009__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-009__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-009",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-009__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-009__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-009",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-009__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-009__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-010",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-010__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-010__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-010",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-010__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-010__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-010",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-010__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-010__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-011",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-011__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-011__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-011",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-011__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-011__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-011",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-011__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-011__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-012",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-012__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-012__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-012",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-012__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-012__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-012",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-012__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-012__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-013",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-013__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-013__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-013",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-013__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-013__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-013",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-013__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-013__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-014",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-014__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-014__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-014",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-014__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-014__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-014",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-014__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-014__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-015",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-015__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-015__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-015",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-015__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-015__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-015",
+    "class_role": "primary",
+    "dependence": "equicorrelated_0_4",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-015__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-015__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-016",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-016__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-016__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-016",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-016__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-016__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-016",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-016__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-016__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-017",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-017__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-017__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-017",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-017__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-017__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-017",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-017__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-017__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-018",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-018__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-018__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-018",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-018__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-018__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.9,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-018",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-018__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-018__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-019",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-019__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-019__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-019",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-019__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-019__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-019",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-019__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-019__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-020",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-020__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-020__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-020",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-020__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-020__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-020",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-020__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-020__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-021",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-021__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-021__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-021",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-021__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-021__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.95,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-021",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-021__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-021__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-022",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-022__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-022__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-022",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-022__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-022__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-022",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-022__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-022__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.5
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-023",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-023__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-023__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-023",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-023__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-023__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-023",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-023__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-023__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.7
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-024",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-024__reference_only",
+    "output_relative_path": "jobs/d8a-generalized-class-024__reference_only",
+    "sample_specification": {
+      "reference_B": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-024",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-024__evaluation_only",
+    "output_relative_path": "jobs/d8a-generalized-class-024__evaluation_only",
+    "sample_specification": {
+      "evaluation_n": [
+        250,
+        500,
+        1000,
+        3000,
+        10000
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  },
+  {
+    "candidate_probability": 0.99,
+    "canonical_transform": "identity",
+    "class_id": "d8a-generalized-class-024",
+    "class_role": "primary",
+    "dependence": "independent",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-024__combined",
+    "output_relative_path": "jobs/d8a-generalized-class-024__combined",
+    "sample_specification": {
+      "combined_pairs": [
+        [
+          250,
+          10000
+        ],
+        [
+          500,
+          3000
+        ],
+        [
+          1000,
+          1000
+        ],
+        [
+          3000,
+          500
+        ],
+        [
+          10000,
+          250
+        ],
+        [
+          3000,
+          3000
+        ],
+        [
+          10000,
+          10000
+        ]
+      ]
+    },
+    "scientific_simulation_run": false,
+    "stream_names": [
+      "scientific_reference",
+      "scientific_evaluation"
+    ],
+    "tess_alpha_values": [
+      0.01,
+      0.05
+    ],
+    "trigger_probability": 0.85
+  }
+]

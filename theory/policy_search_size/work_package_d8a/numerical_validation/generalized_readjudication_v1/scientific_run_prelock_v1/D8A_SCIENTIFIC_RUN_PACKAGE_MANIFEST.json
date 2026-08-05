@@ -1,0 +1,59 @@
+{
+  "branch": "tess-top-tier-theory",
+  "created_utc": "2026-08-05T02:19:38.828523+00:00",
+  "family_jobs": 75,
+  "files": [
+    {
+      "relative_path": "D8A_SCIENTIFIC_JOB_REGISTRY.json",
+      "sha256": "0723fe34f218727d7aab35968a4ffc083c9677ed4bfbe38750f29676fe6031a4",
+      "size_bytes": 59194
+    },
+    {
+      "relative_path": "D8A_SCIENTIFIC_OUTPUT_AND_RESUME_CONTRACT.md",
+      "sha256": "2262e965e98cf30a0f215d37bc4346d41319b2d13b4e64482afbb9c2176a8e05",
+      "size_bytes": 1389
+    },
+    {
+      "relative_path": "D8A_SCIENTIFIC_RUN_CONFIG.json",
+      "sha256": "e901e00984f025be17eeefd9b3bdaf1c4a04a804d6b26d821df974b0eff443f9",
+      "size_bytes": 3969
+    },
+    {
+      "relative_path": "D8A_SCIENTIFIC_SEED_CONTRACT.md",
+      "sha256": "9ebf0c17efe5ea888170206d445f7cc8cd57f72d828503783fc14fbc017c72e9",
+      "size_bytes": 588
+    },
+    {
+      "relative_path": "D8A_SCIENTIFIC_SEED_INVENTORY.json",
+      "sha256": "cf095935e27da1a184740149428a11530797702f69ec73592859ee3fa52ee1fa",
+      "size_bytes": 47009
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "d3ac10e53ebacbd71418749d8390c2b46a476dba4ce06c0bdfc157d4dad8f057",
+      "size_bytes": 1265
+    },
+    {
+      "relative_path": "check_d8a_scientific_run_preflight.py",
+      "sha256": "8f06916394895092a33f833ba0f6f05aa04d6b7658632c60d0480d57e0fe4349",
+      "size_bytes": 5093
+    },
+    {
+      "relative_path": "run_d8a_scientific_validation.py",
+      "sha256": "08c1c9f4da4e38511a4740df85c870893b8797907e12d471c0327572dfed5dbc",
+      "size_bytes": 1747
+    },
+    {
+      "relative_path": "verify_d8a_scientific_run_package.py",
+      "sha256": "576e224d5786e055136e8ce6cd845025e009cafeac98cc848c95fb7cbe271cb1",
+      "size_bytes": 1735
+    }
+  ],
+  "package_id": "TESS_D8A_SCIENTIFIC_RUN_PACKAGE_PRELOCK_V1",
+  "parent_commit": "1c8ed43cf35ff0b7675f19f57861e41cf86d82a7",
+  "parent_tag": "d8a-generalized-implementation-lock-v1",
+  "scientific_equivalence_classes": 25,
+  "scientific_runner_engine_locked": false,
+  "scientific_simulation_run": false,
+  "seed_inventory_entries": 75
+}

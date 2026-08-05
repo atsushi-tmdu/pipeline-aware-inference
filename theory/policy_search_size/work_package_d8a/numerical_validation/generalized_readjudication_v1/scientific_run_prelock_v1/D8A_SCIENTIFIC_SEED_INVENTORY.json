@@ -1,0 +1,1677 @@
+[
+  {
+    "class_key": "asymmetric|0.900000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-000__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-000__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3075783808,
+          1324432476,
+          3794490659,
+          1906221296
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.900000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-000__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-000__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          914429784,
+          4288256980,
+          1630491854,
+          3381866380
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.900000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-000__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-000__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2244348298,
+          4089228611,
+          4081841480,
+          374218612
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1121463442,
+          3368326182,
+          1627043356,
+          2360845859
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.900000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-001__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-001__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          4057815765,
+          3599377281,
+          2331521603,
+          614209252
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.900000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-001__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-001__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1599116785,
+          2311284706,
+          2021601565,
+          338721268
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.900000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-001__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-001__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          4078936719,
+          657371587,
+          3202744632,
+          443514292
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3911304893,
+          4010234075,
+          4249366191,
+          2099720642
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-002__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-002__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1439069326,
+          209944974,
+          1729926488,
+          1883317188
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-002__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-002__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          273427058,
+          3207984812,
+          1081099820,
+          355617818
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-002__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-002__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3307078246,
+          8436224,
+          3370279746,
+          1915567105
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3196538784,
+          3464899270,
+          3224530010,
+          1892297254
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-003__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-003__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2319667832,
+          2079658339,
+          250331057,
+          3892690455
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-003__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-003__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3652190063,
+          670784328,
+          400432332,
+          3264769516
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-003__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-003__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2160759953,
+          298201587,
+          2364329904,
+          531223320
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2662914897,
+          1071840351,
+          1402961061,
+          1015652168
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.850000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-004__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-004__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1744347914,
+          1695699780,
+          2253510169,
+          1331421624
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.850000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-004__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-004__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2263851353,
+          4219380159,
+          1483223737,
+          1043155996
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.950000000000|0.850000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-004__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-004__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          324292851,
+          3693752588,
+          1948676215,
+          66257735
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3419625667,
+          549837125,
+          2371067853,
+          1424618144
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-005__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-005__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          618385931,
+          166885596,
+          3806470249,
+          3713078875
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-005__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-005__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2100174041,
+          2595188462,
+          1933493310,
+          1282027244
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-005__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-005__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          881206149,
+          2230335590,
+          1256554070,
+          2883597488
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1454722585,
+          3317765792,
+          369139769,
+          1360437812
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-006__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-006__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2098105329,
+          4112036365,
+          1572595928,
+          2203938250
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-006__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-006__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3170404344,
+          257282157,
+          1971475407,
+          631278374
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-006__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-006__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1907814940,
+          1066524184,
+          1283768656,
+          1139577748
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3652544745,
+          1321533853,
+          1654601388,
+          2773314290
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.850000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-007__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-007__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          4082707849,
+          1395568419,
+          1228246343,
+          2061342147
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.850000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-007__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-007__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          483579389,
+          908032653,
+          3736567024,
+          3090233145
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "asymmetric|0.990000000000|0.850000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-007__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-007__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3766997944,
+          199895808,
+          3304638927,
+          4007962367
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1910054273,
+          1261017523,
+          2907561291,
+          3220607403
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.900000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-008__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-008__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1513043186,
+          3334418543,
+          3650214851,
+          4057084538
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.900000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-008__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-008__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1203105989,
+          1335777798,
+          1093522745,
+          1652756908
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.900000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-008__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-008__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          313143418,
+          4182151863,
+          539560170,
+          3186241353
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3786870134,
+          1481997158,
+          3196864609,
+          868382637
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.900000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-009__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-009__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          490179612,
+          3804346782,
+          3113193524,
+          657667418
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.900000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-009__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-009__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2340179711,
+          1626483429,
+          659278157,
+          911840748
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.900000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-009__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-009__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          4265326680,
+          2551132919,
+          3348373007,
+          976569995
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2188328138,
+          4244675750,
+          3493317495,
+          2851742835
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-010__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-010__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3395676502,
+          4218296858,
+          4464297,
+          3897760942
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-010__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-010__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2526570350,
+          4284487482,
+          601640563,
+          2950838675
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-010__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-010__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3592368354,
+          3605165944,
+          5953115,
+          1008157353
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1080997612,
+          1698296888,
+          1556180346,
+          2348174815
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-011__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-011__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          4138174824,
+          2313535974,
+          2561793784,
+          2949057931
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-011__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-011__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1596897960,
+          2664954781,
+          3755173780,
+          3890762390
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-011__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-011__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3460007337,
+          2865634480,
+          2986833225,
+          3949709062
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3652471841,
+          2694072265,
+          2355412092,
+          4293950260
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.850000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-012__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-012__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1565467244,
+          637001981,
+          878722411,
+          1450403980
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.850000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-012__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-012__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1677036538,
+          2080312353,
+          1463328431,
+          2995163416
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.950000000000|0.850000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-012__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-012__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1138116784,
+          874294229,
+          356339013,
+          1508699934
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1594066070,
+          3901154651,
+          3905529751,
+          998962597
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-013__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-013__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3108207699,
+          2760275720,
+          1233002190,
+          1961925744
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-013__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-013__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1809640160,
+          1109702106,
+          1314217866,
+          1175393709
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-013__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-013__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          163992640,
+          566750864,
+          2816063364,
+          1984110061
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1824951251,
+          4274493253,
+          2015539760,
+          2200152327
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-014__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-014__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          4258091844,
+          2216585321,
+          3084738040,
+          2594601226
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-014__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-014__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          4106347918,
+          923045324,
+          64286455,
+          4283024869
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-014__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-014__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2814653495,
+          3759159152,
+          3064257608,
+          634154645
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          781815401,
+          3356757277,
+          71874181,
+          1498859087
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.850000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-015__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-015__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2501147265,
+          1235900472,
+          3378219612,
+          2181228231
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.850000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-015__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-015__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          211616748,
+          657626491,
+          3442362983,
+          198059037
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "equicorrelated_0_4|0.990000000000|0.850000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-015__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-015__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3097747078,
+          2761217146,
+          2105911356,
+          1040943316
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2704883582,
+          1015494914,
+          2061645909,
+          1674793040
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-016__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-016__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3944428759,
+          1830112290,
+          3802912438,
+          137242426
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-016__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-016__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3357216722,
+          1891724070,
+          3643273659,
+          2383199327
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-016__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-016__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1148317090,
+          1676558433,
+          234791118,
+          3885257750
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2316543612,
+          3522151280,
+          3950074920,
+          2040598549
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-017__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-017__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2673232596,
+          1065014158,
+          3175189112,
+          1681837281
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-017__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-017__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          826927907,
+          3050499985,
+          2146784580,
+          1049633696
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-017__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-017__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1156755737,
+          2220766869,
+          3101521215,
+          4275653511
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3783458720,
+          547757211,
+          3115926316,
+          2220523882
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.850000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-018__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-018__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1061473559,
+          2362954535,
+          263547717,
+          1116427161
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.850000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-018__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-018__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1733966095,
+          833693406,
+          925800267,
+          1106700215
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.900000000000|0.850000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-018__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-018__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          397962592,
+          3274252912,
+          3879260057,
+          1611275772
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3827082322,
+          1594344393,
+          2559483371,
+          3107024212
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-019__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-019__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          595276167,
+          2978510284,
+          1049079537,
+          3766709202
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-019__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-019__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1766348297,
+          752871591,
+          3262806636,
+          1526128984
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-019__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-019__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3298691672,
+          2489246941,
+          2239654881,
+          2884804402
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2027597103,
+          2257275568,
+          1203637230,
+          3287777262
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-020__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-020__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          688301523,
+          4246336358,
+          2601022867,
+          1778756646
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-020__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-020__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          486699769,
+          3125813154,
+          812823024,
+          2684476879
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-020__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-020__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2515443257,
+          2190691043,
+          1999472385,
+          2618192815
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3902880181,
+          2247700497,
+          814614935,
+          1149417472
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.850000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-021__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-021__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2701090855,
+          1016540920,
+          1281503828,
+          781036149
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.850000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-021__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-021__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3966174681,
+          1286918933,
+          2720014102,
+          3210714646
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.950000000000|0.850000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-021__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-021__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2041164071,
+          1386738401,
+          2446628038,
+          2509568815
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1459310776,
+          2253260011,
+          3188677624,
+          3450059779
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.500000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-022__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-022__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          286646364,
+          34810661,
+          3224297075,
+          3707350924
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.500000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-022__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-022__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2733471648,
+          2938481969,
+          2371450678,
+          1804022104
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.500000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-022__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-022__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2976712914,
+          258741167,
+          3324064200,
+          3293502650
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2525925856,
+          2356695546,
+          1354597502,
+          278368257
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.700000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-023__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-023__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3452307609,
+          3354910913,
+          1411735067,
+          308309158
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.700000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-023__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-023__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3325841990,
+          2807242976,
+          3501092975,
+          3510361006
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.700000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-023__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-023__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2377649410,
+          3535574372,
+          2075941919,
+          754546798
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1517130482,
+          2079804826,
+          3072574003,
+          2356659733
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.850000000000",
+    "family": "reference_only",
+    "job_id": "d8a-generalized-class-024__reference_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-024__reference_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          2279855603,
+          1255006232,
+          453784825,
+          1318615576
+        ],
+        "stream_name": "scientific_reference"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.850000000000",
+    "family": "evaluation_only",
+    "job_id": "d8a-generalized-class-024__evaluation_only",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-024__evaluation_only",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1648041453,
+          1212129499,
+          3406057355,
+          1277653402
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  },
+  {
+    "class_key": "independent|0.990000000000|0.850000000000",
+    "family": "combined",
+    "job_id": "d8a-generalized-class-024__combined",
+    "master_seed": 20260804,
+    "seed_inventory_id": "seed::d8a-generalized-class-024__combined",
+    "streams": [
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          3227170443,
+          2533925538,
+          3174501954,
+          2608269332
+        ],
+        "stream_name": "scientific_reference"
+      },
+      {
+        "replicate_component": "append nonnegative replicate index",
+        "spawn_prefix": [
+          1467662170,
+          8588762,
+          2595751383,
+          4052128532
+        ],
+        "stream_name": "scientific_evaluation"
+      }
+    ]
+  }
+]
