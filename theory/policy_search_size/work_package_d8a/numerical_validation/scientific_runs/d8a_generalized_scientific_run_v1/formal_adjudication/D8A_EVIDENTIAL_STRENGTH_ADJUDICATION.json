@@ -1,0 +1,89 @@
+{
+  "adjudication_id": "TESS_D8A_EVIDENTIAL_STRENGTH_ADJUDICATION_V1",
+  "baseline_robustness": {
+    "fatal_improvement_conclusion_robust_to_baseline_ambiguity": true,
+    "generalized_better_than_gradient_only": {
+      "count": 14,
+      "denominator": 17,
+      "passes_75_percent": true
+    },
+    "generalized_better_than_no_correction": {
+      "count": 15,
+      "denominator": 17,
+      "passes_75_percent": true
+    },
+    "generalized_better_than_smooth_only": {
+      "count": 9,
+      "denominator": 17,
+      "fatal_criterion": false
+    }
+  },
+  "confirmatory_extension_authorized": false,
+  "exact_identity": {
+    "locked_z_star": 3.8509780194087373,
+    "maximum_absolute_difference_over_mcse": 2.996953282565021,
+    "passed": true
+  },
+  "exploratory_extension_policy": "Any higher-replicate extension must be separately labeled post hoc and must not replace the locked formal adjudication.",
+  "files_staged_or_committed": false,
+  "formal_contract_status": "PASS",
+  "locked_runner_engine_modified": false,
+  "mcse_floor": {
+    "all_component_zero_fractions_equal_one": true,
+    "interpretation": "Adjusted zeros indicate containment within the locked simultaneous MCSE allowance, not zero raw residuals."
+  },
+  "overall_evidential_interpretation": "FORMAL_PASS_WITH_QUALIFIED_NUMERICAL_SUPPORT",
+  "policy_expansion_evidence": "STRONG_SUPPORT",
+  "prospective_criteria_changed": false,
+  "raw_threshold_sensitivity": {
+    "combined_policy": {
+      "median_limit": 0.15,
+      "observed": {
+        "maximum": 0.2253549869051389,
+        "median": 0.04949542706973089,
+        "p90": 0.14743888997082516
+      },
+      "p90_limit": 0.4,
+      "passed": true
+    },
+    "combined_tess_alpha_0.01": {
+      "median_limit": 0.25,
+      "observed": {
+        "maximum": 4.907101355645968,
+        "median": 0.5287604499962528,
+        "p90": 1.4611544333842779
+      },
+      "p90_limit": 0.6,
+      "passed": false
+    },
+    "combined_tess_alpha_0.05": {
+      "median_limit": 0.25,
+      "observed": {
+        "maximum": 2.813775435656349,
+        "median": 0.4072839397360042,
+        "p90": 0.8891353112503411
+      },
+      "p90_limit": 0.6,
+      "passed": false
+    },
+    "reference_B10000": {
+      "median_limit": 0.15,
+      "observed": {
+        "maximum": 0.1129792031242739,
+        "median": 0.03548571309079842,
+        "p90": 0.0958359340407361
+      },
+      "p90_limit": 0.4,
+      "passed": true
+    }
+  },
+  "recommended_manuscript_language": {
+    "formal": "All prospectively specified acceptance criteria were met.",
+    "policy": "The policy-level generalized second-order approximation showed strong numerical support.",
+    "tess": "The TESS criteria passed after the prospectively specified simultaneous Monte Carlo uncertainty adjustment, but raw normalized residuals exceeded the nominal usefulness thresholds; finite-sample TESS accuracy was therefore Monte Carlo-resolution limited in this run.",
+    "theorem": "This resolution limitation does not contradict the proved TESS corollary."
+  },
+  "schema_version": "1.0",
+  "scientific_simulation_rerun": false,
+  "tess_finite_sample_evidence": "FORMAL_PASS_BUT_MCSE_RESOLUTION_LIMITED"
+}

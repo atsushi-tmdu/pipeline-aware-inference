@@ -1,0 +1,4694 @@
+{
+  "audit_id": "TESS_D8A_POSTRUN_COMPLETION_AND_SCHEMA_AUDIT_V1",
+  "completion": {
+    "all_integrity_checks_pass": true,
+    "complete_job_count": 75,
+    "diagnostic_class_count": 8,
+    "family_job_counts": {
+      "combined": 25,
+      "evaluation_only": 25,
+      "reference_only": 25
+    },
+    "integrity_failures": [],
+    "precision_limited_primary_class_count": 0,
+    "precision_limited_primary_classes": [],
+    "primary_class_count": 17,
+    "registered_job_count": 75,
+    "replicate_count_summary": {
+      "maximum": 2000,
+      "median": 2000,
+      "minimum": 1000
+    },
+    "role_job_counts": {
+      "diagnostic": 24,
+      "primary": 51
+    },
+    "stop_reason_counts": {
+      "precision_target_met": 75
+    },
+    "total_committed_replicates": 126000
+  },
+  "formal_scientific_acceptance_adjudicated": false,
+  "jobs": [
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-000",
+      "class_role": "diagnostic",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-000__combined",
+      "maximum_scaled_mcse": 0.025996557500632993,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-000",
+      "class_role": "diagnostic",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-000__evaluation_only",
+      "maximum_scaled_mcse": 0.026383288863737468,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-000",
+      "class_role": "diagnostic",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-000__reference_only",
+      "maximum_scaled_mcse": 0.004686597878870444,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-001",
+      "class_role": "diagnostic",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-001__combined",
+      "maximum_scaled_mcse": 0.016830045442009986,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-001",
+      "class_role": "diagnostic",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-001__evaluation_only",
+      "maximum_scaled_mcse": 0.017535660457565036,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-001",
+      "class_role": "diagnostic",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-001__reference_only",
+      "maximum_scaled_mcse": 0.006059088104184041,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-002",
+      "class_role": "diagnostic",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-002__combined",
+      "maximum_scaled_mcse": 0.014856438831068597,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-002",
+      "class_role": "diagnostic",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-002__evaluation_only",
+      "maximum_scaled_mcse": 0.014871835761032655,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-002",
+      "class_role": "diagnostic",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-002__reference_only",
+      "maximum_scaled_mcse": 0.00229715884305737,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-003",
+      "class_role": "diagnostic",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-003__combined",
+      "maximum_scaled_mcse": 0.017334932709836135,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-003",
+      "class_role": "diagnostic",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-003__evaluation_only",
+      "maximum_scaled_mcse": 0.017136043112517565,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-003",
+      "class_role": "diagnostic",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-003__reference_only",
+      "maximum_scaled_mcse": 0.0023767742561259784,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-004",
+      "class_role": "diagnostic",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-004__combined",
+      "maximum_scaled_mcse": 0.012728400540242192,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-004",
+      "class_role": "diagnostic",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-004__evaluation_only",
+      "maximum_scaled_mcse": 0.01310747171945687,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-004",
+      "class_role": "diagnostic",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-004__reference_only",
+      "maximum_scaled_mcse": 0.003847903333776397,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-005",
+      "class_role": "diagnostic",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-005__combined",
+      "maximum_scaled_mcse": 0.008465613673096582,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-005",
+      "class_role": "diagnostic",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-005__evaluation_only",
+      "maximum_scaled_mcse": 0.008013084966921845,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-005",
+      "class_role": "diagnostic",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-005__reference_only",
+      "maximum_scaled_mcse": 0.0028432305146075484,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-006",
+      "class_role": "diagnostic",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-006__combined",
+      "maximum_scaled_mcse": 0.009089290278195203,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-006",
+      "class_role": "diagnostic",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-006__evaluation_only",
+      "maximum_scaled_mcse": 0.008858463629942115,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-006",
+      "class_role": "diagnostic",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-006__reference_only",
+      "maximum_scaled_mcse": 0.002407590690184347,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-007",
+      "class_role": "diagnostic",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-007__combined",
+      "maximum_scaled_mcse": 0.008156269419857287,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-007",
+      "class_role": "diagnostic",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-007__evaluation_only",
+      "maximum_scaled_mcse": 0.00820358887132347,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-007",
+      "class_role": "diagnostic",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-007__reference_only",
+      "maximum_scaled_mcse": 0.0015358540173712506,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 1000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-008",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-008__combined",
+      "maximum_scaled_mcse": 0.00990176480741358,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-008",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-008__evaluation_only",
+      "maximum_scaled_mcse": 0.009604364950800392,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-008",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-008__reference_only",
+      "maximum_scaled_mcse": 0.002170865306682046,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-009",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-009__combined",
+      "maximum_scaled_mcse": 0.01701388705542522,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-009",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-009__evaluation_only",
+      "maximum_scaled_mcse": 0.01660505644623793,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-009",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-009__reference_only",
+      "maximum_scaled_mcse": 0.005046277544580331,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-010",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-010__combined",
+      "maximum_scaled_mcse": 0.006996937385199734,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-010",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-010__evaluation_only",
+      "maximum_scaled_mcse": 0.007133035941195788,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-010",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-010__reference_only",
+      "maximum_scaled_mcse": 0.00275069397541928,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-011",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-011__combined",
+      "maximum_scaled_mcse": 0.008515044152151189,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-011",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-011__evaluation_only",
+      "maximum_scaled_mcse": 0.008723011427270297,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-011",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-011__reference_only",
+      "maximum_scaled_mcse": 0.002314527236779876,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-012",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-012__combined",
+      "maximum_scaled_mcse": 0.009860270368542909,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-012",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-012__evaluation_only",
+      "maximum_scaled_mcse": 0.009664175160472861,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-012",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-012__reference_only",
+      "maximum_scaled_mcse": 0.0028334549581700637,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-013",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-013__combined",
+      "maximum_scaled_mcse": 0.005059554957223948,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-013",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-013__evaluation_only",
+      "maximum_scaled_mcse": 0.005046702766450561,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-013",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-013__reference_only",
+      "maximum_scaled_mcse": 0.0032205643476671828,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-014",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-014__combined",
+      "maximum_scaled_mcse": 0.0060707116858907135,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-014",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-014__evaluation_only",
+      "maximum_scaled_mcse": 0.006024562525544855,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-014",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-014__reference_only",
+      "maximum_scaled_mcse": 0.0031387161676491183,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-015",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-015__combined",
+      "maximum_scaled_mcse": 0.006214860180496219,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-015",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-015__evaluation_only",
+      "maximum_scaled_mcse": 0.006094808350424386,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-015",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-015__reference_only",
+      "maximum_scaled_mcse": 0.002386746044197266,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-016",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-016__combined",
+      "maximum_scaled_mcse": 0.011048833273980485,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-016",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-016__evaluation_only",
+      "maximum_scaled_mcse": 0.010946268660857995,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-016",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-016__reference_only",
+      "maximum_scaled_mcse": 0.0033382926358814574,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-017",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-017__combined",
+      "maximum_scaled_mcse": 0.006979196211867788,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-017",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-017__evaluation_only",
+      "maximum_scaled_mcse": 0.007118013662146781,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-017",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-017__reference_only",
+      "maximum_scaled_mcse": 0.003771449310343278,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-018",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-018__combined",
+      "maximum_scaled_mcse": 0.0036518567066402556,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-018",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-018__evaluation_only",
+      "maximum_scaled_mcse": 0.003655524876212508,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-018",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-018__reference_only",
+      "maximum_scaled_mcse": 0.0032810367748188005,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-019",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-019__combined",
+      "maximum_scaled_mcse": 0.01309710986726044,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-019",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-019__evaluation_only",
+      "maximum_scaled_mcse": 0.012988168372154647,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-019",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-019__reference_only",
+      "maximum_scaled_mcse": 0.0019444088019776517,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-020",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-020__combined",
+      "maximum_scaled_mcse": 0.010021819305211108,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-020",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-020__evaluation_only",
+      "maximum_scaled_mcse": 0.009975067380534592,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-020",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-020__reference_only",
+      "maximum_scaled_mcse": 0.0024025252189692355,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-021",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-021__combined",
+      "maximum_scaled_mcse": 0.005650835020711979,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-021",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-021__evaluation_only",
+      "maximum_scaled_mcse": 0.006020845714476566,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-021",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-021__reference_only",
+      "maximum_scaled_mcse": 0.0026090781106064883,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-022",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-022__combined",
+      "maximum_scaled_mcse": 0.00723107888290168,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-022",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-022__evaluation_only",
+      "maximum_scaled_mcse": 0.0070901076438710416,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-022",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-022__reference_only",
+      "maximum_scaled_mcse": 0.00029286997712660415,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-023",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-023__combined",
+      "maximum_scaled_mcse": 0.006361954162011801,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-023",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-023__evaluation_only",
+      "maximum_scaled_mcse": 0.006410430731267476,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-023",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-023__reference_only",
+      "maximum_scaled_mcse": 0.0004459083156077509,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-024",
+      "class_role": "primary",
+      "family": "combined",
+      "job_id": "d8a-generalized-class-024__combined",
+      "maximum_scaled_mcse": 0.0047384829647275015,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-024",
+      "class_role": "primary",
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-024__evaluation_only",
+      "maximum_scaled_mcse": 0.0048924997008392,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "batch_count": 1,
+      "class_id": "d8a-generalized-class-024",
+      "class_role": "primary",
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-024__reference_only",
+      "maximum_scaled_mcse": 0.0005620278304168437,
+      "precision_limited": false,
+      "precision_pass": true,
+      "replicate_count": 2000,
+      "stop_reason": "precision_target_met"
+    }
+  ],
+  "label": "POSTRUN_READ_ONLY_INTEGRITY_AND_SCHEMA_AUDIT",
+  "lock": {
+    "commit": "2bb31584d3d0ea64fea4c7acea615412e6715f79",
+    "lock_id": "TESS_D8A_SCIENTIFIC_RUNNER_ENGINE_LOCK_V1",
+    "tag": "d8a-scientific-runner-engine-lock-v1",
+    "verifier_status": "PASS"
+  },
+  "runner_engine_modified": false,
+  "schema_inventory": {
+    "acceptance_contract": {
+      "acceptance_residual_z_star": 4.2372795825947795,
+      "adopted_before_scientific_output": true,
+      "combined_policy_acceptance": {
+        "largest_pair": [
+          10000,
+          10000
+        ],
+        "median_maximum": 0.15,
+        "p90_maximum": 0.4,
+        "prediction": "C_Delta,B/B-Delta_pi/n-C_Delta,B/(B*n)"
+      },
+      "combined_tess_acceptance": {
+        "any_nonfinite_primary_record": "formal criterion failure",
+        "evaluated_separately_by_alpha": true,
+        "largest_pair": [
+          10000,
+          10000
+        ],
+        "median_maximum": 0.25,
+        "p90_maximum": 0.6
+      },
+      "contract_id": "TESS_D8A_SCIENTIFIC_SUMMARY_ACCEPTANCE_CONTRACT_V1",
+      "exact_evaluation_identity": {
+        "comparison_count": 85,
+        "familywise_alpha": 0.01,
+        "target": "(1-1/n)*Delta_pi",
+        "two_sided_bonferroni": true,
+        "z_star": 3.8509780194087373
+      },
+      "formal_status": "PASS only if every scientific criterion and every fatal check passes",
+      "post_hoc_class_dropping_allowed": false,
+      "precision_limited_primary": {
+        "diagnostic_classes_enter_denominator": false,
+        "fraction_maximum": 0.1,
+        "maximum_allowed_class_count": 1
+      },
+      "primary_acceptance_denominator": 17,
+      "quantile_method": "numpy_linear_type7",
+      "reference_acceptance": {
+        "comparison_B": 500,
+        "improvement_rule": "unadjusted absolute residual of generalized prediction is strictly smaller than the first-order-only prediction",
+        "largest_B": 10000,
+        "largest_B_median_maximum": 0.15,
+        "largest_B_p90_maximum": 0.4,
+        "median_improvement_minimum": 0.4,
+        "second_order_improved_fraction_minimum": 0.75
+      },
+      "runner_engine_locked": false,
+      "schema_version": "1.0",
+      "scientific_output_root_touched": false,
+      "scientific_simulation_run": false,
+      "transformed_audit_rows_count_as_independent_evidence": false
+    },
+    "job_summary_schemas": [
+      {
+        "candidate_scalar_paths": {
+          "points[0].scalar.adaptive_probability.bias": 0.005212926011801705,
+          "points[0].scalar.adaptive_probability.mcse": 0.000526967413317395,
+          "points[0].scalar.adaptive_probability.mean": 0.2164902033436854,
+          "points[0].scalar.adaptive_probability.replicate_count": 2000,
+          "points[0].scalar.adaptive_probability.sample_sd": 0.023566699162098467,
+          "points[0].scalar.adaptive_probability.target": 0.2112772773318837,
+          "points[0].scalar.comparator_probability.bias": 0.0056485402537269636,
+          "points[0].scalar.comparator_probability.mcse": 0.0005462222821634262,
+          "points[0].scalar.comparator_probability.mean": 0.20768613804670089,
+          "points[0].scalar.comparator_probability.replicate_count": 2000,
+          "points[0].scalar.comparator_probability.sample_sd": 0.024427803074849836,
+          "points[0].scalar.comparator_probability.target": 0.20203759779297392,
+          "points[0].scalar.delta_pi.bias": -0.0004356142419252359,
+          "points[0].scalar.delta_pi.mcse": 3.965045254978807e-05,
+          "points[0].scalar.delta_pi.mean": 0.008804065296984543,
+          "points[0].scalar.delta_pi.replicate_count": 2000,
+          "points[0].scalar.delta_pi.sample_sd": 0.0017732221447991198,
+          "points[0].scalar.delta_pi.target": 0.009239679538909779,
+          "points[0].tess.alpha_0.01.any_nonfinite": false,
+          "points[0].tess.alpha_0.01.finite_summary.bias": -0.049329656770543906,
+          "points[0].tess.alpha_0.01.finite_summary.mcse": 0.004686533544457614,
+          "points[0].tess.alpha_0.01.finite_summary.mean": 1.1095023675066873,
+          "points[0].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[0].tess.alpha_0.01.finite_summary.sample_sd": 0.20958815168480516,
+          "points[0].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[0].tess.alpha_0.01.nonfinite_count": 0,
+          "points[0].tess.alpha_0.01.record_count": 2000,
+          "points[0].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[0].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[0].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[0].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[0].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[0].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[0].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[0].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[0].tess.alpha_0.05.any_nonfinite": false,
+          "points[0].tess.alpha_0.05.finite_summary.bias": -0.009665583464692262,
+          "points[0].tess.alpha_0.05.finite_summary.mcse": 0.0009182727815184272,
+          "points[0].tess.alpha_0.05.finite_summary.mean": 0.21739433110780337,
+          "points[0].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[0].tess.alpha_0.05.finite_summary.sample_sd": 0.041066407227260314,
+          "points[0].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[0].tess.alpha_0.05.nonfinite_count": 0,
+          "points[0].tess.alpha_0.05.record_count": 2000,
+          "points[0].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[0].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[0].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[0].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[0].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[0].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[0].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[0].tess.alpha_0.05.status_fractions.positive_infinity": 0.0,
+          "points[1].scalar.adaptive_probability.bias": 0.0024247339518427002,
+          "points[1].scalar.adaptive_probability.mcse": 0.0003716207664110036,
+          "points[1].scalar.adaptive_probability.mean": 0.2137020112837264,
+          "points[1].scalar.adaptive_probability.replicate_count": 2000,
+          "points[1].scalar.adaptive_probability.sample_sd": 0.016619385910911492,
+          "points[1].scalar.adaptive_probability.target": 0.2112772773318837,
+          "points[1].scalar.comparator_probability.bias": 0.0026273934065026983,
+          "points[1].scalar.comparator_probability.mcse": 0.0003857000854609501,
+          "points[1].scalar.comparator_probability.mean": 0.20466499119947662,
+          "points[1].scalar.comparator_probability.replicate_count": 2000,
+          "points[1].scalar.comparator_probability.sample_sd": 0.017249032200363255,
+          "points[1].scalar.comparator_probability.target": 0.20203759779297392,
+          "points[1].scalar.delta_pi.bias": -0.0002026594546600171,
+          "points[1].scalar.delta_pi.mcse": 2.9689771490238003e-05,
+          "points[1].scalar.delta_pi.mean": 0.009037020084249761,
+          "points[1].scalar.delta_pi.replicate_count": 2000,
+          "points[1].scalar.delta_pi.sample_sd": 0.0013277669457721483,
+          "points[1].scalar.delta_pi.target": 0.009239679538909779,
+          "points[1].tess.alpha_0.01.any_nonfinite": false,
+          "points[1].tess.alpha_0.01.finite_summary.bias": -0.022980941747757777,
+          "points[1].tess.alpha_0.01.finite_summary.mcse": 0.0035152539377033346,
+          "points[1].tess.alpha_0.01.finite_summary.mean": 1.1358510825294734,
+          "points[1].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[1].tess.alpha_0.01.finite_summary.sample_sd": 0.15720693525756935,
+          "points[1].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[1].tess.alpha_0.01.nonfinite_count": 0,
+          "points[1].tess.alpha_0.01.record_count": 2000,
+          "points[1].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[1].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[1].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[1].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[1].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[1].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[1].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[1].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[1].tess.alpha_0.05.any_nonfinite": false,
+          "points[1].tess.alpha_0.05.finite_summary.bias": -0.004502853356417674,
+          "points[1].tess.alpha_0.05.finite_summary.mcse": 0.0006887739051683296,
+          "points[1].tess.alpha_0.05.finite_summary.mean": 0.22255706121607796,
+          "points[1].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[1].tess.alpha_0.05.finite_summary.sample_sd": 0.030802905461687572,
+          "points[1].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[1].tess.alpha_0.05.nonfinite_count": 0,
+          "points[1].tess.alpha_0.05.record_count": 2000,
+          "points[1].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[1].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[1].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[1].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[1].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[1].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[1].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[1].tess.alpha_0.05.status_fractions.positive_infinity": 0.0,
+          "points[2].scalar.adaptive_probability.bias": 0.0011134034750941435,
+          "points[2].scalar.adaptive_probability.mcse": 0.00025308585140772504,
+          "points[2].scalar.adaptive_probability.mean": 0.21239068080697784,
+          "points[2].scalar.adaptive_probability.replicate_count": 2000,
+          "points[2].scalar.adaptive_probability.sample_sd": 0.011318343357821682,
+          "points[2].scalar.adaptive_probability.target": 0.2112772773318837,
+          "points[2].scalar.comparator_probability.bias": 0.001197877646761214,
+          "points[2].scalar.comparator_probability.mcse": 0.00026240494377379706,
+          "points[2].scalar.comparator_probability.mean": 0.20323547543973514,
+          "points[2].scalar.comparator_probability.replicate_count": 2000,
+          "points[2].scalar.comparator_probability.sample_sd": 0.01173510583820441,
+          "points[2].scalar.comparator_probability.target": 0.20203759779297392,
+          "points[2].scalar.delta_pi.bias": -8.44741716670358e-05,
+          "points[2].scalar.delta_pi.mcse": 2.0784168048284408e-05,
+          "points[2].scalar.delta_pi.mean": 0.009155205367242743,
+          "points[2].scalar.delta_pi.replicate_count": 2000,
+          "points[2].scalar.delta_pi.sample_sd": 0.0009294962522348614,
+          "points[2].scalar.delta_pi.target": 0.009239679538909779,
+          "points[2].tess.alpha_0.01.any_nonfinite": false,
+          "points[2].tess.alpha_0.01.finite_summary.bias": -0.00943936566063086,
+          "points[2].tess.alpha_0.01.finite_summary.mcse": 0.0024654956097320034,
+          "points[2].tess.alpha_0.01.finite_summary.mean": 1.1493926586166003,
+          "points[2].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[2].tess.alpha_0.01.finite_summary.sample_sd": 0.11026031563176104,
+          "points[2].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[2].tess.alpha_0.01.nonfinite_count": 0,
+          "points[2].tess.alpha_0.01.record_count": 2000,
+          "points[2].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[2].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[2].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[2].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[2].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[2].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[2].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[2].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[2].tess.alpha_0.05.any_nonfinite": false,
+          "points[2].tess.alpha_0.05.finite_summary.bias": -0.0018495360117941895,
+          "points[2].tess.alpha_0.05.finite_summary.mcse": 0.0004830857370150532,
+          "points[2].tess.alpha_0.05.finite_summary.mean": 0.22521037856070145,
+          "points[2].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[2].tess.alpha_0.05.finite_summary.sample_sd": 0.02160425093852491,
+          "points[2].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[2].tess.alpha_0.05.nonfinite_count": 0,
+          "points[2].tess.alpha_0.05.record_count": 2000,
+          "points[2].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[2].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[2].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[2].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[2].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[2].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[2].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[2].tess.alpha_0.05.status_fractions.positive_infinity": 0.0
+        },
+        "family": "reference_only",
+        "full_summary_snapshot": {
+          "family": "reference_only",
+          "job_id": "d8a-generalized-class-008__reference_only",
+          "label": "SCIENTIFIC",
+          "points": [
+            {
+              "coordinates": {
+                "reference_B": 250
+              },
+              "point_index": 0,
+              "scalar": {
+                "adaptive_probability": {
+                  "bias": 0.005212926011801705,
+                  "mcse": 0.000526967413317395,
+                  "mean": 0.2164902033436854,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.023566699162098467,
+                  "target": 0.2112772773318837
+                },
+                "comparator_probability": {
+                  "bias": 0.0056485402537269636,
+                  "mcse": 0.0005462222821634262,
+                  "mean": 0.20768613804670089,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.024427803074849836,
+                  "target": 0.20203759779297392
+                },
+                "delta_pi": {
+                  "bias": -0.0004356142419252359,
+                  "mcse": 3.965045254978807e-05,
+                  "mean": 0.008804065296984543,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0017732221447991198,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.049329656770543906,
+                    "mcse": 0.004686533544457614,
+                    "mean": 1.1095023675066873,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.20958815168480516,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.009665583464692262,
+                    "mcse": 0.0009182727815184272,
+                    "mean": 0.21739433110780337,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.041066407227260314,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "reference_B": 500
+              },
+              "point_index": 1,
+              "scalar": {
+                "adaptive_probability": {
+                  "bias": 0.0024247339518427002,
+                  "mcse": 0.0003716207664110036,
+                  "mean": 0.2137020112837264,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.016619385910911492,
+                  "target": 0.2112772773318837
+                },
+                "comparator_probability": {
+                  "bias": 0.0026273934065026983,
+                  "mcse": 0.0003857000854609501,
+                  "mean": 0.20466499119947662,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.017249032200363255,
+                  "target": 0.20203759779297392
+                },
+                "delta_pi": {
+                  "bias": -0.0002026594546600171,
+                  "mcse": 2.9689771490238003e-05,
+                  "mean": 0.009037020084249761,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0013277669457721483,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.022980941747757777,
+                    "mcse": 0.0035152539377033346,
+                    "mean": 1.1358510825294734,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.15720693525756935,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.004502853356417674,
+                    "mcse": 0.0006887739051683296,
+                    "mean": 0.22255706121607796,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.030802905461687572,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "reference_B": 1000
+              },
+              "point_index": 2,
+              "scalar": {
+                "adaptive_probability": {
+                  "bias": 0.0011134034750941435,
+                  "mcse": 0.00025308585140772504,
+                  "mean": 0.21239068080697784,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.011318343357821682,
+                  "target": 0.2112772773318837
+                },
+                "comparator_probability": {
+                  "bias": 0.001197877646761214,
+                  "mcse": 0.00026240494377379706,
+                  "mean": 0.20323547543973514,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.01173510583820441,
+                  "target": 0.20203759779297392
+                },
+                "delta_pi": {
+                  "bias": -8.44741716670358e-05,
+                  "mcse": 2.0784168048284408e-05,
+                  "mean": 0.009155205367242743,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0009294962522348614,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.00943936566063086,
+                    "mcse": 0.0024654956097320034,
+                    "mean": 1.1493926586166003,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.11026031563176104,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.0018495360117941895,
+                    "mcse": 0.0004830857370150532,
+                    "mean": 0.22521037856070145,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.02160425093852491,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "reference_B": 3000
+              },
+              "point_index": 3,
+              "scalar": {
+                "adaptive_probability": {
+                  "bias": 0.00037218393816701445,
+                  "mcse": 0.00015049605425812137,
+                  "mean": 0.21164946127005071,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.006730388153333122,
+                  "target": 0.2112772773318837
+                },
+                "comparator_probability": {
+                  "bias": 0.00040228697644303923,
+                  "mcse": 0.00015612142422681622,
+                  "mean": 0.20243988476941696,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.006981962346304872,
+                  "target": 0.20203759779297392
+                },
+                "delta_pi": {
+                  "bias": -3.010303827599703e-05,
+                  "mcse": 1.26877770620683e-05,
+                  "mean": 0.009209576500633782,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0005674146398829458,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.003398075926702937,
+                    "mcse": 0.001506228090914654,
+                    "mean": 1.1554339483505283,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.06736056801809799,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.0006658142107428544,
+                    "mcse": 0.0002951282105472398,
+                    "mean": 0.22639410036175278,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.013198534817229974,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "reference_B": 10000
+              },
+              "point_index": 4,
+              "scalar": {
+                "adaptive_probability": {
+                  "bias": 0.00012465001666600584,
+                  "mcse": 8.270700781535986e-05,
+                  "mean": 0.2114019273485497,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0036987698338150203,
+                  "target": 0.2112772773318837
+                },
+                "comparator_probability": {
+                  "bias": 0.00012989462283241604,
+                  "mcse": 8.552042307599644e-05,
+                  "mean": 0.20216749241580634,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0038245895892493947,
+                  "target": 0.20203759779297392
+                },
+                "delta_pi": {
+                  "bias": -5.244606166403265e-06,
+                  "mcse": 6.999853318121151e-06,
+                  "mean": 0.009234434932743375,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0003130429570369271,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.000520728979826357,
+                    "mcse": 0.0008363458661650469,
+                    "mean": 1.1583112952974048,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.03740252418891973,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.00010203090283786298,
+                    "mcse": 0.00016387243098751723,
+                    "mean": 0.22695788366965777,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.007328597906524631,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            }
+          ],
+          "replicate_count": 2000,
+          "scientific_simulation_run": true
+        },
+        "job_id": "d8a-generalized-class-008__reference_only",
+        "top_level_keys": [
+          "family",
+          "job_id",
+          "label",
+          "points",
+          "replicate_count",
+          "scientific_simulation_run"
+        ]
+      },
+      {
+        "candidate_scalar_paths": {
+          "points[0].scalar.adaptive_estimate.bias": 0.0006427226681163523,
+          "points[0].scalar.comparator_estimate.bias": 0.0006855062070260654,
+          "points[0].scalar.delta_hat.bias": -4.278353890977728e-05,
+          "points[0].scalar.delta_hat.mcse": 0.00016392737429304878,
+          "points[0].scalar.delta_hat.mean": 0.009196896000000001,
+          "points[0].scalar.delta_hat.replicate_count": 2000,
+          "points[0].scalar.delta_hat.sample_sd": 0.007331055045846172,
+          "points[0].scalar.delta_hat.target": 0.009239679538909779,
+          "points[0].tess.alpha_0.01.any_nonfinite": false,
+          "points[0].tess.alpha_0.01.finite_summary.bias": -0.0008304765401667691,
+          "points[0].tess.alpha_0.01.finite_summary.mcse": 0.0207342106286337,
+          "points[0].tess.alpha_0.01.finite_summary.mean": 1.1580015477370644,
+          "points[0].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[0].tess.alpha_0.01.finite_summary.sample_sd": 0.927262088508472,
+          "points[0].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[0].tess.alpha_0.01.nonfinite_count": 0,
+          "points[0].tess.alpha_0.01.record_count": 2000,
+          "points[0].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[0].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[0].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[0].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[0].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[0].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[0].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[0].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[0].tess.alpha_0.05.any_nonfinite": false,
+          "points[0].tess.alpha_0.05.finite_summary.bias": -0.0001627224035183339,
+          "points[0].tess.alpha_0.05.finite_summary.mcse": 0.004062632025553529,
+          "points[0].tess.alpha_0.05.finite_summary.mean": 0.2268971921689773,
+          "points[0].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[0].tess.alpha_0.05.finite_summary.sample_sd": 0.18168642753410708,
+          "points[0].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[0].tess.alpha_0.05.nonfinite_count": 0,
+          "points[0].tess.alpha_0.05.record_count": 2000,
+          "points[0].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[0].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[0].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[0].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[0].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[0].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[0].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[0].tess.alpha_0.05.status_fractions.positive_infinity": 0.0,
+          "points[1].scalar.adaptive_estimate.bias": 0.0001817226681163353,
+          "points[1].scalar.comparator_estimate.bias": 0.0002818902070260698,
+          "points[1].scalar.delta_hat.bias": -0.00010016753890977788,
+          "points[1].scalar.delta_hat.mcse": 0.00011482478317133095,
+          "points[1].scalar.delta_hat.mean": 0.009139512,
+          "points[1].scalar.delta_hat.replicate_count": 2000,
+          "points[1].scalar.delta_hat.sample_sd": 0.005135120413455398,
+          "points[1].scalar.delta_hat.target": 0.009239679538909779,
+          "points[1].tess.alpha_0.01.any_nonfinite": false,
+          "points[1].tess.alpha_0.01.finite_summary.bias": -0.010801662636897635,
+          "points[1].tess.alpha_0.01.finite_summary.mcse": 0.014471578580299982,
+          "points[1].tess.alpha_0.01.finite_summary.mean": 1.1480303616403336,
+          "points[1].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[1].tess.alpha_0.01.finite_summary.sample_sd": 0.6471886689456132,
+          "points[1].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[1].tess.alpha_0.01.nonfinite_count": 0,
+          "points[1].tess.alpha_0.01.record_count": 2000,
+          "points[1].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[1].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[1].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[1].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[1].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[1].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[1].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[1].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[1].tess.alpha_0.05.any_nonfinite": false,
+          "points[1].tess.alpha_0.05.finite_summary.bias": -0.0021164625624704725,
+          "points[1].tess.alpha_0.05.finite_summary.mcse": 0.002835540723187656,
+          "points[1].tess.alpha_0.05.finite_summary.mean": 0.22494345201002516,
+          "points[1].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[1].tess.alpha_0.05.finite_summary.sample_sd": 0.12680923620033027,
+          "points[1].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[1].tess.alpha_0.05.nonfinite_count": 0,
+          "points[1].tess.alpha_0.05.record_count": 2000,
+          "points[1].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[1].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[1].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[1].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[1].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[1].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[1].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[1].tess.alpha_0.05.status_fractions.positive_infinity": 0.0,
+          "points[2].scalar.adaptive_estimate.bias": -5.6277331883708426e-05,
+          "points[2].scalar.comparator_estimate.bias": -3.731579297389098e-05,
+          "points[2].scalar.delta_hat.bias": -1.8961538909777545e-05,
+          "points[2].scalar.delta_hat.mcse": 8.223845415563787e-05,
+          "points[2].scalar.delta_hat.mean": 0.009220718000000001,
+          "points[2].scalar.delta_hat.replicate_count": 2000,
+          "points[2].scalar.delta_hat.sample_sd": 0.003677815477130127,
+          "points[2].scalar.delta_hat.target": 0.009239679538909779,
+          "points[2].tess.alpha_0.01.any_nonfinite": false,
+          "points[2].tess.alpha_0.01.finite_summary.bias": -0.0016020330115467107,
+          "points[2].tess.alpha_0.01.finite_summary.mcse": 0.010361553716081126,
+          "points[2].tess.alpha_0.01.finite_summary.mean": 1.1572299912656845,
+          "points[2].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[2].tess.alpha_0.01.finite_summary.sample_sd": 0.46338276923345906,
+          "points[2].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[2].tess.alpha_0.01.nonfinite_count": 0,
+          "points[2].tess.alpha_0.01.record_count": 2000,
+          "points[2].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[2].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[2].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[2].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[2].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[2].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[2].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[2].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[2].tess.alpha_0.05.any_nonfinite": false,
+          "points[2].tess.alpha_0.05.finite_summary.bias": -0.00031390009175025213,
+          "points[2].tess.alpha_0.05.finite_summary.mcse": 0.0020302282404381206,
+          "points[2].tess.alpha_0.05.finite_summary.mean": 0.22674601448074538,
+          "points[2].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[2].tess.alpha_0.05.finite_summary.sample_sd": 0.0907945671091885,
+          "points[2].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[2].tess.alpha_0.05.nonfinite_count": 0,
+          "points[2].tess.alpha_0.05.record_count": 2000,
+          "points[2].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[2].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[2].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[2].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[2].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[2].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[2].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[2].tess.alpha_0.05.status_fractions.positive_infinity": 0.0
+        },
+        "family": "evaluation_only",
+        "full_summary_snapshot": {
+          "family": "evaluation_only",
+          "job_id": "d8a-generalized-class-008__evaluation_only",
+          "label": "SCIENTIFIC",
+          "points": [
+            {
+              "coordinates": {
+                "evaluation_n": 250
+              },
+              "point_index": 0,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.0006427226681163523,
+                  "mcse": 0.000584314565757074,
+                  "mean": 0.21192000000000005,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.026131341785521765,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.0006855062070260654,
+                  "mcse": 0.0005712927725663833,
+                  "mean": 0.202723104,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.025548989490255202,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -4.278353890977728e-05,
+                  "mcse": 0.00016392737429304878,
+                  "mean": 0.009196896000000001,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.007331055045846172,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.0008304765401667691,
+                    "mcse": 0.0207342106286337,
+                    "mean": 1.1580015477370644,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.927262088508472,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.0001627224035183339,
+                    "mcse": 0.004062632025553529,
+                    "mean": 0.2268971921689773,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.18168642753410708,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 500
+              },
+              "point_index": 1,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.0001817226681163353,
+                  "mcse": 0.0004016781449943263,
+                  "mean": 0.21145900000000004,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.017963592745666612,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.0002818902070260698,
+                  "mcse": 0.0003949463878776166,
+                  "mean": 0.202319488,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.017662539415246994,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -0.00010016753890977788,
+                  "mcse": 0.00011482478317133095,
+                  "mean": 0.009139512,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.005135120413455398,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.010801662636897635,
+                    "mcse": 0.014471578580299982,
+                    "mean": 1.1480303616403336,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.6471886689456132,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.0021164625624704725,
+                    "mcse": 0.002835540723187656,
+                    "mean": 0.22494345201002516,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.12680923620033027,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 1000
+              },
+              "point_index": 2,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": -5.6277331883708426e-05,
+                  "mcse": 0.0002823285926311902,
+                  "mean": 0.211221,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.012626118502303751,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": -3.731579297389098e-05,
+                  "mcse": 0.00027593626138732146,
+                  "mean": 0.20200028200000003,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.012340244758384024,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -1.8961538909777545e-05,
+                  "mcse": 8.223845415563787e-05,
+                  "mean": 0.009220718000000001,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.003677815477130127,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.0016020330115467107,
+                    "mcse": 0.010361553716081126,
+                    "mean": 1.1572299912656845,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.46338276923345906,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.00031390009175025213,
+                    "mcse": 0.0020302282404381206,
+                    "mean": 0.22674601448074538,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.0907945671091885,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 3000
+              },
+              "point_index": 3,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 7.905600144963998e-05,
+                  "mcse": 0.0001632297349200504,
+                  "mean": 0.21135633333333334,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.007299855664610079,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 2.147762581644619e-06,
+                  "mcse": 0.00016029689513965132,
+                  "mean": 0.20203974555555557,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.00716869508228832,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": 7.690823886800056e-05,
+                  "mcse": 4.732868237616233e-05,
+                  "mean": 0.009316587777777779,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0021166030215719047,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": 0.009953145981694833,
+                    "mcse": 0.0059598462016879775,
+                    "mean": 1.168785170258926,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.2665324248483648,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": 0.0019502054042224715,
+                    "mcse": 0.001167763870060901,
+                    "mean": 0.2290101199767181,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.052223987902488125,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 10000
+              },
+              "point_index": 4,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": -2.3727331883688363e-05,
+                  "mcse": 9.245503050176631e-05,
+                  "mean": 0.21125355,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0041347146612753195,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": -5.6836517973890555e-05,
+                  "mcse": 9.046175855518457e-05,
+                  "mean": 0.20198076127500003,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.004045572829871317,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": 3.310918609022301e-05,
+                  "mcse": 2.5849980672965864e-05,
+                  "mean": 0.009272788725000002,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0011560462800361488,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": 0.004182141453723753,
+                    "mcse": 0.0032544423991603035,
+                    "mean": 1.163014165730955,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.14554308866759888,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": 0.0008194429057181707,
+                    "mcse": 0.0006376708596703961,
+                    "mean": 0.2278793574782138,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.028517507789874698,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            }
+          ],
+          "replicate_count": 2000,
+          "scientific_simulation_run": true
+        },
+        "job_id": "d8a-generalized-class-008__evaluation_only",
+        "top_level_keys": [
+          "family",
+          "job_id",
+          "label",
+          "points",
+          "replicate_count",
+          "scientific_simulation_run"
+        ]
+      },
+      {
+        "candidate_scalar_paths": {
+          "points[0].scalar.adaptive_estimate.bias": 0.005976522668116324,
+          "points[0].scalar.comparator_estimate.bias": 0.00637239976202611,
+          "points[0].scalar.delta_hat.bias": -0.0003958770939097786,
+          "points[0].scalar.delta_hat.mcse": 4.864423517756797e-05,
+          "points[0].scalar.delta_hat.mean": 0.008843802445,
+          "points[0].scalar.delta_hat.replicate_count": 2000,
+          "points[0].scalar.delta_hat.sample_sd": 0.0021754363314105706,
+          "points[0].scalar.delta_hat.target": 0.009239679538909779,
+          "points[0].tess.alpha_0.01.any_nonfinite": false,
+          "points[0].tess.alpha_0.01.finite_summary.bias": -0.04357562263752124,
+          "points[0].tess.alpha_0.01.finite_summary.mcse": 0.005874194653908797,
+          "points[0].tess.alpha_0.01.finite_summary.mean": 1.11525640163971,
+          "points[0].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[0].tess.alpha_0.01.finite_summary.sample_sd": 0.2627019711841184,
+          "points[0].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[0].tess.alpha_0.01.nonfinite_count": 0,
+          "points[0].tess.alpha_0.01.record_count": 2000,
+          "points[0].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[0].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[0].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[0].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[0].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[0].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[0].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[0].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[0].tess.alpha_0.05.any_nonfinite": false,
+          "points[0].tess.alpha_0.05.finite_summary.bias": -0.00853814612147058,
+          "points[0].tess.alpha_0.05.finite_summary.mcse": 0.0011509814264329095,
+          "points[0].tess.alpha_0.05.finite_summary.mean": 0.21852176845102506,
+          "points[0].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[0].tess.alpha_0.05.finite_summary.sample_sd": 0.05147345420687318,
+          "points[0].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[0].tess.alpha_0.05.nonfinite_count": 0,
+          "points[0].tess.alpha_0.05.record_count": 2000,
+          "points[0].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[0].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[0].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[0].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[0].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[0].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[0].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[0].tess.alpha_0.05.status_fractions.positive_infinity": 0.0,
+          "points[1].scalar.adaptive_estimate.bias": 0.003259389334782953,
+          "points[1].scalar.comparator_estimate.bias": 0.0035161216514704996,
+          "points[1].scalar.delta_hat.bias": -0.0002567323166875572,
+          "points[1].scalar.delta_hat.mcse": 5.6353084651815926e-05,
+          "points[1].scalar.delta_hat.mean": 0.008982947222222221,
+          "points[1].scalar.delta_hat.replicate_count": 2000,
+          "points[1].scalar.delta_hat.sample_sd": 0.0025201865604652096,
+          "points[1].scalar.delta_hat.target": 0.009239679538909779,
+          "points[1].tess.alpha_0.01.any_nonfinite": false,
+          "points[1].tess.alpha_0.01.finite_summary.bias": -0.02836349086101353,
+          "points[1].tess.alpha_0.01.finite_summary.mcse": 0.00699913703589764,
+          "points[1].tess.alpha_0.01.finite_summary.mean": 1.1304685334162177,
+          "points[1].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[1].tess.alpha_0.01.finite_summary.sample_sd": 0.3130109239220702,
+          "points[1].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[1].tess.alpha_0.01.nonfinite_count": 0,
+          "points[1].tess.alpha_0.01.record_count": 2000,
+          "points[1].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[1].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[1].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[1].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[1].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[1].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[1].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[1].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[1].tess.alpha_0.05.any_nonfinite": false,
+          "points[1].tess.alpha_0.05.finite_summary.bias": -0.005557502448118784,
+          "points[1].tess.alpha_0.05.finite_summary.mcse": 0.0013714010522304265,
+          "points[1].tess.alpha_0.05.finite_summary.mean": 0.22150241212437685,
+          "points[1].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[1].tess.alpha_0.05.finite_summary.sample_sd": 0.06133091954403947,
+          "points[1].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[1].tess.alpha_0.05.nonfinite_count": 0,
+          "points[1].tess.alpha_0.05.record_count": 2000,
+          "points[1].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[1].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[1].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[1].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[1].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[1].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[1].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[1].tess.alpha_0.05.status_fractions.positive_infinity": 0.0,
+          "points[2].scalar.adaptive_estimate.bias": 0.0013177226681163334,
+          "points[2].scalar.comparator_estimate.bias": 0.0015847812070260703,
+          "points[2].scalar.delta_hat.bias": -0.0002670585389097785,
+          "points[2].scalar.delta_hat.mcse": 8.66689356568052e-05,
+          "points[2].scalar.delta_hat.mean": 0.008972621,
+          "points[2].scalar.delta_hat.replicate_count": 2000,
+          "points[2].scalar.delta_hat.sample_sd": 0.0038759526333234364,
+          "points[2].scalar.delta_hat.target": 0.009239679538909779,
+          "points[2].tess.alpha_0.01.any_nonfinite": false,
+          "points[2].tess.alpha_0.01.finite_summary.bias": -0.03093248584285191,
+          "points[2].tess.alpha_0.01.finite_summary.mcse": 0.010915811453596139,
+          "points[2].tess.alpha_0.01.finite_summary.mean": 1.1278995384343793,
+          "points[2].tess.alpha_0.01.finite_summary.replicate_count": 2000,
+          "points[2].tess.alpha_0.01.finite_summary.sample_sd": 0.48816992879623516,
+          "points[2].tess.alpha_0.01.finite_summary.target": 1.1588320242772312,
+          "points[2].tess.alpha_0.01.nonfinite_count": 0,
+          "points[2].tess.alpha_0.01.record_count": 2000,
+          "points[2].tess.alpha_0.01.status_counts.finite": 2000,
+          "points[2].tess.alpha_0.01.status_counts.indeterminate_both_one": 0,
+          "points[2].tess.alpha_0.01.status_counts.negative_infinity": 0,
+          "points[2].tess.alpha_0.01.status_counts.positive_infinity": 0,
+          "points[2].tess.alpha_0.01.status_fractions.finite": 1.0,
+          "points[2].tess.alpha_0.01.status_fractions.indeterminate_both_one": 0.0,
+          "points[2].tess.alpha_0.01.status_fractions.negative_infinity": 0.0,
+          "points[2].tess.alpha_0.01.status_fractions.positive_infinity": 0.0,
+          "points[2].tess.alpha_0.05.any_nonfinite": false,
+          "points[2].tess.alpha_0.05.finite_summary.bias": -0.0060608677063210825,
+          "points[2].tess.alpha_0.05.finite_summary.mcse": 0.002138828720831124,
+          "points[2].tess.alpha_0.05.finite_summary.mean": 0.22099904686617455,
+          "points[2].tess.alpha_0.05.finite_summary.replicate_count": 2000,
+          "points[2].tess.alpha_0.05.finite_summary.sample_sd": 0.09565132824014629,
+          "points[2].tess.alpha_0.05.finite_summary.target": 0.22705991457249564,
+          "points[2].tess.alpha_0.05.nonfinite_count": 0,
+          "points[2].tess.alpha_0.05.record_count": 2000,
+          "points[2].tess.alpha_0.05.status_counts.finite": 2000,
+          "points[2].tess.alpha_0.05.status_counts.indeterminate_both_one": 0,
+          "points[2].tess.alpha_0.05.status_counts.negative_infinity": 0,
+          "points[2].tess.alpha_0.05.status_counts.positive_infinity": 0,
+          "points[2].tess.alpha_0.05.status_fractions.finite": 1.0,
+          "points[2].tess.alpha_0.05.status_fractions.indeterminate_both_one": 0.0,
+          "points[2].tess.alpha_0.05.status_fractions.negative_infinity": 0.0,
+          "points[2].tess.alpha_0.05.status_fractions.positive_infinity": 0.0
+        },
+        "family": "combined",
+        "full_summary_snapshot": {
+          "family": "combined",
+          "job_id": "d8a-generalized-class-008__combined",
+          "label": "SCIENTIFIC",
+          "points": [
+            {
+              "coordinates": {
+                "evaluation_n": 10000,
+                "reference_B": 250
+              },
+              "point_index": 0,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.005976522668116324,
+                  "mcse": 0.0005391401244731358,
+                  "mean": 0.21725380000000002,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.024111079354392596,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.00637239976202611,
+                  "mcse": 0.0005599250920003221,
+                  "mean": 0.20840999755500003,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.025040611360410883,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -0.0003958770939097786,
+                  "mcse": 4.864423517756797e-05,
+                  "mean": 0.008843802445,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0021754363314105706,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.04357562263752124,
+                    "mcse": 0.005874194653908797,
+                    "mean": 1.11525640163971,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.2627019711841184,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.00853814612147058,
+                    "mcse": 0.0011509814264329095,
+                    "mean": 0.21852176845102506,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.05147345420687318,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 3000,
+                "reference_B": 500
+              },
+              "point_index": 1,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.003259389334782953,
+                  "mcse": 0.00041231089284470934,
+                  "mean": 0.21453666666666665,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.018439103685288036,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.0035161216514704996,
+                  "mcse": 0.00042446091488557494,
+                  "mean": 0.20555371944444442,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.01898246918951796,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -0.0002567323166875572,
+                  "mcse": 5.6353084651815926e-05,
+                  "mean": 0.008982947222222221,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0025201865604652096,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.02836349086101353,
+                    "mcse": 0.00699913703589764,
+                    "mean": 1.1304685334162177,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.3130109239220702,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.005557502448118784,
+                    "mcse": 0.0013714010522304265,
+                    "mean": 0.22150241212437685,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.06133091954403947,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 1000,
+                "reference_B": 1000
+              },
+              "point_index": 2,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.0013177226681163334,
+                  "mcse": 0.00039447597283811,
+                  "mean": 0.21259500000000003,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.017641501815127494,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.0015847812070260703,
+                  "mcse": 0.0003949686053983337,
+                  "mean": 0.203622379,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.017663533012979293,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -0.0002670585389097785,
+                  "mcse": 8.66689356568052e-05,
+                  "mean": 0.008972621,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0038759526333234364,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.03093248584285191,
+                    "mcse": 0.010915811453596139,
+                    "mean": 1.1278995384343793,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.48816992879623516,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.0060608677063210825,
+                    "mcse": 0.002138828720831124,
+                    "mean": 0.22099904686617455,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.09565132824014629,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 500,
+                "reference_B": 3000
+              },
+              "point_index": 3,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.0007907226681163337,
+                  "mcse": 0.0004337853995773062,
+                  "mean": 0.21206800000000003,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.019399472822035305,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.00096963420702606,
+                  "mcse": 0.0004265390320216979,
+                  "mean": 0.20300723199999998,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.01907540541314952,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -0.00017891153890977826,
+                  "mcse": 0.00012036112844979833,
+                  "mean": 0.009060768,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0053827133012466595,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.019515829750836877,
+                    "mcse": 0.015191922168226579,
+                    "mean": 1.1393161945263943,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.6794034135408126,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.0038239041924992,
+                    "mcse": 0.002976683831171294,
+                    "mean": 0.22323601037999644,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.13312134788047042,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 250,
+                "reference_B": 10000
+              },
+              "point_index": 4,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.001158722668116341,
+                  "mcse": 0.0005743081637356958,
+                  "mean": 0.21243600000000004,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.025683841882921908,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.0012777942070260895,
+                  "mcse": 0.0005626982183103237,
+                  "mean": 0.203315392,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.025164629339198018,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -0.00011907153890977802,
+                  "mcse": 0.00016914399192454366,
+                  "mean": 0.009120608,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.007564349278579102,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.009925360614517986,
+                    "mcse": 0.021376246963105708,
+                    "mean": 1.1489066636627132,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.955974826266556,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.001944761178514165,
+                    "mcse": 0.004188431720594385,
+                    "mean": 0.22511515339398147,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.18731236092730902,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 3000,
+                "reference_B": 3000
+              },
+              "point_index": 5,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.0006315560014496235,
+                  "mcse": 0.00022932691551795525,
+                  "mean": 0.21190883333333332,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.010255811443369987,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.0007371712625816318,
+                  "mcse": 0.00022933183930245584,
+                  "mean": 0.20277476905555555,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.010256031641706985,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -0.00010561526113200131,
+                  "mcse": 4.883409620507416e-05,
+                  "mean": 0.009134064277777777,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.002183927174686207,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.012066953580881723,
+                    "mcse": 0.006145112450270519,
+                    "mean": 1.1467650706963495,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.27481778336370355,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.00236438188781829,
+                    "mcse": 0.001204064677852742,
+                    "mean": 0.22469553268467735,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.05384740937970233,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            },
+            {
+              "coordinates": {
+                "evaluation_n": 10000,
+                "reference_B": 10000
+              },
+              "point_index": 6,
+              "scalar": {
+                "adaptive_estimate": {
+                  "bias": 0.00014872266811627455,
+                  "mcse": 0.0001197521911851588,
+                  "mean": 0.21142599999999998,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.005355480798891324,
+                  "target": 0.2112772773318837
+                },
+                "comparator_estimate": {
+                  "bias": 0.00015272289702605857,
+                  "mcse": 0.00012009903327004952,
+                  "mean": 0.20219032068999998,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.005370992048476792,
+                  "target": 0.20203759779297392
+                },
+                "delta_hat": {
+                  "bias": -4.0002289097770816e-06,
+                  "mcse": 2.6489141931447938e-05,
+                  "mean": 0.009235679310000001,
+                  "replicate_count": 2000,
+                  "sample_sd": 0.0011846304404871534,
+                  "target": 0.009239679538909779
+                }
+              },
+              "tess": {
+                "alpha_0.01": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -0.00024216290384448946,
+                    "mcse": 0.003325696124334033,
+                    "mean": 1.1585898613733867,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.14872965213036982,
+                    "target": 1.1588320242772312
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                },
+                "alpha_0.05": {
+                  "any_nonfinite": false,
+                  "finite_summary": {
+                    "bias": -4.744905828221735e-05,
+                    "mcse": 0.0006516322142170222,
+                    "mean": 0.22701246551421342,
+                    "replicate_count": 2000,
+                    "sample_sd": 0.029141878546359336,
+                    "target": 0.22705991457249564
+                  },
+                  "nonfinite_count": 0,
+                  "record_count": 2000,
+                  "status_counts": {
+                    "finite": 2000,
+                    "indeterminate_both_one": 0,
+                    "negative_infinity": 0,
+                    "positive_infinity": 0
+                  },
+                  "status_fractions": {
+                    "finite": 1.0,
+                    "indeterminate_both_one": 0.0,
+                    "negative_infinity": 0.0,
+                    "positive_infinity": 0.0
+                  }
+                }
+              }
+            }
+          ],
+          "replicate_count": 2000,
+          "scientific_simulation_run": true
+        },
+        "job_id": "d8a-generalized-class-008__combined",
+        "top_level_keys": [
+          "family",
+          "job_id",
+          "label",
+          "points",
+          "replicate_count",
+          "scientific_simulation_run"
+        ]
+      }
+    ],
+    "oracle_calls": [
+      {
+        "alpha": 0.01,
+        "candidate_scalar_paths": {
+          "adaptive_reference.generalized_coefficient": 1.4451026053974279,
+          "comparator_reference.generalized_coefficient": 1.5468426577944392,
+          "delta_reference.generalized_coefficient": -0.10174005239701106,
+          "probabilities.activation_probability": 0.5000000000000002,
+          "probabilities.adaptive_probability": 0.2112772773318837,
+          "probabilities.base_parts[0]": 0.08667324626349246,
+          "probabilities.base_parts[1]": 0.08667324626349246,
+          "probabilities.base_probability": 0.17334649252698492,
+          "probabilities.comparator_probability": 0.20203759779297392,
+          "probabilities.delta_pi": 0.009239679538909779,
+          "probabilities.incremental_parts[0]": 0.028691105265988986,
+          "probabilities.incremental_parts[1]": 0.028691105265988986,
+          "probabilities.incremental_probability": 0.05738221053197797,
+          "probabilities.joint_am_probability": 0.03793078480489879,
+          "probabilities.joint_parts[0]": 0.018965392402449394,
+          "probabilities.joint_parts[1]": 0.018965392402449394,
+          "tess_evaluation_coefficient": -0.18382234266966613,
+          "tess_reference_coefficient": -11.147404007555874
+        },
+        "full_oracle_snapshot": {
+          "adaptive_reference": {
+            "generalized_coefficient": 1.4451026053974279,
+            "gradient": [
+              -0.11647479452737138,
+              -0.11647479452737138,
+              -0.07067032428149538,
+              -0.03425681235045843
+            ],
+            "kink_coefficients": [
+              -0.019721423211383416,
+              -0.019721423211383416
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707365437,
+                -3.255836707365437,
+                -3.255836707365437,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                0.14137988598848505,
+                0.0,
+                -0.03944284642276685,
+                0.0
+              ],
+              [
+                0.0,
+                0.14137988598848505,
+                -0.03944284642276685,
+                0.0
+              ],
+              [
+                -0.03944284642276685,
+                -0.03944284642276685,
+                0.09332876636313324,
+                0.07198293873893798
+              ],
+              [
+                0.0,
+                0.0,
+                0.07198293873893798,
+                -0.03582552960689951
+              ]
+            ]
+          },
+          "comparator_reference": {
+            "generalized_coefficient": 1.5468426577944392,
+            "gradient": [
+              -0.12837158605499838,
+              -0.12837158605499838,
+              -0.058237397263685695,
+              -0.025497371533906885
+            ],
+            "kink_coefficients": [
+              -0.009860711605691713,
+              -0.009860711605691713
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707365437,
+                -3.255836707365437,
+                -3.255836707365437,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                0.1444521862183296,
+                0.0,
+                -0.019721423211383437,
+                -0.01057250708291547
+              ],
+              [
+                0.0,
+                0.1444521862183296,
+                -0.019721423211383437,
+                -0.01057250708291547
+              ],
+              [
+                -0.019721423211383437,
+                -0.019721423211383437,
+                0.09041136620562595,
+                0.05175473518478065
+              ],
+              [
+                -0.01057250708291547,
+                -0.01057250708291547,
+                0.05175473518478065,
+                0.0004728908821416807
+              ]
+            ]
+          },
+          "delta_reference": {
+            "generalized_coefficient": -0.10174005239701106,
+            "gradient": [
+              0.011896791527627001,
+              0.011896791527627001,
+              -0.01243292701780968,
+              -0.008759440816551545
+            ],
+            "kink_coefficients": [
+              -0.009860711605691703,
+              -0.009860711605691703
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707365437,
+                -3.255836707365437,
+                -3.255836707365437,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                -0.0030723002298445323,
+                0.0,
+                -0.019721423211383416,
+                0.01057250708291547
+              ],
+              [
+                0.0,
+                -0.0030723002298445323,
+                -0.019721423211383416,
+                0.01057250708291547
+              ],
+              [
+                -0.019721423211383416,
+                -0.019721423211383416,
+                0.0029174001575072855,
+                0.020228203554157324
+              ],
+              [
+                0.01057250708291547,
+                0.01057250708291547,
+                0.020228203554157324,
+                -0.036298420489041194
+              ]
+            ]
+          },
+          "evaluation_variances": {
+            "adaptive_variance": 0.16663918941511,
+            "comparator_variance": 0.15817323192512112
+          },
+          "probabilities": {
+            "activation_probability": 0.5000000000000002,
+            "adaptive_probability": 0.2112772773318837,
+            "base_parts": [
+              0.08667324626349246,
+              0.08667324626349246
+            ],
+            "base_probability": 0.17334649252698492,
+            "comparator_probability": 0.20203759779297392,
+            "delta_pi": 0.009239679538909779,
+            "incremental_parts": [
+              0.028691105265988986,
+              0.028691105265988986
+            ],
+            "incremental_probability": 0.05738221053197797,
+            "joint_am_probability": 0.03793078480489879,
+            "joint_parts": [
+              0.018965392402449394,
+              0.018965392402449394
+            ]
+          },
+          "tess_evaluation_coefficient": -0.18382234266966613,
+          "tess_reference_coefficient": -11.147404007555874,
+          "theta": [
+            1.2815515655446004,
+            1.2815515655446004,
+            1.2815515655446004,
+            0.4295955991497752
+          ]
+        },
+        "reference_size": 250,
+        "top_level_keys": [
+          "adaptive_reference",
+          "comparator_reference",
+          "delta_reference",
+          "evaluation_variances",
+          "probabilities",
+          "tess_evaluation_coefficient",
+          "tess_reference_coefficient",
+          "theta"
+        ]
+      },
+      {
+        "alpha": 0.05,
+        "candidate_scalar_paths": {
+          "adaptive_reference.generalized_coefficient": 1.4451026053974279,
+          "comparator_reference.generalized_coefficient": 1.5468426577944392,
+          "delta_reference.generalized_coefficient": -0.10174005239701106,
+          "probabilities.activation_probability": 0.5000000000000002,
+          "probabilities.adaptive_probability": 0.2112772773318837,
+          "probabilities.base_parts[0]": 0.08667324626349246,
+          "probabilities.base_parts[1]": 0.08667324626349246,
+          "probabilities.base_probability": 0.17334649252698492,
+          "probabilities.comparator_probability": 0.20203759779297392,
+          "probabilities.delta_pi": 0.009239679538909779,
+          "probabilities.incremental_parts[0]": 0.028691105265988986,
+          "probabilities.incremental_parts[1]": 0.028691105265988986,
+          "probabilities.incremental_probability": 0.05738221053197797,
+          "probabilities.joint_am_probability": 0.03793078480489879,
+          "probabilities.joint_parts[0]": 0.018965392402449394,
+          "probabilities.joint_parts[1]": 0.018965392402449394,
+          "tess_evaluation_coefficient": -0.036017890901075766,
+          "tess_reference_coefficient": -2.184206639645991
+        },
+        "full_oracle_snapshot": {
+          "adaptive_reference": {
+            "generalized_coefficient": 1.4451026053974279,
+            "gradient": [
+              -0.11647479452737138,
+              -0.11647479452737138,
+              -0.07067032428149538,
+              -0.03425681235045843
+            ],
+            "kink_coefficients": [
+              -0.019721423211383416,
+              -0.019721423211383416
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707365437,
+                -3.255836707365437,
+                -3.255836707365437,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                0.14137988598848505,
+                0.0,
+                -0.03944284642276685,
+                0.0
+              ],
+              [
+                0.0,
+                0.14137988598848505,
+                -0.03944284642276685,
+                0.0
+              ],
+              [
+                -0.03944284642276685,
+                -0.03944284642276685,
+                0.09332876636313324,
+                0.07198293873893798
+              ],
+              [
+                0.0,
+                0.0,
+                0.07198293873893798,
+                -0.03582552960689951
+              ]
+            ]
+          },
+          "comparator_reference": {
+            "generalized_coefficient": 1.5468426577944392,
+            "gradient": [
+              -0.12837158605499838,
+              -0.12837158605499838,
+              -0.058237397263685695,
+              -0.025497371533906885
+            ],
+            "kink_coefficients": [
+              -0.009860711605691713,
+              -0.009860711605691713
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707365437,
+                -3.255836707365437,
+                -3.255836707365437,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                0.1444521862183296,
+                0.0,
+                -0.019721423211383437,
+                -0.01057250708291547
+              ],
+              [
+                0.0,
+                0.1444521862183296,
+                -0.019721423211383437,
+                -0.01057250708291547
+              ],
+              [
+                -0.019721423211383437,
+                -0.019721423211383437,
+                0.09041136620562595,
+                0.05175473518478065
+              ],
+              [
+                -0.01057250708291547,
+                -0.01057250708291547,
+                0.05175473518478065,
+                0.0004728908821416807
+              ]
+            ]
+          },
+          "delta_reference": {
+            "generalized_coefficient": -0.10174005239701106,
+            "gradient": [
+              0.011896791527627001,
+              0.011896791527627001,
+              -0.01243292701780968,
+              -0.008759440816551545
+            ],
+            "kink_coefficients": [
+              -0.009860711605691703,
+              -0.009860711605691703
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707365437,
+                -3.255836707365437,
+                -3.255836707365437,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                -0.0030723002298445323,
+                0.0,
+                -0.019721423211383416,
+                0.01057250708291547
+              ],
+              [
+                0.0,
+                -0.0030723002298445323,
+                -0.019721423211383416,
+                0.01057250708291547
+              ],
+              [
+                -0.019721423211383416,
+                -0.019721423211383416,
+                0.0029174001575072855,
+                0.020228203554157324
+              ],
+              [
+                0.01057250708291547,
+                0.01057250708291547,
+                0.020228203554157324,
+                -0.036298420489041194
+              ]
+            ]
+          },
+          "evaluation_variances": {
+            "adaptive_variance": 0.16663918941511,
+            "comparator_variance": 0.15817323192512112
+          },
+          "probabilities": {
+            "activation_probability": 0.5000000000000002,
+            "adaptive_probability": 0.2112772773318837,
+            "base_parts": [
+              0.08667324626349246,
+              0.08667324626349246
+            ],
+            "base_probability": 0.17334649252698492,
+            "comparator_probability": 0.20203759779297392,
+            "delta_pi": 0.009239679538909779,
+            "incremental_parts": [
+              0.028691105265988986,
+              0.028691105265988986
+            ],
+            "incremental_probability": 0.05738221053197797,
+            "joint_am_probability": 0.03793078480489879,
+            "joint_parts": [
+              0.018965392402449394,
+              0.018965392402449394
+            ]
+          },
+          "tess_evaluation_coefficient": -0.036017890901075766,
+          "tess_reference_coefficient": -2.184206639645991,
+          "theta": [
+            1.2815515655446004,
+            1.2815515655446004,
+            1.2815515655446004,
+            0.4295955991497752
+          ]
+        },
+        "reference_size": 250,
+        "top_level_keys": [
+          "adaptive_reference",
+          "comparator_reference",
+          "delta_reference",
+          "evaluation_variances",
+          "probabilities",
+          "tess_evaluation_coefficient",
+          "tess_reference_coefficient",
+          "theta"
+        ]
+      },
+      {
+        "alpha": 0.01,
+        "candidate_scalar_paths": {
+          "adaptive_reference.generalized_coefficient": 1.4451026053967884,
+          "comparator_reference.generalized_coefficient": 1.5468426577937757,
+          "delta_reference.generalized_coefficient": -0.10174005239698715,
+          "probabilities.activation_probability": 0.5000000000000002,
+          "probabilities.adaptive_probability": 0.2112772773318837,
+          "probabilities.base_parts[0]": 0.08667324626349246,
+          "probabilities.base_parts[1]": 0.08667324626349246,
+          "probabilities.base_probability": 0.17334649252698492,
+          "probabilities.comparator_probability": 0.20203759779297392,
+          "probabilities.delta_pi": 0.009239679538909779,
+          "probabilities.incremental_parts[0]": 0.028691105265988986,
+          "probabilities.incremental_parts[1]": 0.028691105265988986,
+          "probabilities.incremental_probability": 0.05738221053197797,
+          "probabilities.joint_am_probability": 0.03793078480489879,
+          "probabilities.joint_parts[0]": 0.018965392402449394,
+          "probabilities.joint_parts[1]": 0.018965392402449394,
+          "tess_evaluation_coefficient": -0.18382234266966613,
+          "tess_reference_coefficient": -11.147404007553828
+        },
+        "full_oracle_snapshot": {
+          "adaptive_reference": {
+            "generalized_coefficient": 1.4451026053967884,
+            "gradient": [
+              -0.11647479452737138,
+              -0.11647479452737138,
+              -0.07067032428149538,
+              -0.03425681235045843
+            ],
+            "kink_coefficients": [
+              -0.019721423211383416,
+              -0.019721423211383416
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707363331,
+                -3.255836707363331,
+                -3.255836707363331,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                0.14137988598848505,
+                0.0,
+                -0.03944284642276685,
+                0.0
+              ],
+              [
+                0.0,
+                0.14137988598848505,
+                -0.03944284642276685,
+                0.0
+              ],
+              [
+                -0.03944284642276685,
+                -0.03944284642276685,
+                0.09332876636313324,
+                0.07198293873893798
+              ],
+              [
+                0.0,
+                0.0,
+                0.07198293873893798,
+                -0.03582552960689951
+              ]
+            ]
+          },
+          "comparator_reference": {
+            "generalized_coefficient": 1.5468426577937757,
+            "gradient": [
+              -0.12837158605499838,
+              -0.12837158605499838,
+              -0.058237397263685695,
+              -0.025497371533906885
+            ],
+            "kink_coefficients": [
+              -0.009860711605691713,
+              -0.009860711605691713
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707363331,
+                -3.255836707363331,
+                -3.255836707363331,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                0.1444521862183296,
+                0.0,
+                -0.019721423211383437,
+                -0.01057250708291547
+              ],
+              [
+                0.0,
+                0.1444521862183296,
+                -0.019721423211383437,
+                -0.01057250708291547
+              ],
+              [
+                -0.019721423211383437,
+                -0.019721423211383437,
+                0.09041136620562595,
+                0.05175473518478065
+              ],
+              [
+                -0.01057250708291547,
+                -0.01057250708291547,
+                0.05175473518478065,
+                0.0004728908821416807
+              ]
+            ]
+          },
+          "delta_reference": {
+            "generalized_coefficient": -0.10174005239698715,
+            "gradient": [
+              0.011896791527627001,
+              0.011896791527627001,
+              -0.01243292701780968,
+              -0.008759440816551545
+            ],
+            "kink_coefficients": [
+              -0.009860711605691703,
+              -0.009860711605691703
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707363331,
+                -3.255836707363331,
+                -3.255836707363331,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                -0.0030723002298445323,
+                0.0,
+                -0.019721423211383416,
+                0.01057250708291547
+              ],
+              [
+                0.0,
+                -0.0030723002298445323,
+                -0.019721423211383416,
+                0.01057250708291547
+              ],
+              [
+                -0.019721423211383416,
+                -0.019721423211383416,
+                0.0029174001575072855,
+                0.020228203554157324
+              ],
+              [
+                0.01057250708291547,
+                0.01057250708291547,
+                0.020228203554157324,
+                -0.036298420489041194
+              ]
+            ]
+          },
+          "evaluation_variances": {
+            "adaptive_variance": 0.16663918941511,
+            "comparator_variance": 0.15817323192512112
+          },
+          "probabilities": {
+            "activation_probability": 0.5000000000000002,
+            "adaptive_probability": 0.2112772773318837,
+            "base_parts": [
+              0.08667324626349246,
+              0.08667324626349246
+            ],
+            "base_probability": 0.17334649252698492,
+            "comparator_probability": 0.20203759779297392,
+            "delta_pi": 0.009239679538909779,
+            "incremental_parts": [
+              0.028691105265988986,
+              0.028691105265988986
+            ],
+            "incremental_probability": 0.05738221053197797,
+            "joint_am_probability": 0.03793078480489879,
+            "joint_parts": [
+              0.018965392402449394,
+              0.018965392402449394
+            ]
+          },
+          "tess_evaluation_coefficient": -0.18382234266966613,
+          "tess_reference_coefficient": -11.147404007553828,
+          "theta": [
+            1.2815515655446004,
+            1.2815515655446004,
+            1.2815515655446004,
+            0.4295955991497752
+          ]
+        },
+        "reference_size": 10000,
+        "top_level_keys": [
+          "adaptive_reference",
+          "comparator_reference",
+          "delta_reference",
+          "evaluation_variances",
+          "probabilities",
+          "tess_evaluation_coefficient",
+          "tess_reference_coefficient",
+          "theta"
+        ]
+      },
+      {
+        "alpha": 0.05,
+        "candidate_scalar_paths": {
+          "adaptive_reference.generalized_coefficient": 1.4451026053967884,
+          "comparator_reference.generalized_coefficient": 1.5468426577937757,
+          "delta_reference.generalized_coefficient": -0.10174005239698715,
+          "probabilities.activation_probability": 0.5000000000000002,
+          "probabilities.adaptive_probability": 0.2112772773318837,
+          "probabilities.base_parts[0]": 0.08667324626349246,
+          "probabilities.base_parts[1]": 0.08667324626349246,
+          "probabilities.base_probability": 0.17334649252698492,
+          "probabilities.comparator_probability": 0.20203759779297392,
+          "probabilities.delta_pi": 0.009239679538909779,
+          "probabilities.incremental_parts[0]": 0.028691105265988986,
+          "probabilities.incremental_parts[1]": 0.028691105265988986,
+          "probabilities.incremental_probability": 0.05738221053197797,
+          "probabilities.joint_am_probability": 0.03793078480489879,
+          "probabilities.joint_parts[0]": 0.018965392402449394,
+          "probabilities.joint_parts[1]": 0.018965392402449394,
+          "tess_evaluation_coefficient": -0.036017890901075766,
+          "tess_reference_coefficient": -2.184206639645579
+        },
+        "full_oracle_snapshot": {
+          "adaptive_reference": {
+            "generalized_coefficient": 1.4451026053967884,
+            "gradient": [
+              -0.11647479452737138,
+              -0.11647479452737138,
+              -0.07067032428149538,
+              -0.03425681235045843
+            ],
+            "kink_coefficients": [
+              -0.019721423211383416,
+              -0.019721423211383416
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707363331,
+                -3.255836707363331,
+                -3.255836707363331,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                0.14137988598848505,
+                0.0,
+                -0.03944284642276685,
+                0.0
+              ],
+              [
+                0.0,
+                0.14137988598848505,
+                -0.03944284642276685,
+                0.0
+              ],
+              [
+                -0.03944284642276685,
+                -0.03944284642276685,
+                0.09332876636313324,
+                0.07198293873893798
+              ],
+              [
+                0.0,
+                0.0,
+                0.07198293873893798,
+                -0.03582552960689951
+              ]
+            ]
+          },
+          "comparator_reference": {
+            "generalized_coefficient": 1.5468426577937757,
+            "gradient": [
+              -0.12837158605499838,
+              -0.12837158605499838,
+              -0.058237397263685695,
+              -0.025497371533906885
+            ],
+            "kink_coefficients": [
+              -0.009860711605691713,
+              -0.009860711605691713
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707363331,
+                -3.255836707363331,
+                -3.255836707363331,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                0.1444521862183296,
+                0.0,
+                -0.019721423211383437,
+                -0.01057250708291547
+              ],
+              [
+                0.0,
+                0.1444521862183296,
+                -0.019721423211383437,
+                -0.01057250708291547
+              ],
+              [
+                -0.019721423211383437,
+                -0.019721423211383437,
+                0.09041136620562595,
+                0.05175473518478065
+              ],
+              [
+                -0.01057250708291547,
+                -0.01057250708291547,
+                0.05175473518478065,
+                0.0004728908821416807
+              ]
+            ]
+          },
+          "delta_reference": {
+            "generalized_coefficient": -0.10174005239698715,
+            "gradient": [
+              0.011896791527627001,
+              0.011896791527627001,
+              -0.01243292701780968,
+              -0.008759440816551545
+            ],
+            "kink_coefficients": [
+              -0.009860711605691703,
+              -0.009860711605691703
+            ],
+            "kink_directions": [
+              [
+                1.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "moments": {
+              "bias_coefficient": [
+                -3.255836707363331,
+                -3.255836707363331,
+                -3.255836707363331,
+                -1.113515447234803
+              ],
+              "covariance": [
+                [
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.5407041841972365,
+                  0.641178385491048
+                ],
+                [
+                  0.5407041841972365,
+                  0.5407041841972365,
+                  2.92210975115029,
+                  0.39174171062729474
+                ],
+                [
+                  0.641178385491048,
+                  0.641178385491048,
+                  0.39174171062729474,
+                  1.26620415154896
+                ]
+              ],
+              "densities": [
+                0.17549833193248685,
+                0.17549833193248685,
+                0.17549833193248685,
+                0.4443427901700947
+              ],
+              "joint_lower_probabilities": [
+                [
+                  0.9,
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.9,
+                  0.826653507473015,
+                  0.4999999999999998
+                ],
+                [
+                  0.826653507473015,
+                  0.826653507473015,
+                  0.9,
+                  0.4805485742729207
+                ],
+                [
+                  0.4999999999999998,
+                  0.4999999999999998,
+                  0.4805485742729207,
+                  0.5
+                ]
+              ],
+              "theta": [
+                1.2815515655446004,
+                1.2815515655446004,
+                1.2815515655446004,
+                0.4295955991497752
+              ]
+            },
+            "smooth_hessian": [
+              [
+                -0.0030723002298445323,
+                0.0,
+                -0.019721423211383416,
+                0.01057250708291547
+              ],
+              [
+                0.0,
+                -0.0030723002298445323,
+                -0.019721423211383416,
+                0.01057250708291547
+              ],
+              [
+                -0.019721423211383416,
+                -0.019721423211383416,
+                0.0029174001575072855,
+                0.020228203554157324
+              ],
+              [
+                0.01057250708291547,
+                0.01057250708291547,
+                0.020228203554157324,
+                -0.036298420489041194
+              ]
+            ]
+          },
+          "evaluation_variances": {
+            "adaptive_variance": 0.16663918941511,
+            "comparator_variance": 0.15817323192512112
+          },
+          "probabilities": {
+            "activation_probability": 0.5000000000000002,
+            "adaptive_probability": 0.2112772773318837,
+            "base_parts": [
+              0.08667324626349246,
+              0.08667324626349246
+            ],
+            "base_probability": 0.17334649252698492,
+            "comparator_probability": 0.20203759779297392,
+            "delta_pi": 0.009239679538909779,
+            "incremental_parts": [
+              0.028691105265988986,
+              0.028691105265988986
+            ],
+            "incremental_probability": 0.05738221053197797,
+            "joint_am_probability": 0.03793078480489879,
+            "joint_parts": [
+              0.018965392402449394,
+              0.018965392402449394
+            ]
+          },
+          "tess_evaluation_coefficient": -0.036017890901075766,
+          "tess_reference_coefficient": -2.184206639645579,
+          "theta": [
+            1.2815515655446004,
+            1.2815515655446004,
+            1.2815515655446004,
+            0.4295955991497752
+          ]
+        },
+        "reference_size": 10000,
+        "top_level_keys": [
+          "adaptive_reference",
+          "comparator_reference",
+          "delta_reference",
+          "evaluation_variances",
+          "probabilities",
+          "tess_evaluation_coefficient",
+          "tess_reference_coefficient",
+          "theta"
+        ]
+      }
+    ],
+    "representative_primary_class_id": "d8a-generalized-class-008"
+  },
+  "schema_version": "1.0",
+  "scientific_output_root_touched": true,
+  "scientific_simulation_run": true
+}

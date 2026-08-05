@@ -1,0 +1,1511 @@
+{
+  "all_selected_jobs_complete": true,
+  "complete_job_count": 75,
+  "jobs": [
+    {
+      "class_id": "d8a-generalized-class-000",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-000__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.025996557500632993,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-000",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-000__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.026383288863737468,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-000",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-000__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.004686597878870444,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-001",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-001__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.016830045442009986,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-001",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-001__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.017535660457565036,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-001",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-001__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006059088104184041,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-002",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-002__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.014856438831068597,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-002",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-002__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.014871835761032655,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-002",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-002__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.00229715884305737,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-003",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-003__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.017334932709836135,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-003",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-003__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.017136043112517565,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-003",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-003__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0023767742561259784,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-004",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-004__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.012728400540242192,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-004",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-004__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.01310747171945687,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-004",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-004__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.003847903333776397,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-005",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-005__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.008465613673096582,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-005",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-005__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.008013084966921845,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-005",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-005__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0028432305146075484,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-006",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-006__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.009089290278195203,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-006",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-006__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.008858463629942115,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-006",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-006__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.002407590690184347,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-007",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-007__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.008156269419857287,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-007",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-007__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.00820358887132347,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-007",
+      "class_role": "diagnostic",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-007__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0015358540173712506,
+        "precision_pass": true,
+        "replicate_count": 1000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 1000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-008",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-008__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.00990176480741358,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-008",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-008__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.009604364950800392,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-008",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-008__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.002170865306682046,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-009",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-009__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.01701388705542522,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-009",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-009__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.01660505644623793,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-009",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-009__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.005046277544580331,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-010",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-010__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006996937385199734,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-010",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-010__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.007133035941195788,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-010",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-010__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.00275069397541928,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-011",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-011__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.008515044152151189,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-011",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-011__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.008723011427270297,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-011",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-011__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.002314527236779876,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-012",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-012__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.009860270368542909,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-012",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-012__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.009664175160472861,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-012",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-012__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0028334549581700637,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-013",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-013__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.005059554957223948,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-013",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-013__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.005046702766450561,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-013",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-013__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0032205643476671828,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-014",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-014__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0060707116858907135,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-014",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-014__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006024562525544855,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-014",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-014__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0031387161676491183,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-015",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-015__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006214860180496219,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-015",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-015__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006094808350424386,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-015",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-015__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.002386746044197266,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-016",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-016__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.011048833273980485,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-016",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-016__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.010946268660857995,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-016",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-016__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0033382926358814574,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-017",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-017__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006979196211867788,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-017",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-017__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.007118013662146781,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-017",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-017__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.003771449310343278,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-018",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-018__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0036518567066402556,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-018",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-018__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.003655524876212508,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-018",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-018__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0032810367748188005,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-019",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-019__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.01309710986726044,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-019",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-019__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.012988168372154647,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-019",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-019__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0019444088019776517,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-020",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-020__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.010021819305211108,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-020",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-020__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.009975067380534592,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-020",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-020__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0024025252189692355,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-021",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-021__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.005650835020711979,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-021",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-021__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006020845714476566,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-021",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-021__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0026090781106064883,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-022",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-022__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.00723107888290168,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-022",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-022__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0070901076438710416,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-022",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-022__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.00029286997712660415,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-023",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-023__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006361954162011801,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-023",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-023__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.006410430731267476,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-023",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-023__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0004459083156077509,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-024",
+      "class_role": "primary",
+      "complete": true,
+      "family": "combined",
+      "job_id": "d8a-generalized-class-024__combined",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0047384829647275015,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-024",
+      "class_role": "primary",
+      "complete": true,
+      "family": "evaluation_only",
+      "job_id": "d8a-generalized-class-024__evaluation_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0048924997008392,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    },
+    {
+      "class_id": "d8a-generalized-class-024",
+      "class_role": "primary",
+      "complete": true,
+      "family": "reference_only",
+      "job_id": "d8a-generalized-class-024__reference_only",
+      "label": "SCIENTIFIC",
+      "new_batches_this_call": 1,
+      "precision": {
+        "maximum_scaled_mcse": 0.0005620278304168437,
+        "precision_pass": true,
+        "replicate_count": 2000,
+        "target": 0.03
+      },
+      "precision_limited": false,
+      "replicate_count": 2000,
+      "schema_version": "1.0",
+      "scientific_simulation_run": true,
+      "stop_reason": "precision_target_met"
+    }
+  ],
+  "label": "SCIENTIFIC",
+  "precision_limited_primary_classes": [],
+  "schema_version": "1.0",
+  "scientific_simulation_run": true,
+  "selected_job_count": 75
+}

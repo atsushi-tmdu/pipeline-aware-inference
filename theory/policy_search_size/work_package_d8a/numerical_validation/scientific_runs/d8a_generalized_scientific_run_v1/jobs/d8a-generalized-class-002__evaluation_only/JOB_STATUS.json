@@ -1,0 +1,20 @@
+{
+  "class_id": "d8a-generalized-class-002",
+  "class_role": "diagnostic",
+  "complete": true,
+  "family": "evaluation_only",
+  "job_id": "d8a-generalized-class-002__evaluation_only",
+  "label": "SCIENTIFIC",
+  "new_batches_this_call": 1,
+  "precision": {
+    "maximum_scaled_mcse": 0.014871835761032655,
+    "precision_pass": true,
+    "replicate_count": 1000,
+    "target": 0.03
+  },
+  "precision_limited": false,
+  "replicate_count": 1000,
+  "schema_version": "1.0",
+  "scientific_simulation_run": true,
+  "stop_reason": "precision_target_met"
+}

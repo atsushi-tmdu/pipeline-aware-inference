@@ -1,0 +1,20 @@
+{
+  "class_id": "d8a-generalized-class-024",
+  "class_role": "primary",
+  "complete": true,
+  "family": "combined",
+  "job_id": "d8a-generalized-class-024__combined",
+  "label": "SCIENTIFIC",
+  "new_batches_this_call": 1,
+  "precision": {
+    "maximum_scaled_mcse": 0.0047384829647275015,
+    "precision_pass": true,
+    "replicate_count": 2000,
+    "target": 0.03
+  },
+  "precision_limited": false,
+  "replicate_count": 2000,
+  "schema_version": "1.0",
+  "scientific_simulation_run": true,
+  "stop_reason": "precision_target_met"
+}

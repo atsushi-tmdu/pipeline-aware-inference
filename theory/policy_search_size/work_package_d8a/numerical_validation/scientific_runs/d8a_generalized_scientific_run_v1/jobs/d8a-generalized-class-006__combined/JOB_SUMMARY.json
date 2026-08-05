@@ -1,0 +1,604 @@
+{
+  "family": "combined",
+  "job_id": "d8a-generalized-class-006__combined",
+  "label": "SCIENTIFIC",
+  "points": [
+    {
+      "coordinates": {
+        "evaluation_n": 10000,
+        "reference_B": 250
+      },
+      "point_index": 0,
+      "scalar": {
+        "adaptive_estimate": {
+          "bias": 0.004241133405459695,
+          "mcse": 0.0003115983419672138,
+          "mean": 0.027320900000000002,
+          "replicate_count": 1000,
+          "sample_sd": 0.009853604757484273,
+          "target": 0.023079766594540307
+        },
+        "comparator_estimate": {
+          "bias": 0.004066514462386341,
+          "mcse": 0.00030818359035142553,
+          "mean": 0.025317728799999998,
+          "replicate_count": 1000,
+          "sample_sd": 0.009745620829987962,
+          "target": 0.021251214337613657
+        },
+        "delta_hat": {
+          "bias": 0.0001746189430733491,
+          "mcse": 3.4366127467179806e-05,
+          "mean": 0.0020031712,
+          "replicate_count": 1000,
+          "sample_sd": 0.0010867523715596163,
+          "target": 0.0018285522569266507
+        }
+      },
+      "tess": {
+        "alpha_0.01": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.018769555759111323,
+            "mcse": 0.0035229806094206595,
+            "mean": 0.2048332192399579,
+            "replicate_count": 1000,
+            "sample_sd": 0.11140642878377334,
+            "target": 0.18606366348084658
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        },
+        "alpha_0.05": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.003677680317719631,
+            "mcse": 0.0006902878583412753,
+            "mean": 0.0401347324615423,
+            "replicate_count": 1000,
+            "sample_sd": 0.021828818735180895,
+            "target": 0.036457052143822666
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        }
+      }
+    },
+    {
+      "coordinates": {
+        "evaluation_n": 3000,
+        "reference_B": 500
+      },
+      "point_index": 1,
+      "scalar": {
+        "adaptive_estimate": {
+          "bias": 0.004176566738793026,
+          "mcse": 0.00023584228092171948,
+          "mean": 0.027256333333333334,
+          "replicate_count": 1000,
+          "sample_sd": 0.007457987762819087,
+          "target": 0.023079766594540307
+        },
+        "comparator_estimate": {
+          "bias": 0.003958561440164123,
+          "mcse": 0.00023095191264700394,
+          "mean": 0.02520977577777778,
+          "replicate_count": 1000,
+          "sample_sd": 0.0073033407393677955,
+          "target": 0.021251214337613657
+        },
+        "delta_hat": {
+          "bias": 0.00021800529862890444,
+          "mcse": 3.787728601390857e-05,
+          "mean": 0.002046557555555555,
+          "replicate_count": 1000,
+          "sample_sd": 0.0011977849538959127,
+          "target": 0.0018285522569266507
+        }
+      },
+      "tess": {
+        "alpha_0.01": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.02318471803784916,
+            "mcse": 0.003879444740835642,
+            "mean": 0.20924838151869574,
+            "replicate_count": 1000,
+            "sample_sd": 0.12267881437802258,
+            "target": 0.18606366348084658
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        },
+        "alpha_0.05": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.004542780995670945,
+            "mcse": 0.0007601329381557778,
+            "mean": 0.04099983313949361,
+            "replicate_count": 1000,
+            "sample_sd": 0.024037514090881684,
+            "target": 0.036457052143822666
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        }
+      }
+    },
+    {
+      "coordinates": {
+        "evaluation_n": 1000,
+        "reference_B": 1000
+      },
+      "point_index": 2,
+      "scalar": {
+        "adaptive_estimate": {
+          "bias": 0.002123233405459699,
+          "mcse": 0.00020939349712117768,
+          "mean": 0.025203000000000007,
+          "replicate_count": 1000,
+          "sample_sd": 0.00662160378130832,
+          "target": 0.023079766594540307
+        },
+        "comparator_estimate": {
+          "bias": 0.002012049662386342,
+          "mcse": 0.00019996876321707493,
+          "mean": 0.023263264,
+          "replicate_count": 1000,
+          "sample_sd": 0.006323567526528563,
+          "target": 0.021251214337613657
+        },
+        "delta_hat": {
+          "bias": 0.00011118374307334932,
+          "mcse": 5.66188186995714e-05,
+          "mean": 0.001939736,
+          "replicate_count": 1000,
+          "sample_sd": 0.0017904442551877832,
+          "target": 0.0018285522569266507
+        }
+      },
+      "tess": {
+        "alpha_0.01": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.011942047504657383,
+            "mcse": 0.005786623409979815,
+            "mean": 0.19800571098550396,
+            "replicate_count": 1000,
+            "sample_sd": 0.1829890993718654,
+            "target": 0.18606366348084658
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        },
+        "alpha_0.05": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.0023399079671788184,
+            "mcse": 0.0011338228402453013,
+            "mean": 0.038796960111001484,
+            "replicate_count": 1000,
+            "sample_sd": 0.03585462638296377,
+            "target": 0.036457052143822666
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        }
+      }
+    },
+    {
+      "coordinates": {
+        "evaluation_n": 500,
+        "reference_B": 3000
+      },
+      "point_index": 3,
+      "scalar": {
+        "adaptive_estimate": {
+          "bias": 0.0008322334054596987,
+          "mcse": 0.00023208213657694148,
+          "mean": 0.023912000000000006,
+          "replicate_count": 1000,
+          "sample_sd": 0.007339081558214088,
+          "target": 0.023079766594540307
+        },
+        "comparator_estimate": {
+          "bias": 0.0007986336623863402,
+          "mcse": 0.00021751178600238182,
+          "mean": 0.022049847999999997,
+          "replicate_count": 1000,
+          "sample_sd": 0.006878326616986572,
+          "target": 0.021251214337613657
+        },
+        "delta_hat": {
+          "bias": 3.3599743073349205e-05,
+          "mcse": 7.436282845045063e-05,
+          "mean": 0.001862152,
+          "replicate_count": 1000,
+          "sample_sd": 0.002351559111557936,
+          "target": 0.0018285522569266507
+        }
+      },
+      "tess": {
+        "alpha_0.01": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.0039280045153193,
+            "mcse": 0.0075887664218686176,
+            "mean": 0.18999166799616587,
+            "replicate_count": 1000,
+            "sample_sd": 0.23997786524111056,
+            "target": 0.18606366348084658
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        },
+        "alpha_0.05": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.000769647671969638,
+            "mcse": 0.0014869322035994147,
+            "mean": 0.037226699815792304,
+            "replicate_count": 1000,
+            "sample_sd": 0.04702092489627369,
+            "target": 0.036457052143822666
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        }
+      }
+    },
+    {
+      "coordinates": {
+        "evaluation_n": 250,
+        "reference_B": 10000
+      },
+      "point_index": 4,
+      "scalar": {
+        "adaptive_estimate": {
+          "bias": 0.00031623340545969617,
+          "mcse": 0.0003097404124797459,
+          "mean": 0.023396000000000004,
+          "replicate_count": 1000,
+          "sample_sd": 0.009794851868360396,
+          "target": 0.023079766594540307
+        },
+        "comparator_estimate": {
+          "bias": 0.00037078566238634217,
+          "mcse": 0.0002851288988948419,
+          "mean": 0.021622,
+          "replicate_count": 1000,
+          "sample_sd": 0.00901656747243567,
+          "target": 0.021251214337613657
+        },
+        "delta_hat": {
+          "bias": -5.455225692665099e-05,
+          "mcse": 0.00010544680898692729,
+          "mean": 0.0017739999999999998,
+          "replicate_count": 1000,
+          "sample_sd": 0.0033345208839540242,
+          "target": 0.0018285522569266507
+        }
+      },
+      "tess": {
+        "alpha_0.01": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": -0.004706102410989288,
+            "mcse": 0.010780476925797046,
+            "mean": 0.1813575610698573,
+            "replicate_count": 1000,
+            "sample_sd": 0.34090861348408685,
+            "target": 0.18606366348084658
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        },
+        "alpha_0.05": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": -0.0009221070776630133,
+            "mcse": 0.00211231146407863,
+            "mean": 0.03553494506615965,
+            "replicate_count": 1000,
+            "sample_sd": 0.06679715354173414,
+            "target": 0.036457052143822666
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        }
+      }
+    },
+    {
+      "coordinates": {
+        "evaluation_n": 3000,
+        "reference_B": 3000
+      },
+      "point_index": 5,
+      "scalar": {
+        "adaptive_estimate": {
+          "bias": 0.0007445667387930253,
+          "mcse": 0.00012005414888845782,
+          "mean": 0.023824333333333333,
+          "replicate_count": 1000,
+          "sample_sd": 0.0037964455304049863,
+          "target": 0.023079766594540307
+        },
+        "comparator_estimate": {
+          "bias": 0.0006785754401641211,
+          "mcse": 0.00011646347792361597,
+          "mean": 0.021929789777777778,
+          "replicate_count": 1000,
+          "sample_sd": 0.00368289854463364,
+          "target": 0.021251214337613657
+        },
+        "delta_hat": {
+          "bias": 6.599129862890464e-05,
+          "mcse": 3.088125187594048e-05,
+          "mean": 0.0018945435555555554,
+          "replicate_count": 1000,
+          "sample_sd": 0.0009765509292531942,
+          "target": 0.0018285522569266507
+        }
+      },
+      "tess": {
+        "alpha_0.01": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.0069023948121621215,
+            "mcse": 0.0031480621710039225,
+            "mean": 0.1929660582930087,
+            "replicate_count": 1000,
+            "sample_sd": 0.09955046676186873,
+            "target": 0.18606366348084658
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        },
+        "alpha_0.05": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.0013524455171773017,
+            "mcse": 0.0006168268676065283,
+            "mean": 0.03780949766099997,
+            "replicate_count": 1000,
+            "sample_sd": 0.019505778236237628,
+            "target": 0.036457052143822666
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        }
+      }
+    },
+    {
+      "coordinates": {
+        "evaluation_n": 10000,
+        "reference_B": 10000
+      },
+      "point_index": 6,
+      "scalar": {
+        "adaptive_estimate": {
+          "bias": 0.00026343340545969055,
+          "mcse": 6.685314579810814e-05,
+          "mean": 0.023343199999999998,
+          "replicate_count": 1000,
+          "sample_sd": 0.0021140820946933692,
+          "target": 0.023079766594540307
+        },
+        "comparator_estimate": {
+          "bias": 0.00023935903238634162,
+          "mcse": 6.50506219988832e-05,
+          "mean": 0.02149057337,
+          "replicate_count": 1000,
+          "sample_sd": 0.0020570812872712603,
+          "target": 0.021251214337613657
+        },
+        "delta_hat": {
+          "bias": 2.4074373073349354e-05,
+          "mcse": 1.6562058022875545e-05,
+          "mean": 0.00185262663,
+          "replicate_count": 1000,
+          "sample_sd": 0.0005237382609215182,
+          "target": 0.0018285522569266507
+        }
+      },
+      "tess": {
+        "alpha_0.01": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.00251137131259474,
+            "mcse": 0.0016872729487014823,
+            "mean": 0.18857503479344132,
+            "replicate_count": 1000,
+            "sample_sd": 0.053356255522851254,
+            "target": 0.18606366348084658
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        },
+        "alpha_0.05": {
+          "any_nonfinite": false,
+          "finite_summary": {
+            "bias": 0.0004920745576161428,
+            "mcse": 0.0003306018849725788,
+            "mean": 0.03694912670143881,
+            "replicate_count": 1000,
+            "sample_sd": 0.010454549552583422,
+            "target": 0.036457052143822666
+          },
+          "nonfinite_count": 0,
+          "record_count": 1000,
+          "status_counts": {
+            "finite": 1000,
+            "indeterminate_both_one": 0,
+            "negative_infinity": 0,
+            "positive_infinity": 0
+          },
+          "status_fractions": {
+            "finite": 1.0,
+            "indeterminate_both_one": 0.0,
+            "negative_infinity": 0.0,
+            "positive_infinity": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "replicate_count": 1000,
+  "scientific_simulation_run": true
+}

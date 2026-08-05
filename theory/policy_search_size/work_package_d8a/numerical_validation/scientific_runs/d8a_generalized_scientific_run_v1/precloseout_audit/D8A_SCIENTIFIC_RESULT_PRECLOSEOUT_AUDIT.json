@@ -1,0 +1,2056 @@
+{
+  "all_precloseout_checks_pass": true,
+  "audit_id": "TESS_D8A_SCIENTIFIC_RESULT_PRECLOSEOUT_AUDIT_V1",
+  "environment": {
+    "numpy": "2.5.1",
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7 (main, Sep 18 2025, 22:52:34) [Clang 20.1.4 ]",
+    "scipy": "1.16.2"
+  },
+  "file_manifest": [
+    {
+      "category": "run_metadata",
+      "path": "RUN_METADATA.json",
+      "sha256": "00178bf24ef80e9f126ba258e3d824d05c16d9513d80fa617289ee8fa7d6bb80",
+      "size_bytes": 3996
+    },
+    {
+      "category": "run_metadata",
+      "path": "RUN_STATUS.json",
+      "sha256": "e26b5396610fb5d049a1440d9326ae4f8ab28ecee31a0835b9ca5e702ab049ec",
+      "size_bytes": 46950
+    },
+    {
+      "category": "formal_adjudication",
+      "path": "formal_adjudication/D8A_EVIDENTIAL_STRENGTH_ADJUDICATION.json",
+      "sha256": "c2c09629d742788a55e61f821256488be4b9753a46b0a0f8f92a2bb02566c31b",
+      "size_bytes": 3193
+    },
+    {
+      "category": "formal_adjudication",
+      "path": "formal_adjudication/D8A_EVIDENTIAL_STRENGTH_ADJUDICATION.md",
+      "sha256": "1e7ddba65a094716f3d8bc8b35edea277c96fb159acb2ef90fb0e1dd7403110f",
+      "size_bytes": 1100
+    },
+    {
+      "category": "formal_adjudication",
+      "path": "formal_adjudication/D8A_FORMAL_SCIENTIFIC_ADJUDICATION.json",
+      "sha256": "2d9e6e14b3d878199877bac8a9aa41df3f6c90657d8f9f819f499462cdc7ff63",
+      "size_bytes": 183697
+    },
+    {
+      "category": "formal_adjudication",
+      "path": "formal_adjudication/D8A_FORMAL_SCIENTIFIC_ADJUDICATION.md",
+      "sha256": "8c8009080c243fa6f4c6f7c134e8d6f8fa9fad3d57d0d63817f4829ada39785a",
+      "size_bytes": 1351
+    },
+    {
+      "category": "formal_adjudication",
+      "path": "formal_adjudication/diagnostics/D8A_POSTHOC_MCSE_FLOOR_AND_BASELINE_DIAGNOSTIC.json",
+      "sha256": "fca913cfbd64a9b1738436f73f1c228da1f3af2bf5b42ec058fb3cc39de70cfb",
+      "size_bytes": 66088
+    },
+    {
+      "category": "formal_adjudication",
+      "path": "formal_adjudication/diagnostics/D8A_POSTHOC_MCSE_FLOOR_AND_BASELINE_DIAGNOSTIC.md",
+      "sha256": "78531cf1266ec3942fec408b31eb980ae03a2a5b01761bfaaaad1fddbe129655",
+      "size_bytes": 1808
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__combined/JOB_STATUS.json",
+      "sha256": "6e5d521b37199bfd6bc37314ecece8b86d31ad730abd962ebe1dfb66d479aa76",
+      "size_bytes": 535
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__combined/JOB_SUMMARY.json",
+      "sha256": "60becd3e95d79c94ccd209fe0f7c75b2669b9af53bfdc0b5bfae172375e03197",
+      "size_bytes": 18418
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__combined/PRECISION_STATUS.json",
+      "sha256": "cf2d62e3e8a1088922f8e0832e86a5dc643b78a0a7106466ab563ed103312701",
+      "size_bytes": 35034
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-000__combined/batches/batch_0_999.jsonl",
+      "sha256": "2b575617b30629867c79b4df0dd12b2eb8f272407bd4d2f1ccb0c55fe7133857",
+      "size_bytes": 6368233
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__evaluation_only/JOB_STATUS.json",
+      "sha256": "dafdda40b34bee1b184e76e0930fd8b0b22449f1fdb115812cfe30674f849b3d",
+      "size_bytes": 549
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "890faaef58571e1ab2bb7d7e0f90dcffce653708885b62723f79d54d2f096822",
+      "size_bytes": 13128
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "e2c2b3b784cbaff913b2a8cb47e25b33e0f333d8e27d5c9b2291a7bee1af02fd",
+      "size_bytes": 25140
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-000__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "fd73971bd1fe95558a13231d4c375736c80f65c7e52c1cb9eecf7c482c78d62a",
+      "size_bytes": 3950282
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__reference_only/JOB_STATUS.json",
+      "sha256": "e079c7d1a2703bd79f5ffdb7471b01eda037b5a299e040043a9315e1f73b627f",
+      "size_bytes": 547
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__reference_only/JOB_SUMMARY.json",
+      "sha256": "eba2d27c67ceec1f6741a6d9f1901d71aaa4081beb92b2b576cc9f2964eed7e2",
+      "size_bytes": 13189
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-000__reference_only/PRECISION_STATUS.json",
+      "sha256": "ff8b4aeaa3f8082df7add4ff081ae7e55a340d1369ff3200df545d03c5eea862",
+      "size_bytes": 25228
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-000__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "29c60dcead53a342ef27acf4ef5e33a18a1364117f5628a658ce93dbcd44b01a",
+      "size_bytes": 4721823
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__combined/JOB_STATUS.json",
+      "sha256": "2fa7659132a866e66ec77c9a5e14aea61872adaa3a48bbccaba75737c2fbf881",
+      "size_bytes": 535
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__combined/JOB_SUMMARY.json",
+      "sha256": "d40fa8464dcd9775223cb081cca440a0d132bf3c2c388b7689ba0a19eab5cfef",
+      "size_bytes": 18413
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__combined/PRECISION_STATUS.json",
+      "sha256": "9ab268660e1522162d40b70b3107c597a9485a4e2ef049ca5ac34c3d5b9c8c20",
+      "size_bytes": 35001
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-001__combined/batches/batch_0_999.jsonl",
+      "sha256": "2f41abe10f8bb96085bfa88384e968c5df08d1664e9fcd7f911cfcb0f1f677ff",
+      "size_bytes": 6372158
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__evaluation_only/JOB_STATUS.json",
+      "sha256": "a55708c0ac33a7a6326f5b2102ce557dbcad51c901c2e4e372d6673843d960d6",
+      "size_bytes": 549
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "03bbf176ef0f26026177a83e61bc192dd91244c45e716b20c7a4cd3d76b33fd4",
+      "size_bytes": 13110
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "bd49ab660d8167162a93ae2fad8302fa5bb72386b0971fb2cc4732184e5adfab",
+      "size_bytes": 25113
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-001__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "52d4576bb81e94acc20292539e0cd572a14e5cfd5ccd62e4038012b325011a4b",
+      "size_bytes": 3957941
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__reference_only/JOB_STATUS.json",
+      "sha256": "457919d52cf029e00a6509e92a8a4c8a4a43b308ecabd1c0fdd86740f7442c13",
+      "size_bytes": 547
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__reference_only/JOB_SUMMARY.json",
+      "sha256": "02a67c7b42f783f468fbfd8e339ed6b1e4b0b46f8aa34922526076451c8eb4fc",
+      "size_bytes": 13198
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-001__reference_only/PRECISION_STATUS.json",
+      "sha256": "166f49a2d9bf483fda62903dcf5382874a983922f8d56e246228d11f89fcf08e",
+      "size_bytes": 25214
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-001__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "afb8617a18a914d23aa8d2855b8a6c187c4686bd6fc884a2d1c1543485b6a61b",
+      "size_bytes": 4725857
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__combined/JOB_STATUS.json",
+      "sha256": "d20afaf808846d4c48ca8d0207fb91c36c7bc4ee2403fd05459670dcddaab632",
+      "size_bytes": 535
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__combined/JOB_SUMMARY.json",
+      "sha256": "66b9de0e69e885cee7d5231fdf136c57169c53fdd1a888097a43ea877702200c",
+      "size_bytes": 18451
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__combined/PRECISION_STATUS.json",
+      "sha256": "1f86d987ba09f82438b7fc85746bfb3187e8af22ed806d1c80ee916ede314cfe",
+      "size_bytes": 35062
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-002__combined/batches/batch_0_999.jsonl",
+      "sha256": "1a9c440e0e263526495531d1143d6e6503e720b884228e07300f4b358a5c2514",
+      "size_bytes": 6355983
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__evaluation_only/JOB_STATUS.json",
+      "sha256": "c7d7510e3731249be3749deabb26d36f5efe24826cf3d6169dd5d1e7337d088d",
+      "size_bytes": 549
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "3b7288f682912d051014a22c6c526a1c375e3ef8feca0d265727ffd3984bb867",
+      "size_bytes": 13116
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "6a3ad31060f4dbf9084530951e4350d66a3ddeb9a81450b853f27498d160bd41",
+      "size_bytes": 25139
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-002__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "98479554fc16cc781a85d6f1659d26a057c07d760aba3d72f8bdecde25edd544",
+      "size_bytes": 3945578
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__reference_only/JOB_STATUS.json",
+      "sha256": "e506967dcdd125a31f6795702c813275514871bb5e42a4f1a1a0a21dc4ed7e6d",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__reference_only/JOB_SUMMARY.json",
+      "sha256": "4284365fe8525309e7ff2d87bc316717db9ac928f72385d3a4be2769433c8fa8",
+      "size_bytes": 13181
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-002__reference_only/PRECISION_STATUS.json",
+      "sha256": "da2cf534b9b01a729d1ccf2ac19604ac35e94ab6d9d0697d064fdc9939fbd44e",
+      "size_bytes": 25213
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-002__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "04425ab431e427b3b4e1f1194d9dd9832848b859d0a750b6fb8a8bcb40061e52",
+      "size_bytes": 4722657
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__combined/JOB_STATUS.json",
+      "sha256": "ba85e8555ee9043d1102d29c0533901b1d89eec214e6bbf17eeb1aa3a3ddade9",
+      "size_bytes": 535
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__combined/JOB_SUMMARY.json",
+      "sha256": "cd9d9bbccf4633e43f957920a417edafecaa8ff7a02c84fd087fc0448fcef758",
+      "size_bytes": 18471
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__combined/PRECISION_STATUS.json",
+      "sha256": "eb6cda4f07323c01a36cac2a3a2484f34c6e0702039b19a61b9c3a14e245a2b6",
+      "size_bytes": 35070
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-003__combined/batches/batch_0_999.jsonl",
+      "sha256": "0ee22db16c2af04fb36ec87be492a6793bb7044504d29ab5a857887bf24550d2",
+      "size_bytes": 6362629
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__evaluation_only/JOB_STATUS.json",
+      "sha256": "89a820761d9a35a666fd771858eb962d30b956775f94a54240c343e111cb7598",
+      "size_bytes": 549
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "9c027ce14af5e524762e728c97adb112e20ed4f96156299af1915b52b2a62ed5",
+      "size_bytes": 13134
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "e60e5ad50843a68423730a71d2b62d4b9a3c8cd0d957910971ec8a46f6f45f31",
+      "size_bytes": 25146
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-003__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "7b00d30096e292634c27f91833c328bf62fc6050b72ec121dcc7532c9c7b9b4f",
+      "size_bytes": 3949578
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__reference_only/JOB_STATUS.json",
+      "sha256": "5e76fe53abf96e92b6a783bea44e1427404e5342bc56cef890bfaacc070f8bde",
+      "size_bytes": 548
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__reference_only/JOB_SUMMARY.json",
+      "sha256": "a1649acbb02c90139fc909839c59edb56449ac1754cc7daf8468f478ed48cde0",
+      "size_bytes": 13196
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-003__reference_only/PRECISION_STATUS.json",
+      "sha256": "f293eea4c812748de699792df876ea4b386b1358a7d80cf540064ad21530828c",
+      "size_bytes": 25245
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-003__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "3f6a43344e169f455967fa3000ec769497cb7a77a00ca8971d7ea92bf4f6aa74",
+      "size_bytes": 4726432
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__combined/JOB_STATUS.json",
+      "sha256": "0d47689f8b6a9efdebff216fc35384306b9bf31e734560e9bb1f93cec2defcd1",
+      "size_bytes": 535
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__combined/JOB_SUMMARY.json",
+      "sha256": "ec6cd51ab43f829ffbc1ceba3cd06c9bdcbdb2569de30b41f965bab11117196e",
+      "size_bytes": 18531
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__combined/PRECISION_STATUS.json",
+      "sha256": "68d8c525541f24ce7b7aa58a8f8c31a3a6a4be3a437813a3c6525ebe3b5d497b",
+      "size_bytes": 35115
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-004__combined/batches/batch_0_999.jsonl",
+      "sha256": "1b9c5736b4b30b9d22176d4f2aa08726e70b6b5c4af18c045f382873f527275e",
+      "size_bytes": 6384287
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__evaluation_only/JOB_STATUS.json",
+      "sha256": "44bf4dcdef73c44878287db54d64c2efa4ccdadc7b44332414c4906697d98f63",
+      "size_bytes": 548
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "ba409d0ad8416ee888296530725bcf7ba5c19b40e44b7aff84e815048d291b49",
+      "size_bytes": 13166
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "92c41f6087540f4cff1aa8393c735fda05821c79c1d0644fa9d1374c27d2d6f0",
+      "size_bytes": 25156
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-004__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "592bb4170426e23a213ea534eb1ff6ab7c6fcf71af2af616b2015c38b3e79365",
+      "size_bytes": 3965555
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__reference_only/JOB_STATUS.json",
+      "sha256": "857229d7451289c5fa6a44209e26533a689a3a20cc511c8bb5158136ac789671",
+      "size_bytes": 547
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__reference_only/JOB_SUMMARY.json",
+      "sha256": "615cbaca3cdbfe9a01141cfb7b5c2a1e4e69a5a8ab94ccdbddbe307e0ada7bb0",
+      "size_bytes": 13222
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-004__reference_only/PRECISION_STATUS.json",
+      "sha256": "91a15914c8d5fa54f03dd7d5c98a9b6bf7ae0c292a442f31e13e9e2897e24104",
+      "size_bytes": 25244
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-004__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "b96c80b752787e83aff568a66af550ce70fac70aaa11d93f8e2b6e7a5ebc3386",
+      "size_bytes": 4740885
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__combined/JOB_STATUS.json",
+      "sha256": "6bb6981f77806ac16ad47274b493aca766fee3a62883ba7f079c256b48b645b8",
+      "size_bytes": 535
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__combined/JOB_SUMMARY.json",
+      "sha256": "ca561441547ecf6ce09ff44df35874a813bc7e97ab8b6822077b1b8326e9e977",
+      "size_bytes": 18505
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__combined/PRECISION_STATUS.json",
+      "sha256": "e431d6055572ba7af63eb124a08210a52372cf90b8176535965a856a864e2063",
+      "size_bytes": 35102
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-005__combined/batches/batch_0_999.jsonl",
+      "sha256": "f3907fe98d75bbfa29eff50781fa9094aeefa199352dec737bb33b494a365fe6",
+      "size_bytes": 6367984
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__evaluation_only/JOB_STATUS.json",
+      "sha256": "43af38e6063bd847084cfb40193970532a3e164e81462a9e74a96b249bd387ac",
+      "size_bytes": 549
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "7169d9a256b1ae0febb48e683d31d97d803868dedf9d9bf9638b0aacc7f9559e",
+      "size_bytes": 13167
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "6255872d8c7c3ed5bca43e99aceb72f1058a8274a0bc6c7bd8c61742e73fc0bf",
+      "size_bytes": 25169
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-005__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "f1a2009d48a9bf4932a3cfa67c9ea5fd76db16528c0c71fd64d081c38fe432da",
+      "size_bytes": 3950967
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__reference_only/JOB_STATUS.json",
+      "sha256": "1ac3ea86144af6bec05ee41cfffdf33208532b98e784af4af98c81db51dc3a2c",
+      "size_bytes": 548
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__reference_only/JOB_SUMMARY.json",
+      "sha256": "3d4d37202cd31446e8b0748e68094501d0afd6864bd6facca2f213a42b097ef8",
+      "size_bytes": 13196
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-005__reference_only/PRECISION_STATUS.json",
+      "sha256": "f37873906ee8b1f641b74c87b18db7e5345ac1ffaef8f03270e1eda5e77d1678",
+      "size_bytes": 25255
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-005__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "cbc55e06388cd360579cd11d391ef2b954403ba1e7774531742ddc482892a9d8",
+      "size_bytes": 4751512
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__combined/JOB_STATUS.json",
+      "sha256": "05820fba43ad680d1105f71903b29144139f4248516fdbd3c09409a9c949d4f4",
+      "size_bytes": 535
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__combined/JOB_SUMMARY.json",
+      "sha256": "8d514839887eb51132484a6599b9b46bfd29407dd3ee28456a4ef571d18befb4",
+      "size_bytes": 18506
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__combined/PRECISION_STATUS.json",
+      "sha256": "e8669d7e2eaa7218da73dc72a015ae470c183e18161e3f533989d0becce40629",
+      "size_bytes": 35116
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-006__combined/batches/batch_0_999.jsonl",
+      "sha256": "e498b8b4ab67bbc23b301bca3bacc0bb922eab1ad89053ebe4f1e176b1c7d030",
+      "size_bytes": 6368126
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__evaluation_only/JOB_STATUS.json",
+      "sha256": "a6bec3e75c201e15df53cb8d4b24fc53f91046c493de747b2a918939f34ea301",
+      "size_bytes": 549
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "0dca3ff3647c27e344ba600c6111b67dac06f2f5c7ce478a2c5b7fd4a7d1df58",
+      "size_bytes": 13160
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "3736eb2783d1da921f754aff6c760572fbb597a381b2b78ae8f5d6077685706e",
+      "size_bytes": 25161
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-006__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "b243f6889144b76cbc9083818174d94cb5e04e9eaa37da549f5a91c48089bc03",
+      "size_bytes": 3955225
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__reference_only/JOB_STATUS.json",
+      "sha256": "60d90b8a02192557d5ba683417358bb960f31b9242e8cd535ab3000b153fcab5",
+      "size_bytes": 547
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__reference_only/JOB_SUMMARY.json",
+      "sha256": "6c55fc75a590204cefa10f1f85b87b81de1ce7fb0f4d9a03a1e8f886dc3035ad",
+      "size_bytes": 13211
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-006__reference_only/PRECISION_STATUS.json",
+      "sha256": "42b3658c99ce9da7cd860768a94f2f06a44ecfdd6499d3fce6381f65e235d012",
+      "size_bytes": 25255
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-006__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "32a3799a99600ccd6ab35e78034e6a590affcbfe7fe7e0cf9b4b69f530d4adb3",
+      "size_bytes": 4751594
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__combined/JOB_STATUS.json",
+      "sha256": "6b759968af47f478d6a0f6cbcf8c9d1d91c1bc52c592d76cbdb89445f019b64e",
+      "size_bytes": 535
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__combined/JOB_SUMMARY.json",
+      "sha256": "0cb8549ac5d0e5b238172b4edfd4fbe22980c389302e93c18ce2ebe5fcfb0be5",
+      "size_bytes": 18511
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__combined/PRECISION_STATUS.json",
+      "sha256": "bc32cabaf2e87e6b725dbca6a8c0a17ffe47cfa00b5904457cb200810d1c2c35",
+      "size_bytes": 35098
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-007__combined/batches/batch_0_999.jsonl",
+      "sha256": "83c83cc575f6908cee51a9ec13b2bf457d0ab1494d1e1dae223eb135b61e337a",
+      "size_bytes": 6374969
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__evaluation_only/JOB_STATUS.json",
+      "sha256": "b6727d0498daec5dfb2abce1895af6ba3c3ec5215522cc074c99fd321c1b9842",
+      "size_bytes": 548
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "6d66b7c5bf9ede99449bfde9aaac337182aa1ba5446ab06247a138b406a70f4e",
+      "size_bytes": 13147
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "81ea80bf866dfdb1d1ffd1cd8c85763e1d687ff999519daae54b8018d36f4610",
+      "size_bytes": 25134
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-007__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "f8c342f4c9560e637a13d33a373acef46a311c7ee4d57453adc1ef6d360db540",
+      "size_bytes": 3961716
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__reference_only/JOB_STATUS.json",
+      "sha256": "13042e7988f888d147574f2b11e1e52821e6c8ce90efa4a0b4a25a53cacee633",
+      "size_bytes": 548
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__reference_only/JOB_SUMMARY.json",
+      "sha256": "c754a32014c83a69d056be1d8b025a5fc77b4c6b8b2f23ed8551bc74efb1af45",
+      "size_bytes": 13209
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-007__reference_only/PRECISION_STATUS.json",
+      "sha256": "63f018753ee49a10179c834ee1760a4104ac64c34aa258320ca96e2e80c231b7",
+      "size_bytes": 25246
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-007__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "3ed80146320fb9b475cc9a36506041d94c31491fa0fb2f085c656a2cc0d11bcf",
+      "size_bytes": 4755887
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__combined/JOB_STATUS.json",
+      "sha256": "32bbea709670e8ac26407f697301f67c9f22ec683b981170696697e5ea6638d9",
+      "size_bytes": 531
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__combined/JOB_SUMMARY.json",
+      "sha256": "1e5175c907dc38ce1a2491444c240189186b59f25f9e60f8db7f2dbb1eee8b3a",
+      "size_bytes": 18442
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__combined/PRECISION_STATUS.json",
+      "sha256": "856cff2318cce1fb52341660c30168f0e0022a22b8d271d5927ea12e856a1122",
+      "size_bytes": 35072
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-008__combined/batches/batch_0_1999.jsonl",
+      "sha256": "ed54a69b9fa98a7de27225f1388d0a53e8386947c1a8a6e089c9d8d8bdaae450",
+      "size_bytes": 12677973
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__evaluation_only/JOB_STATUS.json",
+      "sha256": "e8c7da5e7e6e57c8def41283cddb96200aa4d40218123558519ad78208f915e2",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "1ebd40a862b241cb4e1b5274ba1f8474665293910aaf783da67ed897739debda",
+      "size_bytes": 13094
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "f9ab9981652fa43ec325c7716534c2fb1cf0ba2793afc6cb90cd693baddd1a38",
+      "size_bytes": 25123
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-008__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "43651d4a3dedbca16522109accc11ab779a054d567db769a4f53c62964e26675",
+      "size_bytes": 7862995
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__reference_only/JOB_STATUS.json",
+      "sha256": "36680c13181dad84daa083ccf2dfb720230d0236a2b9b1594a3e8b3ca06053be",
+      "size_bytes": 544
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__reference_only/JOB_SUMMARY.json",
+      "sha256": "c277ff32d12015f01f6580c9a19f5a833cd9c5f7f96245d7e94276ba1a1a8f38",
+      "size_bytes": 13170
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-008__reference_only/PRECISION_STATUS.json",
+      "sha256": "124b86781ba0b3ab7abe5aa6dcd1a7dbb91df5710d959b5bff94076c36d32507",
+      "size_bytes": 25220
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-008__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "126968b8b8f1cbd3012aace59b1cfe4cacb04298f527f21413ad74e66e680500",
+      "size_bytes": 9416238
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__combined/JOB_STATUS.json",
+      "sha256": "2821d145409bab41624ce2ba444b7300fb13323a91290fc10c4adfce61ba965e",
+      "size_bytes": 531
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__combined/JOB_SUMMARY.json",
+      "sha256": "ccad1f313f53f2490dc0672c62696e660062a42e8ef8c9e75ecb9c6bc157c27f",
+      "size_bytes": 18482
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__combined/PRECISION_STATUS.json",
+      "sha256": "7025748a5b71ac771e6552cf3f2b3914e0ebf88e9a5b7f610ab4498f322921d7",
+      "size_bytes": 35096
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-009__combined/batches/batch_0_1999.jsonl",
+      "sha256": "9507cbd238c7f1a5590830ae97e4959d6930f9537289e18cfb7b37ba9be0cffc",
+      "size_bytes": 12740563
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__evaluation_only/JOB_STATUS.json",
+      "sha256": "dccb0d5fafde8f63afb9600165729eb81cb4f9a73772f0ab27e2a583dc197810",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "33601902a933ac7a58673d57aa1267009a5d824dd73ab08c8864ab2e486c90bb",
+      "size_bytes": 13140
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "0132716d93b58cef07dfd68867f7d91f73205f346b534787aaa237e9ee614d68",
+      "size_bytes": 25155
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-009__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "ae9e24ce109381c0049aa12f7586b1b1f2824078080ea36a135294cbd3d56a68",
+      "size_bytes": 7910409
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__reference_only/JOB_STATUS.json",
+      "sha256": "9f842022f52064c00368a40d8df713a6b90146354b2bc83b1d1d1e4d82e1c966",
+      "size_bytes": 544
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__reference_only/JOB_SUMMARY.json",
+      "sha256": "bdde9c3431f704ffe7d806d7a73eb35630c60708f73668ea7e7330940e9bae02",
+      "size_bytes": 13177
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-009__reference_only/PRECISION_STATUS.json",
+      "sha256": "772405b114eb06053feb041f19efa96e0c6e22731f106449187e6c9336dca333",
+      "size_bytes": 25222
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-009__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "d8f9e4d8684d405a7ada7d10ea057144809c9453d4f34f01082e55ba885bffc6",
+      "size_bytes": 9449177
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__combined/JOB_STATUS.json",
+      "sha256": "049e0e15eeaea303c3e39d091a6d8ca99844dc878f002ddeb9a4bd1d92288df9",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__combined/JOB_SUMMARY.json",
+      "sha256": "8b659ced3498a552e0c0f360134705f97e3965ce1d999f8b8e9866de76b73c3c",
+      "size_bytes": 18440
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__combined/PRECISION_STATUS.json",
+      "sha256": "1ead57f4be5eea085cd045838c2a3fef37c6ec490c45ee0f37829f69fe313965",
+      "size_bytes": 35077
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-010__combined/batches/batch_0_1999.jsonl",
+      "sha256": "3c35b0d2b331b5e4f84aac65c736ab10a53435f6e446b7af18b9e98013a948ae",
+      "size_bytes": 12685579
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__evaluation_only/JOB_STATUS.json",
+      "sha256": "c37f553b2611926215e4ee73b4f3e1bfa038ee879439c4e866b3295d236a3d36",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "75883d3919c34057e5732c647daf0431a4316f1ae4c18495c2ac2b4275fd0ee0",
+      "size_bytes": 13082
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "ff111ab31c82a7fc55ccc6b47bee4bec5595aea7052b109a2c461b0392778ba4",
+      "size_bytes": 25132
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-010__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "a2fa37432ea1f4c64973ad31989553ff965c656c463e27297d7d283cde631df1",
+      "size_bytes": 7871881
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__reference_only/JOB_STATUS.json",
+      "sha256": "5bf0ae027301c574a968cc9e9f892312abdc54de3486cbac428f98eeaa3d25b0",
+      "size_bytes": 543
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__reference_only/JOB_SUMMARY.json",
+      "sha256": "74cc037c83891b2995b6d42205886f337ab89be55a4d0e7f0a0ee793f04980d0",
+      "size_bytes": 13149
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-010__reference_only/PRECISION_STATUS.json",
+      "sha256": "7cc13d3845cdd581b5fef752c61c1538995828ac1a266c2016245b6ffad8eaf1",
+      "size_bytes": 25206
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-010__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "c149a9f08e8b381a774d2b732f953bc4c04a5f7a2a58734b85e3d7bc19a95002",
+      "size_bytes": 9436035
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__combined/JOB_STATUS.json",
+      "sha256": "a40aa9ad9198a2fcb577e5f7ee64354bb13f5627322b3c044240ab020297a2b5",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__combined/JOB_SUMMARY.json",
+      "sha256": "44d3e338c85774e5092837ba6a120c5e94c389fbea38cbeecfa049ef7c794e24",
+      "size_bytes": 18412
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__combined/PRECISION_STATUS.json",
+      "sha256": "2d768fff0b2633ac1ff26cb33dcf6df1fcc4870c21fd0e51d06d50f538a76966",
+      "size_bytes": 35045
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-011__combined/batches/batch_0_1999.jsonl",
+      "sha256": "a5a5d178768090dddb235767b5cd8d1f85f41e82e9cfece109243a45a732994c",
+      "size_bytes": 12683828
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__evaluation_only/JOB_STATUS.json",
+      "sha256": "ea582a1b92f1ef719ae7308a80ea4bc7473c2c0b95bef39ec3870fa2415a8545",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "b55ffb7fe034b0e5b20db5118497b9493741fe8551db8fa2242a18c0867b925a",
+      "size_bytes": 13112
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "b85016e1057fda758ae961a21f7498d2bfd4d556077032ac335912ccd6e55b89",
+      "size_bytes": 25146
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-011__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "78328c4fc92342c86e106096dd2151b9c9a96189449bce056015d352e23fea7a",
+      "size_bytes": 7877955
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__reference_only/JOB_STATUS.json",
+      "sha256": "925e5e7625e427388a5de76e0d65cd60bf4e3594fe4b4d0a67cd0fb4a89a18ab",
+      "size_bytes": 544
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__reference_only/JOB_SUMMARY.json",
+      "sha256": "067134e54d512512afb8a82b49ecf72e02426065b04a29076f76774d4c8df903",
+      "size_bytes": 13168
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-011__reference_only/PRECISION_STATUS.json",
+      "sha256": "d949e88f997c4740b130a97d250a9f9e0082ac97b13cf52aa8551d9a9fdb0555",
+      "size_bytes": 25218
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-011__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "8bacbf08b0cf2456f514e3d2f9e6ae11b962597615afcc2e0bf23a28a98a56c3",
+      "size_bytes": 9435182
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__combined/JOB_STATUS.json",
+      "sha256": "94e37d841801d9f56e8a5635974a8fb2687ee0d732149d1c13d3491aecf11bfd",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__combined/JOB_SUMMARY.json",
+      "sha256": "3086335d171dd6bd203be27d512ef694a32fada6ddc30139ba4b442938b3fbcf",
+      "size_bytes": 18468
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__combined/PRECISION_STATUS.json",
+      "sha256": "35fe4ab07026d7986850f8bc98dd2f1be4c96eea786aa4b128bcd2e0b6042465",
+      "size_bytes": 35084
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-012__combined/batches/batch_0_1999.jsonl",
+      "sha256": "6be820bc0e5b0816492e3ca830ae0b8f3f10c4505f6c32392ad6bc827e352cba",
+      "size_bytes": 12742152
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__evaluation_only/JOB_STATUS.json",
+      "sha256": "d2ffb1f52c5045f0ebdd007f8e3584c850479df87e3d09ea562f88beb55d198d",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "dfcc49657699651a6f00c4eef4d7123b3e4cbbed5a329750414589789fdc0d78",
+      "size_bytes": 13135
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "f9ce41d9301ff7d47474826cbea7dfa15abf49541d1341594b3182376be023d4",
+      "size_bytes": 25152
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-012__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "df338e8d2dbf1e507bcd3a9c5a453e466e8e17fc464a6c352799e82f30d7e9b5",
+      "size_bytes": 7914388
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__reference_only/JOB_STATUS.json",
+      "sha256": "e0deb79d26143305f89e78242d2a376fdf7a3ff1c845e3975f5a318f4afcecec",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__reference_only/JOB_SUMMARY.json",
+      "sha256": "c750f1a794d7802a9e915057b47a740191dc8c5b8e590b356a46973055782040",
+      "size_bytes": 13203
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-012__reference_only/PRECISION_STATUS.json",
+      "sha256": "c70fce343b559d9f85ac4a19ee9068ff99115ab05dbcf24c0c9256ace4be656a",
+      "size_bytes": 25250
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-012__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "1bb8ea0636b87ebf742b35b2b3f10d5642bc9cbd4d94453f5c9473b03b945a6c",
+      "size_bytes": 9462594
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__combined/JOB_STATUS.json",
+      "sha256": "d052d9eaf0d86ac6cf2bcb464a1a2b75a1bf420fac3b5972012d2c5122575307",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__combined/JOB_SUMMARY.json",
+      "sha256": "69c2c4e3d6d71a75e42848ff55c3422d8b26950076f4413c36fa22bed30a99b6",
+      "size_bytes": 18443
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__combined/PRECISION_STATUS.json",
+      "sha256": "35d8fbd3d242fb3896c94fd3c7148cc458f1c10fe682e87dded0332a71692127",
+      "size_bytes": 35093
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-013__combined/batches/batch_0_1999.jsonl",
+      "sha256": "1c680fac9925d0b3b065b739d7d5f8ae0fe7607aea7072d763fcc4a139bfdf9b",
+      "size_bytes": 12711581
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__evaluation_only/JOB_STATUS.json",
+      "sha256": "c6c651865d22e1f02986a14fe9e9b5321b11e8a1f55ce64b11b2a660b3554150",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "26213dd1d74fde70bb8c266eae392fb904bd0b25997f437ab940ad2d1fa8de55",
+      "size_bytes": 13113
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "d377dc06973bab3e47fc30007dce6fc0751a7a0a5ca5220979b5eb37fb77cf55",
+      "size_bytes": 25136
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-013__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "406246f23ec6db6f58a8dbcb989d23f9837b9acb1e9724e4249d5bc4ffcdbdaa",
+      "size_bytes": 7890023
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__reference_only/JOB_STATUS.json",
+      "sha256": "a927d30e73f0dbd9096d03202956b198e5bf90e4c0d8d32e4c7c6f5dda723945",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__reference_only/JOB_SUMMARY.json",
+      "sha256": "1042b6c0b358d209091f5fc0a5c32fcee0a39ce58e6234f5bfceb681f2483dee",
+      "size_bytes": 13164
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-013__reference_only/PRECISION_STATUS.json",
+      "sha256": "b425d84df7b3173beec93a54c7cdf113069b0cd57191539c6d73b5be9fd20292",
+      "size_bytes": 25243
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-013__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "011427479d0b6d159feb0e420c714c80f288d7e948369eb1d7469ce5a8375ad4",
+      "size_bytes": 9493577
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__combined/JOB_STATUS.json",
+      "sha256": "b5649cd893029ab901ca9433f5a9d97966c3962cdd1b4c46e298ab8c6013edb3",
+      "size_bytes": 533
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__combined/JOB_SUMMARY.json",
+      "sha256": "a4a492e15ef665a9b02a5e1468b6160adb256b428235a578281021eacbd80909",
+      "size_bytes": 18464
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__combined/PRECISION_STATUS.json",
+      "sha256": "95263d775272704f975feed6037db7fba0d505db21e975ca9ee172e643abd8d9",
+      "size_bytes": 35102
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-014__combined/batches/batch_0_1999.jsonl",
+      "sha256": "3ff82887537fd7c78f73dfc95c19bf481f320fbbe34f752e43454b9d0168bdc3",
+      "size_bytes": 12699110
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__evaluation_only/JOB_STATUS.json",
+      "sha256": "1852212840b8eed8d82d1f53edfffa7a811f0b9d02d1c1591bc8d0e146b01ab5",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "198ec91ce5be060a98b127c14de6cca5be23a2a843d06da1f699933dc600ac71",
+      "size_bytes": 13120
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "424146f6ab1d3c9d31645077f9bef4b3f9ab1f0f39acbf0c155f9053ed667ce7",
+      "size_bytes": 25135
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-014__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "d4e8385aa9ea478ca56a929cdb04479f414a10261a4a22d5e2b42fd5eef6222a",
+      "size_bytes": 7893636
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__reference_only/JOB_STATUS.json",
+      "sha256": "70a5f4359bf9e137b748c01808d29b4e98fa6e96ddc484be5b805897f1dccb7b",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__reference_only/JOB_SUMMARY.json",
+      "sha256": "7937056242967f4f7f5fed6a83b290089bcec5e2142a50fb12536709af52e3c5",
+      "size_bytes": 13165
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-014__reference_only/PRECISION_STATUS.json",
+      "sha256": "733938a6855032362212e95144cdc3655fc616f082df966e7d5d701b5cb7626e",
+      "size_bytes": 25227
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-014__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "e2b46e6d4814abcab1cecf760bc43163f53302ab8d3a0f59fc6f3794bbdf279c",
+      "size_bytes": 9489313
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__combined/JOB_STATUS.json",
+      "sha256": "d7110bb49353d4bc017325f83369ea5dfe1ad75ad5c8da6fadee72ce792313a7",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__combined/JOB_SUMMARY.json",
+      "sha256": "adfc98b5299fc3d2a6531dde8236b9c1eb81f70ba26e313e0f4cee7bd4bdaf98",
+      "size_bytes": 18495
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__combined/PRECISION_STATUS.json",
+      "sha256": "f59a6a68af65658017a6c13c643d370957eea1c03f3c9c0a8d945bbec207e6d0",
+      "size_bytes": 35100
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-015__combined/batches/batch_0_1999.jsonl",
+      "sha256": "9e2dba72e11d45df87f2ec9ca928e4e73b9adfb8d7e5da52d3fbb4a45b8ec9dd",
+      "size_bytes": 12712985
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__evaluation_only/JOB_STATUS.json",
+      "sha256": "29209af0889ac73a1265119a82c7580e94c43e5d9239bc0eb74624031ed3f88b",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "26b3e3b3973671b02a157369f4f435a486f9ef8342af414ad31f44594b4d1cca",
+      "size_bytes": 13140
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "9f7fe1f71aaf4b7b3646e0e3bc90ec5d367871ac42b75fd77c9f6e77221ef903",
+      "size_bytes": 25141
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-015__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "1fb50903235f4e7b43ac17a0a877921adc3dc4d38358a577fe2c168fb2884cc9",
+      "size_bytes": 7897061
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__reference_only/JOB_STATUS.json",
+      "sha256": "2eff81e96c90e0f302cdc0471cb1166d6a537969dd7a16868b0d0339a1f46872",
+      "size_bytes": 544
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__reference_only/JOB_SUMMARY.json",
+      "sha256": "ce3e57c2011150eea56977be75ae70eb0ce683cd0243e04dff831df2bf70c137",
+      "size_bytes": 13196
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-015__reference_only/PRECISION_STATUS.json",
+      "sha256": "4ec4e327ba076d45ad45eb14a618bc372270a4e0db6189c63d19c240f2ead999",
+      "size_bytes": 25238
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-015__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "907405aeeb46a918e51f13a6cffaed5dc34f19b18db11a4211d02d4f4c820203",
+      "size_bytes": 9497494
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__combined/JOB_STATUS.json",
+      "sha256": "22d28b8d76d52a13a0881344f3e21855917249c3434efee9fff1d9c0ab37bd5d",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__combined/JOB_SUMMARY.json",
+      "sha256": "6e1dde95934074229e19316bb780413499d068cb2d5e52b3a922ed028a0b7594",
+      "size_bytes": 18441
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__combined/PRECISION_STATUS.json",
+      "sha256": "95d607336d615ea9ee64e4f1c9d52c37f3ffdf1bce7a4aa2d45323208a9721c3",
+      "size_bytes": 34968
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-016__combined/batches/batch_0_1999.jsonl",
+      "sha256": "2b1f1c2b6dd86244cdc95e0b15371c896775172580084475aa71a87567c6f67a",
+      "size_bytes": 12723509
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__evaluation_only/JOB_STATUS.json",
+      "sha256": "3b350967852eb386af8033ac91e1b9998d015ecde71df6004c0250882374d3d6",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "3826d764c65ebdfa47e6166ca7b066d3c791e9a14d765dff3deade5d77fefca9",
+      "size_bytes": 13091
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "4b61df09d534fe0e6464df0948eefdee3d665fa5e986a2fa44ecb7a1edfd5332",
+      "size_bytes": 25048
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-016__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "240c85c87ea63d44dbcdcd730d59bc53fe61d9722ff611b1e728cb287d255b61",
+      "size_bytes": 7898019
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__reference_only/JOB_STATUS.json",
+      "sha256": "6ce877ab70bc83b436334749d1b2f6ba7a4d011a53ed5bab06dfeb4ae2ad992e",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__reference_only/JOB_SUMMARY.json",
+      "sha256": "26b4465237109f69d9fd2519a618edf323e49eca8a4c29dc700fe17a75388bf9",
+      "size_bytes": 13191
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-016__reference_only/PRECISION_STATUS.json",
+      "sha256": "eba04e30df26312c68d28dfb9c7f4b77ccc5ce4e2955e850f997c5dd9df1f933",
+      "size_bytes": 25175
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-016__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "6a36f4a71c8e9773ac85b63dbf6a650eb1c3d4b1010861febfb50a2f62248d53",
+      "size_bytes": 9438814
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__combined/JOB_STATUS.json",
+      "sha256": "ecc68e24c7b7aa82e505e413fe37592bf99c2340b7a68c105b524e4fface5a25",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__combined/JOB_SUMMARY.json",
+      "sha256": "fd2bfcda8e30d3ecc041316c8aeb74a00a39b8de893ab47262359980944551dc",
+      "size_bytes": 18474
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__combined/PRECISION_STATUS.json",
+      "sha256": "25bdd1bf0742939c2dea5e2d3e06ce4df65f3e24df7b50d801ace1b18c7d8507",
+      "size_bytes": 34915
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-017__combined/batches/batch_0_1999.jsonl",
+      "sha256": "3817cda440a8cd94c554fa2446160f0e86bb0dd69670aa217c4ee0ad72c0c8fa",
+      "size_bytes": 12714232
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__evaluation_only/JOB_STATUS.json",
+      "sha256": "00f3ce44c145be928dd943414d533616f2fa7360c943fab97bd092c2b1fbf4f9",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "bfd097e04c75af151786b2295a4f99638bc87834530b561f3223e52cbaef5dd2",
+      "size_bytes": 13155
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "df03a53e48d8567af2528e335b11200a6491b8b2fd4060e3b5f0069c583666c7",
+      "size_bytes": 25040
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-017__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "e3047df60286fd6b0d1f98483e5782095ab365f1458299aa1259676b35b75d0b",
+      "size_bytes": 7897854
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__reference_only/JOB_STATUS.json",
+      "sha256": "310c74bb9927cce932930ee5c0aac18b7392eb35844473d0ca10644854667944",
+      "size_bytes": 544
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__reference_only/JOB_SUMMARY.json",
+      "sha256": "b42ecff31249aaf817e85cb77e4991ccb883684add9d4d7b88b792676fc2db3a",
+      "size_bytes": 13180
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-017__reference_only/PRECISION_STATUS.json",
+      "sha256": "328f8bacbc2ec96867b970c168a74317e400664b15b88e3527b5788505bd2883",
+      "size_bytes": 25098
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-017__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "5b259b00c723b494947b65d24bd1127dbe40da72d12ec6c2df86b2c92d3cd3f5",
+      "size_bytes": 9435301
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__combined/JOB_STATUS.json",
+      "sha256": "4630a59fe6c4cbf4d67633fb09a505ae2693a962767caac31d5f57b2fcf12058",
+      "size_bytes": 533
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__combined/JOB_SUMMARY.json",
+      "sha256": "1b8c71ce87c2acf477bfa3e0c6b2bcb6142237f5a219fb793ec0beaf57e987b7",
+      "size_bytes": 18450
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__combined/PRECISION_STATUS.json",
+      "sha256": "7347fc966387eeafa86d779f3002e311078345e5a6c2be749be96cd13b5d0fe6",
+      "size_bytes": 34933
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-018__combined/batches/batch_0_1999.jsonl",
+      "sha256": "6cafac5c861898f1ea2745b1c14c63c2921025a23943b6dbcf213b465e34a268",
+      "size_bytes": 12720555
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__evaluation_only/JOB_STATUS.json",
+      "sha256": "521733e855112745895c91bdca9e92de5e2a632fef11c4b27aaea7885569febe",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "d7b1bc9d9a387d5bf82f53b00d9d55a2dd7295283b27bc02f643478a84665e55",
+      "size_bytes": 13089
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "00e03333db08eccf318f47bac68b0fc0178e4453ef65fe8d528171dd5459d125",
+      "size_bytes": 25020
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-018__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "a5b6dff2ed85fbae0383d929e6699d5250a973c22329c8243ec48a676a1dbe3b",
+      "size_bytes": 7901708
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__reference_only/JOB_STATUS.json",
+      "sha256": "355bcdecaa8232eb2e663bbaa07ac26f512068614d1449f27eab3d516149e37f",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__reference_only/JOB_SUMMARY.json",
+      "sha256": "da8db70309e9bfeb060d08ded9e556a239d289b8697ea29e00ffccd7c4fa5fbb",
+      "size_bytes": 13170
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-018__reference_only/PRECISION_STATUS.json",
+      "sha256": "ab67d62a07dfa045ccf1059675aa35fe30eef10b682a091edf4d212e4b06671a",
+      "size_bytes": 25108
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-018__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "f4407cfb12aa3bf40dde1230a682c1d66278a5b19cacb82bfcd86d59d1f3a1b4",
+      "size_bytes": 9436876
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__combined/JOB_STATUS.json",
+      "sha256": "207b0ae203e38b2105aad5d5c4904371396d51ff288b119c90f745bc553d41e4",
+      "size_bytes": 531
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__combined/JOB_SUMMARY.json",
+      "sha256": "6ad2c28bb0bf944cdf6fc784379704b323aca1b599284651b7fa21d7377f7420",
+      "size_bytes": 18474
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__combined/PRECISION_STATUS.json",
+      "sha256": "e2592928cef664f9cd779805ba68e463e6824ab809ac57fde9422a4e796badd0",
+      "size_bytes": 35012
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-019__combined/batches/batch_0_1999.jsonl",
+      "sha256": "1d5805cd1fb8b325db19307f2bf2339c4a52b6110700ee1c543d58f50723fe90",
+      "size_bytes": 12763561
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__evaluation_only/JOB_STATUS.json",
+      "sha256": "fc61d766b7c13a6cc43085d933b1cbd2f5090ad7b842f34092b6c37800c3bc3c",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "60b9a4351db5290fe89bd59233f746fd8f1e2ab89966beb1eda35e5d3d3a9b80",
+      "size_bytes": 13141
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "c18faba133bc00fb7c6ff765ffb77fbed310f504d0fad95354f1b58cb557a221",
+      "size_bytes": 25118
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-019__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "262ad51e91ac6d0805af9ae2a425d857a0e02550e51c4be4447c4960d71c615c",
+      "size_bytes": 7927935
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__reference_only/JOB_STATUS.json",
+      "sha256": "c854292255a6dbd847e49e99fdd1ba1da80c0bc91a1da7be78937aff384b2fd5",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__reference_only/JOB_SUMMARY.json",
+      "sha256": "9b6ba9f157ae383d8ae8794eacd53a492ded1e2e7a63ffa27248129198310969",
+      "size_bytes": 13209
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-019__reference_only/PRECISION_STATUS.json",
+      "sha256": "624cbf8b605334c77fe1b26884d278fbe1e58ecc3fa3befbccd22abf8d7e9474",
+      "size_bytes": 25211
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-019__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "e99fc5e700b4de557ac8b68e20634ff1d77171a1a9d30d721c95e1415327dbdc",
+      "size_bytes": 9482736
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__combined/JOB_STATUS.json",
+      "sha256": "5c95b226e7df625866fdf574657e182f6c3373948023e93436bf35167b534472",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__combined/JOB_SUMMARY.json",
+      "sha256": "7e3d92db50798eb9ec73ba4ccbbded0963eb01105440607d6bd15f6045b72d21",
+      "size_bytes": 18487
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__combined/PRECISION_STATUS.json",
+      "sha256": "86143d806ff68d70e5809e4ac24e6a9339917de2dc007636c3bd41af223ac442",
+      "size_bytes": 34948
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-020__combined/batches/batch_0_1999.jsonl",
+      "sha256": "c461493c93670c4740eb53264bb0f926995c241d27e43d46fb827528f469ee74",
+      "size_bytes": 12759910
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__evaluation_only/JOB_STATUS.json",
+      "sha256": "08f947f0f1789f59bac33a07f4920802bfad523cca71203e9488f6d9de9953cb",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "c3a408a5d24791ded85ae6916946416dd6c7d6dd0570b85df92bbcab8c36ba5c",
+      "size_bytes": 13124
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "617ee52e7df9751d8f0a039791958dcac02a474389efb64a9f220c7a2d0ed500",
+      "size_bytes": 25049
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-020__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "f58dcc609dfd41f4e0da00a2d723a1ade094fa0c25ede83332d792ff7a65f66c",
+      "size_bytes": 7929666
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__reference_only/JOB_STATUS.json",
+      "sha256": "e1a03e5a220bb233a79587a1d9f95062985f2c8de2fb4f0b0af62704078644fa",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__reference_only/JOB_SUMMARY.json",
+      "sha256": "acb8a5f04d3b674e403f80f581e5903b69fa551de76b5f5a017671c524b88de4",
+      "size_bytes": 13212
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-020__reference_only/PRECISION_STATUS.json",
+      "sha256": "4a479edd2c62907a25723504441885f497ce814261a1f21f049d36ca26c36b39",
+      "size_bytes": 25162
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-020__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "d247d318e4130f4f003f3468716386c6e9ecadf17e08b14e4dd05e06e8b0b779",
+      "size_bytes": 9477281
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__combined/JOB_STATUS.json",
+      "sha256": "89191415c607c303c328ab7e6a931f47c1cfe4563076302c742c2056cdab5d40",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__combined/JOB_SUMMARY.json",
+      "sha256": "837f85f4ead8e4eac7704aaa71a41ad39d9037568d50a10daf29727c6eb4c62b",
+      "size_bytes": 18497
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__combined/PRECISION_STATUS.json",
+      "sha256": "54e78da02237c3ebcd3229e55b5032111faa8349c60af1eeabddf31a689d45d5",
+      "size_bytes": 35082
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-021__combined/batches/batch_0_1999.jsonl",
+      "sha256": "122d43ba18edb2c8385ee7f43ed161e7b6e9448756ab53f04dd5d754614776eb",
+      "size_bytes": 12751264
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__evaluation_only/JOB_STATUS.json",
+      "sha256": "b26e3d638f538594ddbcdab0730ab0ae8bf670fbdf04da8c9e291137b8e879fe",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "c75f5beccea5816fb63a8e27f18f2cd5c28431d07c7c31e63ae81969e10cbb61",
+      "size_bytes": 13131
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "b57b07e38edd9f1b81e5ed10940fa2229f98939b37d35ae60fb0514decf176c0",
+      "size_bytes": 25150
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-021__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "bbf9ea4f764d9bc7721e788bd72cad36cefd03cf10a70b03fb6d4ea45b390c1f",
+      "size_bytes": 7922839
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__reference_only/JOB_STATUS.json",
+      "sha256": "3e84f5ffe9682110199cc59b4dcf32c793a42760601cf2dd2e360ffb01035a55",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__reference_only/JOB_SUMMARY.json",
+      "sha256": "c97d21f2256183af3c6bf36936b48938aa9dbe4541819480a5d4d3f3f683d16c",
+      "size_bytes": 13206
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-021__reference_only/PRECISION_STATUS.json",
+      "sha256": "666867501cb8cc96bfa8c049f42c6d27f36387f7027494a705bc720e87185486",
+      "size_bytes": 25229
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-021__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "b91a293a9a37967e595ee424a06c0746e2f4a929a6ce306eb13aef3f59cd8528",
+      "size_bytes": 9470888
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__combined/JOB_STATUS.json",
+      "sha256": "f6e1e46f019fff4b9a649f44182ba8b15ab0952fcfee76aa14bbaa27cdf491a2",
+      "size_bytes": 531
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__combined/JOB_SUMMARY.json",
+      "sha256": "e06c7befd42e5c3cf660a6d076d40f046188ba1853a452e7e034fac233314088",
+      "size_bytes": 18618
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__combined/PRECISION_STATUS.json",
+      "sha256": "8ed030f76be8825c4491e7aebdeb70f4fd4cb26ec70feb1784ee5970170b91be",
+      "size_bytes": 34973
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-022__combined/batches/batch_0_1999.jsonl",
+      "sha256": "cd3558345967e2cd82f199f0967069c5b3ee20c99d79e366550f71d48fedde26",
+      "size_bytes": 12794496
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__evaluation_only/JOB_STATUS.json",
+      "sha256": "c5f1a83c25de9f9e17441e7807d23f90468f6f32407cdda041687a57c7dd63f3",
+      "size_bytes": 547
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "6cb3c445b2c2ebee503a93ff7eea45e255d250a5ba55ed86987272c016fdea5d",
+      "size_bytes": 13240
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "fa1b832aeb47e3b2fbda135bc3f322848b38e91e15c6e9be101ebfadfefc510c",
+      "size_bytes": 25079
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-022__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "09519f9b9f75c2bc8f957b4b33296e6fbeb203f633682d07ff545ce4f9b296ee",
+      "size_bytes": 7946920
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__reference_only/JOB_STATUS.json",
+      "sha256": "65ca6b4e9309b95040ecc4bb218544e8e95971acc53ebe5f00b2d69250fa3459",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__reference_only/JOB_SUMMARY.json",
+      "sha256": "6bab039f23d48957436f2e5b3cc8b77cdf9f25176c3a93500ff2518b94823f52",
+      "size_bytes": 13307
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-022__reference_only/PRECISION_STATUS.json",
+      "sha256": "9b39e946dfb32e5e00dbf2114fbf85d30adb5d0f793037f97614c9d0ca4f10be",
+      "size_bytes": 25174
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-022__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "6cdb14d4874d026b701bb8cd91018c8af45bf074eb52d2afc4d47802d1be1a6e",
+      "size_bytes": 9563439
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__combined/JOB_STATUS.json",
+      "sha256": "ae0e00b2accee0950c3b0a9743c05b5aad3004a808ac97517836efc7da8704a4",
+      "size_bytes": 532
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__combined/JOB_SUMMARY.json",
+      "sha256": "cd1a9ad8bcb01ad84049bcd9e7e9d256e006b1aa9fb0c081cc216c7ab647866a",
+      "size_bytes": 18589
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__combined/PRECISION_STATUS.json",
+      "sha256": "011e9e3a87e841f4c19bc037e9e92eb50f5f6098a7fcde034902bebc171bef0c",
+      "size_bytes": 34942
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-023__combined/batches/batch_0_1999.jsonl",
+      "sha256": "84f6a5f11de3112860195d5c1f323eafd581a3ee2deb936b361622bfc79ee7c9",
+      "size_bytes": 12797645
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__evaluation_only/JOB_STATUS.json",
+      "sha256": "cdb258c97b45f5af41d3db85d0762b7b5d717d2a482a9d2138327ffeed22aacd",
+      "size_bytes": 546
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "4e06689376f58ece28f50501844620a0c7db2d284f9cd6979fa85e5d059b2dac",
+      "size_bytes": 13203
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "f132fdab506db6d6275abbfcb77f57aa72f0f928413055fdf271df24e0b0a5ce",
+      "size_bytes": 25040
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-023__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "f6d0e03edcf601f11e4cef84943656fd29fbf0f613c50ffd4c3c5871e1bd040c",
+      "size_bytes": 7962152
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__reference_only/JOB_STATUS.json",
+      "sha256": "4bb13124a417520b3e17c4670934755ad6fc1ae34a7591e0ab33bcd99f7daf97",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__reference_only/JOB_SUMMARY.json",
+      "sha256": "7ffb2f02b6785ebdb12a9084166768d063c2621aa0aa3c27cf59ba86139fe89e",
+      "size_bytes": 13292
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-023__reference_only/PRECISION_STATUS.json",
+      "sha256": "7170ccc59e40c22567ca674fb664d062d9d4df5f5e4394c7e6bd7912b902f28b",
+      "size_bytes": 25140
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-023__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "158bb3a46cc4888be02f4a0ab81cc24afce142986a250203faf905e3c84298f5",
+      "size_bytes": 9566236
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__combined/JOB_STATUS.json",
+      "sha256": "c266d297a82ed14b9b7ed39bfc5b16d62f2f97a9f5db75557802e249ee0bec2e",
+      "size_bytes": 533
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__combined/JOB_SUMMARY.json",
+      "sha256": "ce936606a19a7365f89c939c6726a4d157442cc098b06aaf71b1775908df12a6",
+      "size_bytes": 18626
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__combined/PRECISION_STATUS.json",
+      "sha256": "bb9a3b80c3b506aa924d6db4a046ebd21bd7cfca10fa076b2b7a0609133a6c92",
+      "size_bytes": 34996
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-024__combined/batches/batch_0_1999.jsonl",
+      "sha256": "edef5de1db53afc1f39150f59201139c0a6efb7dc1c37fb98a60cad8fd1988d4",
+      "size_bytes": 12809222
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__evaluation_only/JOB_STATUS.json",
+      "sha256": "ab4b009571321d4bdf4166ec9c03682ebaadfb367a54c04ea347f3ddce1a1d5f",
+      "size_bytes": 544
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__evaluation_only/JOB_SUMMARY.json",
+      "sha256": "e100766918c59bb6c3099c53f4dca341cbf24f11162494a4e17f32626bdb756f",
+      "size_bytes": 13211
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__evaluation_only/PRECISION_STATUS.json",
+      "sha256": "bb6d0429be227f9f2c7a3f26714ae6741194dff67f8495d89337203c8be8da47",
+      "size_bytes": 25057
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-024__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "c10be31d97508863572dc19f02e70265ca853873e4b5f181bf9fcddf95dcbb21",
+      "size_bytes": 7967622
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__reference_only/JOB_STATUS.json",
+      "sha256": "91cc6ee84508b5a8c01a0a1364a7196f3568b452e3dac1adc4ecfd64ed46d654",
+      "size_bytes": 545
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__reference_only/JOB_SUMMARY.json",
+      "sha256": "1efe681eab1c4d7daddbd705a688764ab0f83b2dd3e1f9532957d91999ffd8aa",
+      "size_bytes": 13295
+    },
+    {
+      "category": "job_metadata",
+      "path": "jobs/d8a-generalized-class-024__reference_only/PRECISION_STATUS.json",
+      "sha256": "fcfac49f8c3c080d1fa8bbe9f20e4a34889346aaa24f31cfdadd1960027f567a",
+      "size_bytes": 25168
+    },
+    {
+      "category": "scientific_batches",
+      "path": "jobs/d8a-generalized-class-024__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "770d705d62b7c47a45585e2e5da2fc137d6013bd22bf76a8a097fd2c1c6bcae7",
+      "size_bytes": 9566219
+    },
+    {
+      "category": "postrun_audit",
+      "path": "postrun_audit/D8A_POSTRUN_COMPLETION_AND_SCHEMA_AUDIT.json",
+      "sha256": "2ff2017b89e45cb7fe1114b5c301d31016f990f80407a882b64016672b06320b",
+      "size_bytes": 175304
+    },
+    {
+      "category": "postrun_audit",
+      "path": "postrun_audit/D8A_POSTRUN_COMPLETION_AND_SCHEMA_AUDIT.md",
+      "sha256": "f70d256327b97552c07963da807549720f9ac6b00a105f65804f228c325da8f3",
+      "size_bytes": 564
+    }
+  ],
+  "files_staged_or_committed": false,
+  "integrity_failures": [],
+  "lock": {
+    "commit": "2bb31584d3d0ea64fea4c7acea615412e6715f79",
+    "lock_id": "TESS_D8A_SCIENTIFIC_RUNNER_ENGINE_LOCK_V1",
+    "tag": "d8a-scientific-runner-engine-lock-v1",
+    "verifier_status": "PASS"
+  },
+  "locked_runner_engine_modified": false,
+  "prospective_criteria_changed": false,
+  "run": {
+    "complete_job_count": 75,
+    "root_relative_to_repo": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1",
+    "selected_job_count": 75,
+    "total_committed_replicates": 126000
+  },
+  "schema_version": "1.0",
+  "scientific_conclusions": {
+    "formal_contract_status": "PASS",
+    "overall_interpretation": "FORMAL_PASS_WITH_QUALIFIED_NUMERICAL_SUPPORT",
+    "policy_expansion_evidence": "STRONG_SUPPORT",
+    "tess_finite_sample_evidence": "FORMAL_PASS_BUT_MCSE_RESOLUTION_LIMITED"
+  },
+  "scientific_simulation_rerun": false,
+  "storage": {
+    "categories": {
+      "formal_adjudication": {
+        "file_count": 6,
+        "size_bytes": 257237,
+        "size_mib": 0.24532032012939453
+      },
+      "job_metadata": {
+        "file_count": 225,
+        "size_bytes": 3295347,
+        "size_mib": 3.1426877975463867
+      },
+      "postrun_audit": {
+        "file_count": 2,
+        "size_bytes": 175868,
+        "size_mib": 0.16772079467773438
+      },
+      "run_metadata": {
+        "file_count": 2,
+        "size_bytes": 50946,
+        "size_mib": 0.04858589172363281
+      },
+      "scientific_batches": {
+        "file_count": 75,
+        "size_bytes": 632566486,
+        "size_mib": 603.2624111175537
+      }
+    },
+    "commit_feasibility": "DIRECT_COMMIT_POSSIBLE_BUT_REPOSITORY_BLOAT_RISK",
+    "file_count": 310,
+    "largest_20_files": [
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-024__combined/batches/batch_0_1999.jsonl",
+        "sha256": "edef5de1db53afc1f39150f59201139c0a6efb7dc1c37fb98a60cad8fd1988d4",
+        "size_bytes": 12809222
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-023__combined/batches/batch_0_1999.jsonl",
+        "sha256": "84f6a5f11de3112860195d5c1f323eafd581a3ee2deb936b361622bfc79ee7c9",
+        "size_bytes": 12797645
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-022__combined/batches/batch_0_1999.jsonl",
+        "sha256": "cd3558345967e2cd82f199f0967069c5b3ee20c99d79e366550f71d48fedde26",
+        "size_bytes": 12794496
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-019__combined/batches/batch_0_1999.jsonl",
+        "sha256": "1d5805cd1fb8b325db19307f2bf2339c4a52b6110700ee1c543d58f50723fe90",
+        "size_bytes": 12763561
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-020__combined/batches/batch_0_1999.jsonl",
+        "sha256": "c461493c93670c4740eb53264bb0f926995c241d27e43d46fb827528f469ee74",
+        "size_bytes": 12759910
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-021__combined/batches/batch_0_1999.jsonl",
+        "sha256": "122d43ba18edb2c8385ee7f43ed161e7b6e9448756ab53f04dd5d754614776eb",
+        "size_bytes": 12751264
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-012__combined/batches/batch_0_1999.jsonl",
+        "sha256": "6be820bc0e5b0816492e3ca830ae0b8f3f10c4505f6c32392ad6bc827e352cba",
+        "size_bytes": 12742152
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-009__combined/batches/batch_0_1999.jsonl",
+        "sha256": "9507cbd238c7f1a5590830ae97e4959d6930f9537289e18cfb7b37ba9be0cffc",
+        "size_bytes": 12740563
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-016__combined/batches/batch_0_1999.jsonl",
+        "sha256": "2b1f1c2b6dd86244cdc95e0b15371c896775172580084475aa71a87567c6f67a",
+        "size_bytes": 12723509
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-018__combined/batches/batch_0_1999.jsonl",
+        "sha256": "6cafac5c861898f1ea2745b1c14c63c2921025a23943b6dbcf213b465e34a268",
+        "size_bytes": 12720555
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-017__combined/batches/batch_0_1999.jsonl",
+        "sha256": "3817cda440a8cd94c554fa2446160f0e86bb0dd69670aa217c4ee0ad72c0c8fa",
+        "size_bytes": 12714232
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-015__combined/batches/batch_0_1999.jsonl",
+        "sha256": "9e2dba72e11d45df87f2ec9ca928e4e73b9adfb8d7e5da52d3fbb4a45b8ec9dd",
+        "size_bytes": 12712985
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-013__combined/batches/batch_0_1999.jsonl",
+        "sha256": "1c680fac9925d0b3b065b739d7d5f8ae0fe7607aea7072d763fcc4a139bfdf9b",
+        "size_bytes": 12711581
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-014__combined/batches/batch_0_1999.jsonl",
+        "sha256": "3ff82887537fd7c78f73dfc95c19bf481f320fbbe34f752e43454b9d0168bdc3",
+        "size_bytes": 12699110
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-010__combined/batches/batch_0_1999.jsonl",
+        "sha256": "3c35b0d2b331b5e4f84aac65c736ab10a53435f6e446b7af18b9e98013a948ae",
+        "size_bytes": 12685579
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-011__combined/batches/batch_0_1999.jsonl",
+        "sha256": "a5a5d178768090dddb235767b5cd8d1f85f41e82e9cfece109243a45a732994c",
+        "size_bytes": 12683828
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-008__combined/batches/batch_0_1999.jsonl",
+        "sha256": "ed54a69b9fa98a7de27225f1388d0a53e8386947c1a8a6e089c9d8d8bdaae450",
+        "size_bytes": 12677973
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-023__reference_only/batches/batch_0_1999.jsonl",
+        "sha256": "158bb3a46cc4888be02f4a0ab81cc24afce142986a250203faf905e3c84298f5",
+        "size_bytes": 9566236
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-024__reference_only/batches/batch_0_1999.jsonl",
+        "sha256": "770d705d62b7c47a45585e2e5da2fc137d6013bd22bf76a8a097fd2c1c6bcae7",
+        "size_bytes": 9566219
+      },
+      {
+        "category": "scientific_batches",
+        "path": "jobs/d8a-generalized-class-022__reference_only/batches/batch_0_1999.jsonl",
+        "sha256": "6cdb14d4874d026b701bb8cd91018c8af45bf074eb52d2afc4d47802d1be1a6e",
+        "size_bytes": 9563439
+      }
+    ],
+    "largest_file": "jobs/d8a-generalized-class-024__combined/batches/batch_0_1999.jsonl",
+    "largest_file_bytes": 12809222,
+    "largest_file_mib": 12.215826034545898,
+    "single_files_at_or_above_100_mib": [],
+    "total_bytes": 636345884,
+    "total_gib": 0.5926432870328426,
+    "total_mib": 606.8667259216309
+  }
+}

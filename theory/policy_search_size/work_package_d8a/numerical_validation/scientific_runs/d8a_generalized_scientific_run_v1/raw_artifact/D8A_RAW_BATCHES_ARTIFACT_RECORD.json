@@ -1,0 +1,400 @@
+{
+  "archive": {
+    "deterministic_tar_gzip": true,
+    "filename": "d8a_generalized_scientific_run_v1_raw_batches_87a88fa11ac19499.tar.gz",
+    "local_path_at_closeout": "/Users/sendaatsushi/Documents/pipeline-aware-artifacts/d8a_generalized_scientific_run_v1/d8a_generalized_scientific_run_v1_raw_batches_87a88fa11ac19499.tar.gz",
+    "remote_deposit_status": "PENDING",
+    "sha256": "87a88fa11ac19499a7e416cef08bdda70dccd86e0cbec388ee5e42d033c02918",
+    "size_bytes": 92930007,
+    "verified_member_count": 75
+  },
+  "artifact_id": "TESS_D8A_RAW_SCIENTIFIC_BATCH_ARTIFACT_V1",
+  "formal_contract_status": "PASS",
+  "lock_commit": "2bb31584d3d0ea64fea4c7acea615412e6715f79",
+  "lock_id": "TESS_D8A_SCIENTIFIC_RUNNER_ENGINE_LOCK_V1",
+  "lock_tag": "d8a-scientific-runner-engine-lock-v1",
+  "overall_evidential_interpretation": "FORMAL_PASS_WITH_QUALIFIED_NUMERICAL_SUPPORT",
+  "raw_batch_file_count": 75,
+  "raw_batch_files": [
+    {
+      "path": "jobs/d8a-generalized-class-000__combined/batches/batch_0_999.jsonl",
+      "sha256": "2b575617b30629867c79b4df0dd12b2eb8f272407bd4d2f1ccb0c55fe7133857",
+      "size_bytes": 6368233
+    },
+    {
+      "path": "jobs/d8a-generalized-class-000__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "fd73971bd1fe95558a13231d4c375736c80f65c7e52c1cb9eecf7c482c78d62a",
+      "size_bytes": 3950282
+    },
+    {
+      "path": "jobs/d8a-generalized-class-000__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "29c60dcead53a342ef27acf4ef5e33a18a1364117f5628a658ce93dbcd44b01a",
+      "size_bytes": 4721823
+    },
+    {
+      "path": "jobs/d8a-generalized-class-001__combined/batches/batch_0_999.jsonl",
+      "sha256": "2f41abe10f8bb96085bfa88384e968c5df08d1664e9fcd7f911cfcb0f1f677ff",
+      "size_bytes": 6372158
+    },
+    {
+      "path": "jobs/d8a-generalized-class-001__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "52d4576bb81e94acc20292539e0cd572a14e5cfd5ccd62e4038012b325011a4b",
+      "size_bytes": 3957941
+    },
+    {
+      "path": "jobs/d8a-generalized-class-001__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "afb8617a18a914d23aa8d2855b8a6c187c4686bd6fc884a2d1c1543485b6a61b",
+      "size_bytes": 4725857
+    },
+    {
+      "path": "jobs/d8a-generalized-class-002__combined/batches/batch_0_999.jsonl",
+      "sha256": "1a9c440e0e263526495531d1143d6e6503e720b884228e07300f4b358a5c2514",
+      "size_bytes": 6355983
+    },
+    {
+      "path": "jobs/d8a-generalized-class-002__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "98479554fc16cc781a85d6f1659d26a057c07d760aba3d72f8bdecde25edd544",
+      "size_bytes": 3945578
+    },
+    {
+      "path": "jobs/d8a-generalized-class-002__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "04425ab431e427b3b4e1f1194d9dd9832848b859d0a750b6fb8a8bcb40061e52",
+      "size_bytes": 4722657
+    },
+    {
+      "path": "jobs/d8a-generalized-class-003__combined/batches/batch_0_999.jsonl",
+      "sha256": "0ee22db16c2af04fb36ec87be492a6793bb7044504d29ab5a857887bf24550d2",
+      "size_bytes": 6362629
+    },
+    {
+      "path": "jobs/d8a-generalized-class-003__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "7b00d30096e292634c27f91833c328bf62fc6050b72ec121dcc7532c9c7b9b4f",
+      "size_bytes": 3949578
+    },
+    {
+      "path": "jobs/d8a-generalized-class-003__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "3f6a43344e169f455967fa3000ec769497cb7a77a00ca8971d7ea92bf4f6aa74",
+      "size_bytes": 4726432
+    },
+    {
+      "path": "jobs/d8a-generalized-class-004__combined/batches/batch_0_999.jsonl",
+      "sha256": "1b9c5736b4b30b9d22176d4f2aa08726e70b6b5c4af18c045f382873f527275e",
+      "size_bytes": 6384287
+    },
+    {
+      "path": "jobs/d8a-generalized-class-004__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "592bb4170426e23a213ea534eb1ff6ab7c6fcf71af2af616b2015c38b3e79365",
+      "size_bytes": 3965555
+    },
+    {
+      "path": "jobs/d8a-generalized-class-004__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "b96c80b752787e83aff568a66af550ce70fac70aaa11d93f8e2b6e7a5ebc3386",
+      "size_bytes": 4740885
+    },
+    {
+      "path": "jobs/d8a-generalized-class-005__combined/batches/batch_0_999.jsonl",
+      "sha256": "f3907fe98d75bbfa29eff50781fa9094aeefa199352dec737bb33b494a365fe6",
+      "size_bytes": 6367984
+    },
+    {
+      "path": "jobs/d8a-generalized-class-005__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "f1a2009d48a9bf4932a3cfa67c9ea5fd76db16528c0c71fd64d081c38fe432da",
+      "size_bytes": 3950967
+    },
+    {
+      "path": "jobs/d8a-generalized-class-005__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "cbc55e06388cd360579cd11d391ef2b954403ba1e7774531742ddc482892a9d8",
+      "size_bytes": 4751512
+    },
+    {
+      "path": "jobs/d8a-generalized-class-006__combined/batches/batch_0_999.jsonl",
+      "sha256": "e498b8b4ab67bbc23b301bca3bacc0bb922eab1ad89053ebe4f1e176b1c7d030",
+      "size_bytes": 6368126
+    },
+    {
+      "path": "jobs/d8a-generalized-class-006__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "b243f6889144b76cbc9083818174d94cb5e04e9eaa37da549f5a91c48089bc03",
+      "size_bytes": 3955225
+    },
+    {
+      "path": "jobs/d8a-generalized-class-006__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "32a3799a99600ccd6ab35e78034e6a590affcbfe7fe7e0cf9b4b69f530d4adb3",
+      "size_bytes": 4751594
+    },
+    {
+      "path": "jobs/d8a-generalized-class-007__combined/batches/batch_0_999.jsonl",
+      "sha256": "83c83cc575f6908cee51a9ec13b2bf457d0ab1494d1e1dae223eb135b61e337a",
+      "size_bytes": 6374969
+    },
+    {
+      "path": "jobs/d8a-generalized-class-007__evaluation_only/batches/batch_0_999.jsonl",
+      "sha256": "f8c342f4c9560e637a13d33a373acef46a311c7ee4d57453adc1ef6d360db540",
+      "size_bytes": 3961716
+    },
+    {
+      "path": "jobs/d8a-generalized-class-007__reference_only/batches/batch_0_999.jsonl",
+      "sha256": "3ed80146320fb9b475cc9a36506041d94c31491fa0fb2f085c656a2cc0d11bcf",
+      "size_bytes": 4755887
+    },
+    {
+      "path": "jobs/d8a-generalized-class-008__combined/batches/batch_0_1999.jsonl",
+      "sha256": "ed54a69b9fa98a7de27225f1388d0a53e8386947c1a8a6e089c9d8d8bdaae450",
+      "size_bytes": 12677973
+    },
+    {
+      "path": "jobs/d8a-generalized-class-008__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "43651d4a3dedbca16522109accc11ab779a054d567db769a4f53c62964e26675",
+      "size_bytes": 7862995
+    },
+    {
+      "path": "jobs/d8a-generalized-class-008__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "126968b8b8f1cbd3012aace59b1cfe4cacb04298f527f21413ad74e66e680500",
+      "size_bytes": 9416238
+    },
+    {
+      "path": "jobs/d8a-generalized-class-009__combined/batches/batch_0_1999.jsonl",
+      "sha256": "9507cbd238c7f1a5590830ae97e4959d6930f9537289e18cfb7b37ba9be0cffc",
+      "size_bytes": 12740563
+    },
+    {
+      "path": "jobs/d8a-generalized-class-009__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "ae9e24ce109381c0049aa12f7586b1b1f2824078080ea36a135294cbd3d56a68",
+      "size_bytes": 7910409
+    },
+    {
+      "path": "jobs/d8a-generalized-class-009__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "d8f9e4d8684d405a7ada7d10ea057144809c9453d4f34f01082e55ba885bffc6",
+      "size_bytes": 9449177
+    },
+    {
+      "path": "jobs/d8a-generalized-class-010__combined/batches/batch_0_1999.jsonl",
+      "sha256": "3c35b0d2b331b5e4f84aac65c736ab10a53435f6e446b7af18b9e98013a948ae",
+      "size_bytes": 12685579
+    },
+    {
+      "path": "jobs/d8a-generalized-class-010__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "a2fa37432ea1f4c64973ad31989553ff965c656c463e27297d7d283cde631df1",
+      "size_bytes": 7871881
+    },
+    {
+      "path": "jobs/d8a-generalized-class-010__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "c149a9f08e8b381a774d2b732f953bc4c04a5f7a2a58734b85e3d7bc19a95002",
+      "size_bytes": 9436035
+    },
+    {
+      "path": "jobs/d8a-generalized-class-011__combined/batches/batch_0_1999.jsonl",
+      "sha256": "a5a5d178768090dddb235767b5cd8d1f85f41e82e9cfece109243a45a732994c",
+      "size_bytes": 12683828
+    },
+    {
+      "path": "jobs/d8a-generalized-class-011__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "78328c4fc92342c86e106096dd2151b9c9a96189449bce056015d352e23fea7a",
+      "size_bytes": 7877955
+    },
+    {
+      "path": "jobs/d8a-generalized-class-011__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "8bacbf08b0cf2456f514e3d2f9e6ae11b962597615afcc2e0bf23a28a98a56c3",
+      "size_bytes": 9435182
+    },
+    {
+      "path": "jobs/d8a-generalized-class-012__combined/batches/batch_0_1999.jsonl",
+      "sha256": "6be820bc0e5b0816492e3ca830ae0b8f3f10c4505f6c32392ad6bc827e352cba",
+      "size_bytes": 12742152
+    },
+    {
+      "path": "jobs/d8a-generalized-class-012__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "df338e8d2dbf1e507bcd3a9c5a453e466e8e17fc464a6c352799e82f30d7e9b5",
+      "size_bytes": 7914388
+    },
+    {
+      "path": "jobs/d8a-generalized-class-012__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "1bb8ea0636b87ebf742b35b2b3f10d5642bc9cbd4d94453f5c9473b03b945a6c",
+      "size_bytes": 9462594
+    },
+    {
+      "path": "jobs/d8a-generalized-class-013__combined/batches/batch_0_1999.jsonl",
+      "sha256": "1c680fac9925d0b3b065b739d7d5f8ae0fe7607aea7072d763fcc4a139bfdf9b",
+      "size_bytes": 12711581
+    },
+    {
+      "path": "jobs/d8a-generalized-class-013__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "406246f23ec6db6f58a8dbcb989d23f9837b9acb1e9724e4249d5bc4ffcdbdaa",
+      "size_bytes": 7890023
+    },
+    {
+      "path": "jobs/d8a-generalized-class-013__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "011427479d0b6d159feb0e420c714c80f288d7e948369eb1d7469ce5a8375ad4",
+      "size_bytes": 9493577
+    },
+    {
+      "path": "jobs/d8a-generalized-class-014__combined/batches/batch_0_1999.jsonl",
+      "sha256": "3ff82887537fd7c78f73dfc95c19bf481f320fbbe34f752e43454b9d0168bdc3",
+      "size_bytes": 12699110
+    },
+    {
+      "path": "jobs/d8a-generalized-class-014__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "d4e8385aa9ea478ca56a929cdb04479f414a10261a4a22d5e2b42fd5eef6222a",
+      "size_bytes": 7893636
+    },
+    {
+      "path": "jobs/d8a-generalized-class-014__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "e2b46e6d4814abcab1cecf760bc43163f53302ab8d3a0f59fc6f3794bbdf279c",
+      "size_bytes": 9489313
+    },
+    {
+      "path": "jobs/d8a-generalized-class-015__combined/batches/batch_0_1999.jsonl",
+      "sha256": "9e2dba72e11d45df87f2ec9ca928e4e73b9adfb8d7e5da52d3fbb4a45b8ec9dd",
+      "size_bytes": 12712985
+    },
+    {
+      "path": "jobs/d8a-generalized-class-015__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "1fb50903235f4e7b43ac17a0a877921adc3dc4d38358a577fe2c168fb2884cc9",
+      "size_bytes": 7897061
+    },
+    {
+      "path": "jobs/d8a-generalized-class-015__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "907405aeeb46a918e51f13a6cffaed5dc34f19b18db11a4211d02d4f4c820203",
+      "size_bytes": 9497494
+    },
+    {
+      "path": "jobs/d8a-generalized-class-016__combined/batches/batch_0_1999.jsonl",
+      "sha256": "2b1f1c2b6dd86244cdc95e0b15371c896775172580084475aa71a87567c6f67a",
+      "size_bytes": 12723509
+    },
+    {
+      "path": "jobs/d8a-generalized-class-016__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "240c85c87ea63d44dbcdcd730d59bc53fe61d9722ff611b1e728cb287d255b61",
+      "size_bytes": 7898019
+    },
+    {
+      "path": "jobs/d8a-generalized-class-016__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "6a36f4a71c8e9773ac85b63dbf6a650eb1c3d4b1010861febfb50a2f62248d53",
+      "size_bytes": 9438814
+    },
+    {
+      "path": "jobs/d8a-generalized-class-017__combined/batches/batch_0_1999.jsonl",
+      "sha256": "3817cda440a8cd94c554fa2446160f0e86bb0dd69670aa217c4ee0ad72c0c8fa",
+      "size_bytes": 12714232
+    },
+    {
+      "path": "jobs/d8a-generalized-class-017__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "e3047df60286fd6b0d1f98483e5782095ab365f1458299aa1259676b35b75d0b",
+      "size_bytes": 7897854
+    },
+    {
+      "path": "jobs/d8a-generalized-class-017__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "5b259b00c723b494947b65d24bd1127dbe40da72d12ec6c2df86b2c92d3cd3f5",
+      "size_bytes": 9435301
+    },
+    {
+      "path": "jobs/d8a-generalized-class-018__combined/batches/batch_0_1999.jsonl",
+      "sha256": "6cafac5c861898f1ea2745b1c14c63c2921025a23943b6dbcf213b465e34a268",
+      "size_bytes": 12720555
+    },
+    {
+      "path": "jobs/d8a-generalized-class-018__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "a5b6dff2ed85fbae0383d929e6699d5250a973c22329c8243ec48a676a1dbe3b",
+      "size_bytes": 7901708
+    },
+    {
+      "path": "jobs/d8a-generalized-class-018__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "f4407cfb12aa3bf40dde1230a682c1d66278a5b19cacb82bfcd86d59d1f3a1b4",
+      "size_bytes": 9436876
+    },
+    {
+      "path": "jobs/d8a-generalized-class-019__combined/batches/batch_0_1999.jsonl",
+      "sha256": "1d5805cd1fb8b325db19307f2bf2339c4a52b6110700ee1c543d58f50723fe90",
+      "size_bytes": 12763561
+    },
+    {
+      "path": "jobs/d8a-generalized-class-019__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "262ad51e91ac6d0805af9ae2a425d857a0e02550e51c4be4447c4960d71c615c",
+      "size_bytes": 7927935
+    },
+    {
+      "path": "jobs/d8a-generalized-class-019__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "e99fc5e700b4de557ac8b68e20634ff1d77171a1a9d30d721c95e1415327dbdc",
+      "size_bytes": 9482736
+    },
+    {
+      "path": "jobs/d8a-generalized-class-020__combined/batches/batch_0_1999.jsonl",
+      "sha256": "c461493c93670c4740eb53264bb0f926995c241d27e43d46fb827528f469ee74",
+      "size_bytes": 12759910
+    },
+    {
+      "path": "jobs/d8a-generalized-class-020__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "f58dcc609dfd41f4e0da00a2d723a1ade094fa0c25ede83332d792ff7a65f66c",
+      "size_bytes": 7929666
+    },
+    {
+      "path": "jobs/d8a-generalized-class-020__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "d247d318e4130f4f003f3468716386c6e9ecadf17e08b14e4dd05e06e8b0b779",
+      "size_bytes": 9477281
+    },
+    {
+      "path": "jobs/d8a-generalized-class-021__combined/batches/batch_0_1999.jsonl",
+      "sha256": "122d43ba18edb2c8385ee7f43ed161e7b6e9448756ab53f04dd5d754614776eb",
+      "size_bytes": 12751264
+    },
+    {
+      "path": "jobs/d8a-generalized-class-021__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "bbf9ea4f764d9bc7721e788bd72cad36cefd03cf10a70b03fb6d4ea45b390c1f",
+      "size_bytes": 7922839
+    },
+    {
+      "path": "jobs/d8a-generalized-class-021__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "b91a293a9a37967e595ee424a06c0746e2f4a929a6ce306eb13aef3f59cd8528",
+      "size_bytes": 9470888
+    },
+    {
+      "path": "jobs/d8a-generalized-class-022__combined/batches/batch_0_1999.jsonl",
+      "sha256": "cd3558345967e2cd82f199f0967069c5b3ee20c99d79e366550f71d48fedde26",
+      "size_bytes": 12794496
+    },
+    {
+      "path": "jobs/d8a-generalized-class-022__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "09519f9b9f75c2bc8f957b4b33296e6fbeb203f633682d07ff545ce4f9b296ee",
+      "size_bytes": 7946920
+    },
+    {
+      "path": "jobs/d8a-generalized-class-022__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "6cdb14d4874d026b701bb8cd91018c8af45bf074eb52d2afc4d47802d1be1a6e",
+      "size_bytes": 9563439
+    },
+    {
+      "path": "jobs/d8a-generalized-class-023__combined/batches/batch_0_1999.jsonl",
+      "sha256": "84f6a5f11de3112860195d5c1f323eafd581a3ee2deb936b361622bfc79ee7c9",
+      "size_bytes": 12797645
+    },
+    {
+      "path": "jobs/d8a-generalized-class-023__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "f6d0e03edcf601f11e4cef84943656fd29fbf0f613c50ffd4c3c5871e1bd040c",
+      "size_bytes": 7962152
+    },
+    {
+      "path": "jobs/d8a-generalized-class-023__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "158bb3a46cc4888be02f4a0ab81cc24afce142986a250203faf905e3c84298f5",
+      "size_bytes": 9566236
+    },
+    {
+      "path": "jobs/d8a-generalized-class-024__combined/batches/batch_0_1999.jsonl",
+      "sha256": "edef5de1db53afc1f39150f59201139c0a6efb7dc1c37fb98a60cad8fd1988d4",
+      "size_bytes": 12809222
+    },
+    {
+      "path": "jobs/d8a-generalized-class-024__evaluation_only/batches/batch_0_1999.jsonl",
+      "sha256": "c10be31d97508863572dc19f02e70265ca853873e4b5f181bf9fcddf95dcbb21",
+      "size_bytes": 7967622
+    },
+    {
+      "path": "jobs/d8a-generalized-class-024__reference_only/batches/batch_0_1999.jsonl",
+      "sha256": "770d705d62b7c47a45585e2e5da2fc137d6013bd22bf76a8a097fd2c1c6bcae7",
+      "size_bytes": 9566219
+    }
+  ],
+  "raw_batch_total_size_bytes": 632566486,
+  "raw_jsonl_committed_to_git": false,
+  "raw_jsonl_deleted_locally": false,
+  "run_id": "TESS_D8A_GENERALIZED_SCIENTIFIC_RUN_V1",
+  "schema_version": "1.0"
+}
