@@ -1,0 +1,22 @@
+{
+  "corrections": [
+    "Full B grid distinguished from the B=500-to-10,000 comparison.",
+    "Precision limitation reported as no more than 10%, operationally at most one of 17 classes.",
+    "Completed-run outcomes removed from the design-table notes.",
+    "Internal D8-A and code-style labels removed from publication prose."
+  ],
+  "generation_policy": {
+    "files_staged_or_committed": false,
+    "locked_sources_only": true,
+    "prospective_criteria_changed": false,
+    "raw_batch_reanalysis": false,
+    "scientific_simulation_rerun": false
+  },
+  "main_table_rows": 9,
+  "output_id": "TESS_D8A_PUBLICATION_TABLE1_AND_TABLES1_REFINED_V1",
+  "schema_version": "1.0",
+  "scientific_validation_commit": "8128f11951ce187d88f19eeb93d3368251d7341e",
+  "scientific_validation_tag": "d8a-generalized-scientific-validation-v1",
+  "source_map": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/publication_outputs_v1/table_1_validation_design/table_1_source_map.json",
+  "supplement_table_rows": 15
+}

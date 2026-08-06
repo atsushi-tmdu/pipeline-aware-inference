@@ -1,0 +1,68 @@
+{
+  "alpha_values": [
+    0.01,
+    0.05
+  ],
+  "cross_checks": {
+    "adjusted_summaries": {
+      "0.01": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      },
+      "0.05": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      }
+    },
+    "adjusted_zero_counts": {
+      "0.01": 17,
+      "0.05": 17
+    },
+    "nonfinite_record_counts": {
+      "0.01": 0,
+      "0.05": 0
+    },
+    "plot_record_count": 34,
+    "raw_summaries": {
+      "0.01": {
+        "maximum": 4.907101355645968,
+        "median": 0.5287604499962528,
+        "p90": 1.4611544333842779
+      },
+      "0.05": {
+        "maximum": 2.813775435656349,
+        "median": 0.4072839397360042,
+        "p90": 0.8891353112503411
+      }
+    }
+  },
+  "figure_id": "TESS_D8A_PUBLICATION_FIGURE_3_TESS_FINITE_SAMPLE_FINAL_3PANEL_V4",
+  "generation_policy": {
+    "files_staged_or_committed": false,
+    "locked_summary_files_only": true,
+    "prospective_criteria_changed": false,
+    "raw_batch_reanalysis": false,
+    "scientific_simulation_rerun": false
+  },
+  "largest_pair": [
+    10000,
+    10000
+  ],
+  "layout_refinements": [
+    "Alpha-specific bias panels retain their original bias scales to avoid visual compression from cross-alpha standardization.",
+    "The two agreement panels use identical visual grammar but alpha-specific axis limits.",
+    "The MCSE-resolution panel displays the exact ratio |raw residual|/(z*MCSE), with the decision boundary at 1.",
+    "No plotted scientific quantity or formal criterion was changed."
+  ],
+  "primary_class_count": 17,
+  "schema_version": "4.0",
+  "scientific_validation_commit": "8128f11951ce187d88f19eeb93d3368251d7341e",
+  "scientific_validation_tag": "d8a-generalized-scientific-validation-v1",
+  "source_files": {
+    "evidential_adjudication": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/D8A_EVIDENTIAL_STRENGTH_ADJUDICATION.json",
+    "formal_adjudication": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/D8A_FORMAL_SCIENTIFIC_ADJUDICATION.json",
+    "mcse_floor_diagnostic": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/diagnostics/D8A_POSTHOC_MCSE_FLOOR_AND_BASELINE_DIAGNOSTIC.json"
+  }
+}

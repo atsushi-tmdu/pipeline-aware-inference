@@ -1,0 +1,49 @@
+{
+  "combined_policy": {
+    "adjusted_normalized_median": 0.0,
+    "adjusted_normalized_p90": 0.0,
+    "evaluation_n": 10000,
+    "primary_class_count": 17,
+    "raw_normalized_median": 0.04949542706973089,
+    "raw_normalized_p90": 0.14743888997082516,
+    "reference_B": 10000
+  },
+  "exact_identity": {
+    "absolute_standardized_maximum": 2.996953282565021,
+    "absolute_standardized_median": 0.6308070365656095,
+    "absolute_standardized_p90": 1.7049904374274563,
+    "comparison_count": 85,
+    "comparisons_per_size": {
+      "250": 17,
+      "500": 17,
+      "1000": 17,
+      "3000": 17,
+      "10000": 17
+    },
+    "evaluation_sizes": [
+      250,
+      500,
+      1000,
+      3000,
+      10000
+    ],
+    "locked_z_star": 3.8509780194087373,
+    "passed_count": 85
+  },
+  "figure_id": "TESS_D8A_PUBLICATION_FIGURE_4_COMBINED_AND_EXACT_IDENTITY_V1",
+  "generation_policy": {
+    "files_staged_or_committed": false,
+    "locked_summary_files_only": true,
+    "prospective_criteria_changed": false,
+    "raw_batch_reanalysis": false,
+    "scientific_simulation_rerun": false
+  },
+  "schema_version": "1.0",
+  "scientific_validation_commit": "8128f11951ce187d88f19eeb93d3368251d7341e",
+  "scientific_validation_tag": "d8a-generalized-scientific-validation-v1",
+  "source_files": {
+    "evidential_adjudication": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/D8A_EVIDENTIAL_STRENGTH_ADJUDICATION.json",
+    "formal_adjudication": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/D8A_FORMAL_SCIENTIFIC_ADJUDICATION.json",
+    "mcse_floor_and_baseline_diagnostic": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/diagnostics/D8A_POSTHOC_MCSE_FLOOR_AND_BASELINE_DIAGNOSTIC.json"
+  }
+}

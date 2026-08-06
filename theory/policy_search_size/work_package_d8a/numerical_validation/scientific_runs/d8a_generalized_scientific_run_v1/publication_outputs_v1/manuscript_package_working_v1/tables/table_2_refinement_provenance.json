@@ -1,0 +1,18 @@
+{
+  "files_staged_or_committed": false,
+  "formal_status_changed": false,
+  "original_source_map": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/publication_outputs_v1/table_2_validation_results/table_2_source_map.json",
+  "output_id": "TESS_D8A_PUBLICATION_TABLE_2_REFINED_V1",
+  "prospective_criteria_changed": false,
+  "raw_batch_reanalysis": false,
+  "refinements": [
+    "Reference largest-B interpretation narrowed to accuracy at B=10,000 rather than convergence.",
+    "Reference median-improvement row now states that the raw diagnostic increased rather than implying improvement.",
+    "TESS decisions explicitly state PASS under the adjusted metric.",
+    "Publication-facing wording replaces committed replicates with Monte Carlo replicates."
+  ],
+  "schema_version": "1.0",
+  "scientific_simulation_rerun": false,
+  "scientific_validation_commit": "8128f11951ce187d88f19eeb93d3368251d7341e",
+  "scientific_validation_tag": "d8a-generalized-scientific-validation-v1"
+}

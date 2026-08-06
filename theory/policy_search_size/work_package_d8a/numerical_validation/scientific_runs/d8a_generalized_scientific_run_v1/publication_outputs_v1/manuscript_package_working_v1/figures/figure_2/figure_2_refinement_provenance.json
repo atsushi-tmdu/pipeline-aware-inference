@@ -1,0 +1,44 @@
+{
+  "actual_record_count": 85,
+  "figure_id": "TESS_D8A_PUBLICATION_FIGURE_2_REFERENCE_VALIDATION_FINAL_V3",
+  "generation_policy": {
+    "actual_locked_data_only": true,
+    "files_staged_or_committed": false,
+    "prospective_criteria_changed": false,
+    "raw_batch_reanalysis": false,
+    "scientific_simulation_rerun": false
+  },
+  "improvement_counts": [
+    15,
+    14,
+    9
+  ],
+  "largest_B_cross_check": {
+    "locked_median": 0.03548571309079842,
+    "locked_p90": 0.0958359340407361,
+    "median": 0.03548571309079842,
+    "p90": 0.0958359340407361,
+    "passed": true
+  },
+  "primary_class_count": 17,
+  "reference_sizes": [
+    250,
+    500,
+    1000,
+    3000,
+    10000
+  ],
+  "refinements": [
+    "Panel A y-axis fitted to actual residuals; locked criteria shown in an explicit numeric annotation.",
+    "Class-specific trajectories made visually subordinate to the median and 90th-percentile summaries.",
+    "Panel B axes explicitly scaled to units of 1e-5; identity and zero references rendered neutrally.",
+    "Panel C labels shortened and the nonfatal explanation retained as a footnote.",
+    "Overall run-status footer removed from the figure."
+  ],
+  "schema_version": "3.0",
+  "scientific_validation_commit": "8128f11951ce187d88f19eeb93d3368251d7341e",
+  "scientific_validation_tag": "d8a-generalized-scientific-validation-v1",
+  "source_actual_data_csv": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/publication_outputs_v1/figure_2_reference_validation_actual/figure_2_reference_validation_data.csv",
+  "source_actual_data_provenance": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/publication_outputs_v1/figure_2_reference_validation_actual/figure_2_provenance.json",
+  "source_diagnostic": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/diagnostics/D8A_POSTHOC_MCSE_FLOOR_AND_BASELINE_DIAGNOSTIC.json"
+}

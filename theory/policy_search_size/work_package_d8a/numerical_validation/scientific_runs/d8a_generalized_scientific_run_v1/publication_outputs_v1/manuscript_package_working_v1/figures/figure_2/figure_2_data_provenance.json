@@ -1,0 +1,58 @@
+{
+  "cross_checks": {
+    "B10000_raw_median": 0.03548571309079842,
+    "B10000_raw_p90": 0.0958359340407361,
+    "improvement_counts": [
+      15,
+      14,
+      9
+    ],
+    "locked_B10000_raw_median": 0.03548571309079842,
+    "locked_B10000_raw_p90": 0.0958359340407361
+  },
+  "figure_id": "TESS_D8A_PUBLICATION_FIGURE_2_REFERENCE_VALIDATION_V1",
+  "generation_policy": {
+    "deterministic_oracle_recomputed": true,
+    "files_staged_or_committed": false,
+    "locked_summary_files_only": true,
+    "prospective_criteria_changed": false,
+    "raw_batch_reanalysis": false,
+    "scientific_simulation_rerun": false
+  },
+  "primary_class_count": 17,
+  "reference_sizes": [
+    250,
+    500,
+    1000,
+    3000,
+    10000
+  ],
+  "schema_version": "1.0",
+  "scientific_validation_commit": "8128f11951ce187d88f19eeb93d3368251d7341e",
+  "scientific_validation_tag": "d8a-generalized-scientific-validation-v1",
+  "source_files": {
+    "baseline_diagnostic": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/diagnostics/D8A_POSTHOC_MCSE_FLOOR_AND_BASELINE_DIAGNOSTIC.json",
+    "class_registry": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/D8A_EQUIVALENCE_CLASS_REGISTRY.json",
+    "formal_adjudication": "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/formal_adjudication/D8A_FORMAL_SCIENTIFIC_ADJUDICATION.json",
+    "reference_job_summaries": [
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-008__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-009__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-010__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-011__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-012__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-013__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-014__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-015__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-016__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-017__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-018__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-019__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-020__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-021__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-022__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-023__reference_only/JOB_SUMMARY.json",
+      "theory/policy_search_size/work_package_d8a/numerical_validation/scientific_runs/d8a_generalized_scientific_run_v1/jobs/d8a-generalized-class-024__reference_only/JOB_SUMMARY.json"
+    ],
+    "run_config": "theory/policy_search_size/work_package_d8a/numerical_validation/generalized_readjudication_v1/scientific_run_prelock_v1/D8A_SCIENTIFIC_RUN_CONFIG.json"
+  }
+}
