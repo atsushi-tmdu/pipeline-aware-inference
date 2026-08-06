@@ -1,0 +1,10 @@
+{
+  "monotone_augmentation_explicit": true,
+  "loss_state_distinguished": true,
+  "policy_strategy_nonclaim": true,
+  "no_output_reuse_statement": true,
+  "tess_role_limited": true,
+  "discussion_boundary": true,
+  "supplement_consistent": true,
+  "no_shared_7_word_core_sequence": true
+}

@@ -1,0 +1,11 @@
+{
+  "main_theorem_crosswalk_complete": true,
+  "gaussian_limit_present": true,
+  "scalar_lattice_coefficient_present": true,
+  "moving_max_positive_part_present": true,
+  "exact_identity_derived": true,
+  "product_term_qualified": true,
+  "tess_derivatives_present": true,
+  "cross_term_rate_argument_present": true,
+  "excluded_scope_present": true
+}

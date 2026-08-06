@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS_DISTINCT_PAPER_BOUNDARY",
+  "finite_sample_source": "D8A_MAIN_MANUSCRIPT_DRAFT_V3_CITATION_READY.md",
+  "empirical_source": "TESS_FULL_MANUSCRIPT_DRAFT_V2.md",
+  "repaired_main": "D8A_MAIN_MANUSCRIPT_DRAFT_V4_OVERLAP_SAFE.md",
+  "repaired_supplement": "D8A_PROOF_SUPPLEMENT_DRAFT_V3_OVERLAP_SAFE.md",
+  "metrics": {
+    "shared_exact_10_word_sequences": 0,
+    "shared_exact_8_word_sequences": 0,
+    "shared_exact_7_word_sequences": 0,
+    "shared_exact_6_word_sequences": 1,
+    "shared_6_word_sequences": [
+      "conditional on the reference bank the"
+    ],
+    "maximum_core_paragraph_tfidf_cosine": 0.207106,
+    "maximum_pair_d8": "All probabilities and expectations are taken under a fixed target law \\(P\\); in the multiplicity application that motivates the construction, \\(P\\) is the declared global-null law.",
+    "maximum_pair_empirical": "Policy-level global-null rejection law and TESS"
+  },
+  "shared_definitions": [
+    "TESS transform",
+    "marginal-rate-matched comparator",
+    "activation-increment covariance identity"
+  ],
+  "nonshared": [
+    "scientific question",
+    "policy class",
+    "main theorems",
+    "simulation design",
+    "data and outputs",
+    "results",
+    "figures",
+    "tables",
+    "principal conclusions"
+  ]
+}

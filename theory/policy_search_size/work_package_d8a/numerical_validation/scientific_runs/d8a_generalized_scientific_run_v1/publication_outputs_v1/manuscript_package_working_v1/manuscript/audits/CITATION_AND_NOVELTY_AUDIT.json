@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "main_manuscript": "D8A_MAIN_MANUSCRIPT_DRAFT_V3_CITATION_READY.md",
+  "proof_supplement": "D8A_PROOF_SUPPLEMENT_DRAFT_V2_CITATION_READY.md",
+  "bibliography": "D8A_REFERENCES_V1.bib",
+  "literature_audit": "D8A_LITERATURE_AND_NOVELTY_AUDIT_V1.md",
+  "verified_doi_count": 14,
+  "priority_claim_status": "not recommended",
+  "positioning": "policy-specific expectation-level generalized second-order expansion",
+  "citation_domains": {
+    "quantiles": [
+      "Bahadur1966",
+      "Kiefer1967"
+    ],
+    "smooth_delta": [
+      "Oehlert1992"
+    ],
+    "nonsmooth_delta": [
+      "Shapiro1991",
+      "Duembgen1993",
+      "FangSantos2019",
+      "ChenFang2019"
+    ],
+    "adaptive_selection": [
+      "Berk2013",
+      "TaylorTibshirani2015",
+      "Dwork2015"
+    ],
+    "simulation": [
+      "Burton2006",
+      "Morris2019"
+    ],
+    "discrete_plus_one": [
+      "PhipsonSmyth2010"
+    ],
+    "concentration": [
+      "Hoeffding1963"
+    ]
+  },
+  "remaining": [
+    "target-journal reference style",
+    "human database-level novelty confirmation",
+    "independent mathematical review",
+    "overlap audit against empirical version 2"
+  ]
+}

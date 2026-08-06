@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "checkpoint_id": "D8A_FULL_MANUSCRIPT_V1_20260806",
+  "status": "WORKING_MANUSCRIPT_FROZEN",
+  "main_manuscript": "MAIN_MANUSCRIPT.md",
+  "proof_supplement": "PROOF_SUPPLEMENT.md",
+  "bibliography": "REFERENCES.bib",
+  "scientific_validation": "LOCKED",
+  "figure_1_visual_reference": "LOCKED",
+  "figure_1_editable_vector": "NOT_YET_CREATED",
+  "independent_proof_review": "PENDING",
+  "target_journal_formatting": "PENDING",
+  "submission_ready": false
+}

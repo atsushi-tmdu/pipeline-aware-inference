@@ -1,0 +1,14 @@
+{
+  "gaussian_limit_present": true,
+  "kernel_H_collision_removed": true,
+  "incremental_M_defined": true,
+  "independent_comparator_defined": true,
+  "reference_scale_present": true,
+  "combined_scale_present": true,
+  "tess_scale_present": true,
+  "product_term_qualified": true,
+  "figure1_source_claim_corrected": true,
+  "locked_values_retained": true,
+  "terminology_product_term_consistent": true,
+  "code_availability_does_not_overclaim_figure1_source": true
+}
