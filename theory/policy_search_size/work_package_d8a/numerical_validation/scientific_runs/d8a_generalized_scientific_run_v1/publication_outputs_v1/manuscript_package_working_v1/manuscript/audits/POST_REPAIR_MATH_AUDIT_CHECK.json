@@ -1,0 +1,19 @@
+{
+  "alignment_all_means_finite": true,
+  "alignment_nonfinite_zero": true,
+  "alignment_overall_pass": true,
+  "alignment_primary_classes_17": true,
+  "alignment_tess_records_34": true,
+  "alignment_total_records_68000": true,
+  "component_kink_coefficients_present": true,
+  "finite_status_theorem_present": true,
+  "main_display_math_balanced": true,
+  "main_inline_math_balanced": true,
+  "main_no_control_chars": true,
+  "no_repository_modification": true,
+  "no_scientific_rerun": true,
+  "raw_unconditional_tess_removed": true,
+  "supp_display_math_balanced": true,
+  "supp_inline_math_balanced": true,
+  "supp_no_control_chars": true
+}

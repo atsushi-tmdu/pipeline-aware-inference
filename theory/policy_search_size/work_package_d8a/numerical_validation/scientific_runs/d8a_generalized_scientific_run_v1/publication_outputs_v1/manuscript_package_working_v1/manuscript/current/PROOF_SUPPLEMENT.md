@@ -2,8 +2,8 @@
 
 ## Second-Order Finite-Sample Bias in Threshold-Adaptive Statistical Policies
 
-**Draft status:** Proof Supplement v1  
-**Companion main manuscript:** D8A Main Manuscript Draft v2  
+**Draft status:** Proof Supplement v4 — mathematical repair  
+**Companion main manuscript:** D8A Main Manuscript Draft v5 — mathematical repair  
 **Purpose:** Provide the primitive assumptions, complete theorem dependency chain, and proofs underlying Theorems 1–3, Proposition 1, and Corollaries 1–2 of the main manuscript.
 
 ---
@@ -126,19 +126,51 @@ No independence among coordinates of \(W\) is assumed.
 
 ## S1.2 Policy class
 
-The base candidate pool is \(\{0,1\}\), and the full candidate pool is \(\{0,1,2\}\). Candidate scores are continuous, and winners are almost surely unique. Candidate-specific rejection thresholds are \(q_0,q_1,q_2\), and the activation threshold is \(c\). In the declared model,
+The base candidate pool is \(\{0,1\}\), and the full candidate pool is \(\{0,1,2\}\). Candidate scores are continuous. Define the almost-surely unique winners
+
+\[
+J_0
+=
+\arg\max_{j\in\{0,1\}}X_j,
+\qquad
+J_1
+=
+\arg\max_{j\in\{0,1,2\}}X_j.
+\]
+
+Candidate-specific rejection thresholds are \(q_0,q_1,q_2\). Define
+
+\[
+R_0
+=
+I(X_{J_0}>q_{J_0}),
+\qquad
+R_1
+=
+I(X_{J_1}>q_{J_1}).
+\]
+
+Let
+
+\[
+T=\max(X_0,X_1),
+\qquad
+A=I(T>c),
+\]
+
+where \(c\) is the activation threshold. In the declared model,
 
 \[
 \theta=(q_0,q_1,q_2,c)^\top.
 \]
 
-Let \(R_0\) and \(R_1\) be rejection indicators for the base and full pools. The present policy is a monotone augmentation: activation can add a rejection but cannot revoke a base rejection. Define
+The present policy is a monotone augmentation: activation can add a rejection but cannot revoke a base rejection. Define
 
 \[
 M=(1-R_0)R_1,
 \]
 
-so that \(M\in\{0,1\}\) records a gain-only incremental rejection opportunity. This excludes the loss state \(R_1-R_0=-1\) that can occur in selected-winner pipelines with candidate-specific discrete calibration. Let \(A\) denote activation, and define the adaptive rejection indicator
+so that \(M\in\{0,1\}\) records a gain-only incremental rejection opportunity. This excludes the loss state \(R_1-R_0=-1\) that can occur in selected-winner pipelines with candidate-specific discrete calibration. The adaptive rejection indicator is
 
 \[
 R_A=R_0+AM.
@@ -147,6 +179,8 @@ R_A=R_0+AM.
 Write
 
 \[
+e_0(\theta)=E_\theta(R_0),
+\qquad
 \rho(\theta)=E_\theta(A),
 \qquad
 \mu(\theta)=E_\theta(M),
@@ -154,7 +188,17 @@ Write
 \nu(\theta)=E_\theta(AM).
 \]
 
-The policy contrast is
+The adaptive and comparator probabilities are
+
+\[
+\pi_A(\theta)=e_0(\theta)+\nu(\theta),
+\]
+
+\[
+\pi_C(\theta)=e_0(\theta)+\rho(\theta)\mu(\theta),
+\]
+
+and the policy contrast is
 
 \[
 \Delta_\pi(\theta)
@@ -172,9 +216,17 @@ We impose the following policy regularity.
    \[
    \min_{j\in\{0,1,2\}}|c-q_j|>0.
    \]
-4. For every incremental winner cell \((a,2)\), \(a\in\{0,1\}\), the cell probability can be represented by an integrated-tail kernel \(K_a(w,s)\) that is twice continuously differentiable near every relevant coincidence point, with the required derivatives locally dominated by integrable envelopes.
-5. All activation terms and all terms whose moving boundaries remain separated are twice continuously differentiable with locally dominated derivatives.
-6. Policy probabilities are bounded, as they are probabilities, and the local second-order remainders are uniform over directions in compact sets.
+4. For every incremental winner cell \((a,2)\), \(a\in\{0,1\}\), its probability admits the representation
+   \[
+   U_a(x,y)
+   =
+   \int_{-\infty}^{x}
+   K_a\{w,\max(w,y)\}\,dw.
+   \]
+   There is a neighborhood of every relevant coincidence \((q_a,q_2)\) on which \(K_a\), \(\partial_wK_a\), and \(\partial_sK_a\) are continuous at the moving upper boundary, and the functions \(\partial_sK_a(w,s)\) and \(\partial_{ss}K_a(w,s)\) admit parameter-uniform integrable envelopes over the complete lower integration range.
+5. The corresponding differentiated integral maps have continuous second derivatives in each threshold-order cone. Their second derivatives extend continuously to the cone boundaries from within each cone.
+6. All activation terms and all moving-boundary terms whose boundaries remain separated are twice continuously differentiable, with the differentiation-under-the-integral conditions in item 4.
+7. The probability maps \(e_0,\rho,\mu,\nu,\pi_A,\pi_C\), and \(\Delta_\pi\) are bounded. The primitive continuity and domination conditions above hold on one common local neighborhood.
 
 Candidate-threshold coincidence is permitted at \(q_0=q_2\) and \(q_1=q_2\). Candidate–trigger coincidence is excluded by Assumption P.3.
 
@@ -204,7 +256,30 @@ and
 \overline{AM}-\bar A\bar M.
 \]
 
-For the TESS result, assume that the population probabilities \(\pi_A\) and \(\pi_C\), and their values in a fixed neighborhood of \(\theta\), lie in a compact subset of \([0,1)\).
+Because \(R_0M=0\),
+
+\[
+0\le
+\widehat\pi_C
+=
+\overline{R_0}+\bar A\bar M
+\le
+\overline{R_0}+\bar M
+\le1.
+\]
+
+For the TESS result, define
+
+\[
+\mathcal F_{B,n}
+=
+\{
+\widehat\pi_A<1,\,
+\widehat\pi_C<1
+\}.
+\]
+
+The strengthened TESS assumptions are stated in Section S6.
 
 ---
 
@@ -567,7 +642,7 @@ f(q_p)(\widehat q-q_p)
 o_p(B^{-1/2}).
 \]
 
-The classical empirical-quantile representation (Bahadur, 1966; Kiefer, 1967), applied to the VC class of intervals, gives the required stochastic equicontinuity, hence
+Standard stochastic equicontinuity of the empirical process indexed by the VC class of half-lines gives
 
 \[
 G_B(\widehat q)-G_B(q_p)
@@ -992,7 +1067,47 @@ and
 \{s_a-\rho(\theta)\}\kappa_a.
 \]
 
-Under Assumption P, there exist a gradient \(g_\Delta\) and a symmetric smooth-stratum Hessian \(H_\Delta^{\mathrm{sm}}\) such that
+Under Assumption P, there exist gradients \(g_A,g_C,g_\Delta\) and symmetric smooth-stratum Hessians \(H_A^{\mathrm{sm}},H_C^{\mathrm{sm}},H_\Delta^{\mathrm{sm}}\) such that
+
+\[
+\begin{aligned}
+\pi_A(\theta+u)
+&=
+\pi_A(\theta)
++
+g_A^\top u
++
+\frac12u^\top H_A^{\mathrm{sm}}u
+\\
+&\quad
++
+\sum_{a\in\mathcal A_0}
+s_a\kappa_a(d_a^\top u)_+^2
++
+o(\|u\|^2),
+\end{aligned}
+\]
+
+\[
+\begin{aligned}
+\pi_C(\theta+u)
+&=
+\pi_C(\theta)
++
+g_C^\top u
++
+\frac12u^\top H_C^{\mathrm{sm}}u
+\\
+&\quad
++
+\sum_{a\in\mathcal A_0}
+\rho(\theta)\kappa_a(d_a^\top u)_+^2
++
+o(\|u\|^2),
+\end{aligned}
+\]
+
+and
 
 \[
 \begin{aligned}
@@ -1013,6 +1128,8 @@ u^\top H_\Delta^{\mathrm{sm}}u
 o(\|u\|^2).
 \end{aligned}
 \]
+
+All three remainders are uniform over directions in compact sets.
 
 ### Proof
 
@@ -1081,6 +1198,20 @@ o(\|u\|^2),
 where \(Q_M\) and \(Q_{AM}\) are continuous piecewise-quadratic maps.
 
 Since
+
+\[
+\pi_A=e_0+P_{AM},
+\]
+
+the coincidence coefficient of \(\pi_A\) is \(s_a\kappa_a\). Since
+
+\[
+\pi_C=e_0+P_AP_M,
+\]
+
+the coincidence coefficient of \(\pi_C\) is \(P_A\kappa_a=\rho(\theta)\kappa_a\). The base probability \(e_0\) and activation probability \(P_A\) contribute only ordinary smooth terms under Assumption P.
+
+Finally, since
 
 \[
 \Delta_\pi
@@ -1217,18 +1348,46 @@ for sufficiently small \(\|u\|\). The local contribution is at most
 \varepsilon B E\|U_B\|^2=O(\varepsilon).
 \]
 
-On the complementary event \(\{\|U_B\|>\delta\}\), boundedness of \(h\) and the degree-two terms, together with the \(2+\eta\) moment bound, gives
+On the complementary event \(\{\|U_B\|>\delta\}\), define the remainder globally by
 
 \[
-P(\|U_B\|>\delta)
-\le
-\frac{
-E\|\sqrt B U_B\|^{2+\eta}
-}{
-B^{1+\eta/2}\delta^{2+\eta}
-}
+r(U_B)
 =
-o(B^{-1}).
+h(\theta+U_B)-h(\theta)-g^\top U_B-Q(U_B).
+\]
+
+Because \(h\) is bounded and \(|Q(u)|\le C\|u\|^2\),
+
+\[
+|r(U_B)|
+\le
+C_0+C_1\|U_B\|+C_2\|U_B\|^2.
+\]
+
+The \(2+\eta\) moment bound implies
+
+\[
+B P(\|U_B\|>\delta)=O(B^{-\eta/2}),
+\]
+
+\[
+B E[
+\|U_B\|
+I\{\|U_B\|>\delta\}
+]
+=
+O(B^{-\eta/2}),
+\]
+
+and
+
+\[
+B E[
+\|U_B\|^2
+I\{\|U_B\|>\delta\}
+]
+=
+O(B^{-\eta/2}).
 \]
 
 Thus the tail contribution is \(o(B^{-1})\). Letting \(\varepsilon\downarrow0\) proves the result. \(\square\)
@@ -1498,7 +1657,7 @@ The \(B^{-1}n^{-1}\) term is retained because its coefficient is algebraically d
 
 ---
 
-# S6. Nonlinear propagation to TESS
+# S6. Finite-status nonlinear propagation to TESS
 
 ## Lemma S7. Smooth composition of a generalized reference expansion
 
@@ -1526,7 +1685,7 @@ g_\pi^\top b_{\theta,B}
 E\{Q_\pi(Z)\}.
 \]
 
-For a twice continuously differentiable scalar transform \(h\),
+For a scalar \(C^3\) transform \(h\) with bounded derivatives on a neighborhood of the probability range,
 
 \[
 C_{h\circ\pi,B}^{\mathrm{gen}}
@@ -1592,7 +1751,7 @@ g_\pi^\top\Sigma_\theta g_\pi.
 
 This yields the claimed coefficient. \(\square\)
 
-## Lemma S8. Evaluation-bank expansions for transformed probabilities
+## Lemma S8. Evaluation-bank expansion for a bounded smooth transform
 
 Conditional on a fixed reference parameter \(\vartheta\), let
 
@@ -1634,7 +1793,7 @@ V_{E,A}=E(\zeta_A^2),
 V_{E,C}=E(\zeta_C^2).
 \]
 
-For a twice continuously differentiable \(h\) on a neighborhood of the two probabilities,
+Let \(h\) be \(C^3\) with bounded derivatives on an open interval containing \([0,1]\). Uniformly for \(\vartheta\) in a sufficiently small compact neighborhood of \(\theta\),
 
 \[
 E_E\{h(\widehat\pi_A)\mid\vartheta\}
@@ -1670,11 +1829,9 @@ o(n^{-1}).
 \end{aligned}
 \]
 
-The remainders are uniform for \(\vartheta\) in a sufficiently small compact neighborhood of \(\theta\).
-
 ### Proof
 
-The adaptive estimator is the sample mean
+The adaptive estimator is the bounded sample mean
 
 \[
 \widehat\pi_A
@@ -1682,9 +1839,9 @@ The adaptive estimator is the sample mean
 \frac1n\sum_{i=1}^nR_{A,i}.
 \]
 
-It is unbiased, its first-order influence function is \(\zeta_A\), and boundedness gives all required moments. The ordinary scalar expectation delta method therefore yields the first expansion (Oehlert, 1992).
+It is unbiased and has first-order influence function \(\zeta_A\). A third-order Taylor expansion with bounded derivatives and bounded observations gives the first result uniformly.
 
-For the comparator, define the vector of evaluation means
+For the comparator, define
 
 \[
 T_n
@@ -1692,7 +1849,7 @@ T_n
 (\overline{R_0},\bar A,\bar M)^\top
 \]
 
-and the smooth map
+and
 
 \[
 \varphi(r,a,m)=r+am.
@@ -1706,13 +1863,13 @@ Then
 \pi_C=\varphi(e_0,\rho,\mu).
 \]
 
-The gradient of \(\varphi\) at the population mean is
+The gradient of \(\varphi\) is
 
 \[
 \nabla\varphi=(1,\mu,\rho)^\top,
 \]
 
-so its first-order influence function is \(\zeta_C\). The only nonzero second derivative of \(\varphi\) is the \(a,m\) cross derivative. Consequently,
+so its first-order influence function is \(\zeta_C\). Its only nonzero second derivative is the \(a,m\) cross derivative. Consequently,
 
 \[
 E(\widehat\pi_C)-\pi_C
@@ -1722,11 +1879,150 @@ E(\widehat\pi_C)-\pi_C
 \frac{\Delta_\pi}{n},
 \]
 
-which is also exact by the calculation in Proposition S1.
+which is also exact by Proposition S1. Applying the bounded smooth expectation expansion to \(h\circ\varphi\) gives the second result. Uniformity follows from bounded observations and uniform continuity of the derivatives on the compact reference neighborhood. \(\square\)
 
-Applying the scalar expectation delta method to \(h(\widehat\pi_C)\), with the order-\(n^{-1}\) centering term and first-order variance \(V_{E,C}/n\), gives the second expansion. Uniformity follows from bounded observations and uniform continuity of the derivatives on a compact neighborhood. \(\square\)
+## Assumption T. TESS interiority and localization
 
-## Corollary S2. Second-order TESS bias
+There exist a compact neighborhood \(\mathcal N\) of \(\theta\), constants \(\varepsilon,c_0,C_0>0\), and locally Lipschitz versions of the probability, variance, and evaluation-centering maps such that:
+
+1. 
+   \[
+   \sup_{\vartheta\in\mathcal N}
+   \max\{
+   \pi_A(\vartheta),
+   \pi_C(\vartheta)
+   \}
+   \le
+   1-2\varepsilon;
+   \]
+2.
+   \[
+   P(\widehat\theta_R\notin\mathcal N)
+   \le
+   C_0e^{-c_0B};
+   \]
+3. the component expansions of Theorem S2 hold on \(\mathcal N\);
+4. the conditional remainder in Lemma S8 is uniform on \(\mathcal N\); and
+5. the joint sequence satisfies the mild relative-growth condition
+   \[
+   \log n\,e^{-c_0B}
+   =
+   o(B^{-1}+n^{-1}).
+   \]
+
+The last condition includes the usual polynomially comparable and ordinary simulation regimes.
+
+## Lemma S9. Boundary-status probability and finite-grid bound
+
+Under Assumption T, there exist constants \(C,c>0\) such that
+
+\[
+P(\mathcal F_{B,n}^c)
+\le
+C\{
+e^{-cB}+e^{-cn}
+\}.
+\]
+
+Moreover, on \(\mathcal F_{B,n}\),
+
+\[
+|
+g_\alpha(\widehat\pi_A)
+|
++
+|
+g_\alpha(\widehat\pi_C)
+|
+\le
+C_\alpha(1+\log n).
+\]
+
+### Proof
+
+On \(\{\widehat\theta_R\in\mathcal N\}\),
+
+\[
+P(
+\widehat\pi_A=1
+\mid
+\widehat\theta_R
+)
+=
+\pi_A(\widehat\theta_R)^n
+\le
+(1-2\varepsilon)^n.
+\]
+
+For the comparator,
+
+\[
+\widehat\pi_C
+=
+\varphi(
+\overline{R_0},
+\bar A,
+\bar M
+),
+\qquad
+\varphi(r,a,m)=r+am.
+\]
+
+If \(\widehat\pi_C=1\), then
+
+\[
+|
+\widehat\pi_C
+-
+\pi_C(\widehat\theta_R)
+|
+\ge
+2\varepsilon.
+\]
+
+The map \(\varphi\) is Lipschitz on \([0,1]^3\). Hoeffding bounds for the three bounded sample means and a union bound therefore give
+
+\[
+P(
+\widehat\pi_C=1
+\mid
+\widehat\theta_R
+)
+\le
+C_1e^{-c_1n}.
+\]
+
+Adding the reference-localization probability proves the first result.
+
+On the finite event,
+
+\[
+\widehat\pi_A
+\le
+1-\frac1n.
+\]
+
+Also,
+
+\[
+\widehat\pi_C
+=
+\frac{
+n k_0+k_Ak_M
+}{n^2}
+\]
+
+for integers \(k_0,k_A,k_M\). Hence, when \(\widehat\pi_C<1\),
+
+\[
+\widehat\pi_C
+\le
+1-\frac1{n^2}.
+\]
+
+Substitution in the logarithmic transform gives the \(O(1+\log n)\) bound. \(\square\)
+
+## Corollary S2. Finite-status second-order TESS bias
 
 Let
 
@@ -1738,38 +2034,45 @@ g_\alpha(x)
 0<\alpha<1.
 \]
 
-Its first two derivatives are
+For \(r\in\{A,C\}\), define
 
 \[
-g_\alpha'(x)
-=
--\frac{
-1
-}{
-(1-x)\log(1-\alpha)
-}
+\lambda_{A,a}=s_a\kappa_a,
+\qquad
+\lambda_{C,a}=\rho(\theta)\kappa_a,
 \]
 
 and
 
 \[
-g_\alpha''(x)
-=
--\frac{
-1
-}{
-(1-x)^2\log(1-\alpha)
-}.
+\begin{aligned}
+C_{r,B}^{\mathrm{gen}}
+&=
+g_r^\top b_{\theta,B}
++
+\frac12
+\operatorname{tr}
+(
+H_r^{\mathrm{sm}}\Sigma_\theta
+)
+\\
+&\quad
++
+\frac12
+\sum_{a\in\mathcal A_0}
+\lambda_{r,a}
+d_a^\top\Sigma_\theta d_a.
+\end{aligned}
 \]
 
-For \(r\in\{A,C\}\), let \(C_{r,B}^{\mathrm{gen}}\) be the generalized reference coefficient of \(\pi_r\), and define
+Let
 
 \[
 V_{R,r}
 =
-\nabla\pi_r(\theta)^\top
+g_r^\top
 \Sigma_\theta
-\nabla\pi_r(\theta).
+g_r.
 \]
 
 Define
@@ -1810,10 +2113,16 @@ g_\alpha'(\pi_C)\Delta_\pi
 g_\alpha''(\pi_C)V_{E,C}.
 \]
 
-Then
+Under Assumptions Q, P, and T,
 
 \[
-E(\widehat\Delta_S)-\Delta_S
+E(
+\widehat\Delta_S^{\mathrm{fin}}
+\mid
+\mathcal F_{B,n}
+)
+-
+\Delta_S
 =
 \frac{
 C_{S,R,B}^{\mathrm{gen}}
@@ -1823,84 +2132,85 @@ C_{S,R,B}^{\mathrm{gen}}
 C_{S,E}
 }{n}
 +
-o(B^{-1}+n^{-1}).
-\]
-
-### Proof
-
-For the reference contribution, apply Lemma S7 to
-\(g_\alpha\circ\pi_A\) and \(g_\alpha\circ\pi_C\). Subtracting the comparator coefficient from the adaptive coefficient gives
-\(C_{S,R,B}^{\mathrm{gen}}\).
-
-Conditional on the reference bank, Lemma S8 with \(h=g_\alpha\) gives
-
-\[
-E_E\{
-g_\alpha(\widehat\pi_A)
-\mid
-\widehat\theta_R
-\}
-=
-g_\alpha\{
-\pi_A(\widehat\theta_R)
-\}
-+
-\frac{
-g_\alpha''\{
-\pi_A(\widehat\theta_R)
-\}
-V_{E,A}(\widehat\theta_R)
-}{2n}
-+
-o(n^{-1}),
+o(B^{-1}+n^{-1}),
 \]
 
 and
 
 \[
+P(\mathcal F_{B,n}^c)
+\le
+C\{
+e^{-cB}+e^{-cn}
+\}.
+\]
+
+### Proof
+
+Choose a bounded \(C^3\) extension
+\(\widetilde g_{\alpha,\varepsilon}\) that equals \(g_\alpha\) on
+\([0,1-\varepsilon]\). Because the population probabilities are at most
+\(1-2\varepsilon\) on \(\mathcal N\), the extension and the raw TESS transform
+have the same derivatives at the population targets.
+
+Apply Lemma S7 to
+\(\widetilde g_{\alpha,\varepsilon}\circ\pi_A\) and
+\(\widetilde g_{\alpha,\varepsilon}\circ\pi_C\). The component expansions in
+Theorem S2 yield the reference coefficient
+\(C_{S,R,B}^{\mathrm{gen}}\).
+
+Conditional on the reference bank, Lemma S8 gives the evaluation coefficient
+\(C_{S,E}(\widehat\theta_R)\). Local Lipschitz continuity and Theorem S1 imply
+
+\[
 \begin{aligned}
-E_E\{
-g_\alpha(\widehat\pi_C)
-\mid
-\widehat\theta_R
-\}
-&=
-g_\alpha\{
-\pi_C(\widehat\theta_R)
-\}
-\\
-&\quad+
-\frac{
-g_\alpha'\{
-\pi_C(\widehat\theta_R)
-\}
-\Delta_\pi(\widehat\theta_R)
-}{n}
-\\
-&\quad+
-\frac{
-g_\alpha''\{
-\pi_C(\widehat\theta_R)
-\}
-V_{E,C}(\widehat\theta_R)
-}{2n}
+E_R|
+C_{S,E}(\widehat\theta_R)
+-
+C_{S,E}(\theta)
+|
+&\le
+L E_R\|
+\widehat\theta_R-\theta
+\|
 +
-o(n^{-1}).
+o(1)
+\\
+&=
+O(B^{-1/2}).
 \end{aligned}
 \]
 
-Subtracting gives the conditional TESS contrast. Taking reference expectation, the leading reference contribution is supplied by Lemma S7. Replacing the evaluation coefficient at \(\widehat\theta_R\) by its value at \(\theta\) creates only a smaller cross term. Indeed, local smoothness gives an \(O_p(B^{-1/2})\) difference, and
+Therefore the induced reference–evaluation cross term is
 
 \[
-\frac{B^{-1/2}n^{-1}}{B^{-1}+n^{-1}}
-\longrightarrow0
+O(B^{-1/2}n^{-1})
+=
+o(B^{-1}+n^{-1}).
 \]
 
-for every joint sequence \(B,n\to\infty\). Thus all reference–evaluation cross terms are \(o(B^{-1}+n^{-1})\), and the displayed expansion follows. \(\square\)
+This proves the expansion for the bounded extension.
 
-**Main-text correspondence.** Corollary S2 proves Corollary 2 of the main manuscript.
+It remains to compare the bounded extension with the raw finite transform.
+They agree when both empirical probabilities are at most \(1-\varepsilon\).
+On the remaining finite boundary-neighborhood event, Lemma S9 gives an
+\(O(1+\log n)\) magnitude bound, while Hoeffding concentration and reference
+localization give exponentially decreasing probability. Assumption T.5 makes
+the resulting expectation
+\(o(B^{-1}+n^{-1})\).
 
----
+Finally,
+
+\[
+P(\mathcal F_{B,n})
+=
+1-o(B^{-1}+n^{-1}),
+\]
+
+so dividing the finite-event numerator by
+\(P(\mathcal F_{B,n})\) does not alter the displayed expansion. \(\square\)
+
+**Main-text correspondence.** Corollary S2 proves the finite-status Corollary 2 of the main manuscript.
 
 # S7. Proof dependency map and scope
 
@@ -1942,6 +2252,8 @@ and
 \text{Lemma S7}
 +
 \text{Lemma S8}
++
+\text{Lemma S9}
 \Longrightarrow
 \text{Corollary S2}.
 \]
@@ -1955,7 +2267,7 @@ The theoretical scope is restricted to:
 - strict separation between activation and candidate thresholds;
 - candidate-threshold coincidences at \(q_0=q_2\) or \(q_1=q_2\);
 - independent reference and evaluation banks; and
-- TESS probabilities bounded away from 1.
+- the finite-status TESS assumptions in Assumption T.
 
 The supplement contains no fitted-model, clinical-data, or policy-allocation result. The proofs do not establish results for:
 
@@ -1965,7 +2277,8 @@ The supplement contains no fitted-model, clinical-data, or policy-allocation res
 - failed-fit fallback rules;
 - growing candidate dimension;
 - arbitrary nonsmooth policy maps; or
-- uniform process-level inference over \(\alpha\).
+- uniform process-level inference over \(\alpha\); or
+- a finite unconditional expectation for the raw logarithmic TESS estimator.
 
 ---
 
@@ -1978,7 +2291,7 @@ The supplement contains no fitted-model, clinical-data, or policy-allocation res
 | Theorem 3 | Theorem S3 | Generalized \(B^{-1}\) reference-bias coefficient |
 | Proposition 1 | Proposition S1 | Exact conditional finite-\(n\) identity |
 | Corollary 1 | Corollary S1 | Combined policy-probability bias |
-| Corollary 2 | Corollary S2 | TESS bias expansion |
+| Corollary 2 | Corollary S2 | Finite-status TESS bias expansion and boundary-probability bound |
 
 ---
 
@@ -1986,7 +2299,7 @@ The supplement contains no fitted-model, clinical-data, or policy-allocation res
 
 1. Reformat the verified references below to the target journal's style.
 2. Convert internal proof notation to the target journal's theorem and appendix style.
-3. Verify every derivative and kernel condition against the final data-generating class statement.
+3. Verify every strengthened derivative, domination, interiority, and localization condition against the final data-generating class statement.
 4. Add the complete numerical protocol, equivalence-class registry, and simultaneous-factor derivations as separate supplementary sections.
 5. Obtain an independent mathematical review of Lemma S4, Theorem S2, and Lemma S6.
 

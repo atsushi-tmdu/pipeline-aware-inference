@@ -13,11 +13,9 @@ E(\widehat\Delta_\pi)-\Delta_\pi
 +o(B^{-1}+n^{-1}).
 \]
 
-We also derive the corresponding nonlinear expansion for tail-equivalent search size. A prospectively locked numerical study comprising 17 primary and 8 diagnostic equivalence classes, 75 simulation jobs, and 126,000 Monte Carlo replicates formally passed every prespecified criterion. Raw diagnostics provided strong support for the policy-probability expansion, all 85 exact finite-\(n\) checks passed, and the TESS result passed formally but remained limited by Monte Carlo resolution. These results separate finite-reference and finite-evaluation effects while showing that threshold coincidence requires generalized second-order geometry in the declared policy class.
+We additionally derive a nonlinear expansion for the finite-status tail-equivalent search-size contrast, conditional on both empirical policy probabilities being below 1, and bound the complementary boundary-status probability exponentially. A prospectively locked numerical study comprising 17 primary and 8 diagnostic equivalence classes, 75 simulation jobs, and 126,000 Monte Carlo replicates formally passed every prespecified criterion. Raw diagnostics provided strong support for the policy-probability expansion, all 85 exact finite-\(n\) checks passed, and the finite-status TESS result passed formally but remained limited by Monte Carlo resolution. These results separate finite-reference and finite-evaluation effects while showing that threshold coincidence requires generalized second-order geometry in the declared policy class.
 
-**Keywords:** adaptive policy; empirical quantile; finite-reference bias; second-order delta method; threshold coincidence; TESS; two-bank estimation
-
----
+**Keywords:** adaptive policy; empirical quantile; finite-reference bias; finite-status TESS; second-order delta method; threshold coincidence; two-bank estimation
 
 ## 1. Introduction
 
@@ -27,9 +25,9 @@ Classical sample-quantile theory supplies first-order representations of empiric
 
 Threshold-adaptive policies introduce an additional complication. Extended delta methods for directionally differentiable or nondifferentiable maps are well established, especially for weak limits and bootstrap validity (Shapiro, 1991; Dümbgen, 1993; Fang and Santos, 2019), and second-order nondifferentiability has also been studied in first-order-degenerate problems (Chen and Fang, 2019). The present target is different: an expectation-level \(B^{-1}\) expansion for a specific policy map whose first derivative generally remains nonzero. Incremental rejection after adding a candidate depends on a moving maximum between an existing winner score and the added candidate's threshold. When a base-candidate threshold coincides with the added-candidate threshold, the active branch of this maximum changes exactly at the expansion point. The policy map retains the same value and first derivative across the boundary, but its curvature changes one-sidedly. Consequently, the relevant local approximation is continuous and piecewise quadratic rather than globally represented by one ordinary Hessian. Figure 1 illustrates this distinction.
 
-Finite evaluation creates a separate effect. For the empirical covariance convention used by the policy-contrast estimator, conditional expectation is available exactly: the estimator targets \((1-1/n)\Delta_\pi\), where \(n\) is the evaluation-sample size. Thus the evaluation contribution contains an exact \(-\Delta_\pi/n\) term rather than merely an asymptotic approximation. Combining this identity with the generalized reference expansion also produces an explicit \(B^{-1}n^{-1}\) interaction.
+Finite evaluation creates a separate effect. For the empirical covariance convention used by the policy-contrast estimator, conditional expectation is available exactly: the estimator targets \((1-1/n)\Delta_\pi\), where \(n\) is the evaluation-sample size. Thus the evaluation contribution contains an exact \(-\Delta_\pi/n\) term rather than merely an asymptotic approximation. Combining this identity with the generalized reference expansion also produces an explicit algebraic \(B^{-1}n^{-1}\) product term.
 
-We develop a theory-and-validation framework for these effects in a declared finite-candidate policy class. The matched comparator is used here to define a fixed plug-in functional; the paper does not compare promising, rescue, or other policy-design strategies, and it does not study whether equal candidate budgets imply equal inferential burden. The paper makes four contributions. First, it establishes a fixed-dimensional joint empirical-quantile moment expansion under the exact order-statistic convention. Second, it derives a generalized local policy expansion with positive-part-square terms at candidate-threshold coincidence. Third, it combines the generalized \(B^{-1}\) reference bias with the exact finite-\(n\) evaluation identity. Fourth, it propagates the expansion through the nonlinear tail-equivalent search-size transformation and evaluates the resulting approximations in a prospectively locked numerical study.
+We develop a theory-and-validation framework for these effects in a declared finite-candidate policy class. The matched comparator is used here to define a fixed plug-in functional; the paper does not compare promising, rescue, or other policy-design strategies, and it does not study whether equal candidate budgets imply equal inferential burden. The paper makes four contributions. First, it establishes a fixed-dimensional joint empirical-quantile moment expansion under the exact order-statistic convention. Second, it derives a generalized local policy expansion with positive-part-square terms at candidate-threshold coincidence. Third, it combines the generalized \(B^{-1}\) reference bias with the exact finite-\(n\) evaluation identity. Fourth, it propagates the expansion through the nonlinear tail-equivalent search-size transformation on the event that both empirical probabilities remain below 1, quantifies the complementary boundary-status probability, and evaluates the resulting approximations in a prospectively locked numerical study.
 
 The contribution is deliberately narrower than a general theory of arbitrary adaptive pipelines. In particular, the present policy is monotone in rejection: optional expansion may add a rejection but cannot revoke a base rejection. This differs from selected-winner pipelines with candidate-specific empirical calibration, in which the full-minus-base rejection difference may also take the value \(-1\). The results concern continuous scores, fixed finite candidate pools, almost-surely unique winners, independent reference and evaluation banks, and strict separation between candidate thresholds and the activation threshold. Discrete plus-one empirical \(p\)-values, winner or trigger ties, failed-fit fallback rules, and growing candidate dimension require separate analysis. In particular, randomly sampled permutation distributions create genuinely discrete null laws rather than continuous tail-probability estimates (Phipson and Smyth, 2010).
 
@@ -41,19 +39,55 @@ The contribution is deliberately narrower than a general theory of arbitrary ada
 
 All probabilities and expectations are taken under a fixed target law \(P\); in the multiplicity application that motivates the construction, \(P\) is the declared global-null law.
 
-Consider continuous candidate scores \(X=(X_0,X_1,X_2)\). The base candidate pool is \(\{0,1\}\), and the full pool after optional expansion is \(\{0,1,2\}\). Winners are assumed to be almost surely unique. Candidate-specific rejection thresholds are denoted by \(q_0,q_1,q_2\), and the activation threshold is denoted by \(c\). Collect the reference-calibrated parameters in
+Consider continuous candidate scores \(X=(X_0,X_1,X_2)\). The base candidate pool is \(\{0,1\}\), and the full pool after optional expansion is \(\{0,1,2\}\). Define the almost-surely unique winners
+
+\[
+J_0
+=
+\arg\max_{j\in\{0,1\}}X_j,
+\qquad
+J_1
+=
+\arg\max_{j\in\{0,1,2\}}X_j.
+\]
+
+Candidate-specific rejection thresholds are \(q_0,q_1,q_2\). The base and full rejection indicators are
+
+\[
+R_0
+=
+I(X_{J_0}>q_{J_0}),
+\qquad
+R_1
+=
+I(X_{J_1}>q_{J_1}).
+\]
+
+Let
+
+\[
+T=\max(X_0,X_1)
+\]
+
+be the base-stage activation score, let \(c\) be its activation threshold, and define
+
+\[
+A=I(T>c).
+\]
+
+Collect the reference-calibrated parameters in
 
 \[
 \theta=(q_0,q_1,q_2,c)^\top.
 \]
 
-Let \(R_0\) and \(R_1\) denote rejection by the base and full candidate pools, respectively, and define the incremental rejection opportunity
+The incremental rejection opportunity is
 
 \[
 M=(1-R_0)R_1.
 \]
 
-Thus \(M=1\) only when adding candidate 2 converts a nonrejection into a rejection, and \(R_0M=0\). The adaptive policy is a monotone augmentation: it preserves every base rejection and uses the full pool only to create additional rejections. This restriction excludes the loss state that can arise when a selected winner is recalibrated by a candidate-specific discrete empirical null. Let \(A\) indicate activation of the optional branch. The adaptive-policy rejection indicator is
+Thus \(M=1\) only when adding candidate 2 converts a base nonrejection into a rejection, and \(R_0M=0\). The adaptive policy is a monotone augmentation: it preserves every base rejection and uses the full pool only to create additional rejections. This restriction excludes the loss state that can arise when a selected winner is recalibrated by a candidate-specific discrete empirical null. The adaptive-policy rejection indicator is
 
 \[
 R_A=R_0+AM.
@@ -62,7 +96,7 @@ R_A=R_0+AM.
 Write
 
 \[
-e_0=E(R_0),\qquad
+e_0(\theta)=E_\theta(R_0),\qquad
 \rho(\theta)=E_\theta(A),\qquad
 \mu(\theta)=E_\theta(M),\qquad
 \nu(\theta)=E_\theta(AM).
@@ -118,7 +152,15 @@ be a reference bank used to estimate the candidate and activation thresholds, an
 
 be an independent evaluation bank used after the reference-calibrated policy has been fixed.
 
-Each coordinate of \(\theta\) is an empirical quantile of a component variable generated by the complete reference vector. For coordinate \(\ell\), let
+Each coordinate of \(\theta\) is an empirical quantile of a component variable generated by the complete reference vector. In the declared policy,
+
+\[
+(Y_0,Y_1,Y_2,Y_3)
+=
+(X_0,X_1,X_2,T),
+\]
+
+with target probabilities \((p_0,p_1,p_2,p_A)\); thus \(c\) is the population \(p_A\)-quantile of the base maximum \(T\). More generally, for coordinate \(\ell\), let
 
 \[
 Y_\ell=g_\ell(W),\qquad
@@ -163,9 +205,18 @@ and
 \overline{AM}-\bar A\bar M.
 \]
 
+Because \(R_0M=0\), \(\widehat\pi_C\) is a valid probability estimator:
+
+\[
+0\le \widehat\pi_C
+\le
+\overline{R_0}+\bar M
+\le1.
+\]
+
 Reference-bank and evaluation-bank randomness are kept distinct throughout.
 
-### 2.3 TESS contrast
+### 2.3 TESS contrast and finite-status estimand
 
 For a fixed nominal level \(\alpha\in(0,1)\), define
 
@@ -176,20 +227,43 @@ g_\alpha(x)
 \qquad 0\le x<1.
 \]
 
-The tail-equivalent search-size contrast is
+The population tail-equivalent search-size contrast is
 
 \[
 \Delta_S
 =
-g_\alpha(\pi_A)-g_\alpha(\pi_C),
+g_\alpha(\pi_A)-g_\alpha(\pi_C).
 \]
 
-with estimator
+At finite \(n\), an empirical probability can equal 1, so the raw logarithmic transform need not be finite. Define the finite-status event
 
 \[
-\widehat\Delta_S
+\mathcal F_{B,n}
 =
-g_\alpha(\widehat\pi_A)-g_\alpha(\widehat\pi_C).
+\{
+\widehat\pi_A<1,\,
+\widehat\pi_C<1
+\}.
+\]
+
+On \(\mathcal F_{B,n}\), define
+
+\[
+\widehat\Delta_S^{\mathrm{fin}}
+=
+g_\alpha(\widehat\pi_A)
+-
+g_\alpha(\widehat\pi_C).
+\]
+
+Outside \(\mathcal F_{B,n}\), the analysis retains a structured boundary status—positive infinity, negative infinity, or indeterminate when both empirical probabilities equal 1—rather than clipping or replacing the observation. The theoretical mean target is
+
+\[
+E(
+\widehat\Delta_S^{\mathrm{fin}}
+\mid
+\mathcal F_{B,n}
+).
 \]
 
 TESS is used only as an interpretable smooth standardization of rejection probability; the transformation itself is not the claimed methodological contribution. The primary theoretical object remains \(\Delta_\pi\).
@@ -274,7 +348,7 @@ U(a,q)
 K\{w,\max(w,q)\}\,dw,
 \]
 
-where \(K(w,s)\) is a smooth integrated-tail kernel. Define
+where \(K(w,s)\) is an integrated-tail kernel whose derivatives required below are continuous and admit parameter-uniform integrable envelopes over the full lower integration range. Define
 
 \[
 J_s(t)=\int_{-\infty}^{t}\partial_sK(w,t)\,dw,
@@ -467,16 +541,78 @@ o(B^{-1}+n^{-1}).
 
 The first term is reference-threshold centering and curvature bias; the second is the exact evaluation covariance bias; and the third is the explicit product term obtained when the exact factor \(1-1/n\) multiplies the reference expansion. Because the stated remainder is \(o(B^{-1}+n^{-1})\), the product term is retained as an algebraically determined finite-sample component, not claimed to be separately resolved as an asymptotic order.
 
-### 3.5 Nonlinear propagation to TESS
+### 3.5 Finite-status nonlinear propagation to TESS
 
-Assume that \(\pi_A\) and \(\pi_C\) lie in a compact subset of \([0,1)\). For \(r\in\{A,C\}\), let \(C_{r,B}^{\mathrm{gen}}\) denote the generalized reference coefficient for \(\pi_r\), and define
+For \(r\in\{A,C\}\), the adaptive and comparator probability maps have generalized local expansions
+
+\[
+\begin{aligned}
+\pi_r(\theta+u)
+&=
+\pi_r(\theta)
++
+g_r^\top u
++
+\frac12u^\top H_r^{\mathrm{sm}}u
+\\
+&\quad
++
+\sum_{a\in\mathcal A_0}
+\lambda_{r,a}(d_a^\top u)_+^2
++
+o(\|u\|^2),
+\end{aligned}
+\]
+
+where
+
+\[
+\lambda_{A,a}=s_a\kappa_a,
+\qquad
+\lambda_{C,a}=\rho(\theta)\kappa_a.
+\]
+
+Their difference recovers
+
+\[
+\lambda_{A,a}-\lambda_{C,a}
+=
+\{s_a-\rho(\theta)\}\kappa_a
+=
+\lambda_a.
+\]
+
+Define the generalized reference coefficients
+
+\[
+\begin{aligned}
+C_{r,B}^{\mathrm{gen}}
+&=
+g_r^\top b_{\theta,B}
++
+\frac12
+\operatorname{tr}
+\left(
+H_r^{\mathrm{sm}}\Sigma_\theta
+\right)
+\\
+&\quad
++
+\frac12
+\sum_{a\in\mathcal A_0}
+\lambda_{r,a}
+d_a^\top\Sigma_\theta d_a
+\end{aligned}
+\]
+
+and
 
 \[
 V_{R,r}
 =
-\nabla\pi_r(\theta)^\top
+g_r^\top
 \Sigma_\theta
-\nabla\pi_r(\theta).
+g_r.
 \]
 
 For the evaluation bank, let
@@ -533,10 +669,29 @@ g_\alpha'(\pi_C)\Delta_\pi
 \frac12g_\alpha''(\pi_C)V_{E,C}.
 \]
 
-**Corollary 2 (second-order TESS bias).**
+Assume the strengthened interiority, exponential-localization, local-Lipschitz, and mild relative-growth conditions stated in the Supplement. In particular, the adaptive and comparator population probabilities are uniformly bounded away from 1 in a neighborhood of \(\theta\).
+
+**Corollary 2 (finite-status second-order TESS bias).**  
+There exist constants \(C,c>0\) such that
 
 \[
-E(\widehat\Delta_S)-\Delta_S
+P(\mathcal F_{B,n}^c)
+\le
+C\{
+e^{-cB}+e^{-cn}
+\},
+\]
+
+and
+
+\[
+E(
+\widehat\Delta_S^{\mathrm{fin}}
+\mid
+\mathcal F_{B,n}
+)
+-
+\Delta_S
 =
 \frac{C_{S,R,B}^{\mathrm{gen}}}{B}
 +
@@ -545,13 +700,13 @@ E(\widehat\Delta_S)-\Delta_S
 o(B^{-1}+n^{-1}).
 \]
 
-Candidate-threshold coincidence affects the reference contribution through the generalized coefficients; the evaluation coefficient is unchanged.
+Candidate-threshold coincidence affects the reference contribution through the generalized coefficients. The evaluation coefficient retains the comparator-product centering term and the adaptive and comparator curvature terms. Boundary statuses remain separate finite-sample outcomes and are not absorbed into the conditional mean.
 
 ### 3.6 Scope
 
-The theory applies to fixed finite candidate pools, continuous scores, almost-surely unique winners, fixed-dimensional empirical-quantile calibration, strict candidate–trigger threshold separation, candidate-threshold coincidences at \(q_0=q_2\) or \(q_1=q_2\), and independent reference and evaluation banks. It does not cover discrete plus-one empirical \(p\)-values, discrete winner or trigger ties, failed-fit fallback rules, growing candidate dimension, or arbitrary nonsmooth adaptive pipelines.
+The policy-probability theory applies to fixed finite candidate pools, continuous scores, almost-surely unique winners, fixed-dimensional empirical-quantile calibration, strict candidate–trigger threshold separation, candidate-threshold coincidences at \(q_0=q_2\) or \(q_1=q_2\), and independent reference and evaluation banks. The TESS corollary additionally concerns the finite-status conditional mean, requires local population probabilities uniformly bounded away from 1, and retains boundary-status probabilities separately.
 
----
+The results do not cover discrete plus-one empirical \(p\)-values, discrete winner or trigger ties, candidate–trigger threshold coincidence, failed-fit fallback rules, growing candidate dimension, arbitrary nonsmooth adaptive pipelines, or an unconditional finite expectation for the raw logarithmic TESS estimator.
 
 ## 4. Prospectively locked numerical validation
 
@@ -559,7 +714,7 @@ The theory applies to fixed finite candidate pools, continuous scores, almost-su
 
 Following established guidance for the design and reporting of statistical simulation studies (Burton et al., 2006; Morris et al., 2019), we conducted a new, prospectively specified, and computationally locked numerical study. It used only latent-equivalence-class simulations; no fitted-model library, clinical dataset, or simulation output from a policy-allocation experiment was reused. The four targets were the reference-only \(B^{-1}\) expansion, the exact finite-\(n\) identity, the combined reference/evaluation expansion retaining the algebraic \(B^{-1}n^{-1}\) product term, and nonlinear propagation to TESS at \(\alpha=0.01\) and \(0.05\).
 
-The scientific units were 25 latent equivalence classes: 17 primary and 8 diagnostic. They arose from three dependence structures and prespecified candidate- and trigger-probability settings subject to the locked separation rule. Candidate probabilities were common across the three candidates, so \(q_0=q_1=q_2\) and both candidate-coincidence branches were active. Identity, exponential, and hyperbolic-sine representations were exactly equivalent under the common monotone transformation. Only the identity member was simulated; the 50 nonidentity rows were deterministic invariance audits and did not enlarge the formal denominator. Formal acceptance was determined exclusively by the primary classes.
+The scientific units were 25 latent equivalence classes: 17 primary and 8 diagnostic. They arose from three dependence structures and prespecified candidate- and trigger-probability settings subject to the locked separation rule. All three latent candidate margins were standard normal and used the same candidate probability, so \(q_0=q_1=q_2\) and both candidate-coincidence branches were active. Identity, exponential, and hyperbolic-sine representations were exactly equivalent under the common monotone transformation. Only the identity member was simulated; the 50 nonidentity rows were deterministic invariance audits and did not enlarge the formal denominator. Formal acceptance was determined exclusively by the primary classes.
 
 Three simulation families were evaluated: reference-only, evaluation-only, and combined reference/evaluation. Each family contained 25 jobs, for 75 jobs in total. Reference-bank and evaluation-sample sizes were
 
@@ -602,7 +757,7 @@ b_{R,E}(B,n)
 \frac{C_{\Delta,B}^{\mathrm{gen}}}{Bn}.
 \]
 
-For TESS,
+For the finite-status TESS mean,
 
 \[
 b_S(B,n;\alpha)
@@ -681,15 +836,13 @@ Z_{c,n}
 },
 \]
 
-with simultaneous Bonferroni boundary
-
-the locked two-sided Bonferroni boundary was \(z_{\mathrm{id}}=3.85098\) (full numerical value in the Supplement).
+with the locked two-sided Bonferroni boundary \(z_{\mathrm{id}}=3.85098\) (full numerical value in the Supplement).
 
 ### 4.4 Acceptance criteria
 
 At \(B=10{,}000\), the reference-only median and 90th percentile of \(R_{\mathrm{adj}}\) had to be no greater than 0.15 and 0.40. The locked median-improvement statistic compared the adjusted medians at \(B=500\) and \(B=10{,}000\) and had to be at least 40%; under the prespecified zero-denominator rule it equaled 1 when both medians were zero. A primary class counted as improved when the unadjusted absolute residual of the generalized prediction was strictly smaller than that of the zero-bias prediction. At least 75% of primary classes had to improve.
 
-At \(B=n=10{,}000\), the combined-policy median and 90th percentile had to be no greater than 0.15 and 0.40. For TESS, assessed separately at each alpha level, the limits were 0.25 and 0.60, and any nonfinite primary record constituted failure.
+At \(B=n=10{,}000\), the combined-policy median and 90th percentile had to be no greater than 0.15 and 0.40. For finite-status TESS, assessed separately at each alpha level, the limits were 0.25 and 0.60; boundary-status counts were retained separately, and any nonfinite primary record constituted failure.
 
 All 85 exact-identity comparisons had to lie within \(\pm z_{\mathrm{id}}\). At most one of the 17 primary classes could be precision limited. Formal PASS required every scientific criterion and fatal implementation check to pass.
 
@@ -715,11 +868,11 @@ The prespecified median-improvement statistic from \(B=500\) to \(B=10{,}000\) w
 
 At \(B=n=10{,}000\), the adjusted median and 90th percentile were both zero. The raw median and 90th percentile were 0.0495 and 0.1474, respectively (Figure 4A). These values provided strong numerical support for the joint finite-sample prediction. The design evaluated the complete prediction and did not attempt to identify the smaller \(B^{-1}n^{-1}\) product term separately from the stated remainder.
 
-### 5.4 TESS approximation
+### 5.4 Finite-status TESS approximation
 
-At \(\alpha=0.01\), the adjusted median and 90th percentile were both zero; the corresponding raw values were 0.5288 and 1.4612. At \(\alpha=0.05\), the adjusted values were again zero, with raw values of 0.4073 and 0.8891. No nonfinite primary TESS record occurred.
+At \(\alpha=0.01\), the adjusted median and 90th percentile were both zero; the corresponding raw values were 0.5288 and 1.4612. At \(\alpha=0.05\), the adjusted values were again zero, with raw values of 0.4073 and 0.8891. No nonfinite record occurred in any primary largest-pair TESS cell, so the finite-status mean in those cells used the complete set of Monte Carlo records.
 
-For every primary class at both alpha levels, the absolute raw residual was smaller than the simultaneous Monte Carlo allowance, so all adjusted residuals were zero (Figure 3C). The TESS criteria therefore passed formally, but the raw diagnostics did not establish the same degree of finite-sample accuracy as the policy-probability results.
+For every primary class at both alpha levels, the absolute raw residual was smaller than the simultaneous Monte Carlo allowance, so all adjusted residuals were zero (Figure 3C). The finite-status TESS criteria therefore passed formally, but the raw diagnostics did not establish the same degree of finite-sample accuracy as the policy-probability results. The absence of observed boundary records supports numerical stability in the evaluated regime; it does not convert the raw finite-sample logarithmic transform into an everywhere-finite random variable.
 
 ### 5.5 Exact finite-\(n\) identity
 
@@ -729,7 +882,7 @@ All 85 simultaneous checks passed across the 17 primary classes and five evaluat
 
 ## 6. Discussion
 
-We derived and numerically evaluated a generalized second-order finite-sample expansion for a threshold-adaptive policy contrast estimated from independent reference and evaluation banks. Three features distinguish the result. First, the reference-bank contribution depends on the exact empirical-quantile convention and the complete-vector covariance of the estimated thresholds. Second, candidate-threshold coincidence changes the local second-order geometry: the policy map is continuous with a common first derivative, but its curvature includes one-sided positive-part-square contributions. Third, the evaluation contribution is available exactly at the policy-probability level, yielding an \(n^{-1}\) bias and an explicit \(B^{-1}n^{-1}\) product term.
+We derived and numerically evaluated a generalized second-order finite-sample expansion for a threshold-adaptive policy contrast estimated from independent reference and evaluation banks. Three features distinguish the result. First, the reference-bank contribution depends on the exact empirical-quantile convention and the complete-vector covariance of the estimated thresholds. Second, candidate-threshold coincidence changes the local second-order geometry: the policy map is continuous with a common first derivative, but its curvature includes one-sided positive-part-square contributions. Third, the evaluation contribution is available exactly at the policy-probability level, yielding an \(n^{-1}\) bias and an explicit algebraic \(B^{-1}n^{-1}\) product term. For TESS, the finite-status formulation separates the conditional mean expansion from exponentially rare boundary statuses.
 
 The threshold-coincidence term is not a cosmetic refinement of an ordinary Hessian formula. Existing directional-delta theory explains why nondifferentiable maps require nonstandard local derivatives and why ordinary bootstrap procedures may fail (Dümbgen, 1993; Fang and Santos, 2019), but it does not by itself provide the policy-specific expectation coefficient derived here. At the coincidence boundary, the moving maximum changes its active branch. Replacing the policy map by a globally smooth quadratic approximation omits a term whose expectation is determined by the variance of the threshold-difference direction. The resulting correction depends on both the branch coefficient and \(d_a^\top\Sigma_\theta d_a\). This identifies precisely how reference-threshold dependence enters the bias when candidate thresholds are estimated from common reference vectors.
 
@@ -737,9 +890,9 @@ The exact evaluation identity clarifies the relationship between reference and e
 
 The numerical results supported this decomposition. The raw reference-only and combined-policy residual summaries were small relative to the locked natural scales, and the generalized correction improved most primary classes relative to no correction and the gradient-only approximation. All exact finite-\(n\) checks passed. The reference median-improvement criterion was less informative: MCSE flooring set both adjusted medians to zero, while the raw median did not improve monotonically with \(B\). This discrepancy illustrates why the formal decision and raw interpretability diagnostics should be reported separately.
 
-The TESS result requires greater caution. TESS is a nonlinear transformation of rejection probability, and its bias contains both centering and Jensen-type curvature contributions. Although all formal TESS criteria passed and no nonfinite primary records occurred, every adjusted residual was zero only after subtracting the simultaneous MCSE allowance. The raw normalized residuals were materially larger than those for the policy-probability contrast. We therefore interpret the TESS validation as a formal pass whose raw finite-sample accuracy remains unresolved at the available Monte Carlo precision, rather than as strong numerical confirmation of uniformly accurate TESS bias correction.
+The TESS result requires greater caution. TESS is a nonlinear logarithmic transformation, and an empirical probability can equal 1 at finite \(n\). We therefore formulate the theorem for the finite-status conditional mean and report positive-infinite, negative-infinite, and indeterminate boundary statuses separately. No nonfinite record occurred in the primary largest-pair cells, but every adjusted residual was zero only after subtracting the simultaneous MCSE allowance. The raw normalized residuals were materially larger than those for the policy-probability contrast. We interpret the finite-status TESS validation as a formal pass whose raw finite-sample accuracy remains unresolved at the available Monte Carlo precision, rather than as strong numerical confirmation of uniformly accurate TESS bias correction.
 
-The present theory is intentionally local and finite dimensional. It does not establish a universal second-order delta method for arbitrary nonsmooth policies. It also does not address plus-one empirical \(p\)-value lattices, discrete ties, failed model fits, or growing candidate pools. These exclusions matter because discreteness may alter the order of the approximation or create additional boundary events. The results instead provide a clean continuous benchmark and isolate the candidate-threshold coincidence effect without conflating it with those separate complications.
+The present theory is intentionally local and finite dimensional. It does not establish a universal second-order delta method for arbitrary nonsmooth policies. It also does not assign a finite unconditional expectation to the raw logarithmic TESS estimator, and it does not address plus-one empirical \(p\)-value lattices, discrete ties, failed model fits, or growing candidate pools. These exclusions matter because discreteness may alter the order of the approximation or create additional boundary events. The results instead provide a clean continuous benchmark and isolate the candidate-threshold coincidence effect without conflating it with those separate complications.
 
 The matched comparator has a deliberately limited role in this paper. We do not ask which activation rule creates greater inferential burden or whether policies with equal expected budgets have equal rejection laws. We instead hold the policy functional fixed and ask how its plug-in estimator is centered when thresholds and evaluation probabilities are estimated from finite independent samples. The paper therefore shares a small set of algebraic definitions with policy-allocation analyses but shares neither their empirical comparisons nor their central scientific claim.
 
@@ -749,7 +902,7 @@ Several extensions are natural. A discrete bridge could determine when continuou
 
 ## 7. Conclusion
 
-Finite-reference and finite-evaluation biases in threshold-adaptive policy estimation arise from different mechanisms and can be separated analytically. Empirical-quantile calibration contributes an order-\(B^{-1}\) bias that must retain complete-vector dependence and, at candidate-threshold coincidence, positive-part-square curvature terms. Independent evaluation contributes an exact order-\(n^{-1}\) covariance bias and an explicit finite-sample product with the reference term. The resulting generalized expansion received strong numerical support at the policy-probability level and qualified support after nonlinear propagation to TESS. These results provide a principled finite-sample approximation for the declared continuous, fixed-candidate, monotone-augmentation policy class.
+Finite-reference and finite-evaluation biases in threshold-adaptive policy estimation arise from different mechanisms and can be separated analytically. Empirical-quantile calibration contributes an order-\(B^{-1}\) bias that must retain complete-vector dependence and, at candidate-threshold coincidence, positive-part-square curvature terms. Independent evaluation contributes an exact order-\(n^{-1}\) covariance bias and an explicit finite-sample product with the reference term. The resulting generalized expansion received strong numerical support at the policy-probability level and qualified support after finite-status nonlinear propagation to TESS. These results provide a principled finite-sample approximation for the declared continuous, fixed-candidate, monotone-augmentation policy class.
 
 ---
 
@@ -790,7 +943,7 @@ A.S. conceived the study, developed the theory, designed and conducted the numer
 ### Figure 1. Threshold geometry and the generalized second-order expansion
 
 (A) Two-dimensional slice of the threshold parameter space. Away from candidate-threshold coincidence, the policy-value map lies in a regular region and admits an ordinary smooth second-order expansion. The diagonal represents \(q_{\mathrm{add}}=q_{\mathrm{base}}\).  
-(B) Local behavior along a signed direction \(\ell(h)\). The ordinary quadratic approximation and generalized expansion agree in value and first derivative at the boundary. The generalized expansion differs through a one-sided positive-part-square contribution, changing curvature without creating a first-order cusp.  
+(B) Local behavior along a signed direction \(\ell(h)\). The ordinary quadratic approximation and generalized expansion agree in value and first derivative at the boundary. The generalized expansion differs through a one-sided positive-part-square contribution, changing curvature without creating a first-order cusp. The displayed ordering illustrates one sign of the branch coefficient; the gap reverses when that coefficient changes sign.  
 (C) Regular and coincidence-boundary expansions. At coincidence, the smooth quadratic term is augmented by active positive-part-square contributions, where \(\mathcal A_0=\{a:q_a=q_2\}\), \(d_a=e_a-e_2\), and \([x]_+=\max(x,0)\).
 
 ### Figure 2. Reference-only numerical validation
@@ -799,9 +952,9 @@ A.S. conceived the study, developed the theory, designed and conducted the numer
 (B) Observed reference bias versus the generalized prediction \(C_{\Delta,B}^{\mathrm{gen}}/B\) at \(B=10{,}000\); the diagonal denotes equality.  
 (C) Numbers of primary classes for which the generalized correction reduced absolute bias error relative to no correction, gradient-only correction, and smooth-only correction. The smooth-only comparison was descriptive and nonfatal.
 
-### Figure 3. Alpha-specific TESS-bias agreement and Monte Carlo resolution
+### Figure 3. Alpha-specific finite-status TESS-bias agreement and Monte Carlo resolution
 
-(A–B) Observed TESS bias versus the generalized finite-sample prediction at \(B=n=10{,}000\), separately for \(\alpha=0.01\) and \(0.05\).  
+(A–B) Observed finite-status TESS bias versus the generalized finite-sample prediction at \(B=n=10{,}000\), separately for \(\alpha=0.01\) and \(0.05\).  
 (C) Ratios of the absolute raw residual to the simultaneous Monte Carlo allowance. Values below 1 have an adjusted residual of zero. All 17 primary classes were below the boundary at both alpha levels, and no nonfinite primary TESS record occurred.
 
 ### Figure 4. Combined-policy approximation and exact finite-\(n\) identity

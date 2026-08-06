@@ -6,34 +6,42 @@ The current authoritative manuscript is stored under:
 
 `manuscript/current/`
 
-The pointer and status records are:
+The current status records are:
 
 - `manuscript/CURRENT_MANUSCRIPT_POINTER.md`
 - `manuscript/current/CHECKPOINT_STATUS.json`
+- `metadata/MATH_REPAIR_CHECKPOINT.md`
 
-## Scientific and numerical status
+## Mathematical status
 
-- Scientific-validation result: locked
-- Figure 1 visual reference: locked
-- Figures 2–4: selected final versions
-- Tables 1, 2, and S1: selected publication-facing versions
-- Main manuscript and proof supplement: complete working drafts
-- Literature and novelty audit: included
-- Empirical-v2 overlap audit: PASS
-- Independent mathematical review: pending
-- Submission archive: not yet created
+- Joint empirical-quantile theorem: PASS
+- Generalized threshold-coincidence expansion: PASS
+- Exact finite-n identity: PASS
+- Combined policy-probability bias expansion: PASS
+- Raw unconditional logarithmic TESS expectation: not claimed
+- Finite-status TESS conditional-mean expansion: PASS under Assumption T
+- TESS finite-status/raw-output alignment: PASS
+- Scientific simulation rerun: no
+- External human mathematical review: pending
+
+## Numerical status
+
+The frozen numerical outputs are unchanged. The alignment audit checked:
+
+- 17 primary combined jobs;
+- 34 largest-pair TESS alpha records;
+- 68,000 Monte Carlo observations; and
+- zero nonfinite records.
 
 ## Figure 1 source of truth
 
-The sole approved visual reference is:
+The sole approved visual reference remains:
 
 `figures/figure_1/figure_1_locked_reference.png`
 
-Any editable reconstruction must reproduce the locked raster without changing
-its scientific content or visual design.
+The editable vector source remains pending.
 
 ## Important
 
-Intermediate publication-output directories remain outside this curated
-package and have not been deleted. Stage and commit only this package, never
-the entire parent `publication_outputs_v1` directory.
+Stage and commit only this curated package. Do not use `git add .`.
+Intermediate publication-output directories remain intentionally untouched.

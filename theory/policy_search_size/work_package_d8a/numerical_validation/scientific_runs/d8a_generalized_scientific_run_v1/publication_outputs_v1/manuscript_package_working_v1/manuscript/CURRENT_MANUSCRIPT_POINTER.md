@@ -9,21 +9,27 @@
 - Bibliography:
   `current/REFERENCES.bib`
 
-## Status
+## Current status
 
 - Main manuscript source:
-  overlap-safe draft v4
+  mathematical-repair draft v5
 - Proof supplement source:
-  overlap-safe draft v3
-- Literature and novelty audit:
-  complete focused audit; database-level human confirmation still pending
-- Empirical-v2 overlap audit:
-  PASS — distinct-paper boundary established
-- Figure 1:
-  locked visual reference; editable vector source not yet created
-- Submission status:
-  not submission-ready until independent proof review, repository metadata,
-  target-journal formatting, and Figure 1 production are completed
-
-Earlier manuscript drafts remain in the package for provenance but are not the
-current authoritative versions.
+  mathematical-repair draft v4
+- Policy-probability theorem chain:
+  PASS
+- Finite-status TESS theorem:
+  PASS under Assumption T
+- TESS raw-output alignment:
+  PASS, 17/17 primary classes and 34/34 largest-pair alpha records
+- Nonfinite records in aligned primary cells:
+  0 of 68,000 Monte Carlo observations
+- Scientific simulation rerun:
+  no
+- Internal independent mathematical re-audit:
+  PASS after repair
+- External human mathematical review:
+  pending
+- Figure 1 editable vector:
+  pending
+- Submission ready:
+  no
